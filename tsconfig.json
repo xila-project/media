@@ -1,0 +1,14 @@
+{
+  "extends": "@motion-canvas/2d/tsconfig.project.json",
+  "compilerOptions": {
+    "strict": true,
+    "types": [
+      "vite/client",
+      "node"
+    ]
+  },
+  "include": [
+    "motion-canvas",
+    "vite.config.ts"
+  ]
+}

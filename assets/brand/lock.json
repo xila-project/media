@@ -1,0 +1,21 @@
+{
+  "repository": "xila-project/brand",
+  "commit": "00d66862564557155f384e2714b1ed030b79289b",
+  "version": "2.0.0",
+  "files": {
+    "assets/symbol/xila-symbol-white.svg": "f4ee933abbda53f489757823120dc51a26b24a95db747121c2e7eae299b03572",
+    "assets/symbol/xila-symbol-black.svg": "3cfdd43f74adfd37d0315d687c0a43fcba590d4793dda85a6c7e6ed1f0fd8be8",
+    "assets/lockup/xila-horizontal-white.svg": "93bdedbc3cf8266962ca61bcdacf54c8dba41b8d3ca18d44e70fcb706096523e",
+    "assets/lockup/xila-horizontal-black.svg": "ef0bdb5fb15c8699d062e42d562f4fe3e8bfb5fa72c8a00f0636d36e77f15beb",
+    "assets/avatar/xila-avatar-512.png": "0ef91d82542d839d6b2f57fc9b1c840533ed167ff0fa93e4ded52fb58d4c5770",
+    "assets/typography/Montserrat-normal.woff2": "6e712eafc11f23dc2b0651c0849c1a331aa81a3a4499ba61ef5091e5c123c796",
+    "assets/typography/Montserrat-italic.woff2": "191561514cdc9d900c0f708017f82e47543448db81c54ee721e8d8a34503a76c",
+    "source/identity.json": "d001f7db0fe859dd7651f5891ad2455a3ee42a5cec4be0c91230f09a916c89a4",
+    "docs/visual-guidelines.md": "c6ec8eeaf7d0c60a715ab22aa520ebd0a50de4ba2cd468500e015d80b77d4cc8",
+    "fonts/OFL-Montserrat.txt": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+    "fonts/provenance.json": "6ff4d4790233841d9d3d509aa9378b330341fd31948d6567d178815f95084bb2",
+    "LICENSE": "ac49703657ffe2b2c27366893ebcaaf526fd7a71d68f0b58e53938cd5e86cfaf",
+    "NOTICE": "ef039b80c47c9cd0c004cd1c06391235f58d729f11cd34319501802bdd1ee9a4",
+    "manifest.json": "73699733378d28d645ff673a65aab8ef1f65eb96ec9b99f08974d294bc3ba1c1"
+  }
+}

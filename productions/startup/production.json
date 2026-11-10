@@ -1,0 +1,10 @@
+{
+  "name": "startup",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "sampleRate": 22050,
+  "channels": 1,
+  "format": "pcm_s16le",
+  "loudnessLUFS": -20,
+  "truePeakDBTP": -2,
+  "maxDuration": 5
+}
