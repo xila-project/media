@@ -21,3 +21,7 @@ No OS playback implementation is included. ElevenLabs is optional and is never c
 The single approved generation is complete: Music v2.5, three seconds, instrumental, 44.99 credits reported. Its original 48 kHz stereo MP3 is preserved locally at `assets/audio/startup/candidate-001-source.mp3`; the source hash and stable provider flow link are in `candidates/001/request.json`. The original asset and generated exports are ignored by Git and are not yet published or licensed for release.
 
 Review `output/startup/candidate-001/master.wav` for the sound itself, then `output/cinematic-opening/opening-startup-001.mp4` for placement in the trailer. The default fixture task is unchanged. See [ElevenLabs integration](../../docs/elevenlabs.md) for connection, cost approval, mastering and reuse.
+
+## Candidate 002 draft
+
+Listening feedback on candidate 001: too simple, effectively one note. Candidate 002 proposes four seconds with three deliberate gestures: low foundation, a small ascending interval over suspended harmony, then a broad dark consonant resolution. The emphasis is stately grandeur and quiet arrogance through rich voicing and breathing space. Its prompt and quoted cost are saved in `candidates/002/`; it has not been generated and requires a separate credit approval.

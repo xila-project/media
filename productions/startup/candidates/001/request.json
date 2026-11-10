@@ -1,5 +1,5 @@
 {
-  "status": "generated-awaiting-review",
+  "status": "reviewed-revision-requested",
   "provider": "ElevenLabs",
   "model": "eleven_music_v2_5",
   "durationSeconds": 3,
@@ -31,5 +31,6 @@
     "duration_seconds": 3,
     "lyrics_type": "instrumental",
     "instrumental": true
-  }
+  },
+  "reviewFeedback": "Not bad, but too simple; effectively one note."
 }

@@ -1,0 +1,24 @@
+{
+  "status": "prepared-awaiting-credit-approval",
+  "provider": "ElevenLabs",
+  "model": "eleven_music_v2_5",
+  "nodeType": "music",
+  "durationSeconds": 4,
+  "instrumental": true,
+  "candidateCount": 1,
+  "prompt": "prompt.txt",
+  "revisionReason": "Candidate 001 was judged too simple and effectively one note; add a distinct motif and harmonic resolution.",
+  "flowId": "QKEWGmRf3ZWNMOqTPKCo",
+  "nodeId": "dpnOBTl60JU8Ib47TRso",
+  "flowURL": "https://elevenlabs.io/app/flows/QKEWGmRf3ZWNMOqTPKCo",
+  "modelParameters": {
+    "duration_seconds": 4,
+    "lyrics_type": "instrumental",
+    "instrumental": true
+  },
+  "estimatedCredits": 110.0,
+  "approval": null,
+  "publicationStatus": "Requires generation approval, listening review and source-license review",
+  "proposedCreditCap": 125,
+  "creativeDirection": "Stately grandeur and quiet arrogance through restrained harmonic movement, rich voicing, precise attacks and breathing space."
+}
