@@ -22,9 +22,9 @@ The single approved generation is complete: Music v2.5, three seconds, instrumen
 
 Review `output/startup/candidate-001/master.wav` for the sound itself, then `output/cinematic-opening/opening-startup-001.mp4` for placement in the trailer. The default fixture task is unchanged. See [ElevenLabs integration](../../docs/elevenlabs.md) for connection, cost approval, mastering and reuse.
 
-## Candidate 002 draft
+## Candidate 002 review
 
-Listening feedback on candidate 001: too simple, effectively one note. Candidate 002 proposes four seconds with three deliberate gestures: low foundation, a small ascending interval over suspended harmony, then a broad dark consonant resolution. The emphasis is stately grandeur and quiet arrogance through rich voicing and breathing space. Its prompt and quoted cost are saved in `candidates/002/`; it has not been generated and requires a separate credit approval.
+Listening feedback on candidate 001: too simple, effectively one note. Candidate 002 proposes four seconds with three deliberate gestures: low foundation, a small ascending interval over suspended harmony, then a broad dark consonant resolution. The emphasis is stately grandeur and quiet arrogance through rich voicing and breathing space. The revised prompt includes limited-DAC and small-speaker constraints. The maintainer separately approved one take with a 125-credit cap: the provider quoted 110 credits and the completed generation reported approximately 59.99 credits. Its prompt, approval, exact cost and source hash are saved in `candidates/002/`.
 
 ## Limited-DAC listening check
 
@@ -39,3 +39,13 @@ python3 scripts/audio.py audition output/startup/candidate-001/master.wav --outp
 The profile downmixes to mono, applies a 180–5000 Hz band limit, resamples to 22050 Hz and writes dithered unsigned PCM8. The accompanying JSON records the profile and explicitly marks it as a simulation with no hardware validation. These bandwidth limits are an engineering stress test, not a measured ESP32 output stage or speaker response. Original source audio and the normal master remain unchanged.
 
 Review the normal and constrained versions at a sensible matched listening level, then test the actual DAC, amplifier and speaker before accepting the sound for release. No operating-system playback code or hardware support claim is introduced here.
+
+Candidate 002 is generated and awaiting listening review. The original provider MP3 is preserved locally at `assets/audio/startup/candidate-002-source.mp3`. Review the normal master at `output/startup/candidate-002/master.wav` and the constrained version at `output/startup/candidate-002/dac-8bit.wav`. The PCM16 mono export at 22050 Hz is `output/startup/candidate-002/embedded.wav`; it contains four seconds of audio and is approximately 176 KB including its WAV header. The optional trailer preview is `output/cinematic-opening/opening-startup-002.mp4`, placing the same cue at four seconds.
+
+```sh
+python3 scripts/audio.py process assets/audio/startup/candidate-002-source.mp3 --output output/startup/candidate-002 --rate 22050
+python3 scripts/audio.py audition output/startup/candidate-002/master.wav --output output/startup/candidate-002/dac-8bit.wav
+python3 scripts/video.py soundtrack output/cinematic-opening/opening-bootsplash.mp4 output/startup/candidate-002/master.wav output/cinematic-opening/opening-startup-002.mp4 --offset 4
+```
+
+The master measures -20.01 LUFS with a -2.20 dBTP true peak. The constrained export is an unsigned PCM8, 22050 Hz mono stress test with the documented band limit; neither output has been validated on physical playback hardware. No additional take or automatic retry is authorized by this candidate's approval.

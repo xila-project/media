@@ -1,5 +1,5 @@
 {
-  "status": "prepared-awaiting-credit-approval",
+  "status": "generated-awaiting-review",
   "provider": "ElevenLabs",
   "model": "eleven_music_v2_5",
   "nodeType": "music",
@@ -17,8 +17,13 @@
     "instrumental": true
   },
   "estimatedCredits": 110.0,
-  "approval": null,
-  "publicationStatus": "Requires generation approval, listening review and source-license review",
+  "approval": {
+    "maximumCredits": 125,
+    "candidateCount": 1,
+    "scope": "One four-second candidate 002, with normal and limited-DAC offline exports",
+    "approvedAt": "2026-11-10T21:20:18.234275+00:00"
+  },
+  "publicationStatus": "Requires human listening review and source-license review",
   "proposedCreditCap": 125,
   "creativeDirection": "Stately grandeur and quiet arrogance through restrained harmonic movement, rich voicing, precise attacks and breathing space.",
   "deliveryConstraints": [
@@ -28,5 +33,25 @@
     "Rounded attacks and controlled peaks",
     "Review at 22050 Hz with an 8-bit quantization stress test",
     "Real DAC and speaker listening still required"
-  ]
+  ],
+  "generationId": "RnlvGxEG8uTwNwemZIFO",
+  "reportedCredits": 59.986666666666665,
+  "source": {
+    "file": "assets/audio/startup/candidate-002-source.mp3",
+    "sha256": "13e87630647ecd30296bacf665313e652673c3a82edfbc9f95438a6d54e7e2d8",
+    "bytes": 114514,
+    "providerFormat": "MP3",
+    "generationURL": "https://elevenlabs.io/app/flows/QKEWGmRf3ZWNMOqTPKCo"
+  },
+  "processing": {
+    "revision": "a056c5882af5fbdcd8b71e57beb111b00c388553",
+    "master": "output/startup/candidate-002/master.wav",
+    "embedded": "output/startup/candidate-002/embedded.wav",
+    "dacAudition": "output/startup/candidate-002/dac-8bit.wav",
+    "trailerPreview": "output/cinematic-opening/opening-startup-002.mp4",
+    "integratedLUFS": -20.01,
+    "truePeakDBTP": -2.2,
+    "embeddedBytes": 176478,
+    "hardwareValidated": false
+  }
 }

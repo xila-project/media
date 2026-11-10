@@ -47,3 +47,5 @@ Candidate 001 is generated preview material, not approved Xila sonic branding. I
 ## Embedded constraints
 
 Generate the startup signature for limited playback hardware from the beginning: keep its essential pitches and harmonic motion audible in mono and the midrange, rather than depending on deep bass or phase-based stereo effects. Keep the normal PCM16 export, and additionally run `scripts/audio.py audition` for an 8-bit, 22050 Hz bandwidth-constrained listening check. This is a stress test; it does not replace listening on the intended DAC and speaker.
+
+Candidate 002 was separately approved as one four-second take, capped at 125 credits. Its quote was 110 credits; completion reported approximately 59.99 credits. The richer harmonic draft includes mono and limited-bandwidth constraints, and both the normal master and constrained PCM8 listening file are ready for human review. The source, pipeline commands and exact reported cost are documented with that candidate.
