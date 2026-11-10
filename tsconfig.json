@@ -4,8 +4,10 @@
     "strict": true,
     "types": [
       "vite/client",
-      "node"
-    ]
+      "node",
+      "@motion-canvas/core/project"
+    ],
+    "moduleResolution": "bundler"
   },
   "include": [
     "motion-canvas",

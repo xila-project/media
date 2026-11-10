@@ -21,20 +21,20 @@
     "clean": "python3 scripts/clean.py"
   },
   "dependencies": {
-    "@motion-canvas/core": "3.17.2",
     "@motion-canvas/2d": "3.17.2",
+    "@motion-canvas/core": "3.17.2",
     "@motion-canvas/ui": "3.17.2"
   },
   "devDependencies": {
+    "@eslint/js": "9.39.1",
     "@motion-canvas/vite-plugin": "3.17.2",
     "@types/node": "24.10.1",
-    "typescript": "5.9.3",
-    "vite": "5.4.21",
-    "playwright": "1.56.1",
     "eslint": "9.39.1",
-    "@eslint/js": "9.39.1",
-    "typescript-eslint": "8.46.4",
+    "globals": "16.5.0",
+    "playwright": "1.56.1",
     "prettier": "3.6.2",
-    "globals": "16.5.0"
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.2",
+    "vite": "5.4.21"
   }
 }
