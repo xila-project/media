@@ -35,6 +35,10 @@
     "prettier": "3.6.2",
     "typescript": "5.9.3",
     "typescript-eslint": "8.72.2",
-    "vite": "5.4.21"
+    "vite": "8.3.7"
+  },
+  "overrides": {
+    "vite": "$vite",
+    "minimatch": "11.0.6"
   }
 }

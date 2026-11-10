@@ -15,14 +15,14 @@ window.runRender = async ({production,fps,width,height,duration}) => {
   await document.fonts.load('400 24px Montserrat');
   await document.fonts.ready;
   if(!document.fonts.check('600 64px Montserrat')) throw new Error('Montserrat did not load');
-  project.plugins.push({name:'xila-render',exporters:()=>[{
+  project.meta.rendering.exporter.exporters.push({
     id:'xila-png',displayName:'Xila PNG sequence',
     meta:()=>{throw new Error('CLI exporter has no editor options');},
     create:async()=>({handleFrame:async(canvas,frame)=>{
       // Renderer includes the end frame; deliver exactly duration*fps frames.
       if(frame<Math.round(duration*fps)) await window.saveFrame(frame,canvas.toDataURL('image/png'));
     }})
-  }]});
+  });
   const renderer = new Renderer(project);
   const outcome = {result: RendererResult.Error as RendererResult};
   renderer.onFinished.subscribe(value=>{outcome.result=value;});

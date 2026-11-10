@@ -1,0 +1,11 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 30,
+  "cameraDistance": 6,
+  "orthoScale": 5,
+  "lightEnergy": 800,
+  "materialRoughness": 0.6,
+  "transparent": true
+}

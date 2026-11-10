@@ -1,0 +1,35 @@
+[tools]
+node = "24.22.0"
+python = "3.13.18"
+"conda:ffmpeg" = "7.1.1"
+
+[tasks."deps:install"]
+description = "Install exact npm dependencies and Chromium"
+run = ["npm ci", "npx playwright install chromium", "python3 scripts/brand.py"]
+
+[tasks.preview]
+description = "Preview Motion Canvas projects"
+run = "npm run preview"
+
+[tasks."render:logo"]
+run = "npm run render -- --production logo"
+
+[tasks."render:trailer"]
+run = "npm run render -- --production trailer"
+
+[tasks."render:startup"]
+run = ["python3 scripts/audio.py fixture output/startup/source-test.wav", "python3 scripts/audio.py process output/startup/source-test.wav"]
+
+[tasks."blender:generate"]
+tools = { "aqua:blender/blender" = "4.5.15" }
+run = "blender --background --factory-startup --python-exit-code 1 --python blender/scripts/logo.py -- --generate-only"
+
+[tasks."render:blender"]
+tools = { "aqua:blender/blender" = "4.5.15" }
+run = "blender --background --factory-startup --python-exit-code 1 --python blender/scripts/logo.py"
+
+[tasks.check]
+run = "npm run check"
+
+[tasks.clean]
+run = "npm run clean"
