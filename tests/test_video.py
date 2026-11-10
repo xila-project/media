@@ -22,3 +22,16 @@ class VideoTests(unittest.TestCase):
             self.assertTrue(any(s['codec_type']=='audio' and s['sample_rate']=='48000' for s in streams))
             with self.assertRaises((AssertionError,ValueError)):
                 video.validate(root/'video.mp4',1920,1080,30,1)
+
+    def test_soundtrack_can_be_delayed_without_extending_video(self):
+        import struct
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            subprocess.run(['ffmpeg','-v','error','-y','-f','lavfi','-i','color=black:s=160x90:r=30:d=1','-c:v','libx264','-pix_fmt','yuv420p',str(root/'silent.mp4')],check=True)
+            subprocess.run(['ffmpeg','-v','error','-y','-f','lavfi','-i','sine=frequency=220:duration=0.2',str(root/'cue.wav')],check=True)
+            subprocess.run(['python3','scripts/video.py','soundtrack',str(root/'silent.mp4'),str(root/'cue.wav'),str(root/'result.mp4'),'--offset','0.5'],check=True)
+            video.validate(root/'result.mp4',160,90,30,1)
+            samples=subprocess.check_output(['ffmpeg','-v','error','-i',str(root/'result.mp4'),'-map','0:a:0','-f','s16le','-ac','1','-ar','48000','-'])
+            values=struct.unpack('<'+'h'*(len(samples)//2),samples)
+            self.assertLessEqual(max(map(abs,values[:12000])),1)
+            self.assertGreater(max(map(abs,values[26400:28800])),100)

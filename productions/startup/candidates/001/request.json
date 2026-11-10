@@ -1,0 +1,35 @@
+{
+  "status": "generated-awaiting-review",
+  "provider": "ElevenLabs",
+  "model": "eleven_music_v2_5",
+  "durationSeconds": 3,
+  "loop": false,
+  "candidateCount": 1,
+  "prompt": "prompt.txt",
+  "approval": {
+    "maximumCredits": 5000,
+    "scope": "One initial bootsplash sound candidate, reusable in the trailer opening"
+  },
+  "publicationStatus": "Requires human listening review and source-license review",
+  "nodeType": "music",
+  "instrumental": true,
+  "estimatedCredits": 82.5,
+  "flowId": "QKEWGmRf3ZWNMOqTPKCo",
+  "nodeId": "y2NWTqsjjHlvcd3IQAqi",
+  "flowURL": "https://elevenlabs.io/app/flows/QKEWGmRf3ZWNMOqTPKCo",
+  "submittedAt": "2026-11-10T21:03:04.484607+00:00",
+  "generationId": "g2LfotGa1CzDfN4PCeay",
+  "reportedCredits": 44.99,
+  "source": {
+    "file": "assets/audio/startup/candidate-001-source.mp3",
+    "sha256": "fd500d9358d81f09a1e35473e278b88b36b002e4e0eb43e73d83a345baa059fa",
+    "bytes": 90322,
+    "providerFormat": "MP3",
+    "generationURL": "https://elevenlabs.io/app/flows/QKEWGmRf3ZWNMOqTPKCo"
+  },
+  "modelParameters": {
+    "duration_seconds": 3,
+    "lyrics_type": "instrumental",
+    "instrumental": true
+  }
+}
