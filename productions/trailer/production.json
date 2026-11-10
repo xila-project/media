@@ -12,5 +12,27 @@
     "repository": "xila-project/core",
     "commit": "dab153676f7d2c02cbee57fa49211ed5db7660cf",
     "path": "libraries/bootsplash/src/lib.rs"
-  }
+  },
+  "scenes": [
+    {
+      "name": "intro",
+      "duration": 3
+    },
+    {
+      "name": "typography",
+      "duration": 3
+    },
+    {
+      "name": "footage",
+      "duration": 3
+    },
+    {
+      "name": "architecture",
+      "duration": 3
+    },
+    {
+      "name": "outro",
+      "duration": 3
+    }
+  ]
 }

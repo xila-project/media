@@ -5,12 +5,14 @@ import logoProject from './projects/logo?project';
 declare global {
   interface Window {
     saveFrame: (frame:number, data:string)=>Promise<void>;
-    runRender: (options:{production:string;fps:number;width:number;height:number;duration:number})=>Promise<void>;
+    runRender: (options:{production:string;scene?:string;fps:number;width:number;height:number;duration:number})=>Promise<void>;
   }
 }
-window.runRender = async ({production,fps,width,height,duration}) => {
+window.runRender = async ({production,scene,fps,width,height,duration}) => {
   const projects: Record<string,Project> = {trailer:trailerProject,logo:logoProject};
-  const project = projects[production];
+  const project = {...projects[production]};
+  if(scene) project.scenes=project.scenes.filter(description=>description.name===scene);
+  if(project.scenes.length===0) throw new Error(`Scene not found: ${scene}`);
   await document.fonts.load('600 64px Montserrat');
   await document.fonts.load('400 24px Montserrat');
   await document.fonts.ready;

@@ -13,15 +13,24 @@ from brand import sync  # noqa: E402
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--generate-only', action='store_true')
 parser.add_argument('--frame', type=int)
+parser.add_argument('--resolution', choices=['1920x1080','1280x720','960x540'])
+parser.add_argument('--fps', type=int, choices=[24,30,60])
+parser.add_argument('--preset', choices=['fast','medium','slow'], default='fast')
 parser.add_argument('--config', type=Path, default=ROOT / 'blender/templates/logo.json')
 args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
 config = json.loads(args.config.read_text())
+if args.resolution:
+    config['width'],config['height']=map(int,args.resolution.split('x'))
+if args.fps:
+    config['fps']=args.fps
+if args.frame is not None and not 1 <= args.frame <= config['fps']*config['duration']:
+    parser.error('Frame is outside the configured sequence')
 sync()
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene = bpy.context.scene
 scene.render.engine = 'CYCLES'
 scene.cycles.device = 'CPU'
-scene.cycles.samples = 16
+scene.cycles.samples = {'fast':16,'medium':32,'slow':64}[args.preset]
 scene.cycles.seed = 0
 scene.cycles.use_animated_seed = False
 scene.render.resolution_x = config['width']
@@ -32,7 +41,7 @@ scene.render.film_transparent = config['transparent']
 scene.render.image_settings.file_format = 'PNG'
 scene.render.image_settings.color_mode = 'RGBA'
 scene.frame_start = 1
-scene.frame_end = config['frames']
+scene.frame_end = config['fps']*config['duration']
 scene.world = bpy.data.worlds.new('World')
 scene.world.use_nodes = True
 scene.world.node_tree.nodes['Background'].inputs['Color'].default_value = (.1,.1,.1,1)
@@ -52,6 +61,12 @@ material.use_nodes = True
 shader = material.node_tree.nodes.get('Principled BSDF')
 shader.inputs['Base Color'].default_value = (1,1,1,1)
 shader.inputs['Roughness'].default_value = config['materialRoughness']
+# The official mark stays flat white; lighting is for other objects added to this template.
+emission=material.node_tree.nodes.new('ShaderNodeEmission')
+emission.inputs['Color'].default_value=(1,1,1,1)
+emission.inputs['Strength'].default_value=1
+material.node_tree.links.new(emission.outputs[0],material.node_tree.nodes['Material Output'].inputs['Surface'])
+scene.view_settings.view_transform='Standard'
 for obj in curves:
     obj.location = (obj.location-center)*scale
     obj.scale *= scale
