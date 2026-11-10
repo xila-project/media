@@ -1,0 +1,17 @@
+node_modules/
+.cache/
+output/
+dist/
+assets/brand/upstream/
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+*.webm
+*.wav
+*.blend
+*.blend1
+__pycache__/
+.worktrees/
+.superpowers/
