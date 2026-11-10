@@ -1,0 +1,48 @@
+{
+  "name": "cinematic-opening",
+  "status": "visual-direction-study",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "duration": 6,
+  "samples": 16,
+  "extrusion": 0.035,
+  "material": {
+    "baseColor": 0.12,
+    "metallic": 0.85,
+    "roughness": 0.24
+  },
+  "camera": [
+    {
+      "time": 0,
+      "position": [0.92, 0.6, 0.48],
+      "target": [0.3, 0.24, 0],
+      "lens": 55
+    },
+    {
+      "time": 2,
+      "position": [0.95, 0.38, 1.4],
+      "target": [0.22, 0.16, 0],
+      "lens": 55
+    },
+    {
+      "time": 4.2,
+      "position": [0.45, -0.25, 4.8],
+      "target": [0, 0, 0],
+      "lens": 52
+    },
+    {
+      "time": 5.3,
+      "position": [0, 0, 8.4],
+      "target": [0, 0, 0],
+      "lens": 50
+    },
+    {
+      "time": 6,
+      "position": [0, 0, 8.4],
+      "target": [0, 0, 0],
+      "lens": 50
+    }
+  ]
+}

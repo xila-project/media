@@ -33,3 +33,8 @@ run = "npm run check"
 
 [tasks.clean]
 run = "npm run clean"
+
+[tasks."render:cinematic-opening"]
+description = "Render the cinematic opening study and assemble its review MP4"
+tools = { "aqua:blender/blender" = "4.5.15" }
+run = ["blender --background --factory-startup --python-exit-code 1 --python blender/scripts/cinematic_opening.py", "python3 scripts/video.py assemble output/cinematic-opening/frames output/cinematic-opening/opening.mp4 --preset fast", "python3 scripts/video.py validate output/cinematic-opening/opening.mp4 --width 960 --height 540 --fps 30 --duration 6"]
