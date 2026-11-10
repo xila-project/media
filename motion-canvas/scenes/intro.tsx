@@ -1,15 +1,11 @@
-import {makeScene2D} from '@motion-canvas/2d';
-import {waitFor} from '@motion-canvas/core';
-import {Logo, Text} from '../components/brand';
+import { makeScene2D } from "@motion-canvas/2d";
+import { linear } from "@motion-canvas/core";
+import { Bootsplash } from "../components/bootsplash";
 export default makeScene2D(function* (view) {
-  view.fill('#000000');
-  const logo = Logo({width: 260});
-  logo.opacity(0);
-  view.add(logo);
-  const caption = Text({text: 'XILA',fontSize: 24,letterSpacing: 12,y: 260,opacity: 0});
-  view.add(caption);
-  yield* logo.opacity(1, 0.8);
-  yield* caption.opacity(1, 0.4);
-  yield* waitFor(1.3);
+  view.fill("#000000");
+  const splash = Bootsplash();
+  view.add(splash.node);
+  // Core intro (900 ms) followed by its clockwise ripple. No trailer-only caption.
+  yield* splash.time(2500, 2.5, linear);
   yield* view.opacity(0, 0.5);
 });

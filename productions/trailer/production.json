@@ -7,5 +7,10 @@
   "duration": 15,
   "footage": null,
   "footageStatus": "placeholder",
-  "language": "en"
+  "language": "en",
+  "bootsplashReference": {
+    "repository": "xila-project/core",
+    "commit": "dab153676f7d2c02cbee57fa49211ed5db7660cf",
+    "path": "libraries/bootsplash/src/lib.rs"
+  }
 }
