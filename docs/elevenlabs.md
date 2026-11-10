@@ -43,3 +43,7 @@ The source for this first candidate is a 48 kHz stereo MP3 from ElevenLabs. The 
 Listen to the standalone signature before judging the trailer mix. Inspect level, attack, tail, small-speaker audibility and mono compatibility. The offline validator measures loudness and peaks; artistic acceptance requires listening review.
 
 Candidate 001 is generated preview material, not approved Xila sonic branding. It remains available in the authorized ElevenLabs flow and locally under `assets/audio/startup/`; the source and output media are ignored by Git. Builds continue to use the free synthetic fixture until an accepted, licensed source is explicitly integrated. Before publication, confirm the originating workspace's rights, retain the applicable terms and determine how the accepted source will be distributed. Do not infer a commercial license merely because a file was generated.
+
+## Embedded constraints
+
+Generate the startup signature for limited playback hardware from the beginning: keep its essential pitches and harmonic motion audible in mono and the midrange, rather than depending on deep bass or phase-based stereo effects. Keep the normal PCM16 export, and additionally run `scripts/audio.py audition` for an 8-bit, 22050 Hz bandwidth-constrained listening check. This is a stress test; it does not replace listening on the intended DAC and speaker.

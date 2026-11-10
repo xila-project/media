@@ -30,3 +30,23 @@ class AudioTests(unittest.TestCase):
             result=subprocess.run(['python3','scripts/audio.py','process',str(root/'silence.wav'),'--output',str(root/'result')],capture_output=True)
             self.assertNotEqual(result.returncode,0)
             self.assertIn(b'silent',result.stderr.lower())
+
+    def test_dac_audition_is_quantized_mono_and_preserves_source(self):
+        import hashlib
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            source=root/'source.wav'
+            output=root/'dac-8bit.wav'
+            subprocess.run(['python3','scripts/audio.py','fixture',str(source)],check=True)
+            original_hash=hashlib.sha256(source.read_bytes()).hexdigest()
+            subprocess.run(['python3','scripts/audio.py','audition',str(source),'--output',str(output)],check=True)
+            with wave.open(str(output)) as audio:
+                self.assertEqual(audio.getparams()[:3],(1,1,22050))
+                self.assertEqual(audio.getnframes(),66150)
+                samples=audio.readframes(audio.getnframes())
+                self.assertLess(min(samples),128)
+                self.assertGreater(max(samples),128)
+            self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(),original_hash)
+            report=json.loads(output.with_suffix('.json').read_text())
+            self.assertTrue(report['simulation'])
+            self.assertFalse(report['hardwareValidated'])

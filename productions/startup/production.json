@@ -6,5 +6,13 @@
   "format": "pcm_s16le",
   "loudnessLUFS": -20,
   "truePeakDBTP": -2,
-  "maxDuration": 5
+  "maxDuration": 5,
+  "dacAudition": {
+    "sampleRate": 22050,
+    "bits": 8,
+    "highpassHz": 180,
+    "lowpassHz": 5000,
+    "simulation": true,
+    "hardwareValidated": false
+  }
 }

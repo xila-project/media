@@ -20,5 +20,13 @@
   "approval": null,
   "publicationStatus": "Requires generation approval, listening review and source-license review",
   "proposedCreditCap": 125,
-  "creativeDirection": "Stately grandeur and quiet arrogance through restrained harmonic movement, rich voicing, precise attacks and breathing space."
+  "creativeDirection": "Stately grandeur and quiet arrogance through restrained harmonic movement, rich voicing, precise attacks and breathing space.",
+  "deliveryConstraints": [
+    "Essential musical identity in the midrange",
+    "Mono compatible",
+    "No reliance on sub-bass or stereo phase",
+    "Rounded attacks and controlled peaks",
+    "Review at 22050 Hz with an 8-bit quantization stress test",
+    "Real DAC and speaker listening still required"
+  ]
 }

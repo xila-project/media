@@ -74,6 +74,25 @@ def process(source, output, rate):
     print(f'Validated PCM16 mono at {rate} Hz; {embedded.stat().st_size} bytes')
 
 
+def audition(source, output):
+    if source.resolve()==output.resolve():
+        raise ValueError('Audition must not overwrite source audio')
+    profile=CONFIG['dacAudition']
+    output.parent.mkdir(parents=True,exist_ok=True)
+    filters=(f"highpass=f={profile['highpassHz']},lowpass=f={profile['lowpassHz']},"
+             f"aresample={profile['sampleRate']}:dither_method=triangular")
+    ffmpeg(['-i',source,'-vn','-af',filters,'-ac',1,'-ar',profile['sampleRate'],'-c:a','pcm_u8',output])
+    with wave.open(str(output)) as audio:
+        if audio.getparams()[:3]!=(1,1,profile['sampleRate']):
+            raise ValueError('Unexpected DAC audition format')
+        frames=audio.getnframes()
+    report={**profile,'channels':1,'codec':'pcm_u8','durationSeconds':frames/profile['sampleRate'],
+            'purpose':'Generic quantization and bandwidth stress test; not a board or speaker emulation',
+            'source':str(source)}
+    output.with_suffix('.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(f"Validated simulated 8-bit mono audition at {profile['sampleRate']} Hz; hardware not validated")
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command',required=True)
@@ -81,6 +100,9 @@ if __name__ == '__main__':
     export = sub.add_parser('process'); export.add_argument('source',type=Path)
     export.add_argument('--output',type=Path,default=Path('output/startup'))
     export.add_argument('--rate',type=int,choices=[22050,44100,48000],default=22050)
+    stress = sub.add_parser('audition'); stress.add_argument('source',type=Path)
+    stress.add_argument('--output',type=Path,default=Path('output/startup/dac-8bit.wav'))
     args = parser.parse_args()
     if args.command == 'fixture': fixture(args.output)
+    elif args.command == 'audition': audition(args.source,args.output)
     else: process(args.source,args.output,args.rate)
