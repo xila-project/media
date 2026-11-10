@@ -7,6 +7,7 @@ import argparse
 import json
 from pathlib import Path
 import sys
+import subprocess
 
 import bpy
 from mathutils import Matrix, Vector
@@ -18,6 +19,7 @@ from brand import sync  # noqa: E402
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--still',type=int,action='append',help='Render only these zero-based frames')
 parser.add_argument('--generate-only',action='store_true')
+parser.add_argument('--start-frame',type=int,default=0,help='Start at this frame when retaining an unchanged earlier sequence')
 parser.add_argument('--resolution',choices=['960x540','1280x720','1920x1080'])
 args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
 config=json.loads((ROOT/'productions/cinematic-opening/production.json').read_text())
@@ -38,8 +40,10 @@ scene.render.resolution_x=config['width']
 scene.render.resolution_y=config['height']
 scene.render.resolution_percentage=100
 scene.render.fps=config['fps']
-scene.frame_start=0
+scene.frame_start=args.start_frame
 scene.frame_end=config['duration']*config['fps']-1
+if not 0<=scene.frame_start<=scene.frame_end:
+    parser.error('Start frame outside production range')
 scene.render.image_settings.file_format='PNG'
 scene.render.image_settings.color_mode='RGB'
 scene.view_settings.view_transform='AgX'
@@ -75,6 +79,24 @@ for obj in curves:
     obj.data.resolution_u=24
     obj.data.materials.clear()
     obj.data.materials.append(material)
+
+# Map the official SVG import order (center, BR, TR, TL, BL) to Core's TL, BL, BR, TR.
+# Node evaluates the shared TypeScript timeline; no separate Python timing model exists.
+timeline=json.loads(subprocess.check_output(['node',str(ROOT/'scripts/bootsplash-keyframes.mjs')],text=True))
+for index,source_index in enumerate([3,4,1,2]):
+    arm=curves[source_index]
+    origin=arm.location.copy()
+    arm_material=material.copy()
+    arm.data.materials.clear()
+    arm.data.materials.append(arm_material)
+    alpha=arm_material.node_tree.nodes['Principled BSDF'].inputs['Alpha']
+    for entry in timeline:
+        state=entry['arms'][index]
+        # Core uses screen Y down. Blender's SVG plane uses Y up; the symbol spans 2 units.
+        arm.location=origin+Vector((state['x']*2/320,-state['y']*2/320,0))
+        alpha.default_value=state['opacity']/255
+        arm.keyframe_insert('location',frame=entry['frame'])
+        alpha.keyframe_insert('default_value',frame=entry['frame'])
 
 focus=bpy.data.objects.new('Focus',None)
 scene.collection.objects.link(focus)
@@ -137,7 +159,7 @@ output=ROOT/'output/cinematic-opening'
 output.mkdir(parents=True,exist_ok=True)
 (output/'frames').mkdir(exist_ok=True)
 (output/'stills').mkdir(exist_ok=True)
-scene.render.filepath=str(output/'frames')+'/'
+scene.render.filepath=str(output/'frames'/'######')
 bpy.ops.wm.save_as_mainfile(filepath=str(output/'opening.blend'))
 (output/'render.json').write_text(json.dumps(config,indent=2)+'\n')
 if not args.generate_only:

@@ -5,7 +5,7 @@
 export const INTRO = 900;
 export const PERIOD = 1600;
 const ONE = 1024;
-const RANK = [0, 3, 2, 1];
+export const CLOCKWISE_RANK = [0, 3, 2, 1];
 export const DIRECTION = [
   [-1, -1],
   [-1, 1],
@@ -19,7 +19,8 @@ export function squareOpacity(time: number) {
   return div(progress(time, 0, 240) * 255, ONE);
 }
 export function introArm(index: number, time: number, size: number) {
-  const remaining = ONE - progress(time, 150 + RANK[index] * 100, 450);
+  const remaining =
+    ONE - progress(time, 150 + CLOCKWISE_RANK[index] * 100, 450);
   const eased = ONE - div(div(remaining * remaining, ONE) * remaining, ONE);
   return {
     offset: div((ONE - eased) * div(size, 5), ONE),
@@ -32,7 +33,7 @@ export function loopArm(
   size: number,
   firstCycle: boolean,
 ) {
-  const start = (RANK[index] * PERIOD) / 4;
+  const start = (CLOCKWISE_RANK[index] * PERIOD) / 4;
   if (firstCycle && time < start) return { offset: 0, opacity: 255 };
   const phase = (((time - start) % PERIOD) + PERIOD) % PERIOD;
   if (phase >= PERIOD / 2) return { offset: 0, opacity: 255 };

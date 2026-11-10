@@ -5,7 +5,7 @@
   "width": 960,
   "height": 540,
   "fps": 30,
-  "duration": 6,
+  "duration": 8,
   "samples": 16,
   "extrusion": 0.035,
   "material": {
@@ -43,6 +43,20 @@
       "position": [0, 0, 8.4],
       "target": [0, 0, 0],
       "lens": 50
+    },
+    {
+      "time": 8,
+      "position": [0, 0, 8.4],
+      "target": [0, 0, 0],
+      "lens": 50
     }
-  ]
+  ],
+  "bootsplashRipple": {
+    "start": 5.3
+  },
+  "bootsplashReference": {
+    "repository": "xila-project/core",
+    "commit": "dab153676f7d2c02cbee57fa49211ed5db7660cf",
+    "path": "libraries/bootsplash/src/lib.rs"
+  }
 }

@@ -20,7 +20,7 @@ Node 24.22.0, Python 3.13.18 and FFmpeg 7.1.1 are pinned. Blender 4.5.15 is acti
 ```sh
 mise run render:logo                 # Reviewed Core bootsplash adaptation
 mise run render:trailer              # Earlier 15-second pipeline proof of concept
-mise run render:cinematic-opening    # Six-second camera and material study
+mise run render:cinematic-opening    # Eight-second camera, material and bootsplash study
 mise run render:startup              # Synthetic fixture and normalized WAV exports
 npm test
 npm run typecheck

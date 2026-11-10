@@ -1,14 +1,14 @@
 # Cinematic opening study
 
-A six-second visual-direction review, rendered at 960×540 and 30 FPS. It establishes material, lighting, camera movement and reveal pacing before committing to the full launch-film edit. It is silent; no music, effects, voice generation or paid services are used.
+An eight-second visual-direction review, rendered at 960×540 and 30 FPS. It establishes material, lighting, camera movement and reveal pacing before committing to the full launch-film edit. It is silent; no music, effects, voice generation or paid services are used.
 
-The camera starts inside a tight oblique detail of the monogram and pulls back to the complete symbol. Physical strip lights progressively reveal its five modules. The last part settles into a frontal composition with clear space. The logo itself never rotates or changes its planar geometry. A shallow perpendicular extrusion is a cinematic material treatment explicitly requested for this film; the flat official SVG remains the brand master. There are no particles, invented hardware, fake interfaces or product claims.
+The camera starts inside a tight oblique detail of the monogram and pulls back to the complete symbol. Physical strip lights progressively reveal its five modules. The camera settles at 5.3 seconds, then the four arms perform the clockwise ripple from Core’s bootsplash. The last arm returns by 7.3 seconds before the final hold. The original six-second study remains available as `opening.mp4` for comparison. The logo itself never rotates or changes its planar geometry. A shallow perpendicular extrusion is a cinematic material treatment explicitly requested for this film; the flat official SVG remains the brand master. There are no particles, invented hardware, fake interfaces or product claims.
 
 ```sh
 mise run render:cinematic-opening
 ```
 
-Outputs are ignored under `output/cinematic-opening/`: the Blender scene, PNG frames, a render manifest and `opening.mp4`.
+Outputs are ignored under `output/cinematic-opening/`: the Blender scene, PNG frames, a render manifest and `opening-bootsplash.mp4`.
 
 For a fast lighting check, render selected zero-based frames:
 
@@ -18,7 +18,7 @@ mise exec aqua:blender/blender@4.5.15 -- blender --background --factory-startup 
 
 The production JSON owns the camera keys, dimensions, sample count, material and brand pin. `--resolution 1920x1080` renders final-resolution frames; assemble and validate them with `scripts/video.py` using the matching dimensions. The Mise review task intentionally uses the 960×540 default.
 
-The previously reviewed Motion Canvas bootsplash remains available through `mise run render:logo`. It will be integrated into the revised trailer after this shot's visual direction is reviewed. The existing 15-second trailer is the earlier pipeline proof of concept, not the finished cinematic direction.
+The previously reviewed Motion Canvas bootsplash remains available through `mise run render:logo`. Its shared TypeScript timeline also drives the 3D ripple through `scripts/bootsplash-keyframes.mjs`; the Blender scene does not maintain a separate animation model. This reminder uses the outward travel, 180/255 peak opacity, 800 ms pulses and 400 ms clockwise stagger of Core’s animation. It finishes one lap rather than starting an endless runtime loop. The existing 15-second trailer is the earlier pipeline proof of concept, not the finished cinematic direction.
 
 ## References and access limits
 
