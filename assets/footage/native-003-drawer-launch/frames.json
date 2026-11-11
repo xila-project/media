@@ -1,0 +1,152 @@
+{
+  "clock": "CLOCK_MONOTONIC; Unix anchor from time.time_ns",
+  "startUnixNs": 1794422103696238979,
+  "startMonotonicNs": 26835949839966,
+  "durationSeconds": 3.654934467,
+  "frameCount": 20,
+  "effectiveFps": 5.4720543365627465,
+  "timestampMeaning": "Midpoint of screenshot client request/response interval, not a runtime presentation timestamp; exact sample lies within request bounds. No synthetic frames.",
+  "errors": [],
+  "frames": [
+    {
+      "file": "000000.png",
+      "requestStartUnixNs": 1794422103696536913,
+      "requestStartMonotonicNs": 26835950137790,
+      "requestEndMonotonicNs": 26836115824745,
+      "timestampSeconds": 0.0831413015
+    },
+    {
+      "file": "000001.png",
+      "requestStartUnixNs": 1794422103862251119,
+      "requestStartMonotonicNs": 26836115852216,
+      "requestEndMonotonicNs": 26836296808408,
+      "timestampSeconds": 0.256490346
+    },
+    {
+      "file": "000002.png",
+      "requestStartUnixNs": 1794422104043251101,
+      "requestStartMonotonicNs": 26836296851918,
+      "requestEndMonotonicNs": 26836481443999,
+      "timestampSeconds": 0.4393079925
+    },
+    {
+      "file": "000003.png",
+      "requestStartUnixNs": 1794422104227871902,
+      "requestStartMonotonicNs": 26836481472889,
+      "requestEndMonotonicNs": 26836637922601,
+      "timestampSeconds": 0.609857779
+    },
+    {
+      "file": "000004.png",
+      "requestStartUnixNs": 1794422104384351574,
+      "requestStartMonotonicNs": 26836637952241,
+      "requestEndMonotonicNs": 26836827450596,
+      "timestampSeconds": 0.7828614525
+    },
+    {
+      "file": "000005.png",
+      "requestStartUnixNs": 1794422104573878259,
+      "requestStartMonotonicNs": 26836827479246,
+      "requestEndMonotonicNs": 26837013318854,
+      "timestampSeconds": 0.970559084
+    },
+    {
+      "file": "000006.png",
+      "requestStartUnixNs": 1794422104759746947,
+      "requestStartMonotonicNs": 26837013347894,
+      "requestEndMonotonicNs": 26837194829153,
+      "timestampSeconds": 1.1542485575
+    },
+    {
+      "file": "000007.png",
+      "requestStartUnixNs": 1794422104941256316,
+      "requestStartMonotonicNs": 26837194857383,
+      "requestEndMonotonicNs": 26837363668891,
+      "timestampSeconds": 1.329423171
+    },
+    {
+      "file": "000008.png",
+      "requestStartUnixNs": 1794422105110096294,
+      "requestStartMonotonicNs": 26837363697191,
+      "requestEndMonotonicNs": 26837531922550,
+      "timestampSeconds": 1.4979699045
+    },
+    {
+      "file": "000009.png",
+      "requestStartUnixNs": 1794422105278348304,
+      "requestStartMonotonicNs": 26837531949251,
+      "requestEndMonotonicNs": 26837726573466,
+      "timestampSeconds": 1.6794213925
+    },
+    {
+      "file": "000010.png",
+      "requestStartUnixNs": 1794422105472997439,
+      "requestStartMonotonicNs": 26837726597996,
+      "requestEndMonotonicNs": 26837905271936,
+      "timestampSeconds": 1.866095
+    },
+    {
+      "file": "000011.png",
+      "requestStartUnixNs": 1794422105651695029,
+      "requestStartMonotonicNs": 26837905296086,
+      "requestEndMonotonicNs": 26838078519333,
+      "timestampSeconds": 2.0420677435
+    },
+    {
+      "file": "000012.png",
+      "requestStartUnixNs": 1794422105824943387,
+      "requestStartMonotonicNs": 26838078544504,
+      "requestEndMonotonicNs": 26838252397529,
+      "timestampSeconds": 2.2156310505
+    },
+    {
+      "file": "000013.png",
+      "requestStartUnixNs": 1794422105998819143,
+      "requestStartMonotonicNs": 26838252419960,
+      "requestEndMonotonicNs": 26838428440364,
+      "timestampSeconds": 2.390590196
+    },
+    {
+      "file": "000014.png",
+      "requestStartUnixNs": 1794422106174859147,
+      "requestStartMonotonicNs": 26838428460224,
+      "requestEndMonotonicNs": 26838604306335,
+      "timestampSeconds": 2.5665433135
+    },
+    {
+      "file": "000015.png",
+      "requestStartUnixNs": 1794422106350731249,
+      "requestStartMonotonicNs": 26838604332306,
+      "requestEndMonotonicNs": 26838787934551,
+      "timestampSeconds": 2.7462934625
+    },
+    {
+      "file": "000016.png",
+      "requestStartUnixNs": 1794422106534355185,
+      "requestStartMonotonicNs": 26838787956272,
+      "requestEndMonotonicNs": 26838961733616,
+      "timestampSeconds": 2.925004978
+    },
+    {
+      "file": "000017.png",
+      "requestStartUnixNs": 1794422106708157720,
+      "requestStartMonotonicNs": 26838961758727,
+      "requestEndMonotonicNs": 26839155690652,
+      "timestampSeconds": 3.1088847235
+    },
+    {
+      "file": "000018.png",
+      "requestStartUnixNs": 1794422106902115055,
+      "requestStartMonotonicNs": 26839155716082,
+      "requestEndMonotonicNs": 26839350301065,
+      "timestampSeconds": 3.3031686075
+    },
+    {
+      "file": "000019.png",
+      "requestStartUnixNs": 1794422107096719648,
+      "requestStartMonotonicNs": 26839350320775,
+      "requestEndMonotonicNs": 26839604695112,
+      "timestampSeconds": 3.5276679775
+    }
+  ]
+}

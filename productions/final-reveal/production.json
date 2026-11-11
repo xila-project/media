@@ -4,8 +4,10 @@
   "width": 1920,
   "height": 1080,
   "fps": 30,
-  "duration": 5,
+  "duration": 12,
   "description": "An open-source operating system.",
   "url": "www.xila.dev",
-  "lockupWidth": 800
+  "lockupWidth": 800,
+  "descriptionAt": 4,
+  "urlAt": 8
 }

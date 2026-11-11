@@ -35,14 +35,31 @@ if (
   process.argv[1] &&
   import.meta.url === pathToFileURL(process.argv[1]).href
 ) {
-  const config = JSON.parse(
-    readFileSync(
-      new URL(
-        "../productions/cinematic-opening/production.json",
-        import.meta.url,
+  // Optional: --duration <s> --fps <n> --start <s> for other productions' shots.
+  const args = Object.fromEntries(
+    process.argv
+      .slice(2)
+      .flatMap((value, index, list) =>
+        value.startsWith("--")
+          ? [[value.slice(2), Number(list[index + 1])]]
+          : [],
       ),
-      "utf8",
-    ),
   );
+  const config =
+    args.start === undefined
+      ? JSON.parse(
+          readFileSync(
+            new URL(
+              "../productions/cinematic-opening/production.json",
+              import.meta.url,
+            ),
+            "utf8",
+          ),
+        )
+      : {
+          duration: args.duration,
+          fps: args.fps,
+          bootsplashRipple: { start: args.start },
+        };
   process.stdout.write(JSON.stringify(rippleKeyframes(config)));
 }

@@ -1,0 +1,124 @@
+{
+  "clock": "CLOCK_MONOTONIC; Unix anchor from time.time_ns",
+  "startUnixNs": 1794422160046878592,
+  "startMonotonicNs": 26892300479139,
+  "durationSeconds": 3.076616448,
+  "frameCount": 16,
+  "effectiveFps": 5.200518254526345,
+  "timestampMeaning": "Midpoint of screenshot client request/response interval, not a runtime presentation timestamp; exact sample lies within request bounds. No synthetic frames.",
+  "errors": [],
+  "frames": [
+    {
+      "file": "000000.png",
+      "requestStartUnixNs": 1794422160047192056,
+      "requestStartMonotonicNs": 26892300793383,
+      "requestEndMonotonicNs": 26892498604431,
+      "timestampSeconds": 0.099219768
+    },
+    {
+      "file": "000001.png",
+      "requestStartUnixNs": 1794422160245039105,
+      "requestStartMonotonicNs": 26892498639982,
+      "requestEndMonotonicNs": 26892688717948,
+      "timestampSeconds": 0.293199826
+    },
+    {
+      "file": "000002.png",
+      "requestStartUnixNs": 1794422160435148321,
+      "requestStartMonotonicNs": 26892688748818,
+      "requestEndMonotonicNs": 26892858240358,
+      "timestampSeconds": 0.473015449
+    },
+    {
+      "file": "000003.png",
+      "requestStartUnixNs": 1794422160604664542,
+      "requestStartMonotonicNs": 26892858265619,
+      "requestEndMonotonicNs": 26893049640392,
+      "timestampSeconds": 0.6534738665
+    },
+    {
+      "file": "000004.png",
+      "requestStartUnixNs": 1794422160796064585,
+      "requestStartMonotonicNs": 26893049665372,
+      "requestEndMonotonicNs": 26893319598651,
+      "timestampSeconds": 0.8841528725
+    },
+    {
+      "file": "000005.png",
+      "requestStartUnixNs": 1794422161066022524,
+      "requestStartMonotonicNs": 26893319623561,
+      "requestEndMonotonicNs": 26893504228944,
+      "timestampSeconds": 1.1114471135
+    },
+    {
+      "file": "000006.png",
+      "requestStartUnixNs": 1794422161250653337,
+      "requestStartMonotonicNs": 26893504254434,
+      "requestEndMonotonicNs": 26893695632586,
+      "timestampSeconds": 1.299464371
+    },
+    {
+      "file": "000007.png",
+      "requestStartUnixNs": 1794422161442059070,
+      "requestStartMonotonicNs": 26893695660017,
+      "requestEndMonotonicNs": 26893898383330,
+      "timestampSeconds": 1.4965425345
+    },
+    {
+      "file": "000008.png",
+      "requestStartUnixNs": 1794422161644808443,
+      "requestStartMonotonicNs": 26893898409390,
+      "requestEndMonotonicNs": 26894084705116,
+      "timestampSeconds": 1.691078114
+    },
+    {
+      "file": "000009.png",
+      "requestStartUnixNs": 1794422161831134069,
+      "requestStartMonotonicNs": 26894084735036,
+      "requestEndMonotonicNs": 26894276766065,
+      "timestampSeconds": 1.8802714115
+    },
+    {
+      "file": "000010.png",
+      "requestStartUnixNs": 1794422162023194138,
+      "requestStartMonotonicNs": 26894276795185,
+      "requestEndMonotonicNs": 26894460385414,
+      "timestampSeconds": 2.0681111605
+    },
+    {
+      "file": "000011.png",
+      "requestStartUnixNs": 1794422162206813157,
+      "requestStartMonotonicNs": 26894460413824,
+      "requestEndMonotonicNs": 26894609935207,
+      "timestampSeconds": 2.2346953765
+    },
+    {
+      "file": "000012.png",
+      "requestStartUnixNs": 1794422162356361050,
+      "requestStartMonotonicNs": 26894609962087,
+      "requestEndMonotonicNs": 26894815564021,
+      "timestampSeconds": 2.412283915
+    },
+    {
+      "file": "000013.png",
+      "requestStartUnixNs": 1794422162561989495,
+      "requestStartMonotonicNs": 26894815590482,
+      "requestEndMonotonicNs": 26895003103960,
+      "timestampSeconds": 2.608868082
+    },
+    {
+      "file": "000014.png",
+      "requestStartUnixNs": 1794422162749527153,
+      "requestStartMonotonicNs": 26895003128250,
+      "requestEndMonotonicNs": 26895185161348,
+      "timestampSeconds": 2.79366566
+    },
+    {
+      "file": "000015.png",
+      "requestStartUnixNs": 1794422162931587001,
+      "requestStartMonotonicNs": 26895185188048,
+      "requestEndMonotonicNs": 26895377032956,
+      "timestampSeconds": 2.980631363
+    }
+  ]
+}

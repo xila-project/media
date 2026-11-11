@@ -62,3 +62,8 @@ run = "npm run render -- --production wasm-execution"
 description = "Render the execution study: Xila light becoming the genuine Pixel Painter drawing"
 tools = { "aqua:blender/blender" = "4.5.15" }
 run = "python3 scripts/render_product.py --production application-handoff"
+
+[tasks."render:launch-film"]
+description = "Render the full launch film previz shot by shot and validate the 120-second cut"
+tools = { "aqua:blender/blender" = "4.5.15" }
+run = "python3 scripts/render_film.py"

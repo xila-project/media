@@ -49,9 +49,9 @@ export default makeScene2D(function* (view) {
   }
   mark.opacity(() => ramp(0.55, 0.3) * fade());
   mark.scale(() => 2.6 - 1.6 * easeOutExpo(ramp(0.55, 1.05)));
-  description.opacity(() => ramp(1.6, 0.4) * fade());
-  description.y(() => 200 - 20 * ramp(1.6, 0.4));
-  url.opacity(() => ramp(2, 0.4) * fade());
+  description.opacity(() => ramp(production.descriptionAt, 0.4) * fade());
+  description.y(() => 200 - 20 * ramp(production.descriptionAt, 0.4));
+  url.opacity(() => ramp(production.urlAt, 0.4) * fade());
   yield* tween(production.duration, (value) =>
     time(value * production.duration),
   );

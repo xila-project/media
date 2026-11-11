@@ -54,6 +54,39 @@
       "sha256": "f0a9e98b9acbfa1aad8df6328edeec672ffd224b6f644bb40549d0581eadff30",
       "width": 2048,
       "height": 2048
+    },
+    {
+      "id": "footage-native-003-drawer-launch",
+      "file": "assets/footage/native-003-drawer-launch/manifest.json",
+      "kind": "footage",
+      "origin": "Native runtime, Platforms b655fe2afcceda79d271a993eaec780f6c3b009e (Core f2978da3, Applications a8ed9a4b), Pixel Painter 0.1.0 WASM guest; xila-debug screenshot loop, 2026-11-11; see productions/launch-film/capture.json",
+      "author": "Xila contributors; capture by Xila Media",
+      "license": "Apache-2.0 AND OFL-1.1",
+      "sha256": "fa7e90f11f8516f24a21c8033779463f465243f3ba0df34d0dbbe1a1331686e8",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "id": "footage-native-003-drawing",
+      "file": "assets/footage/native-003-drawing/manifest.json",
+      "kind": "footage",
+      "origin": "Native runtime, Platforms b655fe2afcceda79d271a993eaec780f6c3b009e (Core f2978da3, Applications a8ed9a4b), Pixel Painter 0.1.0 WASM guest; xila-debug screenshot loop, 2026-11-11; see productions/launch-film/capture.json",
+      "author": "Xila contributors; capture by Xila Media",
+      "license": "Apache-2.0 AND OFL-1.1",
+      "sha256": "afb340b37aceff8be51f134486eb30d26322f636a955ea2a1cb673acf535ad7d",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "id": "footage-native-003-activity",
+      "file": "assets/footage/native-003-activity/manifest.json",
+      "kind": "footage",
+      "origin": "Native runtime, Platforms b655fe2afcceda79d271a993eaec780f6c3b009e (Core f2978da3, Applications a8ed9a4b), Pixel Painter 0.1.0 WASM guest; xila-debug screenshot loop, 2026-11-11; see productions/launch-film/capture.json",
+      "author": "Xila contributors; capture by Xila Media",
+      "license": "Apache-2.0 AND OFL-1.1",
+      "sha256": "8d913c8dc2337cff4ea59d3afe9fbbc050ba48182cefb0d596f487317916c53f",
+      "width": 1280,
+      "height": 800
     }
   ]
 }

@@ -1,0 +1,90 @@
+{
+  "name": "native-003-activity",
+  "width": 1280,
+  "height": 800,
+  "frameCount": 16,
+  "durationSeconds": 3.076616448,
+  "timestampMeaning": "Midpoint of screenshot client request/response interval, not a runtime presentation timestamp; exact sample lies within request bounds. No synthetic frames.",
+  "frames": [
+    {
+      "file": "000000.png",
+      "sha256": "7230d502d581229df1944ad9f10fcc993b21ae6e6c4e81579819772d5d6e2a57",
+      "time": 0.099219768
+    },
+    {
+      "file": "000001.png",
+      "sha256": "1af7374957b57fca813e367cb2c8fd0169ab360e3774c6cda1919dc8e04aa994",
+      "time": 0.293199826
+    },
+    {
+      "file": "000002.png",
+      "sha256": "1af7374957b57fca813e367cb2c8fd0169ab360e3774c6cda1919dc8e04aa994",
+      "time": 0.473015449
+    },
+    {
+      "file": "000003.png",
+      "sha256": "dff05583b81d93897212cdded06595daa4615a33d88d5016ff6618e8921effd7",
+      "time": 0.6534738665
+    },
+    {
+      "file": "000004.png",
+      "sha256": "2988c05de4ff2e89335e66f627765decc103b0e1a065bd5198be52da1a6bfe93",
+      "time": 0.8841528725
+    },
+    {
+      "file": "000005.png",
+      "sha256": "c1c304d06ee8aefd2c6d3e72345b3c4aa85338988b31dc5e21f4fe049f941ff8",
+      "time": 1.1114471135
+    },
+    {
+      "file": "000006.png",
+      "sha256": "91713d3e1aeac942232e66bfad6302aa9741e8a7ec312e31e5ffe55c8222506e",
+      "time": 1.299464371
+    },
+    {
+      "file": "000007.png",
+      "sha256": "91713d3e1aeac942232e66bfad6302aa9741e8a7ec312e31e5ffe55c8222506e",
+      "time": 1.4965425345
+    },
+    {
+      "file": "000008.png",
+      "sha256": "e68f64f4c6d7e737a0701a3ef802429107813999b7fac6a53ed67037e0cd833f",
+      "time": 1.691078114
+    },
+    {
+      "file": "000009.png",
+      "sha256": "68713db86125b652e0bec37053668c5d6b03d4c9fb3ed270c01351b0cf7917c5",
+      "time": 1.8802714115
+    },
+    {
+      "file": "000010.png",
+      "sha256": "72fef5f494e9140ce6a79301d1584a3ddecf283008212c3850a0975084d8b2c2",
+      "time": 2.0681111605
+    },
+    {
+      "file": "000011.png",
+      "sha256": "72fef5f494e9140ce6a79301d1584a3ddecf283008212c3850a0975084d8b2c2",
+      "time": 2.2346953765
+    },
+    {
+      "file": "000012.png",
+      "sha256": "832a1d3ebca7e3d32ba71cd902bc7d909930c12740480028535fc6a862d411c5",
+      "time": 2.412283915
+    },
+    {
+      "file": "000013.png",
+      "sha256": "71df54f3560d55e5135a8f64889f18b6cd55d152fa5fc572fe4ba07353a8d32b",
+      "time": 2.608868082
+    },
+    {
+      "file": "000014.png",
+      "sha256": "04e1e476b72faaa0df0712c1b501797f7d98dea1b417295cb65f9f1e2e025b8a",
+      "time": 2.79366566
+    },
+    {
+      "file": "000015.png",
+      "sha256": "04e1e476b72faaa0df0712c1b501797f7d98dea1b417295cb65f9f1e2e025b8a",
+      "time": 2.980631363
+    }
+  ]
+}

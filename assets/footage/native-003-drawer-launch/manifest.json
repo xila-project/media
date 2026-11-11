@@ -1,0 +1,110 @@
+{
+  "name": "native-003-drawer-launch",
+  "width": 1280,
+  "height": 800,
+  "frameCount": 20,
+  "durationSeconds": 3.654934467,
+  "timestampMeaning": "Midpoint of screenshot client request/response interval, not a runtime presentation timestamp; exact sample lies within request bounds. No synthetic frames.",
+  "frames": [
+    {
+      "file": "000000.png",
+      "sha256": "3bc947190352ad2f03b51b1b61e4647810e42c544e0d8a107e6f6e8e2e09c8bc",
+      "time": 0.0831413015
+    },
+    {
+      "file": "000001.png",
+      "sha256": "3bc947190352ad2f03b51b1b61e4647810e42c544e0d8a107e6f6e8e2e09c8bc",
+      "time": 0.256490346
+    },
+    {
+      "file": "000002.png",
+      "sha256": "3bc947190352ad2f03b51b1b61e4647810e42c544e0d8a107e6f6e8e2e09c8bc",
+      "time": 0.4393079925
+    },
+    {
+      "file": "000003.png",
+      "sha256": "3bc947190352ad2f03b51b1b61e4647810e42c544e0d8a107e6f6e8e2e09c8bc",
+      "time": 0.609857779
+    },
+    {
+      "file": "000004.png",
+      "sha256": "51dcf61226dfc994d56ede96a93546962c2c92b8ab29fe2fb1609a0cb5e8eb41",
+      "time": 0.7828614525
+    },
+    {
+      "file": "000005.png",
+      "sha256": "d3cfdf2db52771a394917e1a6ba4f777410c93a8b5bb2da7635f2acf13585b5d",
+      "time": 0.970559084
+    },
+    {
+      "file": "000006.png",
+      "sha256": "3dd27f8510f0a2f3d48addfae8d03f2e102d8064d65ece5468022b4c5ad0215e",
+      "time": 1.1542485575
+    },
+    {
+      "file": "000007.png",
+      "sha256": "bdbc7756623f8fed1e0eff5f2932166319d21da4d554ec79706434bf9d147fb4",
+      "time": 1.329423171
+    },
+    {
+      "file": "000008.png",
+      "sha256": "631b521764c82a88e67c4d806e9ab7a6a40d53ffbbeb4b7a1da30747f140cfef",
+      "time": 1.4979699045
+    },
+    {
+      "file": "000009.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 1.6794213925
+    },
+    {
+      "file": "000010.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 1.866095
+    },
+    {
+      "file": "000011.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 2.0420677435
+    },
+    {
+      "file": "000012.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 2.2156310505
+    },
+    {
+      "file": "000013.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 2.390590196
+    },
+    {
+      "file": "000014.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 2.5665433135
+    },
+    {
+      "file": "000015.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 2.7462934625
+    },
+    {
+      "file": "000016.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 2.925004978
+    },
+    {
+      "file": "000017.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 3.1088847235
+    },
+    {
+      "file": "000018.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 3.3031686075
+    },
+    {
+      "file": "000019.png",
+      "sha256": "9f1b758ddb4121013eee93dabf1672f52a52f54ccd6f03bce4ebb712be16c148",
+      "time": 3.5276679775
+    }
+  ]
+}
