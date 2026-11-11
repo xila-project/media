@@ -34,5 +34,13 @@
       "name": "outro",
       "duration": 3
     }
-  ]
+  ],
+  "screens": {
+    "main": {
+      "asset": null,
+      "width": 1280,
+      "height": 720,
+      "position": [0, 30]
+    }
+  }
 }

@@ -2,6 +2,7 @@
 import ast
 import hashlib
 import json
+import math
 from pathlib import Path
 import re
 import subprocess
@@ -45,6 +46,20 @@ def validate():
             raise ValueError('Catalog entries must be source assets outside the brand cache')
         if hashlib.sha256(path.read_bytes()).hexdigest()!=asset['sha256']:
             raise ValueError(f'Asset hash mismatch: {path}')
+    by_id = {asset['id']: asset for asset in assets}
+    for path in (ROOT/'productions').glob('*/production.json'):
+        production = json.loads(path.read_text())
+        for name, slot in production.get('screens', {}).items():
+            dimensions = [slot['width'], slot['height']]
+            position = slot['position']
+            if any(not isinstance(value, (int, float)) or not math.isfinite(value) or value <= 0 for value in dimensions):
+                raise ValueError(f'Invalid screen dimensions: {path}/{name}')
+            if len(position) != 2 or any(not isinstance(value, (int, float)) or not math.isfinite(value) for value in position):
+                raise ValueError(f'Invalid screen position: {path}/{name}')
+            if slot['asset'] is not None:
+                asset = by_id.get(slot['asset'])
+                if not asset or asset['kind'] != 'image' or any(not isinstance(asset.get(key), (int, float)) or not math.isfinite(asset[key]) or asset[key] <= 0 for key in ['width', 'height']):
+                    raise ValueError(f'Screen requires a catalog image with dimensions: {path}/{name}')
     footage=trailer['footage']
     if footage:
         if trailer['footageStatus']!='recorded' or not any('/'+a['file']==footage and a['kind']=='footage' for a in assets):

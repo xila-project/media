@@ -29,6 +29,8 @@ npm run lint
 
 Individual scenes can be rendered with `npm run render -- --scene architecture --resolution 1280x720 --fps 30`. Video outputs are H.264 MP4; source frame sequences and generated media stay under ignored `output/`.
 
+See the [replaceable screen workflow](docs/screens.md) for importing screenshots, preserving framing and assembling independent sections.
+
 See the [bootsplash reference](docs/bootsplash.md) and [cinematic study notes](productions/cinematic-opening/README.md). The startup fixture is a technical test, not approved sonic branding. [ElevenLabs startup candidates](productions/startup/README.md) are available for listening review; see the [optional audio workflow](docs/elevenlabs.md). No ElevenLabs access or paid generation is required for any build.
 
 ## Source and licensing
