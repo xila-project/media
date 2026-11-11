@@ -1,0 +1,11 @@
+{
+  "name": "rust-core",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 10,
+  "copy": "Built in Rust.",
+  "scenarioStart": 18,
+  "review": "004"
+}

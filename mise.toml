@@ -51,3 +51,6 @@ run = "python3 scripts/render_product.py --production architecture-reveal"
 
 [tasks."render:final-reveal"]
 run = "npm run render -- --production final-reveal"
+
+[tasks."render:rust-core"]
+run = "npm run render -- --production rust-core"

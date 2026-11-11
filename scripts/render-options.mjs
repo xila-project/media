@@ -18,23 +18,22 @@ export function renderOptions(args) {
     },
   });
   const { production, preset, scene } = values;
-  const settings =
-    production === "final-reveal"
-      ? JSON.parse(
-          readFileSync(
-            new URL(
-              "../productions/final-reveal/production.json",
-              import.meta.url,
-            ),
-            "utf8",
+  const settings = ["final-reveal", "rust-core"].includes(production)
+    ? JSON.parse(
+        readFileSync(
+          new URL(
+            `../productions/${production}/production.json`,
+            import.meta.url,
           ),
-        )
-      : config;
+          "utf8",
+        ),
+      )
+    : config;
   values.resolution ??= `${settings.width}x${settings.height}`;
   values.fps ??= String(settings.fps);
 
   if (
-    !["trailer", "logo", "final-reveal"].includes(production) ||
+    !["trailer", "logo", "final-reveal", "rust-core"].includes(production) ||
     !["1920x1080", "1280x720", "960x540"].includes(values.resolution) ||
     ![24, 30, 60].includes(Number(values.fps)) ||
     !["fast", "medium", "slow"].includes(preset)
@@ -53,12 +52,11 @@ export function renderOptions(args) {
     width,
     height,
     fps: Number(values.fps),
-    duration:
-      production === "final-reveal"
-        ? settings.duration
-        : production === "logo"
-          ? config.scenes[0].duration
-          : (selected?.duration ?? config.duration),
+    duration: ["final-reveal", "rust-core"].includes(production)
+      ? settings.duration
+      : production === "logo"
+        ? config.scenes[0].duration
+        : (selected?.duration ?? config.duration),
     outputName: scene ?? production,
   };
 }

@@ -9,6 +9,7 @@ import "./global.css";
 import trailerProject from "./projects/trailer?project";
 import logoProject from "./projects/logo?project";
 import finalProject from "./projects/final-reveal?project";
+import rustProject from "./projects/rust-core?project";
 declare global {
   interface Window {
     saveFrame: (frame: number, data: string) => Promise<void>;
@@ -34,6 +35,7 @@ window.runRender = async ({
     trailer: trailerProject,
     logo: logoProject,
     "final-reveal": finalProject,
+    "rust-core": rustProject,
   };
   const project = { ...projects[production] };
   if (scene)

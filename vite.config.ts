@@ -13,6 +13,7 @@ export default defineConfig({
         "./motion-canvas/projects/trailer.ts",
         "./motion-canvas/projects/logo.ts",
         "./motion-canvas/projects/final-reveal.ts",
+        "./motion-canvas/projects/rust-core.ts",
       ],
     }),
   ],
