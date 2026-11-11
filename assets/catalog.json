@@ -43,6 +43,17 @@
       "sha256": "aaff38470323d577dac084220585c3aeb880cd2b438a58a47e9f72f946910445",
       "width": 1280,
       "height": 800
+    },
+    {
+      "id": "material-surface-imperfections-015-roughness",
+      "file": "assets/images/materials/surface-imperfections-015-roughness.jpg",
+      "kind": "image",
+      "origin": "ambientCG SurfaceImperfections015 (https://ambientcg.com/a/SurfaceImperfections015), 2K-JPG roughness map; source archive sha256 00f704bfac5d731ad8dfa87d24d31b2bda31542604dac06d1d00e90e3b82dcce",
+      "author": "ambientCG",
+      "license": "CC0-1.0",
+      "sha256": "f0a9e98b9acbfa1aad8df6328edeec672ffd224b6f644bb40549d0581eadff30",
+      "width": 2048,
+      "height": 2048
     }
   ]
 }

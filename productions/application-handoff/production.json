@@ -1,13 +1,13 @@
 {
   "name": "application-handoff",
-  "status": "subject-and-material-study",
-  "review": "006",
+  "status": "art-direction-study",
+  "review": "007",
   "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
   "width": 960,
   "height": 540,
   "fps": 30,
-  "duration": 6,
-  "samples": 24,
+  "duration": 8,
+  "samples": 48,
   "application": "pixel_painter.wasm",
   "screens": {
     "result": {
@@ -17,30 +17,128 @@
       "position": [0, 0]
     }
   },
+  "reviewFeedback": {
+    "006": "Slide-like card, diagram line and late, small result; overall art direction too weak"
+  },
+  "strokes": {
+    "source": "Centerlines measured from the pinned result capture (pixel coordinates, 30 px strokes)",
+    "width": 30,
+    "paths": [
+      [
+        [318, 601],
+        [422.5, 601],
+        [422.5, 380],
+        [631, 380],
+        [631, 273],
+        [956, 273]
+      ],
+      [
+        [318, 642],
+        [470, 642],
+        [470, 427],
+        [679, 427],
+        [679, 321],
+        [956, 321]
+      ],
+      [
+        [318, 678],
+        [518, 678],
+        [518, 481],
+        [732, 481],
+        [732, 368],
+        [956, 368]
+      ]
+    ]
+  },
   "camera": [
     {
       "time": 0,
-      "position": [-4, 1, 2.9],
-      "target": [-3.2, 0, 0.5],
-      "lens": 48
+      "position": [-7.0, -4.9, 0.55],
+      "target": [-5.1, -2.1, 0.0],
+      "lens": 50,
+      "fstop": 2.0,
+      "focus": [-5.3, -2.6, 0]
     },
     {
-      "time": 2,
-      "position": [-1.4, 2, 6.5],
-      "target": [-0.4, 0, 0],
-      "lens": 45
+      "time": 1.8,
+      "position": [-4.6, -4.6, 0.45],
+      "target": [-2.5, -2.0, 0.05],
+      "lens": 55,
+      "fstop": 2.2,
+      "focus": [-3.3, -2.2, 0]
     },
     {
-      "time": 3.8,
-      "position": [2.5, 1.8, 9.7],
-      "target": [1.1, 0, 0],
-      "lens": 43
+      "time": 3.6,
+      "position": [-2.2, -6.4, 1.1],
+      "target": [1.0, -0.6, 0.15],
+      "lens": 48,
+      "fstop": 2.8,
+      "focus": [0.3, -0.9, 0]
     },
     {
-      "time": 6,
-      "position": [2, 1.5, 9.2],
-      "target": [1.1, 0, 0],
-      "lens": 43
+      "time": 5.8,
+      "position": [-9.0, -15.0, 4.8],
+      "target": [0.2, 0.8, 1.0],
+      "lens": 40,
+      "fstop": 6.3,
+      "focus": [0.0, 0.4, 0.4]
+    },
+    {
+      "time": 8,
+      "position": [-8.7, -14.6, 4.6],
+      "target": [0.2, 0.8, 1.0],
+      "lens": 40,
+      "fstop": 6.3,
+      "focus": [0.0, 0.4, 0.4]
     }
-  ]
+  ],
+  "haze": 0.004,
+  "lightStrength": 3.2,
+  "labelStrength": 0.4,
+  "bloom": 0.35,
+  "vignette": 0.55,
+  "floor": {
+    "metresPerPixel": 0.0126,
+    "originPixel": [637, 478],
+    "tile": 4,
+    "roughnessAsset": "material-surface-imperfections-015-roughness",
+    "roughnessRange": [0.05, 0.32],
+    "textureMetres": 6
+  },
+  "mark": {
+    "center": [-5.32, -2.03],
+    "width": 1.6,
+    "plate": 2.6,
+    "strength": 1.4
+  },
+  "monolith": {
+    "frontY": 3.4,
+    "entryX": [4.4, 4.8, 5.2],
+    "centerX": 4.8,
+    "width": 6.0,
+    "height": 3.75,
+    "depth": 0.3,
+    "base": 0.25
+  },
+  "label": {
+    "center": [8.6, 3.0],
+    "width": 1.8
+  },
+  "execution": {
+    "start": 0.8,
+    "stagger": 0.14,
+    "speed": 4.0,
+    "minimumSegment": 0.28,
+    "pause": 0.18
+  },
+  "reveal": {
+    "delay": 0.15,
+    "duration": 0.6,
+    "strength": 1.0
+  },
+  "lights": [
+    ["Backlight", [5, 20, 8], [4.5, 3, 1.5], 1800, 6],
+    ["Low rim", [-14, -1, 1.2], [0, 1, 0.6], 250, 3]
+  ],
+  "lightWidth": 0.72
 }

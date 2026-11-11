@@ -37,15 +37,16 @@ try {
       );
       document.fonts.add(await face.load());
       const canvas = document.createElement("canvas");
-      canvas.width = 1300;
-      canvas.height = 800;
+      // A single engraved filename: supporting detail, not a headline.
+      canvas.width = 2048;
+      canvas.height = 256;
       const context = canvas.getContext("2d");
       context.fillStyle = "#ffffff";
       context.textAlign = "center";
-      context.font = "600 140px Montserrat";
-      context.fillText("Application", 650, 310);
-      context.font = "500 80px Montserrat";
-      context.fillText(name, 650, 565);
+      context.textBaseline = "middle";
+      context.letterSpacing = "12px";
+      context.font = "500 120px Montserrat";
+      context.fillText(name, 1024, 128);
       return canvas.toDataURL("image/png").split(",")[1];
     },
     { font, name: config.application },
