@@ -43,7 +43,7 @@ These are source references for editorial development. Existing captures have th
 
 **Visual proposal for 01:01–01:13** — Three different resource forms join a common route. A single request follows that route to its selected endpoint. Distinct endpoint responses make the relationship legible while keeping the composition abstract. This gives the coherent-system passage a concrete subject beyond another generic activation montage.
 
-**Possible small diagram labels** — `Files`, `Devices`, `Pipes`. Submit these with the passage's composition review before adding them to the scenario copy sheet.
+**Possible small diagram labels** — `Files`, `Devices`, `Pipes`. These appear as supporting labels in scenario draft 2 and need a rendered composition review.
 
 **Evidence** — [VFS explanation and request flow](https://github.com/xila-project/website/blob/f3517f247ec52896e8a6bf508631a2e65ea0a590/src/content/docs/explanation/architecture/subsystems/virtual_file_system.mdx), [file operations](https://github.com/xila-project/core/blob/a9b1324a32e4093ebbeaad81fea9994136e528d5/subsystems/virtual_file_system/src/file.rs), [synchronous file API](https://github.com/xila-project/core/blob/a9b1324a32e4093ebbeaad81fea9994136e528d5/subsystems/virtual_file_system/src/synchronous_file.rs).
 
@@ -62,4 +62,4 @@ Sources include [Digits](https://github.com/xila-project/applications/blob/0f89b
 
 Develop the next WebAssembly passage around execution, the graphics bridge and a real application round trip. Use the shared-resource namespace to give the later coherent-system sequence a distinct visual purpose. Keep Digits and package installation as candidates until their capture workloads are verified and their relevance to the edit is reviewed.
 
-The existing headline set remains the scenario's approved editorial draft. This evidence brief adds source-backed subjects and capture requirements; its proposed diagrams and supporting labels still need a rendered creative review.
+The current headline set is maintained in SCENARIO.md as an editorial draft. This evidence brief adds source-backed subjects and capture requirements; its proposed diagrams and supporting labels still need a rendered creative review.

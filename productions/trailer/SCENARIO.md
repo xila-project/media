@@ -1,10 +1,18 @@
 # Xila — two-minute trailer scenario
 
-**Editorial draft 1 · 120 seconds · English · 1920×1080 · 30 FPS**
+**Editorial draft 2 · 120 seconds · English · 1920×1080 · 30 FPS**
 
 The film moves from discovering an identity to witnessing a system come alive, then opens outward into its possibilities. Xila's geometry, material, camera and sound carry the story. Actual software appears in brief, purposeful glimpses. The final impression should be controlled power and engineering ambition.
 
 Proposed editorial choices are an instrumental score, sparse on-screen copy and a closing invitation to explore the project. Narration is omitted from this draft. The existing opening and kinetic study establish the visual language. The current five-second ending supplies identity assets and composition for a longer final landing.
+
+## Audience and tone
+
+The film should persuade a curious viewer, an engineer and a decision-maker in the same viewing. Establish what Xila is early, make its ambition tangible through motion and real cause-and-effect, and let technical viewers discover depth in the supporting detail. Its public-facing story is an operating system built to be built upon: a Rust foundation, WebAssembly applications, an embedded-system purpose and open source.
+
+Confidence comes from decisive transitions, monumental framing, precise movement and room to breathe. The film should feel sleek, modern and slightly arrogant. Reserve the largest typography for the plain-language story; use technical names as supporting detail. Every new passage must introduce a distinct action or relationship so two minutes have progression and variety.
+
+The finished artifact should also demonstrate the quality of the engineering and creative execution to a prospective employer or collaborator. Keep the film focused on Xila; document individual production contributions and technical implementation in the repository's case-study material.
 
 ## Scenario
 
@@ -24,7 +32,7 @@ The camera pulls back. Five elements resolve into Xila. At 00:05.3 the camera se
 
 Cut on the end of the ripple to a close, low view of dark modules arriving into precise alignment. Their edges catch white light. The camera accelerates through the assembly, then changes elevation as a second structure forms above it.
 
-Signal paths draw upward in three deliberate gestures. Bright pulses travel through them. The camera reveals the whole layered structure, with the official mark anchored in its foundation. A single application glimpse appears briefly in the upper layer, then recedes.
+Signal paths draw upward in three deliberate gestures. Bright pulses travel through them. The camera reveals the whole layered structure, with the official mark anchored in its foundation. A single application glimpse appears briefly in the upper layer at 00:13.9–00:14.8, then recedes.
 
 The final two seconds carry us toward one illuminated route, setting up the next shot.
 
@@ -34,29 +42,32 @@ The final two seconds carry us toward one illuminated route, setting up the next
 
 **Production** — Develop the approved seven-second kinetic study into this ten-second passage through an additional route-tracking shot. Preserve the conceptual nature of the structure and the mark's clear space.
 
-### 00:18–00:28 — Rust at the core
+### 00:18–00:28 — An operating system
 
 Follow the illuminated route into a dense, ordered field. The camera starts almost level with the surface. Elements lock together in successive rows, exposing a solid central foundation.
 
-At 00:21, the camera passes a dark foreground edge. The words **“Built in Rust.”** emerge in the space it reveals. Typography and geometry share a single moving composition.
+At 00:19, the camera passes a dark foreground edge. **“An operating system.”** emerges in the space it reveals, giving every viewer a clear subject. At 00:21, the smaller supporting line **“Built in Rust.”** resolves beside the foundation. Typography and geometry share a single moving composition.
 
 Let the words settle for about two seconds while activity continues behind them. The camera travels beyond the text, following a pulse out of the foundation.
 
 **Sound** — Add a lower-midrange harmonic layer. Attacks remain rounded, with a firm rhythmic placement. One clear accent marks the foundation completing.
 
-**Copy** — `Built in Rust.`
+**Copy** — Primary `An operating system.` Supporting `Built in Rust.`
 
 ### 00:28–00:40 — Execution
 
 Match the outgoing pulse to an approaching sequence of thin frames. They unfold into an ordered runtime structure. Change the camera's direction decisively, with one fast lateral move followed by a precise landing.
 
-Small application modules move through this structure. Each crosses the same threshold, then becomes active. Their shapes remain abstract. At 00:32, **“WebAssembly applications.”** enters along the direction of travel and holds until 00:35.
+- **00:28–00:32** — One application module enters the runtime structure. A signal advances in deliberate stages, pauses briefly at a boundary, then resumes. This draws on the runtime's metered cooperative execution. The animation's speeds and intervals are artistic choices.
+- **00:32–00:35** — **“Built to be built upon.”** lands as the main line. Smaller **“WebAssembly applications.”** identifies the mechanism. Additional modules enter through the same interface, establishing a foundation people can extend.
+- **00:35–00:39.2** — Select one module. A pointer-like impulse enters it and an indexed drawing surface responds. Follow the request and the returning visual update through different depths, giving the viewer a clear cause and effect.
+- **00:39.2–00:40** — Its face resolves into the first real frame of the native app drawer. Continue directly into the recorded launch gesture.
 
-The camera selects one module and approaches it. Its face becomes a real application capture, establishing the connection between the conceptual animation and working software.
+**Sound** — Introduce a fine synthetic ostinato and a higher harmonic register. Place a small, consistent accent on each major execution handoff and the returning visual response.
 
-**Sound** — Introduce a fine synthetic ostinato and a higher harmonic register. Synchronize the threshold crossings with a small family of related sounds.
+**Copy** — Primary `Built to be built upon.` Supporting `WebAssembly applications.`
 
-**Copy** — `WebAssembly applications.`
+**Evidence** — The runtime's fuel replenishment and Pixel Painter's pointer/canvas operations ground this passage. See [execution and graphics evidence](CONTENT-EVIDENCE.md). Keep fuel counts, animation speeds and module counts conceptual. Capture the drawer and app with a verified compatible host/guest pair.
 
 ### 00:40–00:49 — A brief proof of life
 
@@ -90,17 +101,18 @@ At 00:57, the geometry opens outward. Several differently proportioned execution
 
 ### 01:01–01:13 — A coherent system
 
-A continuous camera move crosses three related operations: a route opens, a module activates, a surface responds. Use different scales and depths to establish relationships across the structure.
+A continuous camera move follows one request through a shared resource namespace. Three visually distinct endpoints occupy different depths: a file surface, a device form and a pipe-like channel. Their routes meet at one junction and diverge cleanly toward the selected resource.
 
-At 01:06, insert one short observation from the current native session: an actual task or allocator display changing during a controlled workload. Keep it to approximately two seconds and retain the real labels and values.
+- **01:01–01:05** — Follow a request toward `/data`. Show the junction resolve its destination, then trace the response back. Small labels `Files`, `Devices` and `Pipes` make the relationships discoverable for technical viewers. The shared route and differing responses carry the visual story for everyone else.
+- **01:05–01:06** — The returning response becomes a pulse that leads into a real native session.
+- **01:06–01:08** — Briefly show the actual task or allocator display changing during a controlled workload. Retain its real labels and values.
+- **01:08–01:13** — Return to the resource forms on a matching movement. A request reaches each in succession, then their responses align into one coordinated visual event.
 
-Return to the abstract structure on a matching movement. The system-wide motion resolves into one coordinated event.
+**Sound** — Interlocking rhythmic parts arrive with the distinct endpoints. Their combined pattern becomes clear at the coordinated event. Select a few defining accents.
 
-**Sound** — Interlocking rhythmic parts arrive one at a time. Their combined pattern becomes clear at the coordinated event. Avoid sound on every small object.
+**Copy** — Supporting diagram labels `Files`, `Devices`, `Pipes`.
 
-**Copy** — None.
-
-**Capture** — Record the current activity view during a reproducible native workload. Treat its values as observations of that session. The surrounding animation illustrates coordination without asserting measured performance.
+**Evidence and capture** — The VFS supplies a shared namespace and routes operations to mounted backends using task/user context and access policy. See [VFS evidence](CONTENT-EVIDENCE.md). The routes illustrate that relationship. Record the activity view during a reproducible native workload; its values describe that session. The combined sequence communicates coherence without making a performance claim.
 
 ### 01:13–01:25 — Open source
 
@@ -122,7 +134,7 @@ The fastest passage of the film. Build a sequence of six distinct shots, predomi
 2. A low-angle view of modules arriving into alignment.
 3. An overhead view that makes their larger pattern readable.
 4. A lateral sweep across successive activation points.
-5. A brief real application response, lasting about one second, embedded within the moving composition.
+5. A one-second recorded completion of the same Pixel Painter action, embedded within the moving composition. Match the final stroke to the direction of the abstract signal.
 6. A wide view in which the preceding movements converge into a single precise alignment.
 
 Each cut advances the action. Use match directions and complementary scales so the viewer can follow the progression.
@@ -181,9 +193,12 @@ All editorial copy is English. Use official Montserrat for generated typography 
 
 | First appearance | Copy                             | Intended readable interval          |
 | ---------------- | -------------------------------- | ----------------------------------- |
+| 00:19            | An operating system.             | Approximately 00:19.5–00:24         |
 | 00:21            | Built in Rust.                   | Approximately 00:21.5–00:24         |
+| 00:32            | Built to be built upon.          | Approximately 00:32.5–00:35         |
 | 00:32            | WebAssembly applications.        | Approximately 00:32.5–00:35         |
 | 00:52            | For embedded systems.            | Approximately 00:52.5–00:55.5       |
+| 01:02            | Files · Devices · Pipes          | Approximately 01:02–01:05           |
 | 01:16            | Open source.                     | Approximately 01:16.5–01:19         |
 | 01:48            | Official Xila lockup             | Settled approximately 01:51–01:59.4 |
 | 01:52            | An open-source operating system. | Approximately 01:52.5–01:59.4       |
@@ -196,7 +211,7 @@ Use the [content evidence brief](CONTENT-EVIDENCE.md) for revision-pinned source
 - Preserve the reviewed opening and shared Core bootsplash timing. Develop the kinetic study through additional camera coverage and purposeful actions; the 120-second film needs its own pacing.
 - Keep the official mark's geometry exact. Preserve settled clear space, monochrome materials and controlled lighting. Rotation belongs to the camera and surrounding objects; the mark retains its orientation.
 - Keep sequences independently renderable. Store copy, camera keys, timing, asset IDs and source revisions in production configuration. Replacing a screen capture must preserve the surrounding animation.
-- Capture only a few useful software moments. Allocate nine seconds of direct GUI action across the full film: six seconds for launch and drawing at 00:40–00:46, two seconds for activity metrics around 01:06, and one second for the application response during escalation. This is 7.5% of the film. Brief supporting illustrations within the abstract geometry are tracked separately.
+- Capture only a few useful software moments. Allocate nine seconds of direct GUI action across the full film: six seconds for launch and drawing at 00:40–00:46, two seconds for activity metrics around 01:06, and one second for the application response during escalation. This is 7.5% of the film. Supporting illustrations occupy a separate 1.7-second budget: 00:13.9–00:14.8 and 00:39.2–00:40. Total software visibility is approximately 10.7 seconds, or 8.9% of the film.
 - Record host Core/Applications pins, guest bundle versions, provenance and licensing. Use actual recordings for action shots and inspect them before editorial assembly.
 - Abstract modules, signal counts and routes are artistic representations of software relationships. Any proposed hardware or performance claim requires supporting verification before it enters the film.
 - Review the new 00:18–00:40 motion passage first, then the first software transition, then the larger middle section and the complete edit. Render each creative stage for review before expanding it.
