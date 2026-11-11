@@ -21,6 +21,7 @@ Node 24.22.0, Python 3.13.18 and FFmpeg 7.1.1 are pinned. Blender 4.5.15 is acti
 mise run render:logo                 # Reviewed Core bootsplash adaptation
 mise run render:trailer              # Earlier 15-second pipeline proof of concept
 mise run render:cinematic-opening    # Eight-second camera, material and bootsplash study
+mise run render:product-reveal       # Six-second passage with replaceable native captures
 mise run render:startup              # Synthetic fixture and normalized WAV exports
 npm test
 npm run typecheck
@@ -29,10 +30,12 @@ npm run lint
 
 Individual scenes can be rendered with `npm run render -- --scene architecture --resolution 1280x720 --fps 30`. Video outputs are H.264 MP4; source frame sequences and generated media stay under ignored `output/`.
 
+The [cinematic product study](productions/product-reveal/README.md) adds native Xila captures on animated 3D surfaces.
+
 See the [replaceable screen workflow](docs/screens.md) for importing screenshots, preserving framing and assembling independent sections.
 
 See the [bootsplash reference](docs/bootsplash.md) and [cinematic study notes](productions/cinematic-opening/README.md). The startup fixture is a technical test, not approved sonic branding. [ElevenLabs startup candidates](productions/startup/README.md) are available for listening review; see the [optional audio workflow](docs/elevenlabs.md). No ElevenLabs access or paid generation is required for any build.
 
 ## Source and licensing
 
-Code is Apache-2.0. Brand assets retain the upstream Apache-2.0 notices; Montserrat retains SIL OFL 1.1. Resolve them with `npm run brand:sync` or `python3 scripts/brand.py --local ../brand`. Imported recordings and audio need explicit provenance in `assets/catalog.json`; no genuine footage is bundled yet. Never commit credentials or generated renders.
+Code is Apache-2.0. Brand assets retain the upstream Apache-2.0 notices; Montserrat retains SIL OFL 1.1. Resolve them with `npm run brand:sync` or `python3 scripts/brand.py --local ../brand`. Imported recordings and audio need explicit provenance in `assets/catalog.json`; native screenshot sources are bundled for the product study; moving screen recordings remain to be captured. Never commit credentials or generated renders.
