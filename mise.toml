@@ -43,3 +43,8 @@ run = ["blender --background --factory-startup --python-exit-code 1 --python ble
 description = "Render the modular cinematic product passage, using CUDA when available"
 tools = { "aqua:blender/blender" = "4.5.15" }
 run = "python3 scripts/render_product.py"
+
+[tasks."render:architecture-reveal"]
+description = "Render the kinetic architecture study with a brief native-session illustration"
+tools = { "aqua:blender/blender" = "4.5.15" }
+run = "python3 scripts/render_product.py --production architecture-reveal"

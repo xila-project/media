@@ -21,7 +21,7 @@
 - Use Motion Canvas and TypeScript for 2D scenes and typography, Blender `bpy` for optional 3D work, and the shared FFmpeg scripts for assembly and audio processing.
 - Keep production settings and brand/reference pins in `productions/*/production.json`. Put reusable components in `motion-canvas/components` and reusable scene scripts in `blender/scripts`.
 - Use the exact versions in `mise.toml` and `package-lock.json`. Blender must remain optional for purely 2D work. Python scripts currently need only the standard library.
-- Preview with `mise run preview`. Render the bootsplash with `mise run render:logo`; render the current cinematic study with `mise run render:cinematic-opening`.
+- Preview with `mise run preview`. Render the bootsplash with `mise run render:logo`; render the opening with `mise run render:cinematic-opening` and the current kinetic passage with `mise run render:architecture-reveal`.
 - `productions/cinematic-opening/README.md` records the current visual review and reference-access limitations. The earlier trailer is a pipeline proof of concept, not the completed cinematic launch film.
 - Prefer existing helpers and focused functions. Add dependencies only for a demonstrated need; do not introduce Docker or duplicate FFmpeg commands.
 
@@ -35,7 +35,7 @@
 
 ## Assets, licensing and credentials
 
-- Record imported source provenance, author, license, origin and hash in `assets/catalog.json`. Mark missing footage as a visible placeholder. Never invent a functioning Xila interface.
+- Record imported source provenance, author, license, origin and hash in `assets/catalog.json`. For native captures, verify the actual locked Core and Applications revisions and record the guest bundle release separately from the host revision. Mark missing footage as a visible placeholder. Never invent a functioning Xila interface.
 - Keep source recordings and original audio outside generated-output directories. Generated frames, Blender files, WAV exports and videos belong under ignored `output/` and are not committed.
 - Code is Apache-2.0. Preserve upstream brand notices and Montserrat's SIL OFL notice; imported media retains its own license.
 - ElevenLabs is optional and must not be required by local builds or CI. Never consume credits without explicit approval and a budget. The synthetic startup fixture is a technical test, not approved sonic branding.

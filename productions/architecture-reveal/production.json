@@ -1,0 +1,99 @@
+{
+  "name": "architecture-reveal",
+  "status": "motion-study",
+  "review": "002",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "duration": 7,
+  "samples": 24,
+  "screens": {
+    "application": {
+      "asset": "screen-ad6d93688499941ed49ecc6f361033b648f413dd47ce8e5c9269f48d87a89613",
+      "width": 1280,
+      "height": 800,
+      "position": [0, 0]
+    }
+  },
+  "layers": [
+    {
+      "label": "Rust core",
+      "center": [0, 0, 0],
+      "arrival": 0.25
+    },
+    {
+      "label": "WebAssembly",
+      "center": [0, 0.5, 1.7],
+      "arrival": 1.7
+    },
+    {
+      "label": "Applications",
+      "center": [0, 1, 3.4],
+      "arrival": 3.15
+    }
+  ],
+  "illustration": {
+    "start": 5.9,
+    "peak": 6.2,
+    "end": 6.8
+  },
+  "camera": [
+    {
+      "time": 0,
+      "position": [-1.5, -1.7, 1.6],
+      "target": [0, 0, 0.25],
+      "lens": 48
+    },
+    {
+      "time": 1.15,
+      "position": [-2.4, -3.5, 2.5],
+      "target": [0, 0, 0.6],
+      "lens": 45
+    },
+    {
+      "time": 2.4,
+      "position": [3, -5, 4.8],
+      "target": [0, 0.4, 1.5],
+      "lens": 43
+    },
+    {
+      "time": 3.6,
+      "position": [5.5, -6, 6.5],
+      "target": [0, 0.6, 2.4],
+      "lens": 43
+    },
+    {
+      "time": 4.8,
+      "position": [5.5, -8, 6.3],
+      "target": [0, 0.5, 1.7],
+      "lens": 44
+    },
+    {
+      "time": 7,
+      "position": [4.8, -7.5, 6.2],
+      "target": [0, 0.5, 1.7],
+      "lens": 44
+    }
+  ],
+  "references": [
+    {
+      "provider": "Launchscene",
+      "video": "linear-releases",
+      "scenes": ["v-linear-releases-s4", "v-linear-releases-s5"],
+      "url": "https://launchscene.app/v/linear-releases",
+      "annotationStatus": "human_reviewed",
+      "checked": "quick_pass",
+      "retrieved": "2026-11-11"
+    },
+    {
+      "provider": "Launchscene",
+      "video": "linear-agent",
+      "scenes": ["v-linear-agent-s7"],
+      "url": "https://launchscene.app/v/linear-agent?t=29.733",
+      "annotationStatus": "ai_annotated",
+      "checked": "none",
+      "retrieved": "2026-11-11"
+    }
+  ]
+}

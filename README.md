@@ -21,7 +21,8 @@ Node 24.22.0, Python 3.13.18 and FFmpeg 7.1.1 are pinned. Blender 4.5.15 is acti
 mise run render:logo                 # Reviewed Core bootsplash adaptation
 mise run render:trailer              # Earlier 15-second pipeline proof of concept
 mise run render:cinematic-opening    # Eight-second camera, material and bootsplash study
-mise run render:product-reveal       # Six-second passage with replaceable native captures
+mise run render:product-reveal       # Earlier screen-focused study
+mise run render:architecture-reveal  # Current kinetic study with a brief application illustration
 mise run render:startup              # Synthetic fixture and normalized WAV exports
 npm test
 npm run typecheck
@@ -30,7 +31,7 @@ npm run lint
 
 Individual scenes can be rendered with `npm run render -- --scene architecture --resolution 1280x720 --fps 30`. Video outputs are H.264 MP4; source frame sequences and generated media stay under ignored `output/`.
 
-The [cinematic product study](productions/product-reveal/README.md) adds native Xila captures on animated 3D surfaces.
+The [kinetic architecture study](productions/architecture-reveal/README.md) develops the current motion direction, with a brief capture from a current native session.
 
 See the [replaceable screen workflow](docs/screens.md) for importing screenshots, preserving framing and assembling independent sections.
 

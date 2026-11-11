@@ -7,10 +7,12 @@ from pathlib import Path
 import sys
 
 import bpy
-from mathutils import Matrix, Vector
+from mathutils import Vector
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from cinematic_support import camera_pose, select_device, smooth_animation  # noqa: E402
 from brand import sync  # noqa: E402
 
 parser = argparse.ArgumentParser(description=__doc__)
@@ -37,25 +39,7 @@ sync()
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene = bpy.context.scene
 scene.render.engine = 'CYCLES'
-scene.cycles.device = 'CPU'
-selected_devices = []
-if args.device != 'cpu':
-    preferences = bpy.context.preferences.addons['cycles'].preferences
-    try:
-        preferences.compute_device_type = 'CUDA'
-        preferences.get_devices()
-        for device in preferences.devices:
-            device.use = device.type == 'CUDA'
-            if device.use:
-                selected_devices.append(device.name)
-    except (TypeError, RuntimeError) as error:
-        if args.device == 'cuda':
-            raise RuntimeError('Requested CUDA device is unavailable') from error
-    if selected_devices:
-        scene.cycles.device = 'GPU'
-    elif args.device == 'cuda':
-        raise RuntimeError('Requested CUDA device is unavailable')
-print(f'Render device: {scene.cycles.device}; {selected_devices}')
+selected_devices = select_device(scene, args.device)
 scene.cycles.samples = config['samples']
 scene.cycles.seed = 0
 scene.cycles.use_animated_seed = False
@@ -78,15 +62,6 @@ scene.world.node_tree.nodes['Background'].inputs['Strength'].default_value = 0
 
 def frame(time):
     return round(time * config['fps'])
-
-
-def smooth_animation(data):
-    if data.animation_data and data.animation_data.action:
-        for curve in data.animation_data.action.fcurves:
-            for key in curve.keyframe_points:
-                key.interpolation = 'BEZIER'
-                key.handle_left_type = 'AUTO_CLAMPED'
-                key.handle_right_type = 'AUTO_CLAMPED'
 
 
 for panel in config['panels']:
@@ -151,11 +126,7 @@ scene.camera = camera
 camera.data.clip_start = 0.05
 camera.data.clip_end = 100
 for key in config['camera']:
-    camera.location = key['position']
-    direction = (Vector(key['target']) - camera.location).normalized()
-    right = direction.cross(Vector((0, 1, 0))).normalized()
-    up = right.cross(direction).normalized()
-    camera.rotation_euler = Matrix((right, up, -direction)).transposed().to_euler()
+    camera_pose(camera, key['position'], key['target'])
     camera.data.lens = key['lens']
     camera.keyframe_insert('location', frame=frame(key['time']))
     camera.keyframe_insert('rotation_euler', frame=frame(key['time']))
