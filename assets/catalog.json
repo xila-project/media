@@ -21,6 +21,17 @@
       "sha256": "c8c22c1045ff89bc47be7cdfb854bb674abdab9854d46ea0525f0b3384bdb4b1",
       "width": 1280,
       "height": 800
+    },
+    {
+      "id": "screen-ad6d93688499941ed49ecc6f361033b648f413dd47ce8e5c9269f48d87a89613",
+      "file": "assets/images/screens/screen-ad6d93688499941ed49ecc6f361033b648f413dd47ce8e5c9269f48d87a89613.png",
+      "kind": "image",
+      "origin": "Native runtime from Platforms e6ee588744e3c968696b74ead6d19f02f9d68dc6; Pixel Painter 0.1.0 WASM, captured through xila-debug",
+      "author": "Xila contributors; drawing and capture by Xila Media",
+      "license": "Apache-2.0 AND OFL-1.1",
+      "sha256": "ad6d93688499941ed49ecc6f361033b648f413dd47ce8e5c9269f48d87a89613",
+      "width": 1280,
+      "height": 800
     }
   ]
 }

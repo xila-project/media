@@ -2,7 +2,9 @@
 
 Use the Debug application shipped by Platforms to capture the composited Xila screen. The native headless driver supports this workflow without a desktop display server. The client must run as the same host user as the runtime. Follow the checked-out Platforms README and AGENTS.md for its current protocol.
 
-From `../workspace/repositories/platforms`, build the runtime and client with its existing lockfile.
+Before capturing, compare the actual Core and Applications revisions in Platforms’ Cargo lockfile with the UI revision you intend to show. A new local Applications checkout does not change the runtime’s locked dependencies. Record the guest bundle version separately.
+
+From `../workspace/repositories/platforms`, build the runtime and client with its existing lockfile. Run Cargo from that directory so its native configuration is loaded. A clean archive of a committed Platforms revision can provide an isolated capture build when the working tree contains other work.
 
 ```sh
 cargo build --locked -p xila-native-example -p xila-drivers-native \

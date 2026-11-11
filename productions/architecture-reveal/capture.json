@@ -1,0 +1,23 @@
+{
+  "captureDate": "2026-11-11",
+  "platformsCommit": "e6ee588744e3c968696b74ead6d19f02f9d68dc6",
+  "sourcePreparation": "Clean git archive of the committed Platforms revision, built from its directory with --locked in an isolated target directory.",
+  "platformsLockSha256": "7fb67b38a1816d0e0047d13669ef5a0cb256b369efacf877afb1e2a5f9bd2d42",
+  "dependencySources": [
+    "git+https://github.com/xila-project/applications?branch=main#5e2507e0462593db6a5317116d1b5c1d256de432",
+    "git+https://github.com/xila-project/core?branch=main#dab153676f7d2c02cbee57fa49211ed5db7660cf",
+    "git+https://github.com/xila-project/package_manager?branch=main#c319153952000b1ab2a1727f517143f8a44cb189"
+  ],
+  "runtime": "native_example --gui --no-network --display-driver headless --resolution 1280x800",
+  "captureTool": "xila-debug screenshot",
+  "application": {
+    "name": "xila.pixel-painter",
+    "version": "0.1.0",
+    "url": "https://github.com/xila-project/applications/releases/download/xila.pixel-painter-v0.1.0/xila.pixel-painter-0.1.0-wasm32-wasip1.xpk",
+    "sha256": "f0c28b1f6712c2a8a1b6a7e3795beae11918723be0fabafe031dc6bee53fa17b"
+  },
+  "applicationSourceCheck": "Pixel Painter sources have no diff between Applications 7bf59dbb and 5e2507e0. The signed 0.1.0 guest comes from the pinned native seed profile.",
+  "interaction": "Selected black ink and 5 px, drew three original stepped paths through the real Pixel Painter controls and captured the composited screen.",
+  "scope": "Native desktop execution of the WebAssembly guest. The final illustration is a fixed capture inside an abstract motion scene.",
+  "rustcVersion": "rustc 1.99.1 (58cf8f9c3 2026-10-13)"
+}
