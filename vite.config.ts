@@ -12,6 +12,7 @@ export default defineConfig({
       project: [
         "./motion-canvas/projects/trailer.ts",
         "./motion-canvas/projects/logo.ts",
+        "./motion-canvas/projects/final-reveal.ts",
       ],
     }),
   ],

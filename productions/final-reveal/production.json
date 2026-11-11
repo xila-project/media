@@ -1,0 +1,11 @@
+{
+  "name": "final-reveal",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5,
+  "description": "An open-source operating system.",
+  "url": "www.xila.dev",
+  "lockupWidth": 800
+}

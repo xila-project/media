@@ -48,3 +48,6 @@ run = "python3 scripts/render_product.py"
 description = "Render the kinetic architecture study with a brief native-session illustration"
 tools = { "aqua:blender/blender" = "4.5.15" }
 run = "python3 scripts/render_product.py --production architecture-reveal"
+
+[tasks."render:final-reveal"]
+run = "npm run render -- --production final-reveal"

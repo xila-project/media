@@ -12,17 +12,29 @@ export function renderOptions(args) {
     options: {
       production: { type: "string", default: "trailer" },
       scene: { type: "string" },
-      resolution: {
-        type: "string",
-        default: `${config.width}x${config.height}`,
-      },
-      fps: { type: "string", default: String(config.fps) },
+      resolution: { type: "string" },
+      fps: { type: "string" },
       preset: { type: "string", default: "medium" },
     },
   });
   const { production, preset, scene } = values;
+  const settings =
+    production === "final-reveal"
+      ? JSON.parse(
+          readFileSync(
+            new URL(
+              "../productions/final-reveal/production.json",
+              import.meta.url,
+            ),
+            "utf8",
+          ),
+        )
+      : config;
+  values.resolution ??= `${settings.width}x${settings.height}`;
+  values.fps ??= String(settings.fps);
+
   if (
-    !["trailer", "logo"].includes(production) ||
+    !["trailer", "logo", "final-reveal"].includes(production) ||
     !["1920x1080", "1280x720", "960x540"].includes(values.resolution) ||
     ![24, 30, 60].includes(Number(values.fps)) ||
     !["fast", "medium", "slow"].includes(preset)
@@ -42,9 +54,11 @@ export function renderOptions(args) {
     height,
     fps: Number(values.fps),
     duration:
-      production === "logo"
-        ? config.scenes[0].duration
-        : (selected?.duration ?? config.duration),
+      production === "final-reveal"
+        ? settings.duration
+        : production === "logo"
+          ? config.scenes[0].duration
+          : (selected?.duration ?? config.duration),
     outputName: scene ?? production,
   };
 }
