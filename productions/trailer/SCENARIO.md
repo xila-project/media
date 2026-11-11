@@ -191,6 +191,8 @@ All editorial copy is English. Use official Montserrat for generated typography 
 
 ## Production handoff
 
+Use the [content evidence brief](CONTENT-EVIDENCE.md) for revision-pinned source references, concrete execution and VFS visual subjects, and capture verification requirements.
+
 - Preserve the reviewed opening and shared Core bootsplash timing. Develop the kinetic study through additional camera coverage and purposeful actions; the 120-second film needs its own pacing.
 - Keep the official mark's geometry exact. Preserve settled clear space, monochrome materials and controlled lighting. Rotation belongs to the camera and surrounding objects; the mark retains its orientation.
 - Keep sequences independently renderable. Store copy, camera keys, timing, asset IDs and source revisions in production configuration. Replacing a screen capture must preserve the surrounding animation.
