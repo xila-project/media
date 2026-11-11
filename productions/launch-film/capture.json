@@ -1,0 +1,154 @@
+{
+  "captureDate": "2026-11-11",
+  "platformsCommit": "b655fe2afcceda79d271a993eaec780f6c3b009e",
+  "platformsLockSha256": "217ba522465095369b2a9e14be7d0dd5f6da0c66e1f370d0ad9ead04c76dd7ca",
+  "dependencySources": [
+    "git+https://github.com/xila-project/applications?branch=main#a8ed9a4b07c5fc2eaccd404dcb9047e9d742c64e",
+    "git+https://github.com/xila-project/core?branch=main#f2978da32842726e3a3e4e862e32eab105195406",
+    "git+https://github.com/xila-project/package_manager?branch=main#c319153952000b1ab2a1727f517143f8a44cb189"
+  ],
+  "application": {
+    "name": "xila.pixel-painter",
+    "version": "0.1.0",
+    "url": "https://github.com/xila-project/applications/releases/download/xila.pixel-painter-v0.1.0/xila.pixel-painter-0.1.0-wasm32-wasip1.xpk",
+    "sha256": "f0c28b1f6712c2a8a1b6a7e3795beae11918723be0fabafe031dc6bee53fa17b"
+  },
+  "sourcePreparation": "Clean git archive of committed Platforms HEAD; sibling checkout clean and unmodified. Built --locked in isolated Media .cache/native-003/platforms. Installed archived package-lock.json with npm ci. No local source patches.",
+  "runtime": "native_example --gui --no-network --display-driver headless --resolution 1280x800",
+  "diskPath": "/home/alix_anneraud/Git/Xila/media/output/capture/native-003/drive-optimized.img",
+  "resolution": [1280, 800],
+  "captureTool": "xila-debug screenshot (serial tight loop; no artificial frames)",
+  "rustcVersion": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+  "buildOptimization": {
+    "profile": "dev",
+    "packageOptLevel3": [
+      "xila-graphics",
+      "xila-debug-application",
+      "png",
+      "fdeflate",
+      "flate2",
+      "miniz_oxide",
+      "xila-drivers-native"
+    ],
+    "reason": "Unoptimized screenshot throughput was 1.8 fps; client optimization alone reached 3.1 fps. Screenshot runtime optimization raised final captures to 5.2\u20135.6 fps. The >=10 fps aim was not reached."
+  },
+  "seed": {
+    "path": "/home/alix_anneraud/Git/Xila/media/.cache/native-003/platforms/target/seed/native/seed.img",
+    "sha256": "b29a0575f5d594abb626fe994e0b792b741cf80e8aaf39d7d8697e1b0b36c79c",
+    "verification": "mise run image:native completed: released bundle publisher authentication, Xila MBR, LittleFS contents and metadata validated. Fresh disk imported this seed. No guest replacement or local guest compilation.",
+    "pixelPainterManifest": {
+      "$schema": "https://raw.githubusercontent.com/xila-project/package_manager/main/schemas/package-manifest.schema.json",
+      "format_version": 1,
+      "name": "xila.pixel-painter",
+      "version": "0.1.0",
+      "target": "wasm32-wasip1",
+      "minimum_xila_abi": 1,
+      "capabilities": [],
+      "files": [
+        {
+          "path": "executables/pixel_painter.wasm",
+          "size": 68399,
+          "sha256": "dd9ab3caa029f94fb31c1d6b6d46d4a7fa673d3bc2a05ac2d70202fd4676c772"
+        },
+        {
+          "path": "shortcut.json",
+          "size": 353,
+          "sha256": "1c88f0b97334d50850a8811a452069acb2a65804219ba06d3e0b4685896bd1f1"
+        }
+      ],
+      "application": {
+        "entrypoint": "executables/pixel_painter.wasm",
+        "display_name": "Pixel Painter",
+        "icon": "",
+        "show_in_launcher": true
+      }
+    }
+  },
+  "timing": "frames.json records every successful screenshot request start (Unix and monotonic), response end (monotonic), and midpoint estimate relative to session start. No presentation timestamp is exposed; capture time is bounded by the request interval. durationSeconds is real recording-loop wall time including final response. Retiming should use measured timestamps, with held frames if needed; no invented motion.",
+  "recordings": [
+    {
+      "name": "drawer-launch",
+      "frameDirectory": "/home/alix_anneraud/Git/Xila/media/output/capture/native-003/drawer-launch",
+      "framePattern": "%06d.png",
+      "frameCount": 20,
+      "realDurationSeconds": 3.654934467,
+      "effectiveFps": 5.4720543365627465,
+      "timestampsFile": "/home/alix_anneraud/Git/Xila/media/output/capture/native-003/drawer-launch/frames.json",
+      "timestampsSha256": "38bad30d331d5edb87d4a5ce29c9b0c3cb686c29f021b7d20c1f68de58b33f19",
+      "interaction": "From logged-in home, held drawer button at (640,755), waited 0.5 s, held Pixel Painter launcher at (832,68); retained app arrival and blank canvas.",
+      "verificationStatus": "verified native PNGs with limitations: effective frame rate below 10 fps aim",
+      "verification": "Actual beginning/intermediate/end PNGs inspected; all PNG dimensions and counts checked. No overlays, reconstruction, retouching or fabricated values. Every PNG decoded successfully with FFmpeg image2 input to the null muxer; no encoded video created.",
+      "reviewedFrames": [
+        "000000.png",
+        "000003.png",
+        "000004.png",
+        "000005.png",
+        "000006.png",
+        "000019.png"
+      ]
+    },
+    {
+      "name": "drawing",
+      "frameDirectory": "/home/alix_anneraud/Git/Xila/media/output/capture/native-003/drawing",
+      "framePattern": "%06d.png",
+      "frameCount": 107,
+      "realDurationSeconds": 19.017394553,
+      "effectiveFps": 5.626427936897419,
+      "timestampsFile": "/home/alix_anneraud/Git/Xila/media/output/capture/native-003/drawing/frames.json",
+      "timestampsSha256": "c68e236f9b3ef81c0b189c90b011c011d61e79b3ee6f600a8212f9564c3e38f3",
+      "interaction": "After selecting K (black) at (242,45) and 5 px at (1062,117), held pointer separately for each exact requested polyline. Moved in <=12-screen-pixel integer steps, explicitly visiting every vertex, with 12 ms sleeps between submissions. Selection precedes the frame sequence; recorded only stroke growth and settling.",
+      "verificationStatus": "verified native PNGs with limitations: effective frame rate below 10 fps aim",
+      "verification": "Actual beginning/intermediate/end PNGs inspected; all PNG dimensions and counts checked. No overlays, reconstruction, retouching or fabricated values. Every PNG decoded successfully with FFmpeg image2 input to the null muxer; no encoded video created.",
+      "screenPixelCenterlinePaths": [
+        [
+          [318, 601],
+          [422, 601],
+          [422, 380],
+          [631, 380],
+          [631, 273],
+          [956, 273]
+        ],
+        [
+          [318, 642],
+          [470, 642],
+          [470, 427],
+          [679, 427],
+          [679, 321],
+          [956, 321]
+        ],
+        [
+          [318, 678],
+          [518, 678],
+          [518, 481],
+          [732, 481],
+          [732, 368],
+          [956, 368]
+        ]
+      ],
+      "brushVerification": "5 logical px produces 29\u201330 screen-pixel strokes, matching reference thickness. At x=800 the three horizontal bands are y=258..287,306..334,353..382; at y=550 vertical bands are x=408..436,455..484,503..532, identical to screen-ad6d93688499941ed49ecc6f361033b648f413dd47ce8e5c9269f48d87a89613. Native logical-pixel snapping remains: left stroke caps start at x=306 versus reference x=318; right caps reach x=973 versus reference x=955. Exact requested pointer vertices were used, but final raster is not pixel-identical to the reference. No correction applied.",
+      "reviewedFrames": ["000035.png", "000060.png", "000106.png"]
+    },
+    {
+      "name": "activity",
+      "frameDirectory": "/home/alix_anneraud/Git/Xila/media/output/capture/native-003/activity",
+      "framePattern": "%06d.png",
+      "frameCount": 16,
+      "realDurationSeconds": 3.076616448,
+      "effectiveFps": 5.200518254526345,
+      "timestampsFile": "/home/alix_anneraud/Git/Xila/media/output/capture/native-003/activity/frames.json",
+      "timestampsSha256": "c2f1106838fcd3edfab4d5defd34f5bc665043b815ea2279936d6c1504e5ac75",
+      "interaction": "Opened actual native System activity; Pixel Painter remained open. Selected 250 ms refresh and enabled bounded demo workload before recording ~3 s; switch remained on throughout. Stopped workload after recording. Native runtime stopped after capture.",
+      "verificationStatus": "verified native PNGs with limitations: effective frame rate below 10 fps aim",
+      "verification": "Actual beginning/intermediate/end PNGs inspected; all PNG dimensions and counts checked. No overlays, reconstruction, retouching or fabricated values. Every PNG decoded successfully with FFmpeg image2 input to the null muxer; no encoded video created.",
+      "metricLimits": "Real labels and values preserved: uptime advances 1:15 to 1:18, task count 7, allocator card 3\u20137 MiB of 64 MiB; CPU load/registered devices explicitly unavailable. Memory history spikes during capture; screenshot buffers themselves allocate memory, so these values include capture overhead and are not attributable solely to the 4 KiB demo. UI tree is truncated behind multiple windows; screenshots verify the foreground dashboard and running switch.",
+      "reviewedFrames": ["000000.png", "000015.png"]
+    }
+  ],
+  "preservedAttempts": [
+    "failed-drawer-launch-001: 7 frames, 3.957 s, 1.769 fps; missed drawer due transient control position.",
+    "slow-drawer-launch-002: 14 frames, 4.451 s, 3.146 fps; real launch, superseded by optimized-runtime capture.",
+    "failed-drawing-001: interrupted partial take from concurrent screenshot experiment, no finalized timestamps; excluded from deliverables. All remain under ignored native-003/."
+  ],
+  "verificationScope": "PNG image sequences only; no encoded video was requested or produced. Manifest-only repository change; no production animation code, asset catalog, sibling files, or reusable capture script changed. Capture driver retained outside git in ignored Media .cache/native-003/record.py.",
+  "repositoryValidation": "python3 scripts/brand.py verified brand 2.0.0 at 00d66862564557155f384e2714b1ed030b79289b; python3 scripts/validate.py passed after resolving its missing ignored cache. Capture JSON passed Prettier. npm tests/typecheck/lint were not run: only this provenance manifest changed, no executable repository code."
+}
