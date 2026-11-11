@@ -60,13 +60,13 @@ The camera selects one module and approaches it. Its face becomes a real applica
 
 ### 00:40–00:49 — A brief proof of life
 
-Three short observations inside the current native runtime, connected by motion.
+Two short observations inside the current native runtime lead into an abstract transition, connected by motion.
 
 - **00:40–00:43** — An application launches from the current drawer. Frame tightly around the launch gesture and the application's arrival.
 - **00:43–00:46** — A real drawing stroke develops in Pixel Painter. Continue its direction into the next transition.
 - **00:46–00:49** — The stroke becomes an abstract white route again. The camera follows it back into the larger structure.
 
-The software recording occupies only the middle of this passage. Keep its original behavior and timing legible. Capture a small, deliberate action that succeeds reliably.
+The software recording occupies 00:40–00:46; the final three seconds return to abstract motion. Keep its original behavior and timing legible. Capture a small, deliberate action that succeeds reliably.
 
 **Sound** — Let the rhythmic texture thin during the real interaction. The drawing gesture receives a subtle continuous sound that resolves as the route becomes geometry.
 
@@ -194,7 +194,7 @@ All editorial copy is English. Use official Montserrat for generated typography 
 - Preserve the reviewed opening and shared Core bootsplash timing. Develop the kinetic study through additional camera coverage and purposeful actions; the 120-second film needs its own pacing.
 - Keep the official mark's geometry exact. Preserve settled clear space, monochrome materials and controlled lighting. Rotation belongs to the camera and surrounding objects; the mark retains its orientation.
 - Keep sequences independently renderable. Store copy, camera keys, timing, asset IDs and source revisions in production configuration. Replacing a screen capture must preserve the surrounding animation.
-- Capture only a few useful software moments. The current target is roughly six seconds of direct GUI action across the full film, plus brief supporting illustrations.
+- Capture only a few useful software moments. Allocate nine seconds of direct GUI action across the full film: six seconds for launch and drawing at 00:40–00:46, two seconds for activity metrics around 01:06, and one second for the application response during escalation. This is 7.5% of the film. Brief supporting illustrations within the abstract geometry are tracked separately.
 - Record host Core/Applications pins, guest bundle versions, provenance and licensing. Use actual recordings for action shots and inspect them before editorial assembly.
 - Abstract modules, signal counts and routes are artistic representations of software relationships. Any proposed hardware or performance claim requires supporting verification before it enters the film.
 - Review the new 00:18–00:40 motion passage first, then the first software transition, then the larger middle section and the complete edit. Render each creative stage for review before expanding it.
