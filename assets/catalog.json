@@ -1,1 +1,26 @@
-{ "assets": [] }
+{
+  "assets": [
+    {
+      "id": "screen-4a84acc83d3c18464c4a55c6bc560d6b4aa549d0f508823718349742eb755bdd",
+      "file": "assets/images/screens/screen-4a84acc83d3c18464c4a55c6bc560d6b4aa549d0f508823718349742eb755bdd.png",
+      "kind": "image",
+      "origin": "xila-project/platforms native_example, captured through xila-debug, 2026-11-11",
+      "author": "Xila contributors; capture by Xila Media",
+      "license": "Apache-2.0 AND OFL-1.1",
+      "sha256": "4a84acc83d3c18464c4a55c6bc560d6b4aa549d0f508823718349742eb755bdd",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "id": "screen-c8c22c1045ff89bc47be7cdfb854bb674abdab9854d46ea0525f0b3384bdb4b1",
+      "file": "assets/images/screens/screen-c8c22c1045ff89bc47be7cdfb854bb674abdab9854d46ea0525f0b3384bdb4b1.png",
+      "kind": "image",
+      "origin": "xila-project/platforms native_example, captured through xila-debug, 2026-11-11",
+      "author": "Xila contributors; capture by Xila Media",
+      "license": "Apache-2.0 AND OFL-1.1",
+      "sha256": "c8c22c1045ff89bc47be7cdfb854bb674abdab9854d46ea0525f0b3384bdb4b1",
+      "width": 1280,
+      "height": 800
+    }
+  ]
+}

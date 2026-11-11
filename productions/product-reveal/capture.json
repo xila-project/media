@@ -1,0 +1,18 @@
+{
+  "captureDate": "2026-11-11",
+  "runtime": "native_example --gui --no-network --display-driver headless --resolution 1280x800",
+  "captureTool": "xila-debug screenshot",
+  "platformsCommit": "4bb472fee2391e063bb97e344a25ac7d784dba47",
+  "platformsLockSha256": "d5a537f90a812ab975b104a1093c00b0d509ee0e2aa52e4666c01323b4f90e9f",
+  "dependencySources": [
+    "git+https://github.com/xila-project/applications?branch=main#7bf59dbb726961ba376c4265a8d764d991894cde",
+    "git+https://github.com/xila-project/core?branch=main#cd211cc7ae1503cb21ce372644ad0608f55d65fe",
+    "git+https://github.com/xila-project/package_manager?branch=main#c319153952000b1ab2a1727f517143f8a44cb189"
+  ],
+  "localChanges": "Platforms had pre-existing Cargo.toml and Cargo.lock changes and untracked drivers/nordic. Source files were preserved. Capture uses the existing locked native dependencies.",
+  "seedProfile": "native",
+  "bundlesLockSha256": "229d8f75a865c2386ccd8acd75cf1b880813ede21f51291b13c0be006b7b4a61",
+  "notes": "UI trees can truncate with multiple windows. Actual PNG captures were visually inspected. Calculator result 42 was obtained through the real 6 \u00d7 7 = controls. These are static native captures, animated in Blender.",
+  "rustcVersion": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+  "cargoVersion": "cargo 1.99.1 (5f94df478 2026-08-27)"
+}

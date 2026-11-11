@@ -1,0 +1,68 @@
+{
+  "name": "product-reveal",
+  "status": "visual-direction-study",
+  "review": "001",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "reference": "https://launchscene.app/v/linear-releases?t=11",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "duration": 6,
+  "samples": 24,
+  "screens": {
+    "files": {
+      "asset": "screen-4a84acc83d3c18464c4a55c6bc560d6b4aa549d0f508823718349742eb755bdd",
+      "width": 1280,
+      "height": 800,
+      "position": [0, 0]
+    },
+    "calculator": {
+      "asset": "screen-c8c22c1045ff89bc47be7cdfb854bb674abdab9854d46ea0525f0b3384bdb4b1",
+      "width": 1280,
+      "height": 800,
+      "position": [0, 0]
+    }
+  },
+  "panels": [
+    {
+      "screen": "files",
+      "width": 5,
+      "position": [-2.7, 0.75, -1],
+      "rotation": [0.02, 0.25, 0.055],
+      "reveal": [0.5, 1.8]
+    },
+    {
+      "screen": "calculator",
+      "width": 5.8,
+      "position": [1.6, -0.35, 0.5],
+      "rotation": [0.04, -0.35, -0.06],
+      "reveal": [0, 1.15]
+    }
+  ],
+  "camera": [
+    {
+      "time": 0,
+      "position": [2.9, -0.7, 2.6],
+      "target": [1.6, 0.1, 0.5],
+      "lens": 45
+    },
+    {
+      "time": 1.8,
+      "position": [1.3, -0.1, 7.8],
+      "target": [0.5, 0.2, 0],
+      "lens": 45
+    },
+    {
+      "time": 4,
+      "position": [0.6, 0.7, 14],
+      "target": [0, 0.1, 0],
+      "lens": 45
+    },
+    {
+      "time": 6,
+      "position": [0.3, 0.8, 13.3],
+      "target": [0, 0.1, 0],
+      "lens": 45
+    }
+  ]
+}

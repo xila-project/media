@@ -3,3 +3,5 @@ assets/brand/upstream/
 output/
 .cache/
 node_modules/
+# Preserve the Launchscene reference brief exactly as returned.
+productions/product-reveal/REFERENCE.md
