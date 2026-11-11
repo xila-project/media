@@ -79,10 +79,18 @@ export default makeScene2D(function* (view) {
     fill: "#000000",
   });
   view.add(shade);
-  const heading = Text({ text: production.copy, fontSize: 112, y: -300 });
-  heading.opacity(() => ramp(3, 0.45) * (1 - ramp(6, 0.45)));
-  heading.x(() => -90 + 90 * easeOutCubic(ramp(3, 0.7)));
+  const heading = Text({ text: production.copy, fontSize: 96, y: -300 });
+  heading.opacity(() => ramp(1, 0.45) * (1 - ramp(6, 0.45)));
+  heading.x(() => -90 + 90 * easeOutCubic(ramp(1, 0.7)));
   view.add(heading);
+  const supporting = Text({
+    text: production.supportingCopy,
+    fontSize: 36,
+    fontWeight: 400,
+    y: -205,
+  });
+  supporting.opacity(() => ramp(3, 0.4) * (1 - ramp(6, 0.45)));
+  view.add(supporting);
   const logo = Logo({ width: 72 });
   logo.position([790, -390]);
   logo.opacity(() => 1 - ramp(2, 0.5));

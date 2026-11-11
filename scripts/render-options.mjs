@@ -18,7 +18,9 @@ export function renderOptions(args) {
     },
   });
   const { production, preset, scene } = values;
-  const settings = ["final-reveal", "rust-core"].includes(production)
+  const settings = ["final-reveal", "rust-core", "wasm-execution"].includes(
+    production,
+  )
     ? JSON.parse(
         readFileSync(
           new URL(
@@ -33,7 +35,13 @@ export function renderOptions(args) {
   values.fps ??= String(settings.fps);
 
   if (
-    !["trailer", "logo", "final-reveal", "rust-core"].includes(production) ||
+    ![
+      "trailer",
+      "logo",
+      "final-reveal",
+      "rust-core",
+      "wasm-execution",
+    ].includes(production) ||
     !["1920x1080", "1280x720", "960x540"].includes(values.resolution) ||
     ![24, 30, 60].includes(Number(values.fps)) ||
     !["fast", "medium", "slow"].includes(preset)
@@ -52,7 +60,9 @@ export function renderOptions(args) {
     width,
     height,
     fps: Number(values.fps),
-    duration: ["final-reveal", "rust-core"].includes(production)
+    duration: ["final-reveal", "rust-core", "wasm-execution"].includes(
+      production,
+    )
       ? settings.duration
       : production === "logo"
         ? config.scenes[0].duration

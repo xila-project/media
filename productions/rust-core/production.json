@@ -5,7 +5,8 @@
   "height": 1080,
   "fps": 30,
   "duration": 10,
-  "copy": "Built in Rust.",
+  "copy": "An operating system.",
   "scenarioStart": 18,
-  "review": "004"
+  "review": "005",
+  "supportingCopy": "Built in Rust."
 }

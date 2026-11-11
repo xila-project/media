@@ -1,0 +1,19 @@
+{
+  "name": "wasm-execution",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 12,
+  "scenarioStart": 28,
+  "copy": "Built to be built upon.",
+  "supportingCopy": "WebAssembly applications.",
+  "screens": {
+    "drawer": {
+      "asset": "screen-aaff38470323d577dac084220585c3aeb880cd2b438a58a47e9f72f946910445",
+      "width": 640,
+      "height": 400,
+      "position": [0, 100]
+    }
+  }
+}

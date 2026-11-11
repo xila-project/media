@@ -54,3 +54,6 @@ run = "npm run render -- --production final-reveal"
 
 [tasks."render:rust-core"]
 run = "npm run render -- --production rust-core"
+
+[tasks."render:wasm-execution"]
+run = "npm run render -- --production wasm-execution"

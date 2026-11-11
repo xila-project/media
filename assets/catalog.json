@@ -32,6 +32,17 @@
       "sha256": "ad6d93688499941ed49ecc6f361033b648f413dd47ce8e5c9269f48d87a89613",
       "width": 1280,
       "height": 800
+    },
+    {
+      "id": "screen-aaff38470323d577dac084220585c3aeb880cd2b438a58a47e9f72f946910445",
+      "file": "assets/images/screens/screen-aaff38470323d577dac084220585c3aeb880cd2b438a58a47e9f72f946910445.png",
+      "kind": "image",
+      "origin": "Native drawer captured through xila-debug, Platforms e6ee588744e3c968696b74ead6d19f02f9d68dc6; same session as architecture-reveal/capture.json",
+      "author": "Xila contributors; capture by Xila Media",
+      "license": "Apache-2.0 AND OFL-1.1",
+      "sha256": "aaff38470323d577dac084220585c3aeb880cd2b438a58a47e9f72f946910445",
+      "width": 1280,
+      "height": 800
     }
   ]
 }
