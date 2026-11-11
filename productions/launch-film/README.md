@@ -4,21 +4,20 @@ The two-minute Xila launch film, produced as one continuous world under the art 
 
 ## Structure
 
-`production.json` owns the look, copy, screens and shot list. A shot names a **set**, the set time it starts at (`offset`), its duration and camera keys in set time. The escalation montage reuses the other sets with new cameras, so geometry and timing exist once.
+Review 002 follows [scenario draft 3](../trailer/SCENARIO.md): one system, from a microcontroller to the browser. `production.json` owns the look, copy, footage, sets and shot list. A shot names a **set**, the set time it starts at (`offset`), its duration and camera keys in set time; the escalation reuses sets with new cameras. `sets` lists which genuine recording each surface shows; `null` keeps the surface dark with an engraved `PLACEHOLDER · capture pending` label.
 
-| Shot                | Set          | Scenario passage                                                           |
-| ------------------- | ------------ | -------------------------------------------------------------------------- |
-| 01-recognition      | recognition  | Extruded official mark under a moving strip; ignites, Core ripple at 5.3 s |
-| 02-foundation       | foundation   | Floor slabs arrive into alignment; three routes leave the mark             |
-| 03-operating-system | field        | Ordered field locks in rows; “An operating system.” / “Built in Rust.”     |
-| 04-execution        | execution    | Light follows the measured Pixel Painter strokes into the result surface   |
-| 05-proof-of-life    | proof        | Genuine captures fill the surface; the stroke continues as a route         |
-| 06-embedded         | embedded     | Compact board under a macro camera; output surfaces open around it         |
-| 07-coherent-system  | namespace    | One request, a junction, Files / Devices / Pipes respond                   |
-| 08-open-source      | opensource   | Slabs separate over a seam of light; “Open source.”                        |
-| 09a–09f-escalation  | (reused)     | Six cuts: pulse, slabs, overhead, sweep, capture, convergence              |
-| 10-controlled-power | power        | Lights drain back to the mark; a final pulse; top-down on the mark         |
-| identity            | final-reveal | Official flat lockup, description and URL (Motion Canvas, 12 s)            |
+| Shot            | Set          | Passage                                                                     |
+| --------------- | ------------ | --------------------------------------------------------------------------- |
+| 01-recognition  | recognition  | Official mark, Core bootsplash ripple                                       |
+| 02-small        | small        | A 45 mm board; `echo 1 > /devices/gpio/d13` types; the LED switches on      |
+| 03a–03d-devices | devices      | One route, three device files: light, recognition (Digits), sound (Synth)   |
+| 04a-execution   | execution    | Light follows the measured Pixel Painter strokes into the genuine capture   |
+| 04b-travel      | travel       | One package forks to the desktop and browser runtimes                       |
+| 05-isolated     | isolated     | A faulty guest traps; `echo system-alive` still answers                     |
+| 06-roadmap      | roadmap      | New boards dock; a signed package is checked and opened (roadmap, abstract) |
+| 07a–07f         | (reused)     | Escalation: six cuts, one per argument                                      |
+| 08-one-light    | ending       | Every route drains back into the LED                                        |
+| identity        | final-reveal | Lockup, description, “Runs in your browser. Right now.”, URLs               |
 
 Code: `blender/scripts/film_world.py` (shared world, materials, routes, mark, surfaces, copy, camera, finishing) and `blender/scripts/launch_film.py` (sets). `scripts/prepare-copy.mjs` renders every line from the locked Montserrat and fails if the browser falls back to another face. `scripts/render_film.py` renders, renumbers, assembles and validates each shot, then concatenates the film.
 

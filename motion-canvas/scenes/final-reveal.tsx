@@ -31,14 +31,22 @@ export default makeScene2D(function* (view) {
     y: 200,
     opacity: 0,
   });
+  // The invitation: anyone watching can open Xila in a browser immediately.
+  const invitation = Text({
+    text: production.invitation,
+    fontSize: 44,
+    fontWeight: 500,
+    y: 300,
+    opacity: 0,
+  });
   const url = Text({
     text: production.url,
     fontSize: 32,
     fontWeight: 400,
-    y: 310,
+    y: 380,
     opacity: 0,
   });
-  view.add([mark, description, url]);
+  view.add([mark, description, invitation, url]);
   const time = createSignal(0);
   const ramp = (start: number, duration: number) =>
     clamp(0, 1, (time() - start) / duration);
@@ -51,6 +59,7 @@ export default makeScene2D(function* (view) {
   mark.scale(() => 2.6 - 1.6 * easeOutExpo(ramp(0.55, 1.05)));
   description.opacity(() => ramp(production.descriptionAt, 0.4) * fade());
   description.y(() => 200 - 20 * ramp(production.descriptionAt, 0.4));
+  invitation.opacity(() => ramp(production.invitationAt, 0.4) * fade());
   url.opacity(() => ramp(production.urlAt, 0.4) * fade());
   yield* tween(production.duration, (value) =>
     time(value * production.duration),

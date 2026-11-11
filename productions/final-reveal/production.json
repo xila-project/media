@@ -6,8 +6,10 @@
   "fps": 30,
   "duration": 12,
   "description": "An open-source operating system.",
-  "url": "www.xila.dev",
+  "url": "platforms.xila.dev  \u00b7  www.xila.dev",
   "lockupWidth": 800,
-  "descriptionAt": 4,
-  "urlAt": 8
+  "descriptionAt": 3.6,
+  "urlAt": 7.2,
+  "invitation": "Runs in your browser. Right now.",
+  "invitationAt": 5.6
 }

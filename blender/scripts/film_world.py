@@ -211,7 +211,7 @@ class World:
         curve.materials.append(mat)
         return obj
 
-    def route(self, name, points, width, keys, strength=None, light_fraction=.72, inlay=True):
+    def route(self, name, points, width, keys, strength=None, light_fraction=.72, inlay=True, light_z=.008):
         """An inlaid channel with light advancing along it.
 
         keys: (time, start, end) fractions of the route length. Returns the light curve.
@@ -219,7 +219,7 @@ class World:
         if inlay:
             self.ribbon(f'{name} inlay', points, self.shared('inlay'), width)
         mat, _ = self.emission(f'{name} light', 1, strength or self.look['lightStrength'])
-        obj = self.ribbon(f'{name} light', points, mat, width * light_fraction, z=.008)
+        obj = self.ribbon(f'{name} light', points, mat, width * light_fraction, z=light_z)
         curve = obj.data
         for time, start, end in keys:
             curve.bevel_factor_start = start
@@ -327,8 +327,11 @@ class World:
             part.parent = pivot
         return pivot, face
 
-    def copy(self, copy_id, center, height, yaw=0.0, upright=True, keys=((0, 1),)):
-        """Official Montserrat copy as an emissive plane; keys animate its strength."""
+    def copy(self, copy_id, center, height, yaw=0.0, upright=True, keys=((0, 1),), reveal=None):
+        """Official Montserrat copy as an emissive plane; keys animate its strength.
+
+        reveal: optional (time, fraction) keys that uncover the line left to right,
+        so a genuine command appears as if typed."""
         manifest = json.loads((self.copy_dir / 'copy.json').read_text())[copy_id]
         mat = bpy.data.materials.new(f'Copy {copy_id}')
         mat.use_nodes = True
@@ -351,6 +354,19 @@ class World:
         links.new(mix.outputs[0], out.inputs['Surface'])
         shader.inputs['Strength'].default_value = self.look['copyStrength']
         self.key_socket(fade.inputs[1], keys, mat.node_tree)
+        if reveal:
+            uv = nodes.new('ShaderNodeTexCoord')
+            split = nodes.new('ShaderNodeSeparateXYZ')
+            typed = nodes.new('ShaderNodeMath')
+            typed.operation = 'LESS_THAN'
+            both = nodes.new('ShaderNodeMath')
+            both.operation = 'MULTIPLY'
+            links.new(uv.outputs['UV'], split.inputs[0])
+            links.new(split.outputs['X'], typed.inputs[0])
+            links.new(fade.outputs[0], both.inputs[0])
+            links.new(typed.outputs[0], both.inputs[1])
+            links.new(both.outputs[0], mix.inputs[0])
+            self.key_socket(typed.inputs[1], reveal, mat.node_tree)
         # Glyph height is about half the canvas height (160 px type in a 240 px canvas).
         scale = height / .5
         bpy.ops.mesh.primitive_plane_add(size=1, location=center,
@@ -368,7 +384,8 @@ class World:
         cam = bpy.data.objects.new('Camera', data)
         self.scene.collection.objects.link(cam)
         self.scene.camera = cam
-        data.clip_start, data.clip_end = .02, 300
+        # Macro shots of the 45 mm board need a millimetre near plane.
+        data.clip_start, data.clip_end = keys[0].get('clip', .02), 300
         data.dof.use_dof = True
         focus = bpy.data.objects.new('Focus', None)
         self.scene.collection.objects.link(focus)
