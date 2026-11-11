@@ -8,5 +8,7 @@
   "copy": "An operating system.",
   "scenarioStart": 18,
   "review": "005",
-  "supportingCopy": "Built in Rust."
+  "supportingCopy": "Built in Rust.",
+  "reviewStatus": "requires-redesign",
+  "reviewFeedback": "Flat visual style and unclear connection to Xila"
 }

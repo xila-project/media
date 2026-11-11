@@ -15,5 +15,7 @@
       "height": 400,
       "position": [0, 100]
     }
-  }
+  },
+  "reviewStatus": "requires-redesign",
+  "reviewFeedback": "Flat visual style and unclear connection to Xila"
 }

@@ -1,0 +1,46 @@
+{
+  "name": "application-handoff",
+  "status": "subject-and-material-study",
+  "review": "006",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "duration": 6,
+  "samples": 24,
+  "application": "pixel_painter.wasm",
+  "screens": {
+    "result": {
+      "asset": "screen-ad6d93688499941ed49ecc6f361033b648f413dd47ce8e5c9269f48d87a89613",
+      "width": 1280,
+      "height": 800,
+      "position": [0, 0]
+    }
+  },
+  "camera": [
+    {
+      "time": 0,
+      "position": [-4, 1, 2.9],
+      "target": [-3.2, 0, 0.5],
+      "lens": 48
+    },
+    {
+      "time": 2,
+      "position": [-1.4, 2, 6.5],
+      "target": [-0.4, 0, 0],
+      "lens": 45
+    },
+    {
+      "time": 3.8,
+      "position": [2.5, 1.8, 9.7],
+      "target": [1.1, 0, 0],
+      "lens": 43
+    },
+    {
+      "time": 6,
+      "position": [2, 1.5, 9.2],
+      "target": [1.1, 0, 0],
+      "lens": 43
+    }
+  ]
+}

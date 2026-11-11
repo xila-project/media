@@ -23,6 +23,7 @@ mise run render:trailer              # Earlier 15-second pipeline proof of conce
 mise run render:cinematic-opening    # Eight-second camera, material and bootsplash study
 mise run render:product-reveal       # Earlier screen-focused study
 mise run render:architecture-reveal  # Current kinetic study with a brief application illustration
+mise run render:application-handoff  # 3D application → Xila → result proof
 mise run render:final-reveal         # Official lockup, description and website ending
 mise run render:startup              # Synthetic fixture and normalized WAV exports
 npm test

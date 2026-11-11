@@ -13,13 +13,16 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--production', choices=['product-reveal', 'architecture-reveal'], default='product-reveal')
+    parser.add_argument('--production', choices=['product-reveal', 'architecture-reveal', 'application-handoff'], default='product-reveal')
     parser.add_argument('--device', choices=['auto', 'cpu', 'cuda'], default='auto')
     args = parser.parse_args()
     config = json.loads((ROOT / 'productions' / args.production / 'production.json').read_text())
     if not re.fullmatch(r'[0-9]{3}', config['review']):
         raise ValueError('Review must be a three-digit version')
     output = ROOT / 'output' / args.production / f'review-{config["review"]}'
+    if args.production == 'application-handoff':
+        subprocess.run([sys.executable,str(ROOT/'scripts/brand.py')],check=True,cwd=ROOT)
+        subprocess.run(['node',str(ROOT/'scripts/prepare-application-label.mjs')],check=True,cwd=ROOT)
     # Complete sequences are regenerated; other numbered review cuts remain available.
     if (output / 'frames').exists():
         shutil.rmtree(output / 'frames')

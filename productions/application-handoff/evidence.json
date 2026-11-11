@@ -1,0 +1,9 @@
+{
+  "application": "pixel_painter.wasm",
+  "wasmVersion": 1,
+  "payloadSha256": "dd9ab3caa029f94fb31c1d6b6d46d4a7fa673d3bc2a05ac2d70202fd4676c772",
+  "bundle": "xila.pixel-painter 0.1.0",
+  "resultCapture": "../architecture-reveal/capture.json",
+  "resultAsset": "screen-ad6d93688499941ed49ecc6f361033b648f413dd47ce8e5c9269f48d87a89613",
+  "scope": "Conceptual file-to-runtime-to-result illustration. The result is the existing pinned native screenshot. Refresh the guest and capture for the latest UI before final production."
+}
