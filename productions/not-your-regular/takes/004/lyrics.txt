@@ -1,0 +1,220 @@
+[Intro - dry low male baritone, deadpan spoken, zero reverb; beat-less dry close-miked spoken dialogue in silence, a muted low-pass synth pluck sneaks in for the last two bars]
+Big day. I made the LED blink.
+
+[Intro - young female pop lead, spoken, playful, breathy, a soft giggle]
+Cute. Hi. I'm here.
+
+[Intro - dry low male baritone, deadpan spoken, zero reverb]
+Who said that?
+
+[Intro - young female pop lead, spoken, playful, breathy, a soft giggle]
+The chip in your hand.
+
+[Intro - dry low male baritone, deadpan spoken, zero reverb]
+That's a microcontroller.
+
+[Intro - young female pop lead, spoken, playful, breathy, a soft giggle]
+A microcontroller with an OS.
+
+[Intro - dry low male baritone, deadpan spoken, zero reverb]
+Chips run a loop. While true.
+
+[Intro - young female pop lead, spoken, playful, breathy, a soft giggle]
+Not this one.
+
+[Intro - dry low male baritone, deadpan spoken, zero reverb]
+So what are you?
+
+[Intro - young female pop lead, spoken, playful, breathy, a soft giggle]
+Out of the loop.
+
+[Intro Hook - instrumental: the full 129 BPM nu-disco groove drops in with tight kick, dry claps, staccato octave synth bass and a catchy pitched vocal-synth pluck earworm motif]
+
+[Verse 1 - dry low male baritone, deadpan spoken, zero reverb; lean four-on-the-floor, closed 16th hats, staccato octave bass, lots of dry space]
+I wrote a loop that never ends,
+with seven flags and global friends.
+
+[Verse 1 - young female pop lead, nimble talk-sung, smirky upward scoops, vocal-fry endings]
+A shell, some users, here I am,
+in two-fifty-six kibibytes of RAM
+
+[Verse 1 - dry low male baritone, deadpan spoken, zero reverb]
+I poke a register bit by bit,
+and pray the datasheet's right on it.
+
+[Verse 1 - young female pop lead, nimble talk-sung, smirky upward scoops, vocal-fry endings]
+Your pin's a file now, write it, see:
+slash devices, GPIO, D-thirteen
+
+[Pre-Chorus - dry low male baritone, deadpan spoken, zero reverb; drums filter down under rising pads and a soft noise sweep, dead silence on beat 4 before the last line]
+Can it run apps?
+
+[Pre-Chorus - young female pop lead, sung, smirky upward inflection]
+Plural
+
+[Pre-Chorus - dry low male baritone, deadpan spoken, zero reverb]
+With files?
+
+[Pre-Chorus - young female pop lead, sung, smirky upward inflection]
+And users
+
+[Pre-Chorus - dry low male baritone, deadpan spoken, zero reverb]
+So where's the real computer?
+
+[Pre-Chorus - young female pop lead, sung, smirky upward inflection]
+In your pocket. Happy to see me?
+
+[Pre-Chorus - dry low male baritone, deadpan spoken, zero reverb]
+(I ordered a real computer.)
+
+[Chorus - young female pop lead, effortless melodic head-voice pop singing, breathy, smirky; full glossy relative-major synth-pop bloom, wide stereo chords, off-beat open hats, bouncy octave bass]
+Out of the loop (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Out of the loop (O-S)
+One signed package, three addresses,
+pocket-sized and fully dressed
+Out of the loop (O-S)
+Try me in your browser tab, (yes)
+
+[Post-Chorus - female lead and male voice together, both voices, playful talk-chant; stripped dry staccato groove, gated synth stabs, handclaps, mouse-click percussion]
+Chip, Desk, Tab
+Same O-S, Same O-S
+Chip, Desk, Tab
+Pass it, (hey)
+Tiny, Tidy
+Made in Rust, open source
+Chip, Desk, Tab
+Try it, now
+
+[Verse 2 - young female pop lead, nimble talk-sung, smirky upward scoops, vocal-fry endings; lean bouncy groove, muted plucks, the female voice rattles off a smug list]
+Your fern? Fern Pings: 'Water. Now.'
+Your cat flap? Cat Customs: 'Papers? Meow.'
+Your doorbell? Ding Critic: 'Two out of ten.'
+Your toaster? Toast Forecast: 'Burnt again.'
+Your alarm? Snooze Court: 'Guilty. Rise.'
+Your bike? Hill Snitch: 'Walked it.'
+
+[Verse 2 - dry low male baritone, deadpan spoken, zero reverb]
+(Lies.)
+
+[Verse 2 - young female pop lead, nimble talk-sung, smirky upward scoops, vocal-fry endings]
+Fridge Haiku wrote a sonnet on the ham,
+and the whole block's blasting Kazoo Jam
+
+[Stop-Time - dry low male baritone, deadpan spoken, zero reverb; hard full-band stop, dry room silence, single clap stabs]
+Wait. A cat flap with apps?
+
+[Stop-Time - young female pop lead, spoken, smug vocal fry]
+Imagined. For now.
+
+[Stop-Time - dry low male baritone, deadpan spoken, zero reverb]
+And the OS? That small?
+
+[Stop-Time - young female pop lead, spoken, smug vocal fry]
+Two-fifty-six kibibytes. Snug.
+
+[Chorus - young female pop lead, effortless melodic head-voice pop singing, breathy, smirky; full glossy relative-major synth-pop bloom, wide stereo chords, off-beat open hats, bouncy octave bass]
+Out of the loop (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Out of the loop (O-S)
+Built in Rust, no need to guess,
+open source, you've got access
+Out of the loop (O-S)
+Try me in your browser tab, (yes)
+
+[Verse 3 - dry low male baritone, deadpan spoken, zero reverb; lean bouncy groove, plenty of space]
+An OS? On that? Get real.
+A chip runs one job. That's the deal.
+
+[Verse 3 - young female pop lead, nimble talk-sung, smirky upward scoops, vocal-fry endings]
+Tasks, a shell and files, for real,
+on a chip you could lose in your meal
+
+[Verse 3 - dry low male baritone, deadpan spoken, zero reverb]
+So you're a firmware blob, I guess.
+One giant binary, more or less.
+
+[Verse 3 - young female pop lead, nimble talk-sung, smirky upward scoops, vocal-fry endings]
+I'm a Rust library, I confess,
+build me in, I'll do the rest
+
+[Boot Log - dry low male baritone, deadpan spoken, zero reverb; stripped hypnotic pulse, only kick, staccato bass and tiny synth blips on each status word]
+Build you in? So what's inside?
+
+[Boot Log - young female pop lead, rhythmic cool recitation with flirty vocal fry]
+Watch me boot.
+Memory: mapped. Time: ticking.
+Tasks: named. Executor: kicking.
+Files, pins and pipes: one tree, mounted.
+Users: checked. Root's in. You? Not counted.
+Drivers: whatever this board brought.
+Shell: ready. Your move.
+
+[Bridge - young female pop lead, campy pitchwoman, sung-spoken; campy half-time Rhodes and bell-chime late-night TV jingle]
+Device makers, tired of this?
+
+[Bridge - dry low male baritone, deadpan spoken, zero reverb]
+Forty customers. Forty firmware forks.
+
+[Bridge - young female pop lead, campy pitchwoman, sung-spoken]
+One base, apps on top
+
+[Bridge - dry low male baritone, deadpan spoken, zero reverb]
+One tiny fix. Reflash the whole fleet.
+
+[Bridge - young female pop lead, campy pitchwoman, sung-spoken]
+Update the app. That's the plan
+
+[Bridge - dry low male baritone, deadpan spoken, zero reverb]
+(Is this an ad?)
+
+[Bridge - young female pop lead, campy pitchwoman, sung-spoken]
+Operators are standing by
+Xila dot dev. Let's talk.
+
+[Breakdown - young female pop lead, spoken, cool; drums and bass vanish with a tiny power-down glitch into floating pads, open space]
+Kazoo Jam, take it to the...
+
+[Breakdown - dry low male baritone, deadpan spoken, zero reverb]
+Trap.
+Did we just crash?
+
+[Breakdown - young female pop lead, spoken, cool]
+The app did. I'm still here.
+
+[Breakdown - dry low male baritone, deadpan spoken, zero reverb]
+No watchdog reset?
+
+[Breakdown - young female pop lead, spoken, cool]
+Nope. Hit it
+
+[Final Chorus - young female pop lead, effortless melodic head-voice pop singing, breathy, smirky; maximum sparkling lift, soaring high ooh counter-harmonies]
+Out of the loop (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Out of the loop (O-S)
+One app traps? I'm not impressed,
+kick keeps going, I'm still dressed
+Out of the loop (O-S)
+Try me in your browser tab, (yes)
+
+[Drop - young female pop lead, effortless melodic head-voice pop singing, breathy, smirky; the pitched vocal-synth pluck earworm leads over punchy kick, dry clap and rubbery octave bass, light breathy hook repeats]
+Out of the loop (O-S)
+Out of the loop (O-S)
+Out of the loop (O-S)
+Out of the loop
+
+[Outro - dry low male baritone, whispered, dry; beat cuts out, ultra-close whispers, two bars of the pluck motif to end]
+So... do I flash you?
+
+[Outro - young female pop lead, whispered, intimate]
+Sure. Or open a tab.
+
+[Outro - dry low male baritone, whispered, dry]
+Shh. We're in a library.
+
+[Outro - young female pop lead, whispered, intimate]
+I am a library.
+(Out of the loop.)

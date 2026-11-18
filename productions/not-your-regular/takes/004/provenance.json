@@ -1,0 +1,28 @@
+{
+  "take": "004",
+  "date": "2026-11-18",
+  "reason": "Lyrics v3 (Out of the Loop) with inverted casting (female XILA lead, dry male ALIX), business bridge and the Argon blueprint prompt (129 BPM nu-disco, C minor, pluck motif, stop-time).",
+  "provider": "ElevenLabs (hosted MCP, Creator plan)",
+  "model_id": "eleven_music_v2_5",
+  "flow_id": "o5aK39zFG5R9FuK8q6Bu",
+  "node_id": "vnQMOXVxMoTzXlNYiE6v",
+  "session_id": "TMzUHesFnEURq0z8YH1z",
+  "generation_id": "rlMbEwmbvAztlwQUq1iy",
+  "parameters": {
+    "duration_seconds": 190,
+    "lyrics_type": "custom",
+    "instrumental": false,
+    "generations_count": 1
+  },
+  "prompt_file": "prompt.txt",
+  "lyrics_file": "lyrics.txt",
+  "lyrics_source": "../../LYRICS-v3.md",
+  "estimate_credits": 5225,
+  "reported_credits": 2849.37,
+  "source_file": {
+    "path": "assets/audio/not-your-regular/take-004-source.mp3",
+    "sha256": "c194de5451444a28834ad91d9ed6f79d98830fbcbec07bf46a2d43d9178fcae8",
+    "duration_s": 192
+  },
+  "approval": "maintainer approved spending the whole credit balance on the trailer audio (2026-11-18)"
+}
