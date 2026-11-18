@@ -1,0 +1,14 @@
+{
+  "name": "house-everything-is-a-file",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 5,
+  "reviewStatus": "style-frames",
+  "creativeReference": {
+    "title": "Look What I Can Do",
+    "url": "https://youtu.be/SpaSjbRM8nQ",
+    "sourceCommit": "5f78bb80945acd0b41f80f7d7618147a3a2a3a69"
+  }
+}

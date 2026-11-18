@@ -15,6 +15,7 @@ export default defineConfig({
         "./motion-canvas/projects/final-reveal.ts",
         "./motion-canvas/projects/rust-core.ts",
         "./motion-canvas/projects/wasm-execution.ts",
+        "./motion-canvas/projects/house-everything-is-a-file.ts",
       ],
     }),
   ],
