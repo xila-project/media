@@ -87,6 +87,50 @@
       "sha256": "8d913c8dc2337cff4ea59d3afe9fbbc050ba48182cefb0d596f487317916c53f",
       "width": 1280,
       "height": 800
+    },
+    {
+      "id": "makerspace-bench-bench",
+      "file": "assets/images/makerspace-bench/bench.jpg",
+      "kind": "image",
+      "origin": "OpenAI ImageGen original library makerspace bench plate; 2026-11-18, JPEG delivery conversion",
+      "author": "Xila Media art direction; OpenAI ImageGen output",
+      "license": "OpenAI Terms of Use (generated output)",
+      "sha256": "9340e5de8a23843085b81a6e390246a535e9f625c4b906a34cc3e5880bf3bae2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "makerspace-bench-gadgets",
+      "file": "assets/images/makerspace-bench/gadgets.jpg",
+      "kind": "image",
+      "origin": "OpenAI ImageGen original crafted imagined-app gadget plate; 2026-11-18, JPEG delivery conversion",
+      "author": "Xila Media art direction; OpenAI ImageGen output",
+      "license": "OpenAI Terms of Use (generated output)",
+      "sha256": "ad1a02c7d17da40d8375a60ed72c6731e6bfecf0facd44f4bcccb376a1d91f1e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "makerspace-bench-nano-33-ble",
+      "file": "assets/images/makerspace-bench/nano-33-ble.jpg",
+      "kind": "image",
+      "origin": "Arduino docs-content 38bd285cf3726438b95b5d9cdcff27980139b4d8, https://github.com/arduino/docs-content/blob/38bd285cf3726438b95b5d9cdcff27980139b4d8/content/hardware/nano/boards/nano-33-ble/datasheet/assets/featured.jpg; unmodified ABX00030 product photo, masked at render time",
+      "author": "Arduino",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f5806c7d1749175455563a549f14d1dae638b03a5896cdbb37c174a4ae32e274",
+      "width": 520,
+      "height": 330
+    },
+    {
+      "id": "makerspace-bench-browser-login",
+      "file": "assets/images/makerspace-bench/browser-login.png",
+      "kind": "image",
+      "origin": "Unmodified browser-20.png supplied with the DA brief and catalogued in t3/dymo-diorama as dymo-diorama-browser-login; https://platforms.xila.dev; deployed revisions unavailable",
+      "author": "Xila contributors; capture supplied with the DA brief",
+      "license": "Apache-2.0 AND OFL-1.1; upstream Xila brand notices apply",
+      "sha256": "0b18f9c390384dc75b443f065b42394e76109c6ed126a77c3431408690db8785",
+      "width": 1280,
+      "height": 800
     }
   ]
 }

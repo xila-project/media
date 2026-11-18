@@ -12,6 +12,7 @@ import finalProject from "./projects/final-reveal?project";
 import rustProject from "./projects/rust-core?project";
 import wasmProject from "./projects/wasm-execution?project";
 import houseFileProject from "./projects/house-everything-is-a-file?project";
+import benchProject from "./projects/makerspace-bench?project";
 declare global {
   interface Window {
     saveFrame: (frame: number, data: string) => Promise<void>;
@@ -40,6 +41,7 @@ window.runRender = async ({
     "rust-core": rustProject,
     "wasm-execution": wasmProject,
     "house-everything-is-a-file": houseFileProject,
+    "makerspace-bench": benchProject,
   };
   const project = { ...projects[production] };
   if (scene)

@@ -1,0 +1,23 @@
+{
+  "name": "makerspace-bench",
+  "brandCommit": "00d66862564557155f384e2714b1ed030b79289b",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "duration": 26,
+  "reviewStatus": "DA round 2 test",
+  "creativeReference": {
+    "title": "Look What I Can Do",
+    "url": "https://youtu.be/SpaSjbRM8nQ",
+    "sourceCommit": "5f78bb80945acd0b41f80f7d7618147a3a2a3a69",
+    "use": "Shared DA brief only"
+  },
+  "audio": {
+    "take": "001",
+    "start": 23.2,
+    "end": 49.2,
+    "bpm": 128,
+    "words": "productions/not-your-regular/takes/001/transcript-words.json",
+    "lyrics": "productions/not-your-regular/LYRICS-v2.md"
+  }
+}
