@@ -1,0 +1,496 @@
+{
+  "chunks": [
+    {
+      "text": "[Intro]\nBig day! The OS ships today!\nHi. I'm here.\nI booked a forklift.\nCancel it.\nWhere's the computer?\nIn your hand.\nThat's a coaster.\nA coaster with an OS.\nSo what are you?\nNot your regular.",
+      "duration_ms": 11250,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "strict line-by-line alternation starting with lead A: odd lines VOICE_ALIX, playful lead pop vocal; even lines distinct lightly vocoded robotic vocal, clear consonants",
+        "lines marked for both leads are sung together",
+        "spoken-sung banter over a filtered, low-passed kick that opens up on the last line; half-bar per line"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 1]\nI cleared a desk, I hired a van,\nI bought a giant cooling fan!",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead A only: VOICE_ALIX, playful lead pop vocal",
+        "rapid rhymed list, two images per line, filter fully open, bouncy bass"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 1]\nReturn the van, return the fan,\ntwo-fifty-six kibibytes of RAM!",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead B only: distinct lightly vocoded robotic vocal, clear consonants",
+        "bratty deadpan answer, robotic stab on 'RAM'"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 1]\nI've got the discs, I've got the key,\ntwo hundred pages of 'I agree'!",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead A only: VOICE_ALIX, playful lead pop vocal",
+        "rapid rhymed list, rising excitement"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 1]\nNo discs, no wizard, no 'agree',\ncore, drivers, apps: one binary!",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead B only: distinct lightly vocoded robotic vocal, clear consonants",
+        "bratty deadpan answer, hard clap on 'one'"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Pre-Chorus]\nCan it run apps?\nPlural!\nWith files?\nAnd users!\nSo where's the server room?\nYour pocket.\n(I rented a server room.)",
+      "duration_ms": 7500,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "strict line-by-line alternation starting with lead A: odd lines VOICE_ALIX, playful lead pop vocal; even lines distinct lightly vocoded robotic vocal, clear consonants",
+        "lines marked for both leads are sung together",
+        "quick call and response, snare roll building, then everything drops out for the last line, sung small and deflated"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Chorus]\nNot your regular! (O-S!)\nOS on a board, apps on a desk,\nsame app in a tab, yes, yes, yes!\nNot your regular! (O-S!)\nOne signed package, three addresses,\npocket-sized and fully dressed!\nNot your regular! (O-S!)\nTry me in your browser tab! (Yes!)",
+      "duration_ms": 15000,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "hook lines in unison of lead A (VOICE_ALIX, playful lead pop vocal) and lead B (distinct lightly vocoded robotic vocal, clear consonants); all other lines lead B only",
+        "parenthesised words are a short gang shout",
+        "huge singable hook, full drop, side-chained synth chords"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Post-Chorus]\nBoard! Desk! Tab!\nSame O-S! Same O-S!\nBoard! Desk! Tab!\nPass it! (Hey!)\nTiny! Tidy!\nRusty! Open!\nBoard! Desk! Tab!\nTry it! Now!",
+      "duration_ms": 7500,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "unison of lead A (VOICE_ALIX, playful lead pop vocal) and lead B (distinct lightly vocoded robotic vocal, clear consonants) only",
+        "shouted gang chant, two short shouts per bar, right on the kick"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 2]\nMy fern runs Fern Pings: 'Water. Now.'\nMy cat flap's Cat Customs: 'Papers? Meow.'",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead A only: VOICE_ALIX, playful lead pop vocal",
+        "rapid rhymed list, delighted, each half-line punchy"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 2]\nYour doorbell's Ding Critic: 'Two out of ten,'\nyour toaster's Toast Forecast: 'Burnt again.'",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead B only: distinct lightly vocoded robotic vocal, clear consonants",
+        "smug escalation, robotic stutter on 'two out of ten'"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 2]\nMy alarm runs Snooze Court: 'Guilty! Rise!'\nMy bike runs Hill Snitch: 'Walked it!' (Lies!)",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead A only: VOICE_ALIX, playful lead pop vocal",
+        "rapid rhymed list, getting louder"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 2]\nFridge Haiku wrote a sonnet on the ham,\nand the whole block's blasting Kazoo Jam!",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead B only: distinct lightly vocoded robotic vocal, clear consonants",
+        "biggest escalation, kazoo-like lead synth answers 'Kazoo Jam'"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Stop-Time]\nWait. A cat flap with apps?\nImagined. For now.\nAnd the OS? That small?\nTwo-fifty-six kibibytes. Snug.",
+      "duration_ms": 7500,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "strict line-by-line alternation starting with lead A: odd lines VOICE_ALIX, playful lead pop vocal; even lines distinct lightly vocoded robotic vocal, clear consonants",
+        "lines marked for both leads are sung together",
+        "music stops dead, dry spoken lines with a single clock tick, full beat slams back on the downbeat after 'Snug'"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Chorus]\nNot your regular! (O-S!)\nOS on a board, apps on a desk,\nsame app in a tab, yes, yes, yes!\nNot your regular! (O-S!)\nBuilt in Rust, no need to guess,\nopen source, you've got access!\nNot your regular! (O-S!)\nTry me in your browser tab! (Yes!)",
+      "duration_ms": 15000,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "hook lines in unison of lead A (VOICE_ALIX, playful lead pop vocal) and lead B (distinct lightly vocoded robotic vocal, clear consonants); all other lines lead B only",
+        "parenthesised words are a short gang shout",
+        "huge singable hook, full drop, extra gang doubles"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 3]\nOne machine, that's how it's done,\none computer, one OS, just one!",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead A only: VOICE_ALIX, playful lead pop vocal",
+        "rapid rhymed list, stubborn and sure of themself"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 3]\nSame Kazoo Jam on a desk, that's one,\nin a browser tab, two for one!",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead B only: distinct lightly vocoded robotic vocal, clear consonants",
+        "bratty counting, three robotic hits on 'three for one'"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 3]\nSo you're a big OS, I guess?\nA giant program, more or less?",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead A only: VOICE_ALIX, playful lead pop vocal",
+        "rapid rhymed list, suspicious"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Verse 3]\nI'm a Rust library, I confess,\nbuild me in, I'll do the rest!",
+      "duration_ms": 3750,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "lead B only: distinct lightly vocoded robotic vocal, clear consonants",
+        "confident reveal, vocoder opens wide on 'library'"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Bridge]\nOrder now! One giant box!\nOr open a tab.\nForty discs! A forklift! Free socks!\nOr open a tab.\nCall now and we'll throw in a fan!\nOr open a tab.\nOperators are standing by!\nXila dot dev. Open a tab.",
+      "duration_ms": 15000,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "strict line-by-line alternation starting with lead A: odd lines VOICE_ALIX, playful lead pop vocal; even lines distinct lightly vocoded robotic vocal, clear consonants",
+        "lines marked for both leads are sung together",
+        "parody late-night infomercial: half-time cheesy jingle, cash-register hits; lead A shouts like a TV host, lead B replies flat and bored every time"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Breakdown]\nKazoo Jam! Take it to the...\nTrap!\nDid we just crash?\nThe app did. I'm still here.\nHit it!",
+      "duration_ms": 7500,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "strict line-by-line alternation starting with lead A: odd lines VOICE_ALIX, playful lead pop vocal; even lines distinct lightly vocoded robotic vocal, clear consonants",
+        "lines marked for both leads are sung together",
+        "beat thins to kick and a wobbly kazoo-like synth solo that chokes into a glitch on 'Trap!', two beats of silence, dry spoken lines, both leads shout the last line as the riser hits"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Final Chorus]\nNot your regular! (O-S!)\nOS on a board, apps on a desk,\nsame app in a tab, yes, yes, yes!\nNot your regular! (O-S!)\nOne app traps? I'm not impressed,\nkick keeps going, I'm still dressed!\nNot your regular! (O-S!)\nTry me in your browser tab! (Yes!)",
+      "duration_ms": 15000,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "hook lines in unison of lead A (VOICE_ALIX, playful lead pop vocal) and lead B (distinct lightly vocoded robotic vocal, clear consonants); all other lines lead B only",
+        "parenthesised words are a short gang shout",
+        "biggest chorus, key-lift energy without tempo change, ad-lib doubles"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Drop]\nNot your regular! (O-S!)\nNot your regular! (O-S!)\nNot your regular! (O-S!)\nNot your regular! (O-S!)\nNot your regular! (O-S!)\nNot your regular! (O-S!)\nNot your regular! (O-S!)\nNot your regular!",
+      "duration_ms": 15000,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "unison of lead A (VOICE_ALIX, playful lead pop vocal) and lead B (distinct lightly vocoded robotic vocal, clear consonants) only",
+        "pure chant drop, one hook per bar, crowd-style unison of the two leads only, maximum energy, hard stop on the last beat"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Outro]\nSo where do I install you?\nYou don't. Open a tab.\nShh! We're in a library!\nI am a library.\n(Not your regular.)",
+      "duration_ms": 9375,
+      "positive_styles": [
+        "128 BPM bratty English electropop dance-pop duet, 4/4 four-on-the-floor",
+        "one continuous song: same key, same bass riff, same two lead timbres in every chunk",
+        "punchy, tight, fast lyric delivery, every syllable intelligible",
+        "strict line-by-line alternation starting with lead A: odd lines VOICE_ALIX, playful lead pop vocal; even lines distinct lightly vocoded robotic vocal, clear consonants",
+        "lines marked for both leads are sung together",
+        "music cut, dry close-mic whispers, room tone, a single soft synth chord under the last line"
+      ],
+      "negative_styles": [
+        "tempo change",
+        "choir or extra singers",
+        "announcer voice",
+        "singing the section tags",
+        "melisma or long vowel runs",
+        "unwritten words",
+        "acoustic ballad"
+      ],
+      "context_adherence": "high"
+    }
+  ]
+}
