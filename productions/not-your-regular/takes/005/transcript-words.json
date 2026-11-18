@@ -1,0 +1,2455 @@
+{
+  "source": "eleven_scribe_v1 generation k3AOXHtFeGQ0qGvzX1V4 on take-005-source.mp3",
+  "words": [
+    {
+      "text": "You",
+      "start": 11.22,
+      "end": 11.26
+    },
+    {
+      "text": "wrote",
+      "start": 11.3,
+      "end": 11.42
+    },
+    {
+      "text": "a",
+      "start": 11.46,
+      "end": 11.5
+    },
+    {
+      "text": "loop",
+      "start": 11.56,
+      "end": 11.74
+    },
+    {
+      "text": "that",
+      "start": 11.78,
+      "end": 11.94
+    },
+    {
+      "text": "never",
+      "start": 12.02,
+      "end": 12.34
+    },
+    {
+      "text": "ends,",
+      "start": 12.42,
+      "end": 12.84
+    },
+    {
+      "text": "with",
+      "start": 13.04,
+      "end": 13.12
+    },
+    {
+      "text": "seven",
+      "start": 13.16,
+      "end": 13.34
+    },
+    {
+      "text": "flags",
+      "start": 13.38,
+      "end": 13.62
+    },
+    {
+      "text": "and",
+      "start": 13.66,
+      "end": 13.78
+    },
+    {
+      "text": "global",
+      "start": 13.84,
+      "end": 14.14
+    },
+    {
+      "text": "friends.",
+      "start": 14.2,
+      "end": 14.64
+    },
+    {
+      "text": "You",
+      "start": 14.9,
+      "end": 14.96
+    },
+    {
+      "text": "poke",
+      "start": 15.0,
+      "end": 15.12
+    },
+    {
+      "text": "a",
+      "start": 15.16,
+      "end": 15.2
+    },
+    {
+      "text": "register",
+      "start": 15.24,
+      "end": 15.62
+    },
+    {
+      "text": "bit",
+      "start": 15.68,
+      "end": 15.88
+    },
+    {
+      "text": "by",
+      "start": 15.94,
+      "end": 16.079
+    },
+    {
+      "text": "bit,",
+      "start": 16.18,
+      "end": 16.42
+    },
+    {
+      "text": "and",
+      "start": 16.74,
+      "end": 16.8
+    },
+    {
+      "text": "pray",
+      "start": 16.84,
+      "end": 16.94
+    },
+    {
+      "text": "the",
+      "start": 16.98,
+      "end": 17.04
+    },
+    {
+      "text": "datasheet's",
+      "start": 17.08,
+      "end": 17.52
+    },
+    {
+      "text": "right",
+      "start": 17.58,
+      "end": 17.76
+    },
+    {
+      "text": "on",
+      "start": 17.86,
+      "end": 18.02
+    },
+    {
+      "text": "it.",
+      "start": 18.08,
+      "end": 18.3
+    },
+    {
+      "text": "Me?",
+      "start": 18.48,
+      "end": 18.66
+    },
+    {
+      "text": "A",
+      "start": 18.84,
+      "end": 18.88
+    },
+    {
+      "text": "shell,",
+      "start": 18.94,
+      "end": 19.18
+    },
+    {
+      "text": "some",
+      "start": 19.26,
+      "end": 19.38
+    },
+    {
+      "text": "users,",
+      "start": 19.44,
+      "end": 19.6
+    },
+    {
+      "text": "here",
+      "start": 19.64,
+      "end": 19.74
+    },
+    {
+      "text": "I",
+      "start": 19.8,
+      "end": 19.84
+    },
+    {
+      "text": "am,",
+      "start": 19.98,
+      "end": 20.18
+    },
+    {
+      "text": "in",
+      "start": 20.44,
+      "end": 20.5
+    },
+    {
+      "text": "two",
+      "start": 20.54,
+      "end": 20.68
+    },
+    {
+      "text": "fifty-six",
+      "start": 20.74,
+      "end": 21.18
+    },
+    {
+      "text": "kibibytes",
+      "start": 21.22,
+      "end": 21.58
+    },
+    {
+      "text": "of",
+      "start": 21.62,
+      "end": 21.7
+    },
+    {
+      "text": "RAM.",
+      "start": 21.74,
+      "end": 22.06
+    },
+    {
+      "text": "Your",
+      "start": 22.28,
+      "end": 22.34
+    },
+    {
+      "text": "pins",
+      "start": 22.38,
+      "end": 22.5
+    },
+    {
+      "text": "a",
+      "start": 22.54,
+      "end": 22.58
+    },
+    {
+      "text": "file,",
+      "start": 22.62,
+      "end": 22.8
+    },
+    {
+      "text": "now",
+      "start": 22.88,
+      "end": 23.02
+    },
+    {
+      "text": "write",
+      "start": 23.06,
+      "end": 23.22
+    },
+    {
+      "text": "it",
+      "start": 23.26,
+      "end": 23.4
+    },
+    {
+      "text": "C,",
+      "start": 23.52,
+      "end": 23.74
+    },
+    {
+      "text": "slash",
+      "start": 23.9,
+      "end": 24.08
+    },
+    {
+      "text": "devices",
+      "start": 24.12,
+      "end": 24.44
+    },
+    {
+      "text": "GPIO",
+      "start": 24.48,
+      "end": 24.88
+    },
+    {
+      "text": "D",
+      "start": 24.96,
+      "end": 25.1
+    },
+    {
+      "text": "thirteen.",
+      "start": 25.16,
+      "end": 25.76
+    },
+    {
+      "text": "Can",
+      "start": 26.1,
+      "end": 26.2
+    },
+    {
+      "text": "it",
+      "start": 26.24,
+      "end": 26.28
+    },
+    {
+      "text": "run",
+      "start": 26.34,
+      "end": 26.52
+    },
+    {
+      "text": "apps,",
+      "start": 26.64,
+      "end": 26.94
+    },
+    {
+      "text": "plural,",
+      "start": 27.22,
+      "end": 27.66
+    },
+    {
+      "text": "with",
+      "start": 27.94,
+      "end": 28.1
+    },
+    {
+      "text": "files",
+      "start": 28.18,
+      "end": 28.66
+    },
+    {
+      "text": "and",
+      "start": 28.9,
+      "end": 29.04
+    },
+    {
+      "text": "users?",
+      "start": 29.18,
+      "end": 29.74
+    },
+    {
+      "text": "Where's",
+      "start": 30.48,
+      "end": 30.68
+    },
+    {
+      "text": "the",
+      "start": 30.72,
+      "end": 30.86
+    },
+    {
+      "text": "real",
+      "start": 30.92,
+      "end": 31.1
+    },
+    {
+      "text": "computer?",
+      "start": 31.16,
+      "end": 31.82
+    },
+    {
+      "text": "In",
+      "start": 32.6,
+      "end": 32.74
+    },
+    {
+      "text": "your",
+      "start": 32.82,
+      "end": 32.94
+    },
+    {
+      "text": "pocket,",
+      "start": 33.02,
+      "end": 33.74
+    },
+    {
+      "text": "happy",
+      "start": 34.16,
+      "end": 34.56
+    },
+    {
+      "text": "to",
+      "start": 34.62,
+      "end": 34.72
+    },
+    {
+      "text": "see",
+      "start": 34.86,
+      "end": 35.2
+    },
+    {
+      "text": "me.",
+      "start": 35.3,
+      "end": 35.74
+    },
+    {
+      "text": "I",
+      "start": 36.82,
+      "end": 36.9
+    },
+    {
+      "text": "ordered",
+      "start": 37.0,
+      "end": 37.6
+    },
+    {
+      "text": "a",
+      "start": 37.74,
+      "end": 37.82
+    },
+    {
+      "text": "real",
+      "start": 37.92,
+      "end": 38.42
+    },
+    {
+      "text": "computer.",
+      "start": 38.5,
+      "end": 39.28
+    },
+    {
+      "text": "Out",
+      "start": 40.72,
+      "end": 41.1
+    },
+    {
+      "text": "of",
+      "start": 41.16,
+      "end": 41.24
+    },
+    {
+      "text": "the",
+      "start": 41.32,
+      "end": 41.46
+    },
+    {
+      "text": "loop",
+      "start": 41.5,
+      "end": 41.7
+    },
+    {
+      "text": "OS.",
+      "start": 41.82,
+      "end": 42.28
+    },
+    {
+      "text": "A",
+      "start": 42.38,
+      "end": 42.42
+    },
+    {
+      "text": "real",
+      "start": 42.48,
+      "end": 42.68
+    },
+    {
+      "text": "OS",
+      "start": 42.78,
+      "end": 43.14
+    },
+    {
+      "text": "on",
+      "start": 43.2,
+      "end": 43.26
+    },
+    {
+      "text": "a",
+      "start": 43.3,
+      "end": 43.34
+    },
+    {
+      "text": "chip,",
+      "start": 43.38,
+      "end": 43.54
+    },
+    {
+      "text": "no",
+      "start": 43.62,
+      "end": 43.78
+    },
+    {
+      "text": "less.",
+      "start": 43.84,
+      "end": 44.02
+    },
+    {
+      "text": "Same",
+      "start": 44.08,
+      "end": 44.28
+    },
+    {
+      "text": "app",
+      "start": 44.36,
+      "end": 44.54
+    },
+    {
+      "text": "on",
+      "start": 44.58,
+      "end": 44.66
+    },
+    {
+      "text": "a",
+      "start": 44.7,
+      "end": 44.74
+    },
+    {
+      "text": "desk,",
+      "start": 44.78,
+      "end": 45.0
+    },
+    {
+      "text": "in",
+      "start": 45.04,
+      "end": 45.1
+    },
+    {
+      "text": "a",
+      "start": 45.14,
+      "end": 45.18
+    },
+    {
+      "text": "tab,",
+      "start": 45.26,
+      "end": 45.62
+    },
+    {
+      "text": "yes,",
+      "start": 45.74,
+      "end": 46.02
+    },
+    {
+      "text": "yes.",
+      "start": 46.18,
+      "end": 46.48
+    },
+    {
+      "text": "Out",
+      "start": 46.54,
+      "end": 46.66
+    },
+    {
+      "text": "of",
+      "start": 46.72,
+      "end": 46.8
+    },
+    {
+      "text": "the",
+      "start": 46.86,
+      "end": 46.94
+    },
+    {
+      "text": "loop",
+      "start": 47.06,
+      "end": 47.28
+    },
+    {
+      "text": "OS.",
+      "start": 47.36,
+      "end": 47.74
+    },
+    {
+      "text": "One",
+      "start": 48.02,
+      "end": 48.16
+    },
+    {
+      "text": "signed",
+      "start": 48.22,
+      "end": 48.42
+    },
+    {
+      "text": "package,",
+      "start": 48.48,
+      "end": 48.84
+    },
+    {
+      "text": "three",
+      "start": 48.92,
+      "end": 49.1
+    },
+    {
+      "text": "addresses,",
+      "start": 49.22,
+      "end": 49.74
+    },
+    {
+      "text": "pocket-sized",
+      "start": 49.86,
+      "end": 50.54
+    },
+    {
+      "text": "and",
+      "start": 50.58,
+      "end": 50.7
+    },
+    {
+      "text": "fully",
+      "start": 50.76,
+      "end": 51.06
+    },
+    {
+      "text": "dressed.",
+      "start": 51.12,
+      "end": 51.64
+    },
+    {
+      "text": "Out",
+      "start": 51.8,
+      "end": 52.18
+    },
+    {
+      "text": "of",
+      "start": 52.26,
+      "end": 52.32
+    },
+    {
+      "text": "the",
+      "start": 52.4,
+      "end": 52.48
+    },
+    {
+      "text": "loop",
+      "start": 52.58,
+      "end": 52.8
+    },
+    {
+      "text": "OS.",
+      "start": 52.88,
+      "end": 53.28
+    },
+    {
+      "text": "Try",
+      "start": 53.52,
+      "end": 53.72
+    },
+    {
+      "text": "me",
+      "start": 53.8,
+      "end": 53.96
+    },
+    {
+      "text": "in",
+      "start": 54.06,
+      "end": 54.18
+    },
+    {
+      "text": "your",
+      "start": 54.24,
+      "end": 54.4
+    },
+    {
+      "text": "browser",
+      "start": 54.44,
+      "end": 54.84
+    },
+    {
+      "text": "tab,",
+      "start": 54.96,
+      "end": 55.36
+    },
+    {
+      "text": "yes.",
+      "start": 55.44,
+      "end": 55.82
+    },
+    {
+      "text": "Chip,",
+      "start": 56.3,
+      "end": 56.58
+    },
+    {
+      "text": "desk,",
+      "start": 56.8,
+      "end": 57.08
+    },
+    {
+      "text": "tab,",
+      "start": 57.26,
+      "end": 57.56
+    },
+    {
+      "text": "same",
+      "start": 57.7,
+      "end": 57.9
+    },
+    {
+      "text": "OS,",
+      "start": 57.98,
+      "end": 58.48
+    },
+    {
+      "text": "same",
+      "start": 58.6,
+      "end": 58.82
+    },
+    {
+      "text": "OS.",
+      "start": 58.9,
+      "end": 59.5
+    },
+    {
+      "text": "Chip,",
+      "start": 59.98,
+      "end": 60.28
+    },
+    {
+      "text": "desk,",
+      "start": 60.48,
+      "end": 60.78
+    },
+    {
+      "text": "tab,",
+      "start": 60.94,
+      "end": 61.3
+    },
+    {
+      "text": "made",
+      "start": 61.4,
+      "end": 61.62
+    },
+    {
+      "text": "in",
+      "start": 61.68,
+      "end": 61.78
+    },
+    {
+      "text": "Rust,",
+      "start": 61.86,
+      "end": 62.2
+    },
+    {
+      "text": "open",
+      "start": 62.38,
+      "end": 62.68
+    },
+    {
+      "text": "source.",
+      "start": 62.76,
+      "end": 63.3
+    },
+    {
+      "text": "Your",
+      "start": 64.48,
+      "end": 64.58
+    },
+    {
+      "text": "fern,",
+      "start": 64.64,
+      "end": 64.879
+    },
+    {
+      "text": "fern",
+      "start": 65.08,
+      "end": 65.26
+    },
+    {
+      "text": "paints",
+      "start": 65.319,
+      "end": 65.54
+    },
+    {
+      "text": "water",
+      "start": 65.6,
+      "end": 65.86
+    },
+    {
+      "text": "now.",
+      "start": 66.02,
+      "end": 66.26
+    },
+    {
+      "text": "Your",
+      "start": 66.36,
+      "end": 66.42
+    },
+    {
+      "text": "cat",
+      "start": 66.5,
+      "end": 66.64
+    },
+    {
+      "text": "flap,",
+      "start": 66.68,
+      "end": 66.86
+    },
+    {
+      "text": "cat",
+      "start": 66.94,
+      "end": 67.08
+    },
+    {
+      "text": "custom",
+      "start": 67.14,
+      "end": 67.36
+    },
+    {
+      "text": "papers,",
+      "start": 67.42,
+      "end": 67.74
+    },
+    {
+      "text": "meow.",
+      "start": 67.84,
+      "end": 68.12
+    },
+    {
+      "text": "Your",
+      "start": 68.2,
+      "end": 68.28
+    },
+    {
+      "text": "doorbell",
+      "start": 68.32,
+      "end": 68.72
+    },
+    {
+      "text": "ding",
+      "start": 68.78,
+      "end": 68.94
+    },
+    {
+      "text": "critic,",
+      "start": 68.98,
+      "end": 69.18
+    },
+    {
+      "text": "two",
+      "start": 69.24,
+      "end": 69.34
+    },
+    {
+      "text": "out,",
+      "start": 69.42,
+      "end": 69.62
+    },
+    {
+      "text": "meow.",
+      "start": 69.68,
+      "end": 70.0
+    },
+    {
+      "text": "Your",
+      "start": 70.04,
+      "end": 70.12
+    },
+    {
+      "text": "doorbell",
+      "start": 70.16,
+      "end": 70.56
+    },
+    {
+      "text": "ding",
+      "start": 70.62,
+      "end": 70.78
+    },
+    {
+      "text": "critic,",
+      "start": 70.82,
+      "end": 71.02
+    },
+    {
+      "text": "two",
+      "start": 71.1,
+      "end": 71.2
+    },
+    {
+      "text": "out",
+      "start": 71.26,
+      "end": 71.38
+    },
+    {
+      "text": "of",
+      "start": 71.42,
+      "end": 71.48
+    },
+    {
+      "text": "ten.",
+      "start": 71.56,
+      "end": 71.84
+    },
+    {
+      "text": "Your",
+      "start": 71.88,
+      "end": 71.96
+    },
+    {
+      "text": "toaster",
+      "start": 72.0,
+      "end": 72.4
+    },
+    {
+      "text": "toast",
+      "start": 72.46,
+      "end": 72.64
+    },
+    {
+      "text": "forecast,",
+      "start": 72.68,
+      "end": 72.98
+    },
+    {
+      "text": "burnt",
+      "start": 73.06,
+      "end": 73.24
+    },
+    {
+      "text": "again.",
+      "start": 73.32,
+      "end": 73.58
+    },
+    {
+      "text": "Your",
+      "start": 73.64,
+      "end": 73.72
+    },
+    {
+      "text": "alarm",
+      "start": 73.78,
+      "end": 74.2
+    },
+    {
+      "text": "snooze",
+      "start": 74.28,
+      "end": 74.5
+    },
+    {
+      "text": "court,",
+      "start": 74.54,
+      "end": 74.68
+    },
+    {
+      "text": "guilty",
+      "start": 74.76,
+      "end": 75.04
+    },
+    {
+      "text": "rise.",
+      "start": 75.26,
+      "end": 75.62
+    },
+    {
+      "text": "Fridge",
+      "start": 75.68,
+      "end": 75.88
+    },
+    {
+      "text": "haiku",
+      "start": 75.92,
+      "end": 76.32
+    },
+    {
+      "text": "wrote",
+      "start": 76.36,
+      "end": 76.48
+    },
+    {
+      "text": "a",
+      "start": 76.52,
+      "end": 76.56
+    },
+    {
+      "text": "sonnet",
+      "start": 76.62,
+      "end": 76.84
+    },
+    {
+      "text": "on",
+      "start": 76.88,
+      "end": 76.94
+    },
+    {
+      "text": "the",
+      "start": 76.98,
+      "end": 77.04
+    },
+    {
+      "text": "ham,",
+      "start": 77.1,
+      "end": 77.28
+    },
+    {
+      "text": "and",
+      "start": 77.34,
+      "end": 77.4
+    },
+    {
+      "text": "the",
+      "start": 77.42,
+      "end": 77.5
+    },
+    {
+      "text": "whole",
+      "start": 77.54,
+      "end": 77.7
+    },
+    {
+      "text": "block's",
+      "start": 77.74,
+      "end": 77.96
+    },
+    {
+      "text": "blasting",
+      "start": 78.0,
+      "end": 78.38
+    },
+    {
+      "text": "Kazu",
+      "start": 78.44,
+      "end": 78.86
+    },
+    {
+      "text": "Jam.",
+      "start": 78.94,
+      "end": 79.32
+    },
+    {
+      "text": "Wait,",
+      "start": 81.26,
+      "end": 81.52
+    },
+    {
+      "text": "a",
+      "start": 82.1,
+      "end": 82.16
+    },
+    {
+      "text": "cat",
+      "start": 82.22,
+      "end": 82.4
+    },
+    {
+      "text": "flap",
+      "start": 82.46,
+      "end": 82.66
+    },
+    {
+      "text": "with",
+      "start": 82.7,
+      "end": 82.82
+    },
+    {
+      "text": "apps?",
+      "start": 82.94,
+      "end": 83.28
+    },
+    {
+      "text": "Imagined",
+      "start": 83.86,
+      "end": 84.42
+    },
+    {
+      "text": "for",
+      "start": 85.06,
+      "end": 85.16
+    },
+    {
+      "text": "now.",
+      "start": 85.22,
+      "end": 85.56
+    },
+    {
+      "text": "And",
+      "start": 86.6,
+      "end": 86.66
+    },
+    {
+      "text": "the",
+      "start": 86.7,
+      "end": 86.78
+    },
+    {
+      "text": "OS?",
+      "start": 86.86,
+      "end": 87.28
+    },
+    {
+      "text": "That",
+      "start": 87.86,
+      "end": 87.98
+    },
+    {
+      "text": "small?",
+      "start": 88.06,
+      "end": 88.32
+    },
+    {
+      "text": "Two",
+      "start": 89.2,
+      "end": 89.32
+    },
+    {
+      "text": "fifty-six",
+      "start": 89.38,
+      "end": 89.8
+    },
+    {
+      "text": "kibibytes.",
+      "start": 89.86,
+      "end": 90.44
+    },
+    {
+      "text": "Snug.",
+      "start": 91.28,
+      "end": 91.58
+    },
+    {
+      "text": "Out",
+      "start": 92.36,
+      "end": 92.46
+    },
+    {
+      "text": "of",
+      "start": 92.52,
+      "end": 92.6
+    },
+    {
+      "text": "the",
+      "start": 92.66,
+      "end": 92.72
+    },
+    {
+      "text": "loop",
+      "start": 92.78,
+      "end": 93.02
+    },
+    {
+      "text": "OS.",
+      "start": 93.54,
+      "end": 93.96
+    },
+    {
+      "text": "A",
+      "start": 94.08,
+      "end": 94.12
+    },
+    {
+      "text": "real",
+      "start": 94.18,
+      "end": 94.36
+    },
+    {
+      "text": "OS",
+      "start": 94.46,
+      "end": 94.84
+    },
+    {
+      "text": "on",
+      "start": 94.9,
+      "end": 94.96
+    },
+    {
+      "text": "a",
+      "start": 95.0,
+      "end": 95.04
+    },
+    {
+      "text": "chip,",
+      "start": 95.08,
+      "end": 95.24
+    },
+    {
+      "text": "no",
+      "start": 95.34,
+      "end": 95.48
+    },
+    {
+      "text": "less.",
+      "start": 95.54,
+      "end": 95.88
+    },
+    {
+      "text": "Same",
+      "start": 96.02,
+      "end": 96.22
+    },
+    {
+      "text": "app,",
+      "start": 96.32,
+      "end": 96.46
+    },
+    {
+      "text": "ha,",
+      "start": 96.52,
+      "end": 96.68
+    },
+    {
+      "text": "on",
+      "start": 97.66,
+      "end": 97.72
+    },
+    {
+      "text": "a",
+      "start": 97.78,
+      "end": 97.82
+    },
+    {
+      "text": "desk,",
+      "start": 97.86,
+      "end": 98.08
+    },
+    {
+      "text": "in",
+      "start": 98.12,
+      "end": 98.18
+    },
+    {
+      "text": "a",
+      "start": 98.22,
+      "end": 98.26
+    },
+    {
+      "text": "tab,",
+      "start": 98.34,
+      "end": 98.6
+    },
+    {
+      "text": "yes,",
+      "start": 98.8,
+      "end": 99.1
+    },
+    {
+      "text": "yes.",
+      "start": 99.26,
+      "end": 99.66
+    },
+    {
+      "text": "Out",
+      "start": 99.74,
+      "end": 99.84
+    },
+    {
+      "text": "of",
+      "start": 99.9,
+      "end": 99.98
+    },
+    {
+      "text": "the",
+      "start": 100.04,
+      "end": 100.1
+    },
+    {
+      "text": "loop",
+      "start": 100.18,
+      "end": 100.38
+    },
+    {
+      "text": "OS.",
+      "start": 100.46,
+      "end": 100.56
+    },
+    {
+      "text": "Little",
+      "start": 100.66,
+      "end": 101.02
+    },
+    {
+      "text": "Rust,",
+      "start": 101.08,
+      "end": 101.26
+    },
+    {
+      "text": "no",
+      "start": 101.34,
+      "end": 101.48
+    },
+    {
+      "text": "need",
+      "start": 101.56,
+      "end": 101.72
+    },
+    {
+      "text": "to",
+      "start": 101.76,
+      "end": 101.86
+    },
+    {
+      "text": "guess.",
+      "start": 101.9,
+      "end": 102.2
+    },
+    {
+      "text": "Open",
+      "start": 102.26,
+      "end": 102.42
+    },
+    {
+      "text": "source,",
+      "start": 102.48,
+      "end": 102.66
+    },
+    {
+      "text": "you've",
+      "start": 102.74,
+      "end": 102.88
+    },
+    {
+      "text": "got",
+      "start": 102.94,
+      "end": 103.14
+    },
+    {
+      "text": "access.",
+      "start": 103.24,
+      "end": 103.68
+    },
+    {
+      "text": "Out",
+      "start": 103.68,
+      "end": 103.68
+    },
+    {
+      "text": "of",
+      "start": 103.68,
+      "end": 103.68
+    },
+    {
+      "text": "the",
+      "start": 103.72,
+      "end": 103.8
+    },
+    {
+      "text": "loop",
+      "start": 103.86,
+      "end": 104.1
+    },
+    {
+      "text": "OS.",
+      "start": 104.62,
+      "end": 105.16
+    },
+    {
+      "text": "Try",
+      "start": 106.12,
+      "end": 106.24
+    },
+    {
+      "text": "me",
+      "start": 106.28,
+      "end": 106.36
+    },
+    {
+      "text": "in",
+      "start": 106.42,
+      "end": 106.48
+    },
+    {
+      "text": "your",
+      "start": 106.52,
+      "end": 106.58
+    },
+    {
+      "text": "browser",
+      "start": 106.62,
+      "end": 107.0
+    },
+    {
+      "text": "tab,",
+      "start": 107.1,
+      "end": 107.5
+    },
+    {
+      "text": "yes.",
+      "start": 107.6,
+      "end": 107.86
+    },
+    {
+      "text": "You",
+      "start": 108.26,
+      "end": 108.38
+    },
+    {
+      "text": "say,",
+      "start": 108.46,
+      "end": 108.66
+    },
+    {
+      "text": "\"An",
+      "start": 108.82,
+      "end": 108.9
+    },
+    {
+      "text": "OS",
+      "start": 108.98,
+      "end": 109.14
+    },
+    {
+      "text": "on",
+      "start": 109.22,
+      "end": 109.34
+    },
+    {
+      "text": "that?",
+      "start": 109.42,
+      "end": 109.52
+    },
+    {
+      "text": "Get",
+      "start": 109.64,
+      "end": 109.8
+    },
+    {
+      "text": "real.",
+      "start": 109.88,
+      "end": 110.12
+    },
+    {
+      "text": "A",
+      "start": 110.2,
+      "end": 110.24
+    },
+    {
+      "text": "chip",
+      "start": 110.3,
+      "end": 110.48
+    },
+    {
+      "text": "runs",
+      "start": 110.56,
+      "end": 110.74
+    },
+    {
+      "text": "one",
+      "start": 110.82,
+      "end": 110.94
+    },
+    {
+      "text": "job,",
+      "start": 111.02,
+      "end": 111.2
+    },
+    {
+      "text": "that's",
+      "start": 111.26,
+      "end": 111.44
+    },
+    {
+      "text": "the",
+      "start": 111.46,
+      "end": 111.56
+    },
+    {
+      "text": "deal.\"",
+      "start": 111.6,
+      "end": 111.88
+    },
+    {
+      "text": "But",
+      "start": 111.94,
+      "end": 112.08
+    },
+    {
+      "text": "tasks,",
+      "start": 112.18,
+      "end": 112.46
+    },
+    {
+      "text": "a",
+      "start": 112.52,
+      "end": 112.56
+    },
+    {
+      "text": "shell,",
+      "start": 112.6,
+      "end": 112.74
+    },
+    {
+      "text": "and",
+      "start": 112.76,
+      "end": 112.84
+    },
+    {
+      "text": "files",
+      "start": 112.96,
+      "end": 113.26
+    },
+    {
+      "text": "for",
+      "start": 113.32,
+      "end": 113.46
+    },
+    {
+      "text": "real.",
+      "start": 113.56,
+      "end": 113.74
+    },
+    {
+      "text": "On",
+      "start": 113.8,
+      "end": 113.86
+    },
+    {
+      "text": "a",
+      "start": 113.9,
+      "end": 113.94
+    },
+    {
+      "text": "chip",
+      "start": 114.0,
+      "end": 114.2
+    },
+    {
+      "text": "you",
+      "start": 114.24,
+      "end": 114.3
+    },
+    {
+      "text": "could",
+      "start": 114.34,
+      "end": 114.42
+    },
+    {
+      "text": "lose",
+      "start": 114.48,
+      "end": 114.68
+    },
+    {
+      "text": "in",
+      "start": 114.72,
+      "end": 114.78
+    },
+    {
+      "text": "your",
+      "start": 114.82,
+      "end": 114.88
+    },
+    {
+      "text": "meal.",
+      "start": 114.94,
+      "end": 115.2
+    },
+    {
+      "text": "You",
+      "start": 115.28,
+      "end": 115.34
+    },
+    {
+      "text": "think",
+      "start": 115.4,
+      "end": 115.58
+    },
+    {
+      "text": "I'm",
+      "start": 115.66,
+      "end": 115.72
+    },
+    {
+      "text": "a",
+      "start": 115.76,
+      "end": 115.8
+    },
+    {
+      "text": "firmware",
+      "start": 115.88,
+      "end": 116.26
+    },
+    {
+      "text": "blob,",
+      "start": 116.28,
+      "end": 116.46
+    },
+    {
+      "text": "I",
+      "start": 116.56,
+      "end": 116.62
+    },
+    {
+      "text": "guess.",
+      "start": 116.68,
+      "end": 116.94
+    },
+    {
+      "text": "One",
+      "start": 117.04,
+      "end": 117.18
+    },
+    {
+      "text": "giant",
+      "start": 117.24,
+      "end": 117.56
+    },
+    {
+      "text": "binary,",
+      "start": 117.6,
+      "end": 118.04
+    },
+    {
+      "text": "more",
+      "start": 118.14,
+      "end": 118.34
+    },
+    {
+      "text": "or",
+      "start": 118.4,
+      "end": 118.46
+    },
+    {
+      "text": "less.",
+      "start": 118.52,
+      "end": 118.78
+    },
+    {
+      "text": "I'm",
+      "start": 118.88,
+      "end": 118.96
+    },
+    {
+      "text": "a",
+      "start": 119.0,
+      "end": 119.04
+    },
+    {
+      "text": "Rust",
+      "start": 119.1,
+      "end": 119.26
+    },
+    {
+      "text": "library,",
+      "start": 119.32,
+      "end": 119.9
+    },
+    {
+      "text": "I",
+      "start": 120.12,
+      "end": 120.18
+    },
+    {
+      "text": "confess.",
+      "start": 120.22,
+      "end": 120.8
+    },
+    {
+      "text": "Build",
+      "start": 120.92,
+      "end": 121.12
+    },
+    {
+      "text": "me",
+      "start": 121.16,
+      "end": 121.36
+    },
+    {
+      "text": "in,",
+      "start": 121.46,
+      "end": 121.56
+    },
+    {
+      "text": "I'll",
+      "start": 121.66,
+      "end": 121.8
+    },
+    {
+      "text": "do",
+      "start": 121.88,
+      "end": 122.04
+    },
+    {
+      "text": "the",
+      "start": 122.1,
+      "end": 122.24
+    },
+    {
+      "text": "rest.",
+      "start": 122.3,
+      "end": 122.74
+    },
+    {
+      "text": "Build",
+      "start": 124.78,
+      "end": 124.96
+    },
+    {
+      "text": "you",
+      "start": 125.02,
+      "end": 125.1
+    },
+    {
+      "text": "in?",
+      "start": 125.18,
+      "end": 125.32
+    },
+    {
+      "text": "So",
+      "start": 125.5,
+      "end": 125.6
+    },
+    {
+      "text": "what's",
+      "start": 125.64,
+      "end": 125.8
+    },
+    {
+      "text": "inside?",
+      "start": 125.84,
+      "end": 126.22
+    },
+    {
+      "text": "Watch",
+      "start": 126.28,
+      "end": 126.48
+    },
+    {
+      "text": "me",
+      "start": 126.54,
+      "end": 126.64
+    },
+    {
+      "text": "boot.",
+      "start": 126.72,
+      "end": 126.88
+    },
+    {
+      "text": "Memory,",
+      "start": 126.94,
+      "end": 127.24
+    },
+    {
+      "text": "mapped.",
+      "start": 127.4,
+      "end": 127.68
+    },
+    {
+      "text": "Tasks,",
+      "start": 127.86,
+      "end": 128.22
+    },
+    {
+      "text": "named.",
+      "start": 128.34,
+      "end": 128.62
+    },
+    {
+      "text": "Files,",
+      "start": 128.78,
+      "end": 129.1
+    },
+    {
+      "text": "pins,",
+      "start": 129.24,
+      "end": 129.419
+    },
+    {
+      "text": "and",
+      "start": 129.46,
+      "end": 129.52
+    },
+    {
+      "text": "pipes,",
+      "start": 129.6,
+      "end": 129.86
+    },
+    {
+      "text": "one",
+      "start": 130.0,
+      "end": 130.1
+    },
+    {
+      "text": "tree.",
+      "start": 130.199,
+      "end": 130.419
+    },
+    {
+      "text": "Users,",
+      "start": 130.699,
+      "end": 130.979
+    },
+    {
+      "text": "checked.",
+      "start": 131.12,
+      "end": 131.38
+    },
+    {
+      "text": "You,",
+      "start": 131.62,
+      "end": 131.68
+    },
+    {
+      "text": "not",
+      "start": 131.78,
+      "end": 131.96
+    },
+    {
+      "text": "counted.",
+      "start": 132.02,
+      "end": 132.4
+    },
+    {
+      "text": "Drivers,",
+      "start": 132.46,
+      "end": 132.86
+    },
+    {
+      "text": "whatever",
+      "start": 132.94,
+      "end": 133.22
+    },
+    {
+      "text": "this",
+      "start": 133.26,
+      "end": 133.46
+    },
+    {
+      "text": "board",
+      "start": 133.52,
+      "end": 133.74
+    },
+    {
+      "text": "brought.",
+      "start": 133.82,
+      "end": 134.08
+    },
+    {
+      "text": "Shell,",
+      "start": 134.3,
+      "end": 134.54
+    },
+    {
+      "text": "ready.",
+      "start": 134.78,
+      "end": 135.02
+    },
+    {
+      "text": "Your",
+      "start": 135.48,
+      "end": 135.66
+    },
+    {
+      "text": "move.",
+      "start": 135.72,
+      "end": 135.98
+    },
+    {
+      "text": "Device",
+      "start": 136.3,
+      "end": 136.6
+    },
+    {
+      "text": "makers,",
+      "start": 136.66,
+      "end": 137.0
+    },
+    {
+      "text": "forty.",
+      "start": 137.1,
+      "end": 137.36
+    },
+    {
+      "text": "Customers,",
+      "start": 137.44,
+      "end": 137.94
+    },
+    {
+      "text": "forty.",
+      "start": 138.04,
+      "end": 138.32
+    },
+    {
+      "text": "Firmware",
+      "start": 138.48,
+      "end": 138.8
+    },
+    {
+      "text": "forks,",
+      "start": 138.94,
+      "end": 139.26
+    },
+    {
+      "text": "one",
+      "start": 139.42,
+      "end": 139.52
+    },
+    {
+      "text": "tiny",
+      "start": 139.6,
+      "end": 139.8
+    },
+    {
+      "text": "fix.",
+      "start": 139.86,
+      "end": 140.04
+    },
+    {
+      "text": "Re-flash",
+      "start": 140.12,
+      "end": 140.52
+    },
+    {
+      "text": "the",
+      "start": 140.56,
+      "end": 140.62
+    },
+    {
+      "text": "fleet,",
+      "start": 140.68,
+      "end": 140.86
+    },
+    {
+      "text": "one",
+      "start": 141.04,
+      "end": 141.16
+    },
+    {
+      "text": "base.",
+      "start": 141.24,
+      "end": 141.44
+    },
+    {
+      "text": "Apps",
+      "start": 141.5,
+      "end": 141.68
+    },
+    {
+      "text": "on",
+      "start": 141.76,
+      "end": 141.88
+    },
+    {
+      "text": "top,",
+      "start": 141.92,
+      "end": 142.12
+    },
+    {
+      "text": "update",
+      "start": 142.22,
+      "end": 142.48
+    },
+    {
+      "text": "the",
+      "start": 142.52,
+      "end": 142.6
+    },
+    {
+      "text": "app.",
+      "start": 142.68,
+      "end": 142.8
+    },
+    {
+      "text": "That's",
+      "start": 142.86,
+      "end": 143.04
+    },
+    {
+      "text": "the",
+      "start": 143.08,
+      "end": 143.16
+    },
+    {
+      "text": "plan.",
+      "start": 143.2,
+      "end": 143.46
+    },
+    {
+      "text": "Operators",
+      "start": 143.58,
+      "end": 143.86
+    },
+    {
+      "text": "are",
+      "start": 143.88,
+      "end": 143.94
+    },
+    {
+      "text": "standing",
+      "start": 143.98,
+      "end": 144.3
+    },
+    {
+      "text": "by.",
+      "start": 144.32,
+      "end": 144.42
+    },
+    {
+      "text": "Zilla.dev,",
+      "start": 144.46,
+      "end": 145.1
+    },
+    {
+      "text": "let's",
+      "start": 145.14,
+      "end": 145.34
+    },
+    {
+      "text": "talk.",
+      "start": 145.4,
+      "end": 145.68
+    },
+    {
+      "text": "Kazu",
+      "start": 146.3,
+      "end": 146.5
+    },
+    {
+      "text": "Jam,",
+      "start": 146.56,
+      "end": 146.7
+    },
+    {
+      "text": "take",
+      "start": 146.76,
+      "end": 146.88
+    },
+    {
+      "text": "it",
+      "start": 146.9,
+      "end": 146.96
+    },
+    {
+      "text": "to",
+      "start": 147.0,
+      "end": 147.08
+    },
+    {
+      "text": "the...",
+      "start": 147.12,
+      "end": 147.22
+    },
+    {
+      "text": "trap.",
+      "start": 148.14,
+      "end": 148.46
+    },
+    {
+      "text": "Did",
+      "start": 148.86,
+      "end": 149.02
+    },
+    {
+      "text": "we",
+      "start": 149.08,
+      "end": 149.26
+    },
+    {
+      "text": "just",
+      "start": 149.32,
+      "end": 149.48
+    },
+    {
+      "text": "crash?",
+      "start": 149.54,
+      "end": 149.88
+    },
+    {
+      "text": "The",
+      "start": 150.56,
+      "end": 150.64
+    },
+    {
+      "text": "app",
+      "start": 150.72,
+      "end": 150.88
+    },
+    {
+      "text": "did.",
+      "start": 150.96,
+      "end": 151.14
+    },
+    {
+      "text": "I'm",
+      "start": 151.94,
+      "end": 152.02
+    },
+    {
+      "text": "still",
+      "start": 152.08,
+      "end": 152.26
+    },
+    {
+      "text": "here.",
+      "start": 152.32,
+      "end": 152.64
+    },
+    {
+      "text": "No",
+      "start": 153.24,
+      "end": 153.4
+    },
+    {
+      "text": "watchdog",
+      "start": 153.46,
+      "end": 153.9
+    },
+    {
+      "text": "reset?",
+      "start": 153.94,
+      "end": 154.36
+    },
+    {
+      "text": "Nope.",
+      "start": 154.56,
+      "end": 154.82
+    },
+    {
+      "text": "Hit",
+      "start": 155.98,
+      "end": 156.12
+    },
+    {
+      "text": "it.",
+      "start": 156.18,
+      "end": 156.32
+    },
+    {
+      "text": "Out",
+      "start": 159.26,
+      "end": 159.36
+    },
+    {
+      "text": "of",
+      "start": 159.38,
+      "end": 159.44
+    },
+    {
+      "text": "the",
+      "start": 159.48,
+      "end": 159.54
+    },
+    {
+      "text": "loop",
+      "start": 159.6,
+      "end": 159.84
+    },
+    {
+      "text": "OS.",
+      "start": 160.0,
+      "end": 160.46
+    },
+    {
+      "text": "A",
+      "start": 160.54,
+      "end": 160.58
+    },
+    {
+      "text": "real",
+      "start": 160.64,
+      "end": 160.82
+    },
+    {
+      "text": "OS",
+      "start": 160.92,
+      "end": 161.28
+    },
+    {
+      "text": "on",
+      "start": 161.34,
+      "end": 161.4
+    },
+    {
+      "text": "a",
+      "start": 161.44,
+      "end": 161.48
+    },
+    {
+      "text": "chip,",
+      "start": 161.52,
+      "end": 161.68
+    },
+    {
+      "text": "no",
+      "start": 161.78,
+      "end": 161.94
+    },
+    {
+      "text": "less.",
+      "start": 162.0,
+      "end": 162.18
+    },
+    {
+      "text": "Same",
+      "start": 162.24,
+      "end": 162.46
+    },
+    {
+      "text": "app",
+      "start": 162.52,
+      "end": 162.7
+    },
+    {
+      "text": "on",
+      "start": 162.74,
+      "end": 162.8
+    },
+    {
+      "text": "a",
+      "start": 162.84,
+      "end": 162.9
+    },
+    {
+      "text": "desk,",
+      "start": 162.94,
+      "end": 163.16
+    },
+    {
+      "text": "in",
+      "start": 163.2,
+      "end": 163.24
+    },
+    {
+      "text": "a",
+      "start": 163.3,
+      "end": 163.34
+    },
+    {
+      "text": "tab,",
+      "start": 163.42,
+      "end": 163.7
+    },
+    {
+      "text": "yes,",
+      "start": 163.88,
+      "end": 164.1
+    },
+    {
+      "text": "yes.",
+      "start": 164.34,
+      "end": 164.58
+    },
+    {
+      "text": "Out",
+      "start": 164.8,
+      "end": 164.88
+    },
+    {
+      "text": "of",
+      "start": 164.92,
+      "end": 164.96
+    },
+    {
+      "text": "the",
+      "start": 165.0,
+      "end": 165.08
+    },
+    {
+      "text": "loop",
+      "start": 165.12,
+      "end": 165.38
+    },
+    {
+      "text": "OS.",
+      "start": 165.5,
+      "end": 166.0
+    },
+    {
+      "text": "One",
+      "start": 166.24,
+      "end": 166.38
+    },
+    {
+      "text": "app",
+      "start": 166.44,
+      "end": 166.56
+    },
+    {
+      "text": "traps,",
+      "start": 166.62,
+      "end": 166.84
+    },
+    {
+      "text": "I'm",
+      "start": 166.92,
+      "end": 167.02
+    },
+    {
+      "text": "not",
+      "start": 167.08,
+      "end": 167.28
+    },
+    {
+      "text": "impressed.",
+      "start": 167.36,
+      "end": 167.82
+    },
+    {
+      "text": "Hit",
+      "start": 168.0,
+      "end": 168.18
+    },
+    {
+      "text": "keeps",
+      "start": 168.24,
+      "end": 168.44
+    },
+    {
+      "text": "going,",
+      "start": 168.5,
+      "end": 168.82
+    },
+    {
+      "text": "I'm",
+      "start": 168.96,
+      "end": 169.08
+    },
+    {
+      "text": "still",
+      "start": 169.12,
+      "end": 169.32
+    },
+    {
+      "text": "dressed.",
+      "start": 169.38,
+      "end": 169.72
+    },
+    {
+      "text": "Out",
+      "start": 169.88,
+      "end": 169.96
+    },
+    {
+      "text": "of",
+      "start": 170.0,
+      "end": 170.04
+    },
+    {
+      "text": "the",
+      "start": 170.08,
+      "end": 170.16
+    },
+    {
+      "text": "loop",
+      "start": 170.2,
+      "end": 170.5
+    },
+    {
+      "text": "OS.",
+      "start": 170.6,
+      "end": 171.08
+    },
+    {
+      "text": "Try",
+      "start": 171.22,
+      "end": 171.42
+    },
+    {
+      "text": "me",
+      "start": 171.48,
+      "end": 171.68
+    },
+    {
+      "text": "in",
+      "start": 171.76,
+      "end": 171.9
+    },
+    {
+      "text": "your",
+      "start": 171.94,
+      "end": 172.12
+    },
+    {
+      "text": "browser",
+      "start": 172.16,
+      "end": 172.56
+    },
+    {
+      "text": "tab,",
+      "start": 172.64,
+      "end": 173.02
+    },
+    {
+      "text": "yes.",
+      "start": 173.1,
+      "end": 173.52
+    },
+    {
+      "text": "Da,",
+      "start": 174.92,
+      "end": 175.14
+    },
+    {
+      "text": "um,",
+      "start": 175.22,
+      "end": 175.3
+    },
+    {
+      "text": "da,",
+      "start": 175.38,
+      "end": 175.62
+    },
+    {
+      "text": "um,",
+      "start": 175.68,
+      "end": 175.76
+    },
+    {
+      "text": "da,",
+      "start": 175.84,
+      "end": 176.08
+    },
+    {
+      "text": "um,",
+      "start": 176.14,
+      "end": 176.22
+    },
+    {
+      "text": "da,",
+      "start": 176.3,
+      "end": 176.54
+    },
+    {
+      "text": "um.",
+      "start": 176.6,
+      "end": 176.72
+    },
+    {
+      "text": "Out",
+      "start": 177.26,
+      "end": 177.34
+    },
+    {
+      "text": "of",
+      "start": 177.38,
+      "end": 177.42
+    },
+    {
+      "text": "the",
+      "start": 177.46,
+      "end": 177.54
+    },
+    {
+      "text": "loop",
+      "start": 177.6,
+      "end": 177.88
+    },
+    {
+      "text": "OS.",
+      "start": 177.98,
+      "end": 178.38
+    },
+    {
+      "text": "Da,",
+      "start": 178.64,
+      "end": 178.76
+    },
+    {
+      "text": "da,",
+      "start": 178.86,
+      "end": 178.98
+    },
+    {
+      "text": "da,",
+      "start": 179.02,
+      "end": 179.04
+    },
+    {
+      "text": "da,",
+      "start": 179.08,
+      "end": 179.16
+    },
+    {
+      "text": "da,",
+      "start": 179.2,
+      "end": 179.32
+    },
+    {
+      "text": "um.",
+      "start": 179.38,
+      "end": 179.54
+    },
+    {
+      "text": "Out",
+      "start": 179.58,
+      "end": 179.66
+    },
+    {
+      "text": "of",
+      "start": 179.7,
+      "end": 179.74
+    },
+    {
+      "text": "the",
+      "start": 179.78,
+      "end": 179.86
+    },
+    {
+      "text": "loop.",
+      "start": 179.9,
+      "end": 180.24
+    }
+  ]
+}
