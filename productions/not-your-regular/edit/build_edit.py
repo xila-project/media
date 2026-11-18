@@ -1,9 +1,13 @@
 """Assemble an edit of take 005 with TTS dialogue (output/not-your-regular/edit-001)."""
-import subprocess, json, sys
+import subprocess, json, sys, os
 BAR=60/130*4
 out=sys.argv[1] if len(sys.argv)>1 else 'edit-002'
 A=dict(big=(0.0,2.93),who=(3.32,4.02),micro=(4.46,5.82),chips=(6.20,8.45),what=(8.83,10.03),wait=(10.45,12.68),os=(13.09,14.97),ad=(15.41,16.32),flash=(16.69,18.39),shh=(18.80,20.64))
 X=dict(cute=(0.0,2.37),chip=(2.91,4.49),micro=(4.82,7.15),not_=(7.44,8.49),loop=(8.81,9.85),imag=(10.16,11.89),snug=(12.23,14.88),sure=(15.17,17.04),lib=(17.37,19.03),loop2=(19.38,20.40))
+# ALIX=<file> swaps in another rendition of the ALIX lines (e.g. the maintainer's voice clone via the Voice Changer).
+# Converted files keep the timing within ~40 ms, so the line ends get a small safety margin.
+ALIX=os.environ.get('ALIX','alix.wav')
+if ALIX!='alix.wav': A={k:(s,round(e+0.04,3)) for k,(s,e) in A.items()}
 src={'A':(0,A),'X':(1,X)}
 VOX="highpass=f=75,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,treble=g=2.5:f=8000,aecho=0.85:0.55:32|53:0.16|0.10"
 parts=[];labels=[];n=0
@@ -61,7 +65,7 @@ for who,key in [('A','flash'),('X','sure'),('A','shh'),('X','lib'),('X','loop2')
 bo=t-0.28+0.15
 music(4*BAR,6*BAR+0.5,bo,'m3',fout=0.5)
 parts.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0,loudnorm=I=-14:TP=-1:LRA=11[out]")
-subprocess.run(['ffmpeg','-v','error','-y','-i','alix.wav','-i','xila.wav','-i','t5.wav','-filter_complex',';'.join(parts),'-map','[out]','-ar','48000',f'{out}.wav'],check=True)
+subprocess.run(['ffmpeg','-v','error','-y','-i',ALIX,'-i','xila.wav','-i','t5.wav','-filter_complex',';'.join(parts),'-map','[out]','-ar','48000',f'{out}.wav'],check=True)
 subprocess.run(['ffmpeg','-v','error','-y','-i',f'{out}.wav','-b:a','256k',f'{out}.mp3'],check=True)
 m={'song_start':song0,'stop_time':st0,'chorus2':c2_out,'song_end':song_end,'button':bo}
 json.dump({k:round(v,3) for k,v in m.items()},open(f'{out}-markers.json','w'),indent=1)
