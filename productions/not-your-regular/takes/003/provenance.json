@@ -1,0 +1,28 @@
+{
+  "take": "003",
+  "date": "2026-11-18",
+  "reason": "Maintainer disliked take 002 even more than 001 (further from LWICD). Prompt and section descriptors derived from the Gemini listening report (LISTENING-REPORT.md); tempo set to 130 BPM after checking the reference's beat data (129.2 BPM). Uses lyrics v2 (embedded framing, Boot Log verse), with per-run voice tags.",
+  "provider": "ElevenLabs (hosted MCP, Creator plan)",
+  "model_id": "eleven_music_v2_5",
+  "flow_id": "o5aK39zFG5R9FuK8q6Bu",
+  "node_id": "Y4s4SQ8LeX3wu7VRlgWD",
+  "session_id": "Z1zjqIeqv6FmGnCLzKkn",
+  "generation_id": "HFdoBgpz0g36uVYEOcZj",
+  "parameters": {
+    "duration_seconds": 185,
+    "lyrics_type": "custom",
+    "instrumental": false,
+    "generations_count": 1
+  },
+  "prompt_file": "prompt.txt",
+  "lyrics_file": "lyrics.txt",
+  "lyrics_source": "../../LYRICS-v2.md",
+  "estimate_credits": 5087.5,
+  "reported_credits": 2774,
+  "approval": "maintainer approved spending the whole credit balance on the trailer audio (2026-11-18)",
+  "source_file": {
+    "path": "assets/audio/not-your-regular/take-003-source.mp3",
+    "sha256": "9c5e06296a7e251c6adc7f87561c660a43bb034aa165ccfe7ebba1666a860436",
+    "duration_s": 185
+  }
+}

@@ -1,0 +1,227 @@
+[Intro - male tenor, spoken; dry beat-less spoken banter, muted synth pluck fades in at the end]
+Big day, I made the LED blink
+
+[Intro - deadpan assistant voice, dry deadpan spoken]
+Cute. Hi. I'm here.
+
+[Intro - male tenor, spoken]
+Who said that?
+
+[Intro - deadpan assistant voice, dry deadpan spoken]
+The chip in your hand.
+
+[Intro - male tenor, spoken]
+That's a microcontroller.
+
+[Intro - deadpan assistant voice, dry deadpan spoken]
+A microcontroller with an OS.
+
+[Intro - male tenor, spoken]
+Chips run a loop. While true.
+
+[Intro - deadpan assistant voice, dry deadpan spoken]
+Not this one.
+
+[Intro - male tenor, spoken]
+So what are you?
+
+[Intro - deadpan assistant voice, dry deadpan spoken]
+Not your regular.
+
+[Verse 1 - male tenor, talk-sung; lean bouncy groove, tight hats, dry synth bass]
+I wrote a loop that never ends,
+with seven flags and global friends
+
+[Verse 1 - deadpan assistant voice, dry, flat, unsung]
+A shell, some users? Yes, ma'am,
+in two-fifty-six kibibytes of RAM
+
+[Verse 1 - male tenor, talk-sung]
+I poke a register bit by bit,
+and pray the datasheet's right on it
+
+[Verse 1 - deadpan assistant voice, dry, flat, unsung]
+Your pin's a file now, write it, see:
+slash devices, GPIO, D-thirteen
+
+[Pre-Chorus - male tenor, sung; brightening pads and riser, silence on beat 4 before the last line]
+Can it run apps?
+
+[Pre-Chorus - deadpan assistant voice, dry, unsung]
+Plural
+
+[Pre-Chorus - male tenor, sung]
+With files?
+
+[Pre-Chorus - deadpan assistant voice, dry, unsung]
+And users
+
+[Pre-Chorus - male tenor, sung]
+So where's the real computer?
+
+[Pre-Chorus - deadpan assistant voice, dry, unsung]
+You're holding it.
+
+[Pre-Chorus - male tenor, sung]
+(I ordered a real computer.)
+
+[Chorus - male tenor lead sings the melodic hook, light and effortless, assistant voice doubles softly; full glossy synth-pop bloom]
+Not your regular, (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Not your regular, (O-S)
+One signed package, three addresses,
+pocket-sized and fully dressed
+Not your regular, (O-S)
+Try me in your browser tab, (yes)
+
+[Post-Chorus - both voices, playful talk-chant at conversational energy; stripped staccato groove, dry claps, click percussion]
+Chip, Desk, Tab
+Same O-S, Same O-S
+Chip, Desk, Tab
+Pass it, (hey)
+Tiny, Tidy
+Rusty, Open
+Chip, Desk, Tab
+Try it, now
+
+[Verse 2 - male tenor, talk-sung; lean bouncy groove, plucky synth arpeggio]
+My fern runs Fern Pings: 'Water. Now.'
+My cat flap's Cat Customs: 'Papers? Meow.'
+
+[Verse 2 - deadpan assistant voice, dry, flat, unsung]
+Your doorbell's Ding Critic: 'Two out of ten,'
+your toaster's Toast Forecast: 'Burnt again.'
+
+[Verse 2 - male tenor, talk-sung]
+My alarm runs Snooze Court: 'Guilty, rise'
+My bike runs Hill Snitch: 'Walked it' (lies)
+
+[Verse 2 - deadpan assistant voice, dry, flat, unsung]
+Fridge Haiku wrote a sonnet on the ham,
+and the whole block's blasting Kazoo Jam
+
+[Stop-Time - male tenor, spoken; full band stops, dry spoken lines, single clap stabs]
+Wait. A cat flap with apps?
+
+[Stop-Time - deadpan assistant voice, dry deadpan spoken]
+Imagined. For now.
+
+[Stop-Time - male tenor, spoken]
+And the OS? That small?
+
+[Stop-Time - deadpan assistant voice, dry deadpan spoken]
+Two-fifty-six kibibytes. Snug.
+
+[Chorus - male tenor lead sings the melodic hook, light and effortless, assistant voice doubles softly; full glossy synth-pop bloom]
+Not your regular, (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Not your regular, (O-S)
+Built in Rust, no need to guess,
+open source, you've got access
+Not your regular, (O-S)
+Try me in your browser tab, (yes)
+
+[Verse 3 - male tenor, talk-sung; lean bouncy groove, smug and confident]
+An OS? On that? Get real,
+a chip runs one job, that's the deal
+
+[Verse 3 - deadpan assistant voice, dry, flat, unsung]
+Tasks, a shell and files, for real,
+on a chip you could lose in your meal
+
+[Verse 3 - male tenor, talk-sung]
+So you're a firmware blob, I guess?
+One giant binary, more or less?
+
+[Verse 3 - deadpan assistant voice, dry, flat, unsung]
+I'm a Rust library, I confess,
+build me in, I'll do the rest
+
+[Boot Log - male tenor, sung; beat drops to kick, hats and bass, rhythmic deadpan recitation, tiny synth blip on each status word]
+Build you in? So what's inside?
+
+[Boot Log - deadpan assistant voice, rhythmic spoken]
+Watch me boot.
+Memory: mapped. Time: ticking.
+Tasks: named. Executor: kicking.
+Files, pins and pipes: one tree, mounted.
+Users: checked. Root's in. You? Not counted.
+Got a screen? Graphics up. No screen? No drama.
+Drivers: whatever this board brought.
+Log: writing all of this down.
+Shell: ready. Your move.
+
+[Bridge - male tenor, sung; cheerful half-time daytime-TV jingle with bell chimes]
+Order now, the deluxe dev kit
+
+[Bridge - deadpan assistant voice, dry, flat, unsung]
+Or open a tab.
+
+[Bridge - male tenor, sung]
+A probe, a scope, free socks
+
+[Bridge - deadpan assistant voice, dry, flat, unsung]
+Or open a tab.
+
+[Bridge - male tenor, sung]
+Call now: ninety jumper wires
+
+[Bridge - deadpan assistant voice, dry, flat, unsung]
+Or open a tab.
+
+[Bridge - male tenor, sung]
+Operators are standing by
+
+[Bridge - deadpan assistant voice, dry, flat, unsung]
+Xila dot dev. Open a tab.
+
+[Breakdown - male tenor, spoken; beat drops out to filtered pads, tiny glitch power-down blip, calm spoken exchange, snare fill back in]
+Kazoo Jam, take it to the...
+
+[Breakdown - deadpan assistant voice, dry deadpan spoken]
+Trap
+
+[Breakdown - male tenor, spoken]
+Did we just crash?
+
+[Breakdown - deadpan assistant voice, dry deadpan spoken]
+The app did. I'm still here.
+
+[Breakdown - male tenor, spoken]
+No watchdog reset?
+
+[Breakdown - deadpan assistant voice, dry deadpan spoken]
+Nope. Hit it
+
+[Final Chorus - male tenor lead sings the melodic hook, light and effortless, assistant voice doubles softly; biggest sparkling chorus, extra octave-up harmonies]
+Not your regular, (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Not your regular, (O-S)
+One app traps? I'm not impressed,
+kick keeps going, I'm still dressed
+Not your regular, (O-S)
+Try me in your browser tab, (yes)
+
+[Drop - both voices, sung; bouncy pitched synth-pluck earworm over clean kick and claps, hook sung lightly]
+Not your regular, (O-S)
+Not your regular, (O-S)
+Not your regular, (O-S)
+Not your regular
+
+[Outro - male tenor, whispered; beat cuts out, ultra-close whispers, two bars of the synth-pluck motif to end]
+So... do I flash you?
+
+[Outro - deadpan assistant voice, whispered]
+Sure. Or open a tab.
+
+[Outro - male tenor, whispered]
+Shh, we're in a library
+
+[Outro - deadpan assistant voice, whispered]
+I am a library.
+
+[Outro - both voices, whispered]
+(Not your regular.)
