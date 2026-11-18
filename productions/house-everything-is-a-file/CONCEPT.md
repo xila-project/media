@@ -4,6 +4,10 @@ A 45 mm board gets an empty club to dance, one device path at a time, until an a
 
 ALIX asks increasingly unlikely questions. XILA keeps answering with the same two notes. The LED clicks on, the speaker answers in bass, and the handwriting prop gets an awkward extra beat. By the time the wall lights spell the chorus, the listener already knows the answer. The song keeps its four-on-the-floor metre even when the music briefly drops out. The reference is Aditazzz’s _Look What I Can Do_, especially the word-triggered practical lights, deadpan timing and genuine material built into each set.
 
+## Selection (2026-11-18)
+
+Chosen over two parallel explorations kept in [alternatives/](alternatives/): it has the most depth and light, and the funniest script. Two ideas were folded in: the intro answer “Two-fifty-six. Plenty.” from [256K](alternatives/256k.md), and the room-doubling escalation “Same app. Every room.” from [One Package](alternatives/one-package.md), which takes the place of the reprise's last walk-out. Next stage: a full-length animatic on a locally generated guide track, before any paid voice or music generation.
+
 ## Song and cue sheet
 
 English duet at 124 BPM, 4/4, 80 bars, **2:34.839**. ALIX is close-miked spoken word in the maintainer’s own voice, to be cloned with consent in ElevenLabs. XILA is a synthetic voice through a vocoder, with a repeatable two-note hook. Sing **“Everything is a file”** as “Everything” across beat 1, “is” on 2, “a” on 2&, and “file” on 3, held through 4. The last stressed syllable drops a minor third. The instrumental is filtered French-touch house: dry four-on-the-floor kick, swung closed hat, clipped chord loop, octave bass, and a low-pass filter that opens with the club shutters. Leave a slot in the midrange for speech and a clean stem edit for the trap.
@@ -14,12 +18,13 @@ Bar numbers are absolute. A cue like 5.2& means the eighth-note offbeat after be
 
 Floor level, at the far end of an empty cobalt club. The sole object on the stage is a 45 mm board. The camera travels in along a cable, in time with a kick heard through the low-pass filter.
 
-| Cue   | Full lyric                                      | Picture                                                                                                               |
-| ----- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 1.2   | **ALIX (spoken)** “Did we book the whole room?” | On “whole,” a slash of light sweeps across the empty floor. On “room,” cut wide enough to see there really is nobody. |
-| 2.3   | **XILA (vocoder)** “Just the booth.”            | On “booth,” the spotlight tightens to the board. The lens lands at stage height.                                      |
-| 3.1   | **ALIX (spoken)** “That’s the booth?”           | On “booth,” cut to the USB end at macro scale.                                                                        |
-| 4.1–4 | Instrumental                                    | Four kick hits step a pool of light from the cable to the board. On 4.4 the camera clears the cable and sees the LED. |
+| Cue   | Full lyric                                      | Picture                                                                                                                                                                                            |
+| ----- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.2   | **ALIX (spoken)** “Did we book the whole room?” | On “whole,” a slash of light sweeps across the empty floor. On “room,” cut wide enough to see there really is nobody.                                                                              |
+| 2.3   | **XILA (vocoder)** “Just the booth.”            | On “booth,” the spotlight tightens to the board. The lens lands at stage height.                                                                                                                   |
+| 3.1   | **ALIX (spoken)** “Can you even run on that?”   | On “run,” cut to the USB end at macro scale.                                                                                                                                                       |
+| 3.4   | **XILA (vocoder)** “Two-fifty-six. Plenty.”     | “Two / fif / ty / six” strike the next four eighth notes on one pitch; “Plen-ty” answers a minor third higher on 4.3. On “Plenty,” a small engraved plaque on the booth edge lights `256 KiB RAM`. |
+| 4.1–4 | Instrumental                                    | Four kick hits step a pool of light from the cable to the board. On 4.4 the camera clears the cable and sees the LED.                                                                              |
 
 ### Verse 1 · 12 bars · 5–16 · 0:07.742
 
@@ -102,12 +107,13 @@ A roof-off view of the club. The floor rails form a branching path tree. Stay on
 
 Return to the lightbox wall, now with floor lights reflecting back into it. Each chorus opens more of the room, then the whole set hands off on a slash-shaped shutter to the browser.
 
-| Cue  | Full lyric                                      | Picture                                                                                                                                       |
-| ---- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| 65.1 | **XILA (vocoder/sung)** “Everything is a file.” | Four word cues replay across the wall. On “file,” widen enough to see the board and all three physical stations.                              |
-| 67.1 | **XILA (vocoder/sung)** “Everything is a file.” | Repeat the lights. On “file,” the board’s amber stage spot travels straight down the nearest rail.                                            |
-| 69.1 | **ALIX (spoken)** “Does the club do walk-ins?”  | “Walk-ins” turns on a single exit-shaped practical at the far wall. On 70.1, approach the doorway head-on.                                    |
-| 71.1 | **XILA (vocoder/sung)** “Everything is a file.” | Each word lights another wall on the way out. On “file,” the doorway opens. Hold its 16:9 aperture to match the real browser capture on 73.1. |
+| Cue  | Full lyric                                      | Picture                                                                                                                                                                                                                                                                                                                   |
+| ---- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 65.1 | **XILA (vocoder/sung)** “Everything is a file.” | Four word cues replay across the wall. On “file,” widen enough to see the board and all three physical stations.                                                                                                                                                                                                          |
+| 67.1 | **XILA (vocoder/sung)** “Everything is a file.” | Repeat the lights. On “file,” the board’s amber stage spot travels straight down the nearest rail.                                                                                                                                                                                                                        |
+| 69.1 | **ALIX (spoken)** “Does the club do walk-ins?”  | “Walk-ins” turns on a single exit-shaped practical at the far wall. Pull straight up and out of the roof.                                                                                                                                                                                                                 |
+| 70.1 | **XILA (vocoder)** “Same app. Every room.”      | The escalation. From above, the club is one lit room; on each beat of 70–71 it doubles (1 → 2 → 4 → 8 → 16 → 32), each copy growing out of its parent, the same signed app sleeve on every dance floor. Only two copies carry labels: `native` and `browser` (the claim is one bundle seeding both images, nothing more). |
+| 71.3 | **XILA (vocoder/sung)** “Everything is a file.” | The grid of rooms lights the four hook words across its roofs. On “file,” dive into the room labelled `browser`; its doorway opens. Hold its 16:9 aperture to match the real browser capture on 73.1.                                                                                                                     |
 
 ### Outro · 8 bars · 73–80 · 2:19.355
 
