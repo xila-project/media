@@ -1,0 +1,32 @@
+{
+  "take": "002",
+  "date": "2026-11-18",
+  "reason": "Maintainer feedback on take 001: decent but drifts from LWICD; no need for shouting. Take 002 asks for sung, glossy auto-tuned, softer and more dynamic vocals at 130 BPM (LWICD measures ~130.5 BPM, -16.1 LUFS, LRA 8.4 LU; take 001 measured 127.7 BPM, -11.2 LUFS, LRA 3.8 LU).",
+  "provider": "ElevenLabs (hosted MCP, Creator plan)",
+  "model_id": "eleven_music_v2_5",
+  "flow_id": "o5aK39zFG5R9FuK8q6Bu",
+  "node_id": "vGgynKiBKvCa0EoLj6ir",
+  "session_id": "lVAEzyccJylWp6nieYcY",
+  "generation_id": "AayVqhTmCI9vqI7vJUG8",
+  "parameters": {
+    "duration_seconds": 175,
+    "lyrics_type": "custom",
+    "instrumental": false,
+    "generations_count": 1
+  },
+  "prompt_file": "prompt.txt",
+  "lyrics_file": "lyrics.txt",
+  "estimate_credits": 4812.5,
+  "reported_credits": 2624.42,
+  "source_file": {
+    "path": "assets/audio/not-your-regular/take-002-source.mp3",
+    "sha256": "ea918b3b61fdba8cdf9a48660f86588ee4658dae790e90753354251f878cd1fa",
+    "duration_s": 175
+  },
+  "measurements": {
+    "tempo_bpm_estimate": 130.4,
+    "integrated_lufs": -11.4,
+    "loudness_range_lu": 4.6
+  },
+  "approval": "maintainer approved spending the whole credit balance on the trailer audio (2026-11-18)"
+}

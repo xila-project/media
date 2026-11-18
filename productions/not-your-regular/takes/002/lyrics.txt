@@ -1,0 +1,148 @@
+[Intro - soft spoken dialogue over a sparse filtered beat, male voice and AI voice alternate line by line, male first, relaxed and amused]
+Big day, the OS ships today
+Hi. I'm here.
+I booked a forklift.
+Cancel it.
+Where's the computer?
+In your hand.
+That's a coaster.
+A coaster with an OS.
+So what are you?
+Not your regular.
+
+[Verse 1 - male voice, sung]
+I cleared a desk, I hired a van,
+I bought a giant cooling fan
+
+[Verse 1 - AI voice, sung]
+Return the van, return the fan,
+two-fifty-six kibibytes of RAM
+
+[Verse 1 - male voice, sung]
+I've got the discs, I've got the key,
+two hundred pages of 'I agree'
+
+[Verse 1 - AI voice, sung]
+No discs, no wizard, no 'agree',
+core, drivers, apps: one binary
+
+[Pre-Chorus - sung call and response, male voice then AI voice, light and teasing, last line sung small]
+Can it run apps?
+Plural
+With files?
+And users
+So where's the server room?
+Your pocket.
+(I rented a server room.)
+
+[Chorus - catchy sung melodic hook, auto-tuned male lead with the AI voice harmonising, backing vocals in brackets sung softly]
+Not your regular, (oh-ess)
+OS on a board, apps on a desk,
+same app in a tab, yes, yes, yes
+Not your regular, (oh-ess)
+One signed package, three addresses,
+pocket-sized and fully dressed
+Not your regular, (oh-ess)
+Try me in your browser tab, (yes)
+
+[Post-Chorus - sung bouncy chant, both voices together, light and playful]
+Board, Desk, Tab
+Same O-S, Same O-S
+Board, Desk, Tab
+Pass it, (hey)
+Tiny, Tidy
+Rusty, Open
+Board, Desk, Tab
+Try it, now
+
+[Verse 2 - male voice, sung]
+My fern runs Fern Pings: 'Water. Now.'
+My cat flap's Cat Customs: 'Papers? Meow.'
+
+[Verse 2 - AI voice, sung]
+Your doorbell's Ding Critic: 'Two out of ten,'
+your toaster's Toast Forecast: 'Burnt again.'
+
+[Verse 2 - male voice, sung]
+My alarm runs Snooze Court: 'Guilty, rise'
+My bike runs Hill Snitch: 'Walked it' (lies)
+
+[Verse 2 - AI voice, sung]
+Fridge Haiku wrote a sonnet on the ham,
+and the whole block's blasting Kazoo Jam
+
+[Stop-Time - music stops, quiet deadpan spoken lines, male voice then AI voice]
+Wait. A cat flap with apps?
+Imagined. For now.
+And the OS? That small?
+Two-fifty-six kibibytes. Snug.
+
+[Chorus - catchy sung melodic hook, auto-tuned male lead with the AI voice harmonising, backing vocals in brackets sung softly]
+Not your regular, (oh-ess)
+OS on a board, apps on a desk,
+same app in a tab, yes, yes, yes
+Not your regular, (oh-ess)
+Built in Rust, no need to guess,
+open source, you've got access
+Not your regular, (oh-ess)
+Try me in your browser tab, (yes)
+
+[Verse 3 - male voice, sung]
+One machine, that's how it's done,
+one computer, one OS, just one
+
+[Verse 3 - AI voice, sung]
+Same Kazoo Jam on a desk, that's one,
+in a browser tab, two for one
+
+[Verse 3 - male voice, sung]
+So you're a big OS, I guess?
+A giant program, more or less?
+
+[Verse 3 - AI voice, sung]
+I'm a Rust library, I confess,
+build me in, I'll do the rest
+
+[Bridge - half-time cheesy infomercial jingle, male voice sings like a cheerful TV host, AI voice answers calm and bored]
+Order now, one giant box
+Or open a tab.
+Forty discs, a forklift, free socks
+Or open a tab.
+Call now and we'll throw in a fan
+Or open a tab.
+Operators are standing by
+Xila dot dev. Open a tab.
+
+[Breakdown - beat thins out, glitch, silence, quiet spoken lines, male voice then AI voice]
+Kazoo Jam, take it to the...
+Trap
+Did we just crash?
+The app did. I'm still here.
+Hit it
+
+[Final Chorus - catchy sung melodic hook, auto-tuned male lead with the AI voice harmonising, backing vocals in brackets sung softly]
+Not your regular, (oh-ess)
+OS on a board, apps on a desk,
+same app in a tab, yes, yes, yes
+Not your regular, (oh-ess)
+One app traps? I'm not impressed,
+kick keeps going, I'm still dressed
+Not your regular, (oh-ess)
+Try me in your browser tab, (yes)
+
+[Drop - sung hook repeated, both voices together, bouncy and catchy]
+Not your regular, (oh-ess)
+Not your regular, (oh-ess)
+Not your regular, (oh-ess)
+Not your regular, (oh-ess)
+Not your regular, (oh-ess)
+Not your regular, (oh-ess)
+Not your regular, (oh-ess)
+Not your regular
+
+[Outro - soft whispered dialogue, male voice then AI voice, one soft synth chord]
+So where do I install you?
+You don't. Open a tab.
+Shh, we're in a library
+I am a library.
+(Not your regular.)
