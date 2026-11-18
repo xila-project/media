@@ -14,6 +14,12 @@ Draft written on 2026-11-18 after the maintainer's review. The v1 clichés (a fo
 - **Roadmap (allowed in copy by the 2026-11-11 maintainer decision; needs the maintainer's OK for these exact lines):**
   - "Can it run apps? / Plural!" right after XILA is identified as the chip. Wasm apps on a microcontroller need the ESP32/ESP32-S3 port; the Nano build has no Wasm runtime, and no ESP32 build is established yet (platforms README).
   - "No watchdog reset? / Nope." on a chip. Trap containment is shown on hosted runtimes; on a microcontroller it depends on the same Wasm runtime port.
+- **Band Intro (architecture, true today):** Core's subsystem managers are Task, VFS, Users, Graphics, Memory, Time, Network and Log (website `explanation/architecture`).
+  - The Task manager gives each async task (run by Embassy spawners) an identity and metadata.
+  - The VFS gives files, devices and pipes one path namespace and applies access policy.
+  - Users is the identity and group registry used for permission checks.
+  - Graphics hosts LVGL 9.6.
+  - Drivers live in Platforms, are linked into each target's final binary and are registered with the VFS, while Core stays portable.
 - **Imagined:** the eight gadget apps, disclosed in the song itself ("Imagined. For now.") and in the end card.
 
 ## Lyrics
@@ -105,6 +111,20 @@ ALIX: One giant binary, more or less?
 XILA: I'm a Rust library, I confess,  
 XILA: build me in, I'll do the rest!
 
+**[Band Intro]** _(the groove thins to drums and bass; XILA hypes each member like a frontman, and each one answers with a short fill on its own instrument)_  
+ALIX: Build you in? So what's inside?  
+XILA: Let me introduce the band!  
+XILA: On drums, Task Manager, keeping every beat,  
+XILA: every async task gets a name and a seat!  
+XILA: VFS on bass: files, pins and pipes,  
+XILA: one path for all of them, and it checks your rights!  
+XILA: Users on the door, checking every name,  
+XILA: Graphics on the keys, drawing every frame!  
+XILA: The drivers? They change with every stage,  
+XILA: same band, new venue, from a chip to a page!  
+ALIX: (Memory? Time? Network? Log?)  
+XILA: Backing vocals. Wave, guys!
+
 **[Bridge]** _(late-night infomercial)_  
 ALIX: Order now! The deluxe dev kit!  
 XILA: Or open a tab.  
@@ -134,8 +154,10 @@ BOTH: Not your regular! (O-S!)
 XILA: Try me in your browser tab! (Yes!)
 
 **[Drop]**  
-BOTH: Not your regular! (O-S!) ×7  
+BOTH: Not your regular! (O-S!) ×3  
 BOTH: Not your regular!
+
+_(Drop shortened from 8 to 4 hooks to pay for the Band Intro and keep the song near 3:00.)_
 
 **[Outro]** _(whispered)_  
 ALIX: So... do I flash you?  
