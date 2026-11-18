@@ -20,7 +20,8 @@ SUBDIVISIONS = ("", "e", "&", "a")
 MAX_PAUSE = 1.75  # Seconds of silence allowed between transcript words in one line.
 MIN_CONFIDENCE = 0.45
 LOW_CONFIDENCE = 0.85
-SECTION = re.compile(r"\*\*\[([^\]]+)\]\*\*")
+SECTION = re.compile(r"\*\*\[([^\]]+)\]\*\*(?:\s+.*)?")
+REPEAT = re.compile(r"\s+×(\d+)$")
 LYRIC = re.compile(r"(ALIX|XILA|BOTH):\s*(.+)")
 WORD = re.compile(r"[^\W_]+(?:['’.-][^\W_]+)*")
 SMALL_NUMBERS = (
@@ -83,14 +84,19 @@ def parse_lyrics(markdown):
         if heading:
             sections.append((heading[1], []))
         elif lyric:
+            text = lyric[2].rstrip("\\").strip()
+            repeat = REPEAT.search(text)
+            count = int(repeat[1]) if repeat else 1
+            if repeat:
+                text = text[:repeat.start()]
             words = tuple(
                 LyricWord(word.group(), part.startswith("("))
-                for part in re.findall(r"\([^)]*\)|[^()]+", lyric[2])
+                for part in re.findall(r"\([^)]*\)|[^()]+", text)
                 for word in WORD.finditer(part)
             )
             if not sections or not words:
                 raise ValueError(f"Lyric requires a section and words: {line}")
-            sections[-1][1].append(LyricLine(lyric[1], lyric[2], words))
+            sections[-1][1].extend(LyricLine(lyric[1], text, words) for _ in range(count))
     if not sections or any(not lines for _, lines in sections):
         raise ValueError("Expected non-empty **[Section]** lyric blocks")
     return sections

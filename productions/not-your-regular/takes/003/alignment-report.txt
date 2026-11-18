@@ -1,0 +1,46 @@
+Lyric alignment at 130 BPM | 185.000 s
+Coverage estimates from the transcript.
+
+Intro: 8/10 matched, 0 low-confidence
+Verse 1: 8/8 matched, 1 low-confidence
+Pre-Chorus: 7/7 matched, 0 low-confidence
+Chorus: 8/8 matched, 0 low-confidence
+Post-Chorus: 8/8 matched, 1 low-confidence
+Verse 2: 8/8 matched, 3 low-confidence
+Stop-Time: 4/4 matched, 0 low-confidence
+Chorus (2): 8/8 matched, 0 low-confidence
+Verse 3: 6/8 matched, 0 low-confidence
+Boot Log: 8/10 matched, 2 low-confidence
+Bridge: 8/8 matched, 2 low-confidence
+Breakdown: 5/6 matched, 0 low-confidence
+Final Chorus: 8/8 matched, 2 low-confidence
+Drop: 2/4 matched, 0 low-confidence
+Outro: 2/5 matched, 0 low-confidence
+Total: 98/110 matched, 11 low-confidence
+
+Missing lines
+  section-1-intro-02 XILA: Cute. Hi. I'm here.
+  section-1-intro-06 XILA: A microcontroller with an OS.
+  section-9-verse-3-05 ALIX: So you're a firmware blob, I guess?
+  section-9-verse-3-06 ALIX: One giant binary, more or less?
+  section-10-boot-log-08 XILA: Drivers: whatever this board brought.
+  section-10-boot-log-10 XILA: Shell: ready. Your move.
+  section-12-breakdown-01 ALIX: Kazoo Jam! Take it to the...
+  section-14-drop-03 BOTH: Not your regular! (O-S!)
+  section-14-drop-04 BOTH: Not your regular!
+  section-15-outro-01 ALIX: So... do I flash you?
+  section-15-outro-03 ALIX: Shh! We're in a library!
+  section-15-outro-04 XILA: I am a library.
+
+Low-confidence lines
+  24.240–26.860 s (72%) section-2-verse-1-08 XILA: slash devices, GPIO, D-thirteen!
+  66.100–66.440 s (50%) section-5-post-chorus-06 BOTH: Rusty! Open!
+  71.820–73.620 s (80%) section-6-verse-2-02 ALIX: My cat flap's Cat Customs: 'Papers? Meow.'
+  75.520–77.220 s (83%) section-6-verse-2-04 XILA: your toaster's Toast Forecast: 'Burnt again.'
+  82.900–83.960 s (71%) section-6-verse-2-08 XILA: and the whole block's blasting Kazoo Jam!
+  133.000–134.560 s (71%) section-10-boot-log-06 XILA: Users: checked. Root's in. You? Not counted.
+  137.580–138.000 s (50%) section-10-boot-log-09 XILA: Log: writing all of this down.
+  138.060–139.080 s (83%) section-11-bridge-01 ALIX: Order now! The deluxe dev kit!
+  149.160–149.840 s (50%) section-11-bridge-08 XILA: Xila dot dev. Open a tab.
+  165.280–166.800 s (83%) section-13-final-chorus-05 XILA: One app traps? I'm not impressed,
+  167.320–168.800 s (83%) section-13-final-chorus-06 XILA: kick keeps going, I'm still dressed!

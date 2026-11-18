@@ -1,0 +1,5260 @@
+{
+  "timing": "measured",
+  "bpm": 130,
+  "beatsPerBar": 4,
+  "bars": 100.20833333333333,
+  "duration": 185.0,
+  "sections": [
+    {
+      "id": "section-1-intro",
+      "name": "Intro",
+      "start": 0.3,
+      "end": 11.88,
+      "at": "1.1a",
+      "endAt": "7.2a",
+      "startBar": 1.1625,
+      "bars": 6.2725
+    },
+    {
+      "id": "section-2-verse-1",
+      "name": "Verse 1",
+      "start": 12.22,
+      "end": 26.86,
+      "at": "7.3&",
+      "endAt": "15.3e",
+      "startBar": 7.6191666666666675,
+      "bars": 7.929999999999999
+    },
+    {
+      "id": "section-3-pre-chorus",
+      "name": "Pre-Chorus",
+      "start": 27.38,
+      "end": 36.66,
+      "at": "15.4e",
+      "endAt": "20.4&",
+      "startBar": 15.830833333333334,
+      "bars": 5.0266666666666655
+    },
+    {
+      "id": "section-4-chorus",
+      "name": "Chorus",
+      "start": 39.74,
+      "end": 58.16,
+      "at": "22.3",
+      "endAt": "32.3",
+      "startBar": 22.52583333333333,
+      "bars": 9.977499999999997
+    },
+    {
+      "id": "section-5-post-chorus",
+      "name": "Post-Chorus",
+      "start": 59.12,
+      "end": 68.54,
+      "at": "33.1",
+      "endAt": "38.1&",
+      "startBar": 33.02333333333333,
+      "bars": 5.1025000000000045
+    },
+    {
+      "id": "section-6-verse-2",
+      "name": "Verse 2",
+      "start": 69.96,
+      "end": 83.96,
+      "at": "38.4&",
+      "endAt": "46.3",
+      "startBar": 38.894999999999996,
+      "bars": 7.583333333333333
+    },
+    {
+      "id": "section-7-stop-time",
+      "name": "Stop-Time",
+      "start": 84.96,
+      "end": 92.0,
+      "at": "47.1",
+      "endAt": "50.4e",
+      "startBar": 47.019999999999996,
+      "bars": 3.813333333333337
+    },
+    {
+      "id": "section-8-chorus",
+      "name": "Chorus (2)",
+      "start": 92.8,
+      "end": 111.56,
+      "at": "51.2",
+      "endAt": "61.2a",
+      "startBar": 51.266666666666666,
+      "bars": 10.161666666666669
+    },
+    {
+      "id": "section-9-verse-3",
+      "name": "Verse 3",
+      "start": 112.56,
+      "end": 123.0,
+      "at": "62.1",
+      "endAt": "67.3&",
+      "startBar": 61.970000000000006,
+      "bars": 5.654999999999999
+    },
+    {
+      "id": "section-10-boot-log",
+      "name": "Boot Log",
+      "start": 124.74,
+      "end": 138.0,
+      "at": "68.3e",
+      "endAt": "75.4",
+      "startBar": 68.5675,
+      "bars": 7.182500000000003
+    },
+    {
+      "id": "section-11-bridge",
+      "name": "Bridge",
+      "start": 138.06,
+      "end": 149.84,
+      "at": "75.4e",
+      "endAt": "82.1a",
+      "startBar": 75.7825,
+      "bars": 6.380833333333333
+    },
+    {
+      "id": "section-12-breakdown",
+      "name": "Breakdown",
+      "start": 150.42,
+      "end": 156.0,
+      "at": "82.3",
+      "endAt": "85.3",
+      "startBar": 82.47749999999999,
+      "bars": 3.022500000000007
+    },
+    {
+      "id": "section-13-final-chorus",
+      "name": "Final Chorus",
+      "start": 156.48,
+      "end": 172.5,
+      "at": "85.4",
+      "endAt": "94.2a",
+      "startBar": 85.75999999999999,
+      "bars": 8.677500000000006
+    },
+    {
+      "id": "section-14-drop",
+      "name": "Drop",
+      "start": 174.96,
+      "end": 180.34,
+      "at": "95.4",
+      "endAt": "98.3a",
+      "startBar": 95.77,
+      "bars": 2.9141666666666644
+    },
+    {
+      "id": "section-15-outro",
+      "name": "Outro",
+      "start": 180.92,
+      "end": 183.3,
+      "at": "99.1",
+      "endAt": "100.2e",
+      "startBar": 98.99833333333332,
+      "bars": 1.2891666666666797
+    }
+  ],
+  "lines": [
+    {
+      "id": "section-1-intro-01",
+      "sectionId": "section-1-intro",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "Big day! I made the LED blink!",
+      "words": [
+        {
+          "text": "Big",
+          "start": 0.3,
+          "end": 0.42,
+          "at": "1.1a",
+          "endAt": "1.2"
+        },
+        {
+          "text": "day",
+          "start": 0.5,
+          "end": 0.76,
+          "at": "1.2",
+          "endAt": "1.2a"
+        },
+        {
+          "text": "I",
+          "start": 1.18,
+          "end": 1.24,
+          "at": "1.3&",
+          "endAt": "1.3a"
+        },
+        {
+          "text": "made",
+          "start": 1.28,
+          "end": 1.42,
+          "at": "1.3a",
+          "endAt": "1.4"
+        },
+        {
+          "text": "the",
+          "start": 1.46,
+          "end": 1.54,
+          "at": "1.4e",
+          "endAt": "1.4e"
+        },
+        {
+          "text": "LED",
+          "start": 1.64,
+          "end": 2.02,
+          "at": "1.4&",
+          "endAt": "2.1&"
+        },
+        {
+          "text": "blink",
+          "start": 2.1,
+          "end": 2.38,
+          "at": "2.1&",
+          "endAt": "2.2e"
+        }
+      ],
+      "start": 0.3,
+      "end": 2.38,
+      "at": "1.1a",
+      "endAt": "2.2e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-1-intro-02",
+      "sectionId": "section-1-intro",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Cute. Hi. I'm here.",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-1-intro-03",
+      "sectionId": "section-1-intro",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "Who said that?",
+      "words": [
+        {
+          "text": "Who",
+          "start": 2.76,
+          "end": 2.84,
+          "at": "2.3",
+          "endAt": "2.3e"
+        },
+        {
+          "text": "said",
+          "start": 2.96,
+          "end": 3.1,
+          "at": "2.3&",
+          "endAt": "2.3a"
+        },
+        {
+          "text": "that",
+          "start": 3.16,
+          "end": 3.34,
+          "at": "2.3a",
+          "endAt": "2.4e"
+        }
+      ],
+      "start": 2.76,
+      "end": 3.34,
+      "at": "2.3",
+      "endAt": "2.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-1-intro-04",
+      "sectionId": "section-1-intro",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "The chip in your hand.",
+      "words": [
+        {
+          "text": "The",
+          "start": 3.8,
+          "end": 3.9,
+          "at": "3.1e",
+          "endAt": "3.1&"
+        },
+        {
+          "text": "chip",
+          "start": 3.94,
+          "end": 4.12,
+          "at": "3.1&",
+          "endAt": "3.2"
+        },
+        {
+          "text": "in",
+          "start": 4.16,
+          "end": 4.22,
+          "at": "3.2",
+          "endAt": "3.2e"
+        },
+        {
+          "text": "your",
+          "start": 4.26,
+          "end": 4.38,
+          "at": "3.2e",
+          "endAt": "3.2&"
+        },
+        {
+          "text": "hand",
+          "start": 4.44,
+          "end": 4.76,
+          "at": "3.2&",
+          "endAt": "3.3e"
+        }
+      ],
+      "start": 3.8,
+      "end": 4.76,
+      "at": "3.1e",
+      "endAt": "3.3e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-1-intro-05",
+      "sectionId": "section-1-intro",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "That's a microcontroller.",
+      "words": [
+        {
+          "text": "That's",
+          "start": 5.2,
+          "end": 5.36,
+          "at": "3.4e",
+          "endAt": "3.4&"
+        },
+        {
+          "text": "a",
+          "start": 5.42,
+          "end": 5.46,
+          "at": "3.4a",
+          "endAt": "3.4a"
+        },
+        {
+          "text": "microcontroller",
+          "start": 5.5,
+          "end": 6.38,
+          "at": "4.1",
+          "endAt": "4.2a"
+        }
+      ],
+      "start": 5.2,
+      "end": 6.38,
+      "at": "3.4e",
+      "endAt": "4.2a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-1-intro-06",
+      "sectionId": "section-1-intro",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "A microcontroller with an OS.",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-1-intro-07",
+      "sectionId": "section-1-intro",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "Chips run a loop. While true.",
+      "words": [
+        {
+          "text": "Chips",
+          "start": 7.12,
+          "end": 7.34,
+          "at": "4.4&",
+          "endAt": "5.1"
+        },
+        {
+          "text": "run",
+          "start": 7.38,
+          "end": 7.5,
+          "at": "5.1",
+          "endAt": "5.1e"
+        },
+        {
+          "text": "a",
+          "start": 7.54,
+          "end": 7.58,
+          "at": "5.1e",
+          "endAt": "5.1&"
+        },
+        {
+          "text": "loop",
+          "start": 7.62,
+          "end": 7.9,
+          "at": "5.1&",
+          "endAt": "5.2"
+        },
+        {
+          "text": "While",
+          "start": 8.2,
+          "end": 8.36,
+          "at": "5.2a",
+          "endAt": "5.3"
+        },
+        {
+          "text": "true",
+          "start": 8.4,
+          "end": 8.68,
+          "at": "5.3e",
+          "endAt": "5.3a"
+        }
+      ],
+      "start": 7.12,
+      "end": 8.68,
+      "at": "4.4&",
+      "endAt": "5.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-1-intro-08",
+      "sectionId": "section-1-intro",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Not this one.",
+      "words": [
+        {
+          "text": "Not",
+          "start": 9.18,
+          "end": 9.34,
+          "at": "6.1",
+          "endAt": "6.1e"
+        },
+        {
+          "text": "this",
+          "start": 9.38,
+          "end": 9.54,
+          "at": "6.1e",
+          "endAt": "6.1a"
+        },
+        {
+          "text": "one",
+          "start": 9.6,
+          "end": 9.8,
+          "at": "6.1a",
+          "endAt": "6.2e"
+        }
+      ],
+      "start": 9.18,
+      "end": 9.8,
+      "at": "6.1",
+      "endAt": "6.2e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-1-intro-09",
+      "sectionId": "section-1-intro",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "So what are you?",
+      "words": [
+        {
+          "text": "So",
+          "start": 10.16,
+          "end": 10.28,
+          "at": "6.3",
+          "endAt": "6.3e"
+        },
+        {
+          "text": "what",
+          "start": 10.32,
+          "end": 10.42,
+          "at": "6.3e",
+          "endAt": "6.3&"
+        },
+        {
+          "text": "are",
+          "start": 10.44,
+          "end": 10.54,
+          "at": "6.3&",
+          "endAt": "6.3a"
+        },
+        {
+          "text": "you",
+          "start": 10.58,
+          "end": 10.7,
+          "at": "6.4",
+          "endAt": "6.4e"
+        }
+      ],
+      "start": 10.16,
+      "end": 10.7,
+      "at": "6.3",
+      "endAt": "6.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-1-intro-10",
+      "sectionId": "section-1-intro",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Not your regular.",
+      "words": [
+        {
+          "text": "Not",
+          "start": 11.18,
+          "end": 11.34,
+          "at": "7.1e",
+          "endAt": "7.1&"
+        },
+        {
+          "text": "your",
+          "start": 11.38,
+          "end": 11.46,
+          "at": "7.1a",
+          "endAt": "7.1a"
+        },
+        {
+          "text": "regular",
+          "start": 11.5,
+          "end": 11.88,
+          "at": "7.2",
+          "endAt": "7.2a"
+        }
+      ],
+      "start": 11.18,
+      "end": 11.88,
+      "at": "7.1e",
+      "endAt": "7.2a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-2-verse-1-01",
+      "sectionId": "section-2-verse-1",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "I wrote a loop that never ends,",
+      "words": [
+        {
+          "text": "I",
+          "start": 12.22,
+          "end": 12.28,
+          "at": "7.3&",
+          "endAt": "7.3&"
+        },
+        {
+          "text": "wrote",
+          "start": 12.28,
+          "end": 12.44,
+          "at": "7.3&",
+          "endAt": "7.4"
+        },
+        {
+          "text": "a",
+          "start": 12.48,
+          "end": 12.52,
+          "at": "7.4",
+          "endAt": "7.4e"
+        },
+        {
+          "text": "loop",
+          "start": 12.56,
+          "end": 12.72,
+          "at": "7.4e",
+          "endAt": "7.4&"
+        },
+        {
+          "text": "that",
+          "start": 12.76,
+          "end": 12.88,
+          "at": "7.4a",
+          "endAt": "8.1"
+        },
+        {
+          "text": "never",
+          "start": 12.92,
+          "end": 13.16,
+          "at": "8.1",
+          "endAt": "8.1&"
+        },
+        {
+          "text": "ends",
+          "start": 13.24,
+          "end": 13.48,
+          "at": "8.1a",
+          "endAt": "8.2e"
+        }
+      ],
+      "start": 12.22,
+      "end": 13.48,
+      "at": "7.3&",
+      "endAt": "8.2e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-2-verse-1-02",
+      "sectionId": "section-2-verse-1",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "with seven flags and global friends!",
+      "words": [
+        {
+          "text": "with",
+          "start": 13.68,
+          "end": 13.8,
+          "at": "8.2a",
+          "endAt": "8.3"
+        },
+        {
+          "text": "seven",
+          "start": 13.86,
+          "end": 14.06,
+          "at": "8.3",
+          "endAt": "8.3&"
+        },
+        {
+          "text": "flags",
+          "start": 14.16,
+          "end": 14.46,
+          "at": "8.3a",
+          "endAt": "8.4e"
+        },
+        {
+          "text": "and",
+          "start": 14.5,
+          "end": 14.56,
+          "at": "8.4&",
+          "endAt": "8.4&"
+        },
+        {
+          "text": "global",
+          "start": 14.62,
+          "end": 14.94,
+          "at": "8.4a",
+          "endAt": "9.1e"
+        },
+        {
+          "text": "friends",
+          "start": 15.04,
+          "end": 15.46,
+          "at": "9.1&",
+          "endAt": "9.2&"
+        }
+      ],
+      "start": 13.68,
+      "end": 15.46,
+      "at": "8.2a",
+      "endAt": "9.2&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-2-verse-1-03",
+      "sectionId": "section-2-verse-1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "A shell, some users? Yes, ma'am,",
+      "words": [
+        {
+          "text": "A",
+          "start": 15.72,
+          "end": 15.78,
+          "at": "9.3",
+          "endAt": "9.3e"
+        },
+        {
+          "text": "shell",
+          "start": 15.82,
+          "end": 15.98,
+          "at": "9.3e",
+          "endAt": "9.3&"
+        },
+        {
+          "text": "some",
+          "start": 16.059,
+          "end": 16.219,
+          "at": "9.3a",
+          "endAt": "9.4e"
+        },
+        {
+          "text": "users",
+          "start": 16.28,
+          "end": 16.56,
+          "at": "9.4e",
+          "endAt": "10.1"
+        },
+        {
+          "text": "Yes",
+          "start": 16.62,
+          "end": 16.76,
+          "at": "10.1",
+          "endAt": "10.1e"
+        },
+        {
+          "text": "ma'am",
+          "start": 16.86,
+          "end": 17.1,
+          "at": "10.1&",
+          "endAt": "10.2"
+        }
+      ],
+      "start": 15.72,
+      "end": 17.1,
+      "at": "9.3",
+      "endAt": "10.2",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-2-verse-1-04",
+      "sectionId": "section-2-verse-1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "in two-fifty-six kibibytes of RAM!",
+      "words": [
+        {
+          "text": "in",
+          "start": 17.36,
+          "end": 17.48,
+          "at": "10.2&",
+          "endAt": "10.2a"
+        },
+        {
+          "text": "two-fifty-six",
+          "start": 17.52,
+          "end": 18.22,
+          "at": "10.3",
+          "endAt": "10.4&"
+        },
+        {
+          "text": "kibibytes",
+          "start": 18.3,
+          "end": 18.74,
+          "at": "10.4a",
+          "endAt": "11.1&"
+        },
+        {
+          "text": "of",
+          "start": 18.8,
+          "end": 18.88,
+          "at": "11.1a",
+          "endAt": "11.2"
+        },
+        {
+          "text": "RAM",
+          "start": 18.94,
+          "end": 19.24,
+          "at": "11.2",
+          "endAt": "11.2a"
+        }
+      ],
+      "start": 17.36,
+      "end": 19.24,
+      "at": "10.2&",
+      "endAt": "11.2a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-2-verse-1-05",
+      "sectionId": "section-2-verse-1",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "I poke a register bit by bit,",
+      "words": [
+        {
+          "text": "I",
+          "start": 19.46,
+          "end": 19.52,
+          "at": "11.3e",
+          "endAt": "11.3e"
+        },
+        {
+          "text": "poke",
+          "start": 19.56,
+          "end": 19.72,
+          "at": "11.3&",
+          "endAt": "11.3a"
+        },
+        {
+          "text": "a",
+          "start": 19.78,
+          "end": 19.8,
+          "at": "11.3a",
+          "endAt": "11.4"
+        },
+        {
+          "text": "register",
+          "start": 19.84,
+          "end": 20.26,
+          "at": "11.4",
+          "endAt": "12.1"
+        },
+        {
+          "text": "bit",
+          "start": 20.3,
+          "end": 20.44,
+          "at": "12.1",
+          "endAt": "12.1e"
+        },
+        {
+          "text": "by",
+          "start": 20.5,
+          "end": 20.64,
+          "at": "12.1&",
+          "endAt": "12.1a"
+        },
+        {
+          "text": "bit",
+          "start": 20.68,
+          "end": 20.88,
+          "at": "12.1a",
+          "endAt": "12.2e"
+        }
+      ],
+      "start": 19.46,
+      "end": 20.88,
+      "at": "11.3e",
+      "endAt": "12.2e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-2-verse-1-06",
+      "sectionId": "section-2-verse-1",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "and pray the datasheet's right on it!",
+      "words": [
+        {
+          "text": "and",
+          "start": 21.12,
+          "end": 21.24,
+          "at": "12.2a",
+          "endAt": "12.3"
+        },
+        {
+          "text": "pray",
+          "start": 21.28,
+          "end": 21.4,
+          "at": "12.3",
+          "endAt": "12.3e"
+        },
+        {
+          "text": "the",
+          "start": 21.44,
+          "end": 21.52,
+          "at": "12.3&",
+          "endAt": "12.3a"
+        },
+        {
+          "text": "datasheet's",
+          "start": 21.56,
+          "end": 22.08,
+          "at": "12.3a",
+          "endAt": "12.4a"
+        },
+        {
+          "text": "right",
+          "start": 22.12,
+          "end": 22.28,
+          "at": "13.1",
+          "endAt": "13.1e"
+        },
+        {
+          "text": "on",
+          "start": 22.34,
+          "end": 22.44,
+          "at": "13.1&",
+          "endAt": "13.1&"
+        },
+        {
+          "text": "it",
+          "start": 22.48,
+          "end": 22.62,
+          "at": "13.1a",
+          "endAt": "13.2"
+        }
+      ],
+      "start": 21.12,
+      "end": 22.62,
+      "at": "12.2a",
+      "endAt": "13.2",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-2-verse-1-07",
+      "sectionId": "section-2-verse-1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Your pin's a file now, write it, see:",
+      "words": [
+        {
+          "text": "Your",
+          "start": 22.9,
+          "end": 23.02,
+          "at": "13.2&",
+          "endAt": "13.3"
+        },
+        {
+          "text": "pin's",
+          "start": 23.08,
+          "end": 23.26,
+          "at": "13.3",
+          "endAt": "13.3&"
+        },
+        {
+          "text": "a",
+          "start": 23.32,
+          "end": 23.36,
+          "at": "13.3&",
+          "endAt": "13.3&"
+        },
+        {
+          "text": "file",
+          "start": 23.42,
+          "end": 23.62,
+          "at": "13.3a",
+          "endAt": "13.4e"
+        },
+        {
+          "text": "now",
+          "start": 23.68,
+          "end": 23.8,
+          "at": "13.4e",
+          "endAt": "13.4&"
+        },
+        {
+          "text": "write",
+          "start": 23.86,
+          "end": 24.02,
+          "at": "13.4a",
+          "endAt": "14.1"
+        },
+        {
+          "text": "it",
+          "start": 24.06,
+          "end": 24.16,
+          "at": "14.1e",
+          "endAt": "14.1e"
+        },
+        {
+          "text": "see",
+          "start": 24.16,
+          "end": 24.16,
+          "at": "14.1e",
+          "endAt": "14.1e",
+          "interpolated": true
+        }
+      ],
+      "start": 22.9,
+      "end": 24.16,
+      "at": "13.2&",
+      "endAt": "14.1e",
+      "confidence": 0.875
+    },
+    {
+      "id": "section-2-verse-1-08",
+      "sectionId": "section-2-verse-1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "slash devices, GPIO, D-thirteen!",
+      "words": [
+        {
+          "text": "slash",
+          "start": 24.24,
+          "end": 24.24,
+          "at": "14.1&",
+          "endAt": "14.1&",
+          "interpolated": true
+        },
+        {
+          "text": "devices",
+          "start": 24.24,
+          "end": 25.5,
+          "at": "14.1&",
+          "endAt": "14.4e"
+        },
+        {
+          "text": "GPIO",
+          "start": 25.6,
+          "end": 26.14,
+          "at": "14.4&",
+          "endAt": "15.1a"
+        },
+        {
+          "text": "D-thirteen",
+          "start": 26.22,
+          "end": 26.86,
+          "at": "15.1a",
+          "endAt": "15.3e"
+        }
+      ],
+      "start": 24.24,
+      "end": 26.86,
+      "at": "14.1&",
+      "endAt": "15.3e",
+      "confidence": 0.7188,
+      "low_confidence": true
+    },
+    {
+      "id": "section-3-pre-chorus-01",
+      "sectionId": "section-3-pre-chorus",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "Can it run apps?",
+      "words": [
+        {
+          "text": "Can",
+          "start": 27.38,
+          "end": 27.5,
+          "at": "15.4e",
+          "endAt": "15.4&"
+        },
+        {
+          "text": "it",
+          "start": 27.54,
+          "end": 27.64,
+          "at": "15.4a",
+          "endAt": "16.1"
+        },
+        {
+          "text": "run",
+          "start": 27.68,
+          "end": 27.84,
+          "at": "16.1",
+          "endAt": "16.1e"
+        },
+        {
+          "text": "apps",
+          "start": 27.94,
+          "end": 28.24,
+          "at": "16.1&",
+          "endAt": "16.2e"
+        }
+      ],
+      "start": 27.38,
+      "end": 28.24,
+      "at": "15.4e",
+      "endAt": "16.2e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-3-pre-chorus-02",
+      "sectionId": "section-3-pre-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Plural!",
+      "words": [
+        {
+          "text": "Plural",
+          "start": 28.76,
+          "end": 29.24,
+          "at": "16.3e",
+          "endAt": "16.4e"
+        }
+      ],
+      "start": 28.76,
+      "end": 29.24,
+      "at": "16.3e",
+      "endAt": "16.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-3-pre-chorus-03",
+      "sectionId": "section-3-pre-chorus",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "With files?",
+      "words": [
+        {
+          "text": "With",
+          "start": 29.72,
+          "end": 29.88,
+          "at": "17.1&",
+          "endAt": "17.1a"
+        },
+        {
+          "text": "files",
+          "start": 29.94,
+          "end": 30.38,
+          "at": "17.1a",
+          "endAt": "17.2a"
+        }
+      ],
+      "start": 29.72,
+      "end": 30.38,
+      "at": "17.1&",
+      "endAt": "17.2a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-3-pre-chorus-04",
+      "sectionId": "section-3-pre-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "And users!",
+      "words": [
+        {
+          "text": "And",
+          "start": 30.94,
+          "end": 31.06,
+          "at": "17.4",
+          "endAt": "17.4e"
+        },
+        {
+          "text": "users",
+          "start": 31.14,
+          "end": 31.58,
+          "at": "17.4&",
+          "endAt": "18.1&"
+        }
+      ],
+      "start": 30.94,
+      "end": 31.58,
+      "at": "17.4",
+      "endAt": "18.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-3-pre-chorus-05",
+      "sectionId": "section-3-pre-chorus",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "So where's the real computer?",
+      "words": [
+        {
+          "text": "So",
+          "start": 32.36,
+          "end": 32.5,
+          "at": "18.3",
+          "endAt": "18.3&"
+        },
+        {
+          "text": "where's",
+          "start": 32.56,
+          "end": 32.78,
+          "at": "18.3&",
+          "endAt": "18.4"
+        },
+        {
+          "text": "the",
+          "start": 32.82,
+          "end": 32.9,
+          "at": "18.4",
+          "endAt": "18.4e"
+        },
+        {
+          "text": "real",
+          "start": 32.96,
+          "end": 33.12,
+          "at": "18.4&",
+          "endAt": "18.4a"
+        },
+        {
+          "text": "computer",
+          "start": 33.24,
+          "end": 33.74,
+          "at": "19.1",
+          "endAt": "19.2"
+        }
+      ],
+      "start": 32.36,
+      "end": 33.74,
+      "at": "18.3",
+      "endAt": "19.2",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-3-pre-chorus-06",
+      "sectionId": "section-3-pre-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "You're holding it.",
+      "words": [
+        {
+          "text": "You're",
+          "start": 34.08,
+          "end": 34.22,
+          "at": "19.2a",
+          "endAt": "19.3e"
+        },
+        {
+          "text": "holding",
+          "start": 34.26,
+          "end": 34.58,
+          "at": "19.3e",
+          "endAt": "19.4"
+        },
+        {
+          "text": "it",
+          "start": 34.64,
+          "end": 34.78,
+          "at": "19.4",
+          "endAt": "19.4e"
+        }
+      ],
+      "start": 34.08,
+      "end": 34.78,
+      "at": "19.2a",
+      "endAt": "19.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-3-pre-chorus-07",
+      "sectionId": "section-3-pre-chorus",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "(I ordered a real computer.)",
+      "words": [
+        {
+          "text": "I",
+          "start": 35.14,
+          "end": 35.16,
+          "at": "20.1e",
+          "endAt": "20.1e",
+          "optional": true
+        },
+        {
+          "text": "ordered",
+          "start": 35.28,
+          "end": 35.52,
+          "at": "20.1&",
+          "endAt": "20.2",
+          "optional": true
+        },
+        {
+          "text": "a",
+          "start": 35.54,
+          "end": 35.66,
+          "at": "20.2",
+          "endAt": "20.2e",
+          "optional": true
+        },
+        {
+          "text": "real",
+          "start": 35.74,
+          "end": 35.98,
+          "at": "20.2&",
+          "endAt": "20.3",
+          "optional": true
+        },
+        {
+          "text": "computer",
+          "start": 36.04,
+          "end": 36.66,
+          "at": "20.3",
+          "endAt": "20.4&",
+          "optional": true
+        }
+      ],
+      "start": 35.14,
+      "end": 36.66,
+      "at": "20.1e",
+      "endAt": "20.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-4-chorus-01",
+      "sectionId": "section-4-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 39.74,
+          "end": 39.9,
+          "at": "22.3",
+          "endAt": "22.3&"
+        },
+        {
+          "text": "your",
+          "start": 39.98,
+          "end": 40.14,
+          "at": "22.3&",
+          "endAt": "22.4"
+        },
+        {
+          "text": "regular",
+          "start": 40.2,
+          "end": 41.06,
+          "at": "22.4",
+          "endAt": "23.2"
+        },
+        {
+          "text": "O-S",
+          "start": 41.18,
+          "end": 41.92,
+          "at": "23.2e",
+          "endAt": "23.3a",
+          "optional": true
+        }
+      ],
+      "start": 39.74,
+      "end": 41.92,
+      "at": "22.3",
+      "endAt": "23.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-4-chorus-02",
+      "sectionId": "section-4-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "A real OS on a chip, no less,",
+      "words": [
+        {
+          "text": "A",
+          "start": 42.4,
+          "end": 42.44,
+          "at": "23.4a",
+          "endAt": "24.1"
+        },
+        {
+          "text": "real",
+          "start": 42.5,
+          "end": 42.72,
+          "at": "24.1",
+          "endAt": "24.1&"
+        },
+        {
+          "text": "OS",
+          "start": 42.84,
+          "end": 43.16,
+          "at": "24.1a",
+          "endAt": "24.2&"
+        },
+        {
+          "text": "on",
+          "start": 43.22,
+          "end": 43.28,
+          "at": "24.2a",
+          "endAt": "24.2a"
+        },
+        {
+          "text": "a",
+          "start": 43.32,
+          "end": 43.36,
+          "at": "24.2a",
+          "endAt": "24.3"
+        },
+        {
+          "text": "chip",
+          "start": 43.42,
+          "end": 43.66,
+          "at": "24.3",
+          "endAt": "24.3&"
+        },
+        {
+          "text": "no",
+          "start": 43.88,
+          "end": 44.06,
+          "at": "24.4",
+          "endAt": "24.4&"
+        },
+        {
+          "text": "less",
+          "start": 44.12,
+          "end": 44.38,
+          "at": "24.4&",
+          "endAt": "25.1e"
+        }
+      ],
+      "start": 42.4,
+      "end": 44.38,
+      "at": "23.4a",
+      "endAt": "25.1e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-4-chorus-03",
+      "sectionId": "section-4-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "same app on a desk, in a tab, yes, yes!",
+      "words": [
+        {
+          "text": "same",
+          "start": 44.56,
+          "end": 44.8,
+          "at": "25.1&",
+          "endAt": "25.2"
+        },
+        {
+          "text": "app",
+          "start": 44.88,
+          "end": 45.02,
+          "at": "25.2e",
+          "endAt": "25.2&"
+        },
+        {
+          "text": "on",
+          "start": 45.06,
+          "end": 45.14,
+          "at": "25.2a",
+          "endAt": "25.2a"
+        },
+        {
+          "text": "a",
+          "start": 45.18,
+          "end": 45.22,
+          "at": "25.3",
+          "endAt": "25.3"
+        },
+        {
+          "text": "desk",
+          "start": 45.28,
+          "end": 45.5,
+          "at": "25.3",
+          "endAt": "25.3&"
+        },
+        {
+          "text": "in",
+          "start": 45.62,
+          "end": 45.74,
+          "at": "25.3a",
+          "endAt": "25.4"
+        },
+        {
+          "text": "a",
+          "start": 45.8,
+          "end": 45.88,
+          "at": "25.4e",
+          "endAt": "25.4&"
+        },
+        {
+          "text": "tab",
+          "start": 45.94,
+          "end": 46.24,
+          "at": "25.4&",
+          "endAt": "26.1e"
+        },
+        {
+          "text": "yes",
+          "start": 46.44,
+          "end": 46.62,
+          "at": "26.1&",
+          "endAt": "26.2"
+        },
+        {
+          "text": "yes",
+          "start": 46.9,
+          "end": 47.08,
+          "at": "26.2&",
+          "endAt": "26.3"
+        }
+      ],
+      "start": 44.56,
+      "end": 47.08,
+      "at": "25.1&",
+      "endAt": "26.3",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-4-chorus-04",
+      "sectionId": "section-4-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 47.14,
+          "end": 47.28,
+          "at": "26.3e",
+          "endAt": "26.3&"
+        },
+        {
+          "text": "your",
+          "start": 47.36,
+          "end": 47.5,
+          "at": "26.3&",
+          "endAt": "26.4"
+        },
+        {
+          "text": "regular",
+          "start": 47.58,
+          "end": 48.44,
+          "at": "26.4",
+          "endAt": "27.2"
+        },
+        {
+          "text": "O-S",
+          "start": 48.6,
+          "end": 49.28,
+          "at": "27.2e",
+          "endAt": "27.3a",
+          "optional": true
+        }
+      ],
+      "start": 47.14,
+      "end": 49.28,
+      "at": "26.3e",
+      "endAt": "27.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-4-chorus-05",
+      "sectionId": "section-4-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "One signed package, three addresses,",
+      "words": [
+        {
+          "text": "One",
+          "start": 49.88,
+          "end": 50.0,
+          "at": "28.1",
+          "endAt": "28.1e"
+        },
+        {
+          "text": "signed",
+          "start": 50.1,
+          "end": 50.3,
+          "at": "28.1&",
+          "endAt": "28.2"
+        },
+        {
+          "text": "package",
+          "start": 50.36,
+          "end": 50.72,
+          "at": "28.2",
+          "endAt": "28.3"
+        },
+        {
+          "text": "three",
+          "start": 50.78,
+          "end": 51.0,
+          "at": "28.3",
+          "endAt": "28.3&"
+        },
+        {
+          "text": "addresses",
+          "start": 51.12,
+          "end": 51.78,
+          "at": "28.3a",
+          "endAt": "29.1e"
+        }
+      ],
+      "start": 49.88,
+      "end": 51.78,
+      "at": "28.1",
+      "endAt": "29.1e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-4-chorus-06",
+      "sectionId": "section-4-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "pocket-sized and fully dressed!",
+      "words": [
+        {
+          "text": "pocket-sized",
+          "start": 52.62,
+          "end": 53.34,
+          "at": "29.3",
+          "endAt": "29.4&"
+        },
+        {
+          "text": "and",
+          "start": 53.38,
+          "end": 53.46,
+          "at": "29.4a",
+          "endAt": "29.4a"
+        },
+        {
+          "text": "fully",
+          "start": 53.54,
+          "end": 53.94,
+          "at": "30.1",
+          "endAt": "30.1a"
+        },
+        {
+          "text": "dressed",
+          "start": 54.24,
+          "end": 54.48,
+          "at": "30.2&",
+          "endAt": "30.3"
+        }
+      ],
+      "start": 52.62,
+      "end": 54.48,
+      "at": "29.3",
+      "endAt": "30.3",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-4-chorus-07",
+      "sectionId": "section-4-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 54.52,
+          "end": 54.66,
+          "at": "30.3e",
+          "endAt": "30.3&"
+        },
+        {
+          "text": "your",
+          "start": 54.74,
+          "end": 54.9,
+          "at": "30.3&",
+          "endAt": "30.4"
+        },
+        {
+          "text": "regular",
+          "start": 54.96,
+          "end": 55.8,
+          "at": "30.4",
+          "endAt": "31.2"
+        },
+        {
+          "text": "O-S",
+          "start": 55.96,
+          "end": 56.22,
+          "at": "31.2e",
+          "endAt": "31.2a",
+          "optional": true
+        }
+      ],
+      "start": 54.52,
+      "end": 56.22,
+      "at": "30.3e",
+      "endAt": "31.2a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-4-chorus-08",
+      "sectionId": "section-4-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Try me in your browser tab! (Yes!)",
+      "words": [
+        {
+          "text": "Try",
+          "start": 56.32,
+          "end": 56.52,
+          "at": "31.3",
+          "endAt": "31.3&"
+        },
+        {
+          "text": "me",
+          "start": 56.6,
+          "end": 56.76,
+          "at": "31.3a",
+          "endAt": "31.4"
+        },
+        {
+          "text": "in",
+          "start": 56.88,
+          "end": 57.0,
+          "at": "31.4e",
+          "endAt": "31.4&"
+        },
+        {
+          "text": "your",
+          "start": 57.06,
+          "end": 57.2,
+          "at": "31.4a",
+          "endAt": "32.1"
+        },
+        {
+          "text": "browser",
+          "start": 57.24,
+          "end": 57.66,
+          "at": "32.1",
+          "endAt": "32.2"
+        },
+        {
+          "text": "tab",
+          "start": 57.74,
+          "end": 58.16,
+          "at": "32.2",
+          "endAt": "32.3"
+        },
+        {
+          "text": "Yes",
+          "start": 58.16,
+          "end": 58.16,
+          "at": "32.3",
+          "endAt": "32.3",
+          "optional": true,
+          "interpolated": true
+        }
+      ],
+      "start": 56.32,
+      "end": 58.16,
+      "at": "31.3",
+      "endAt": "32.3",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-5-post-chorus-01",
+      "sectionId": "section-5-post-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Chip! Desk! Tab!",
+      "words": [
+        {
+          "text": "Chip",
+          "start": 59.12,
+          "end": 59.32,
+          "at": "33.1",
+          "endAt": "33.1&"
+        },
+        {
+          "text": "Desk",
+          "start": 59.58,
+          "end": 59.78,
+          "at": "33.2",
+          "endAt": "33.2&"
+        },
+        {
+          "text": "Tab",
+          "start": 60.04,
+          "end": 60.4,
+          "at": "33.3",
+          "endAt": "33.3a"
+        }
+      ],
+      "start": 59.12,
+      "end": 60.4,
+      "at": "33.1",
+      "endAt": "33.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-5-post-chorus-02",
+      "sectionId": "section-5-post-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Same O-S! Same O-S!",
+      "words": [
+        {
+          "text": "Same",
+          "start": 60.5,
+          "end": 60.7,
+          "at": "33.4",
+          "endAt": "33.4&"
+        },
+        {
+          "text": "O-S",
+          "start": 60.92,
+          "end": 61.14,
+          "at": "34.1",
+          "endAt": "34.1&"
+        },
+        {
+          "text": "Same",
+          "start": 61.42,
+          "end": 61.64,
+          "at": "34.2",
+          "endAt": "34.2&"
+        },
+        {
+          "text": "O-S",
+          "start": 61.74,
+          "end": 62.14,
+          "at": "34.2a",
+          "endAt": "34.3a"
+        }
+      ],
+      "start": 60.5,
+      "end": 62.14,
+      "at": "33.4",
+      "endAt": "34.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-5-post-chorus-03",
+      "sectionId": "section-5-post-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Chip! Desk! Tab!",
+      "words": [
+        {
+          "text": "Chip",
+          "start": 62.82,
+          "end": 63.0,
+          "at": "35.1",
+          "endAt": "35.1&"
+        },
+        {
+          "text": "Desk",
+          "start": 63.26,
+          "end": 63.46,
+          "at": "35.2",
+          "endAt": "35.2&"
+        },
+        {
+          "text": "Tab",
+          "start": 63.74,
+          "end": 64.019,
+          "at": "35.3",
+          "endAt": "35.3a"
+        }
+      ],
+      "start": 62.82,
+      "end": 64.019,
+      "at": "35.1",
+      "endAt": "35.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-5-post-chorus-04",
+      "sectionId": "section-5-post-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Pass it! (Hey!)",
+      "words": [
+        {
+          "text": "Pass",
+          "start": 64.2,
+          "end": 64.42,
+          "at": "35.4",
+          "endAt": "35.4&"
+        },
+        {
+          "text": "it",
+          "start": 64.459,
+          "end": 64.62,
+          "at": "35.4a",
+          "endAt": "36.1"
+        },
+        {
+          "text": "Hey",
+          "start": 64.66,
+          "end": 64.819,
+          "at": "36.1",
+          "endAt": "36.1&",
+          "optional": true
+        }
+      ],
+      "start": 64.2,
+      "end": 64.819,
+      "at": "35.4",
+      "endAt": "36.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-5-post-chorus-05",
+      "sectionId": "section-5-post-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Tiny! Tidy!",
+      "words": [
+        {
+          "text": "Tiny",
+          "start": 65.12,
+          "end": 65.42,
+          "at": "36.2",
+          "endAt": "36.2a"
+        },
+        {
+          "text": "Tidy",
+          "start": 65.6,
+          "end": 66.0,
+          "at": "36.3e",
+          "endAt": "36.4"
+        }
+      ],
+      "start": 65.12,
+      "end": 66.0,
+      "at": "36.2",
+      "endAt": "36.4",
+      "confidence": 0.875
+    },
+    {
+      "id": "section-5-post-chorus-06",
+      "sectionId": "section-5-post-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Rusty! Open!",
+      "words": [
+        {
+          "text": "Rusty",
+          "start": 66.1,
+          "end": 66.1,
+          "at": "36.4e",
+          "endAt": "36.4e",
+          "interpolated": true
+        },
+        {
+          "text": "Open",
+          "start": 66.1,
+          "end": 66.44,
+          "at": "36.4e",
+          "endAt": "37.1"
+        }
+      ],
+      "start": 66.1,
+      "end": 66.44,
+      "at": "36.4e",
+      "endAt": "37.1",
+      "confidence": 0.5,
+      "low_confidence": true
+    },
+    {
+      "id": "section-5-post-chorus-07",
+      "sectionId": "section-5-post-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Chip! Desk! Tab!",
+      "words": [
+        {
+          "text": "Chip",
+          "start": 66.5,
+          "end": 66.7,
+          "at": "37.1",
+          "endAt": "37.1&"
+        },
+        {
+          "text": "Desk",
+          "start": 66.96,
+          "end": 67.16,
+          "at": "37.2",
+          "endAt": "37.2&"
+        },
+        {
+          "text": "Tab",
+          "start": 67.44,
+          "end": 67.8,
+          "at": "37.3",
+          "endAt": "37.4"
+        }
+      ],
+      "start": 66.5,
+      "end": 67.8,
+      "at": "37.1",
+      "endAt": "37.4",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-5-post-chorus-08",
+      "sectionId": "section-5-post-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Try it! Now!",
+      "words": [
+        {
+          "text": "Try",
+          "start": 67.84,
+          "end": 68.06,
+          "at": "37.4",
+          "endAt": "37.4&"
+        },
+        {
+          "text": "it",
+          "start": 68.14,
+          "end": 68.3,
+          "at": "37.4a",
+          "endAt": "38.1"
+        },
+        {
+          "text": "Now",
+          "start": 68.36,
+          "end": 68.54,
+          "at": "38.1",
+          "endAt": "38.1&"
+        }
+      ],
+      "start": 67.84,
+      "end": 68.54,
+      "at": "37.4",
+      "endAt": "38.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-6-verse-2-01",
+      "sectionId": "section-6-verse-2",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "My fern runs Fern Pings: 'Water. Now.'",
+      "words": [
+        {
+          "text": "My",
+          "start": 69.96,
+          "end": 70.12,
+          "at": "38.4&",
+          "endAt": "39.1"
+        },
+        {
+          "text": "fern",
+          "start": 70.18,
+          "end": 70.36,
+          "at": "39.1",
+          "endAt": "39.1&"
+        },
+        {
+          "text": "runs",
+          "start": 70.42,
+          "end": 70.6,
+          "at": "39.1&",
+          "endAt": "39.2"
+        },
+        {
+          "text": "Fern",
+          "start": 70.66,
+          "end": 70.8,
+          "at": "39.2",
+          "endAt": "39.2&"
+        },
+        {
+          "text": "Pings",
+          "start": 70.9,
+          "end": 71.08,
+          "at": "39.2&",
+          "endAt": "39.3"
+        },
+        {
+          "text": "Water",
+          "start": 71.14,
+          "end": 71.38,
+          "at": "39.3e",
+          "endAt": "39.3a"
+        },
+        {
+          "text": "Now",
+          "start": 71.5,
+          "end": 71.72,
+          "at": "39.4",
+          "endAt": "39.4&"
+        }
+      ],
+      "start": 69.96,
+      "end": 71.72,
+      "at": "38.4&",
+      "endAt": "39.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-6-verse-2-02",
+      "sectionId": "section-6-verse-2",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "My cat flap's Cat Customs: 'Papers? Meow.'",
+      "words": [
+        {
+          "text": "My",
+          "start": 71.82,
+          "end": 71.96,
+          "at": "39.4&",
+          "endAt": "40.1"
+        },
+        {
+          "text": "cat",
+          "start": 72.04,
+          "end": 72.2,
+          "at": "40.1",
+          "endAt": "40.1&"
+        },
+        {
+          "text": "flap's",
+          "start": 72.24,
+          "end": 72.46,
+          "at": "40.1&",
+          "endAt": "40.2"
+        },
+        {
+          "text": "Cat",
+          "start": 72.52,
+          "end": 72.62,
+          "at": "40.2e",
+          "endAt": "40.2e"
+        },
+        {
+          "text": "Customs",
+          "start": 72.62,
+          "end": 72.7,
+          "at": "40.2e",
+          "endAt": "40.2&",
+          "interpolated": true
+        },
+        {
+          "text": "Papers",
+          "start": 72.7,
+          "end": 73.36,
+          "at": "40.2&",
+          "endAt": "40.4"
+        },
+        {
+          "text": "Meow",
+          "start": 73.42,
+          "end": 73.62,
+          "at": "40.4",
+          "endAt": "40.4&"
+        }
+      ],
+      "start": 71.82,
+      "end": 73.62,
+      "at": "39.4&",
+      "endAt": "40.4&",
+      "confidence": 0.8,
+      "low_confidence": true
+    },
+    {
+      "id": "section-6-verse-2-03",
+      "sectionId": "section-6-verse-2",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Your doorbell's Ding Critic: 'Two out of ten,'",
+      "words": [
+        {
+          "text": "Your",
+          "start": 73.7,
+          "end": 73.84,
+          "at": "40.4a",
+          "endAt": "41.1"
+        },
+        {
+          "text": "doorbell's",
+          "start": 73.9,
+          "end": 74.3,
+          "at": "41.1",
+          "endAt": "41.2"
+        },
+        {
+          "text": "Ding",
+          "start": 74.36,
+          "end": 74.48,
+          "at": "41.2",
+          "endAt": "41.2e"
+        },
+        {
+          "text": "Critic",
+          "start": 74.56,
+          "end": 74.76,
+          "at": "41.2&",
+          "endAt": "41.3"
+        },
+        {
+          "text": "Two",
+          "start": 74.82,
+          "end": 74.92,
+          "at": "41.3",
+          "endAt": "41.3e"
+        },
+        {
+          "text": "out",
+          "start": 74.96,
+          "end": 75.02,
+          "at": "41.3&",
+          "endAt": "41.3&"
+        },
+        {
+          "text": "of",
+          "start": 75.04,
+          "end": 75.1,
+          "at": "41.3&",
+          "endAt": "41.3a"
+        },
+        {
+          "text": "ten",
+          "start": 75.18,
+          "end": 75.38,
+          "at": "41.4",
+          "endAt": "41.4e"
+        }
+      ],
+      "start": 73.7,
+      "end": 75.38,
+      "at": "40.4a",
+      "endAt": "41.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-6-verse-2-04",
+      "sectionId": "section-6-verse-2",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "your toaster's Toast Forecast: 'Burnt again.'",
+      "words": [
+        {
+          "text": "your",
+          "start": 75.52,
+          "end": 75.66,
+          "at": "41.4a",
+          "endAt": "42.1"
+        },
+        {
+          "text": "toaster's",
+          "start": 75.7,
+          "end": 76.04,
+          "at": "42.1",
+          "endAt": "42.1a"
+        },
+        {
+          "text": "Toast",
+          "start": 76.08,
+          "end": 76.24,
+          "at": "42.1a",
+          "endAt": "42.2e"
+        },
+        {
+          "text": "Forecast",
+          "start": 76.24,
+          "end": 76.66,
+          "at": "42.2e",
+          "endAt": "42.3",
+          "interpolated": true
+        },
+        {
+          "text": "Burnt",
+          "start": 76.66,
+          "end": 76.86,
+          "at": "42.3",
+          "endAt": "42.3&"
+        },
+        {
+          "text": "again",
+          "start": 76.94,
+          "end": 77.22,
+          "at": "42.3a",
+          "endAt": "42.4e"
+        }
+      ],
+      "start": 75.52,
+      "end": 77.22,
+      "at": "41.4a",
+      "endAt": "42.4e",
+      "confidence": 0.8333,
+      "low_confidence": true
+    },
+    {
+      "id": "section-6-verse-2-05",
+      "sectionId": "section-6-verse-2",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "My alarm runs Snooze Court: 'Guilty! Rise!'",
+      "words": [
+        {
+          "text": "My",
+          "start": 77.36,
+          "end": 77.46,
+          "at": "42.4&",
+          "endAt": "42.4a"
+        },
+        {
+          "text": "alarm",
+          "start": 77.52,
+          "end": 77.78,
+          "at": "43.1",
+          "endAt": "43.1&"
+        },
+        {
+          "text": "runs",
+          "start": 77.8,
+          "end": 77.96,
+          "at": "43.1&",
+          "endAt": "43.2"
+        },
+        {
+          "text": "Snooze",
+          "start": 78.0,
+          "end": 78.2,
+          "at": "43.2",
+          "endAt": "43.2&"
+        },
+        {
+          "text": "Court",
+          "start": 78.26,
+          "end": 78.44,
+          "at": "43.2&",
+          "endAt": "43.3"
+        },
+        {
+          "text": "Guilty",
+          "start": 78.5,
+          "end": 78.78,
+          "at": "43.3",
+          "endAt": "43.3a"
+        },
+        {
+          "text": "Rise",
+          "start": 78.86,
+          "end": 79.16,
+          "at": "43.3a",
+          "endAt": "43.4&"
+        }
+      ],
+      "start": 77.36,
+      "end": 79.16,
+      "at": "42.4&",
+      "endAt": "43.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-6-verse-2-06",
+      "sectionId": "section-6-verse-2",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "My bike runs Hill Snitch: 'Walked it!' (Lies!)",
+      "words": [
+        {
+          "text": "My",
+          "start": 79.22,
+          "end": 79.36,
+          "at": "43.4a",
+          "endAt": "44.1"
+        },
+        {
+          "text": "bike",
+          "start": 79.42,
+          "end": 79.6,
+          "at": "44.1",
+          "endAt": "44.1&"
+        },
+        {
+          "text": "runs",
+          "start": 79.66,
+          "end": 79.84,
+          "at": "44.1&",
+          "endAt": "44.2"
+        },
+        {
+          "text": "Hill",
+          "start": 79.86,
+          "end": 79.98,
+          "at": "44.2",
+          "endAt": "44.2e"
+        },
+        {
+          "text": "Snitch",
+          "start": 80.08,
+          "end": 80.3,
+          "at": "44.2&",
+          "endAt": "44.3"
+        },
+        {
+          "text": "Walked",
+          "start": 80.36,
+          "end": 80.58,
+          "at": "44.3",
+          "endAt": "44.3&"
+        },
+        {
+          "text": "it",
+          "start": 80.62,
+          "end": 80.68,
+          "at": "44.3a",
+          "endAt": "44.3a"
+        },
+        {
+          "text": "Lies",
+          "start": 80.72,
+          "end": 81.14,
+          "at": "44.4",
+          "endAt": "44.4a",
+          "optional": true
+        }
+      ],
+      "start": 79.22,
+      "end": 81.14,
+      "at": "43.4a",
+      "endAt": "44.4a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-6-verse-2-07",
+      "sectionId": "section-6-verse-2",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Fridge Haiku wrote a sonnet on the ham,",
+      "words": [
+        {
+          "text": "Fridge",
+          "start": 81.24,
+          "end": 81.46,
+          "at": "45.1",
+          "endAt": "45.1&"
+        },
+        {
+          "text": "Haiku",
+          "start": 81.5,
+          "end": 81.88,
+          "at": "45.1&",
+          "endAt": "45.2&"
+        },
+        {
+          "text": "wrote",
+          "start": 81.92,
+          "end": 82.06,
+          "at": "45.2&",
+          "endAt": "45.2a"
+        },
+        {
+          "text": "a",
+          "start": 82.08,
+          "end": 82.14,
+          "at": "45.2a",
+          "endAt": "45.3"
+        },
+        {
+          "text": "sonnet",
+          "start": 82.18,
+          "end": 82.4,
+          "at": "45.3",
+          "endAt": "45.3&"
+        },
+        {
+          "text": "on",
+          "start": 82.44,
+          "end": 82.5,
+          "at": "45.3&",
+          "endAt": "45.3a"
+        },
+        {
+          "text": "the",
+          "start": 82.54,
+          "end": 82.6,
+          "at": "45.3a",
+          "endAt": "45.4"
+        },
+        {
+          "text": "ham",
+          "start": 82.66,
+          "end": 82.86,
+          "at": "45.4",
+          "endAt": "45.4&"
+        }
+      ],
+      "start": 81.24,
+      "end": 82.86,
+      "at": "45.1",
+      "endAt": "45.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-6-verse-2-08",
+      "sectionId": "section-6-verse-2",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "and the whole block's blasting Kazoo Jam!",
+      "words": [
+        {
+          "text": "and",
+          "start": 82.9,
+          "end": 82.98,
+          "at": "45.4&",
+          "endAt": "45.4a"
+        },
+        {
+          "text": "the",
+          "start": 83.0,
+          "end": 83.06,
+          "at": "45.4a",
+          "endAt": "46.1"
+        },
+        {
+          "text": "whole",
+          "start": 83.1,
+          "end": 83.24,
+          "at": "46.1",
+          "endAt": "46.1e"
+        },
+        {
+          "text": "block's",
+          "start": 83.3,
+          "end": 83.52,
+          "at": "46.1&",
+          "endAt": "46.2"
+        },
+        {
+          "text": "blasting",
+          "start": 83.56,
+          "end": 83.96,
+          "at": "46.2",
+          "endAt": "46.3"
+        },
+        {
+          "text": "Kazoo",
+          "start": 83.96,
+          "end": 83.96,
+          "at": "46.3",
+          "endAt": "46.3",
+          "interpolated": true
+        },
+        {
+          "text": "Jam",
+          "start": 83.96,
+          "end": 83.96,
+          "at": "46.3",
+          "endAt": "46.3",
+          "interpolated": true
+        }
+      ],
+      "start": 82.9,
+      "end": 83.96,
+      "at": "45.4&",
+      "endAt": "46.3",
+      "confidence": 0.7143,
+      "low_confidence": true
+    },
+    {
+      "id": "section-7-stop-time-01",
+      "sectionId": "section-7-stop-time",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Wait. A cat flap with apps?",
+      "words": [
+        {
+          "text": "Wait",
+          "start": 84.96,
+          "end": 85.16,
+          "at": "47.1",
+          "endAt": "47.1&"
+        },
+        {
+          "text": "A",
+          "start": 85.34,
+          "end": 85.38,
+          "at": "47.2",
+          "endAt": "47.2"
+        },
+        {
+          "text": "cat",
+          "start": 85.44,
+          "end": 85.58,
+          "at": "47.2",
+          "endAt": "47.2&"
+        },
+        {
+          "text": "flap",
+          "start": 85.62,
+          "end": 85.8,
+          "at": "47.2&",
+          "endAt": "47.3"
+        },
+        {
+          "text": "with",
+          "start": 85.82,
+          "end": 85.92,
+          "at": "47.3",
+          "endAt": "47.3e"
+        },
+        {
+          "text": "apps",
+          "start": 85.98,
+          "end": 86.24,
+          "at": "47.3e",
+          "endAt": "47.3a"
+        }
+      ],
+      "start": 84.96,
+      "end": 86.24,
+      "at": "47.1",
+      "endAt": "47.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-7-stop-time-02",
+      "sectionId": "section-7-stop-time",
+      "speaker": "XILA",
+      "delivery": "spoken",
+      "text": "Imagined. For now.",
+      "words": [
+        {
+          "text": "Imagined",
+          "start": 86.62,
+          "end": 87.0,
+          "at": "47.4a",
+          "endAt": "48.1&"
+        },
+        {
+          "text": "For",
+          "start": 87.16,
+          "end": 87.24,
+          "at": "48.1a",
+          "endAt": "48.2"
+        },
+        {
+          "text": "now",
+          "start": 87.3,
+          "end": 87.6,
+          "at": "48.2e",
+          "endAt": "48.2a"
+        }
+      ],
+      "start": 86.62,
+      "end": 87.6,
+      "at": "47.4a",
+      "endAt": "48.2a",
+      "confidence": 0.9583
+    },
+    {
+      "id": "section-7-stop-time-03",
+      "sectionId": "section-7-stop-time",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "And the OS? That small?",
+      "words": [
+        {
+          "text": "And",
+          "start": 88.12,
+          "end": 88.2,
+          "at": "48.4",
+          "endAt": "48.4"
+        },
+        {
+          "text": "the",
+          "start": 88.22,
+          "end": 88.28,
+          "at": "48.4e",
+          "endAt": "48.4e"
+        },
+        {
+          "text": "OS",
+          "start": 88.34,
+          "end": 88.6,
+          "at": "48.4&",
+          "endAt": "49.1"
+        },
+        {
+          "text": "That",
+          "start": 88.66,
+          "end": 88.76,
+          "at": "49.1",
+          "endAt": "49.1e"
+        },
+        {
+          "text": "small",
+          "start": 88.84,
+          "end": 89.04,
+          "at": "49.1&",
+          "endAt": "49.2"
+        }
+      ],
+      "start": 88.12,
+      "end": 89.04,
+      "at": "48.4",
+      "endAt": "49.2",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-7-stop-time-04",
+      "sectionId": "section-7-stop-time",
+      "speaker": "XILA",
+      "delivery": "spoken",
+      "text": "Two-fifty-six kibibytes. Snug.",
+      "words": [
+        {
+          "text": "Two-fifty-six",
+          "start": 90.06,
+          "end": 90.64,
+          "at": "49.4e",
+          "endAt": "50.1&"
+        },
+        {
+          "text": "kibibytes",
+          "start": 90.68,
+          "end": 91.24,
+          "at": "50.1&",
+          "endAt": "50.2a"
+        },
+        {
+          "text": "Snug",
+          "start": 91.7,
+          "end": 92.0,
+          "at": "50.3a",
+          "endAt": "50.4e"
+        }
+      ],
+      "start": 90.06,
+      "end": 92.0,
+      "at": "49.4e",
+      "endAt": "50.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-8-chorus-01",
+      "sectionId": "section-8-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 92.8,
+          "end": 92.98,
+          "at": "51.2",
+          "endAt": "51.2&"
+        },
+        {
+          "text": "your",
+          "start": 93.06,
+          "end": 93.2,
+          "at": "51.2a",
+          "endAt": "51.3"
+        },
+        {
+          "text": "regular",
+          "start": 93.26,
+          "end": 93.78,
+          "at": "51.3",
+          "endAt": "51.4e"
+        },
+        {
+          "text": "O-S",
+          "start": 94.0,
+          "end": 94.36,
+          "at": "51.4a",
+          "endAt": "52.1&",
+          "optional": true
+        }
+      ],
+      "start": 92.8,
+      "end": 94.36,
+      "at": "51.2",
+      "endAt": "52.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-8-chorus-02",
+      "sectionId": "section-8-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "A real OS on a chip, no less,",
+      "words": [
+        {
+          "text": "A",
+          "start": 94.56,
+          "end": 94.6,
+          "at": "52.2",
+          "endAt": "52.2"
+        },
+        {
+          "text": "real",
+          "start": 94.66,
+          "end": 94.86,
+          "at": "52.2",
+          "endAt": "52.2&"
+        },
+        {
+          "text": "OS",
+          "start": 94.94,
+          "end": 95.3,
+          "at": "52.2a",
+          "endAt": "52.3&"
+        },
+        {
+          "text": "on",
+          "start": 95.36,
+          "end": 95.44,
+          "at": "52.3&",
+          "endAt": "52.3a"
+        },
+        {
+          "text": "a",
+          "start": 95.48,
+          "end": 95.52,
+          "at": "52.3a",
+          "endAt": "52.4"
+        },
+        {
+          "text": "chip",
+          "start": 95.54,
+          "end": 95.72,
+          "at": "52.4",
+          "endAt": "52.4&"
+        },
+        {
+          "text": "no",
+          "start": 95.8,
+          "end": 95.92,
+          "at": "52.4&",
+          "endAt": "52.4a"
+        },
+        {
+          "text": "less",
+          "start": 96.0,
+          "end": 96.22,
+          "at": "53.1",
+          "endAt": "53.1&"
+        }
+      ],
+      "start": 94.56,
+      "end": 96.22,
+      "at": "52.2",
+      "endAt": "53.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-8-chorus-03",
+      "sectionId": "section-8-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "same app on a desk, in a tab, yes, yes!",
+      "words": [
+        {
+          "text": "same",
+          "start": 96.5,
+          "end": 96.7,
+          "at": "53.2",
+          "endAt": "53.2&"
+        },
+        {
+          "text": "app",
+          "start": 97.0,
+          "end": 97.18,
+          "at": "53.3e",
+          "endAt": "53.3&"
+        },
+        {
+          "text": "on",
+          "start": 97.22,
+          "end": 97.3,
+          "at": "53.3a",
+          "endAt": "53.3a"
+        },
+        {
+          "text": "a",
+          "start": 97.34,
+          "end": 97.38,
+          "at": "53.4",
+          "endAt": "53.4"
+        },
+        {
+          "text": "desk",
+          "start": 97.42,
+          "end": 97.64,
+          "at": "53.4",
+          "endAt": "53.4&"
+        },
+        {
+          "text": "in",
+          "start": 97.68,
+          "end": 97.74,
+          "at": "53.4a",
+          "endAt": "53.4a"
+        },
+        {
+          "text": "a",
+          "start": 97.78,
+          "end": 97.82,
+          "at": "53.4a",
+          "endAt": "54.1"
+        },
+        {
+          "text": "tab",
+          "start": 97.88,
+          "end": 98.18,
+          "at": "54.1",
+          "endAt": "54.1a"
+        },
+        {
+          "text": "yes",
+          "start": 98.38,
+          "end": 98.6,
+          "at": "54.2e",
+          "endAt": "54.2a"
+        },
+        {
+          "text": "yes",
+          "start": 98.82,
+          "end": 99.14,
+          "at": "54.3",
+          "endAt": "54.3a"
+        }
+      ],
+      "start": 96.5,
+      "end": 99.14,
+      "at": "53.2",
+      "endAt": "54.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-8-chorus-04",
+      "sectionId": "section-8-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 100.2,
+          "end": 100.38,
+          "at": "55.2",
+          "endAt": "55.2&"
+        },
+        {
+          "text": "your",
+          "start": 100.44,
+          "end": 100.6,
+          "at": "55.2&",
+          "endAt": "55.3"
+        },
+        {
+          "text": "regular",
+          "start": 100.64,
+          "end": 101.18,
+          "at": "55.3",
+          "endAt": "55.4e"
+        },
+        {
+          "text": "O-S",
+          "start": 101.38,
+          "end": 101.74,
+          "at": "55.4a",
+          "endAt": "56.1&",
+          "optional": true
+        }
+      ],
+      "start": 100.2,
+      "end": 101.74,
+      "at": "55.2",
+      "endAt": "56.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-8-chorus-05",
+      "sectionId": "section-8-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Built in Rust, no need to guess,",
+      "words": [
+        {
+          "text": "Built",
+          "start": 102.0,
+          "end": 102.24,
+          "at": "56.2",
+          "endAt": "56.2&"
+        },
+        {
+          "text": "in",
+          "start": 102.3,
+          "end": 102.44,
+          "at": "56.2a",
+          "endAt": "56.3"
+        },
+        {
+          "text": "Rust",
+          "start": 102.48,
+          "end": 102.66,
+          "at": "56.3",
+          "endAt": "56.3&"
+        },
+        {
+          "text": "no",
+          "start": 102.74,
+          "end": 102.86,
+          "at": "56.3&",
+          "endAt": "56.3a"
+        },
+        {
+          "text": "need",
+          "start": 102.96,
+          "end": 103.12,
+          "at": "56.4",
+          "endAt": "56.4&"
+        },
+        {
+          "text": "to",
+          "start": 103.16,
+          "end": 103.26,
+          "at": "56.4&",
+          "endAt": "56.4a"
+        },
+        {
+          "text": "guess",
+          "start": 103.3,
+          "end": 103.56,
+          "at": "56.4a",
+          "endAt": "57.1&"
+        }
+      ],
+      "start": 102.0,
+      "end": 103.56,
+      "at": "56.2",
+      "endAt": "57.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-8-chorus-06",
+      "sectionId": "section-8-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "open source, you've got access!",
+      "words": [
+        {
+          "text": "open",
+          "start": 103.92,
+          "end": 104.2,
+          "at": "57.2e",
+          "endAt": "57.2a"
+        },
+        {
+          "text": "source",
+          "start": 104.32,
+          "end": 104.54,
+          "at": "57.3",
+          "endAt": "57.3&"
+        },
+        {
+          "text": "you've",
+          "start": 104.6,
+          "end": 104.76,
+          "at": "57.3a",
+          "endAt": "57.4"
+        },
+        {
+          "text": "got",
+          "start": 104.8,
+          "end": 104.94,
+          "at": "57.4",
+          "endAt": "57.4e"
+        },
+        {
+          "text": "access",
+          "start": 105.0,
+          "end": 105.44,
+          "at": "57.4&",
+          "endAt": "58.1&"
+        }
+      ],
+      "start": 103.92,
+      "end": 105.44,
+      "at": "57.2e",
+      "endAt": "58.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-8-chorus-07",
+      "sectionId": "section-8-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 107.58,
+          "end": 107.74,
+          "at": "59.2",
+          "endAt": "59.2&"
+        },
+        {
+          "text": "your",
+          "start": 107.8,
+          "end": 107.96,
+          "at": "59.2&",
+          "endAt": "59.3"
+        },
+        {
+          "text": "regular",
+          "start": 108.02,
+          "end": 108.54,
+          "at": "59.3",
+          "endAt": "59.4e"
+        },
+        {
+          "text": "O-S",
+          "start": 108.78,
+          "end": 109.12,
+          "at": "59.4a",
+          "endAt": "60.1&",
+          "optional": true
+        }
+      ],
+      "start": 107.58,
+      "end": 109.12,
+      "at": "59.2",
+      "endAt": "60.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-8-chorus-08",
+      "sectionId": "section-8-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Try me in your browser tab! (Yes!)",
+      "words": [
+        {
+          "text": "Try",
+          "start": 109.38,
+          "end": 109.6,
+          "at": "60.2",
+          "endAt": "60.2&"
+        },
+        {
+          "text": "me",
+          "start": 109.68,
+          "end": 109.86,
+          "at": "60.2a",
+          "endAt": "60.3"
+        },
+        {
+          "text": "in",
+          "start": 109.94,
+          "end": 110.06,
+          "at": "60.3e",
+          "endAt": "60.3&"
+        },
+        {
+          "text": "your",
+          "start": 110.12,
+          "end": 110.24,
+          "at": "60.3&",
+          "endAt": "60.3a"
+        },
+        {
+          "text": "browser",
+          "start": 110.3,
+          "end": 110.64,
+          "at": "60.4",
+          "endAt": "60.4a"
+        },
+        {
+          "text": "tab",
+          "start": 110.7,
+          "end": 111.0,
+          "at": "60.4a",
+          "endAt": "61.1&"
+        },
+        {
+          "text": "Yes",
+          "start": 111.28,
+          "end": 111.56,
+          "at": "61.2",
+          "endAt": "61.2a",
+          "optional": true
+        }
+      ],
+      "start": 109.38,
+      "end": 111.56,
+      "at": "60.2",
+      "endAt": "61.2a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-9-verse-3-01",
+      "sectionId": "section-9-verse-3",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "An OS? On that? Get real,",
+      "words": [
+        {
+          "text": "An",
+          "start": 112.56,
+          "end": 112.64,
+          "at": "62.1",
+          "endAt": "62.1"
+        },
+        {
+          "text": "OS",
+          "start": 112.68,
+          "end": 113.04,
+          "at": "62.1e",
+          "endAt": "62.2"
+        },
+        {
+          "text": "On",
+          "start": 113.36,
+          "end": 113.44,
+          "at": "62.2&",
+          "endAt": "62.2a"
+        },
+        {
+          "text": "that",
+          "start": 113.48,
+          "end": 113.76,
+          "at": "62.2a",
+          "endAt": "62.3&"
+        },
+        {
+          "text": "Get",
+          "start": 113.8,
+          "end": 113.94,
+          "at": "62.3&",
+          "endAt": "62.3a"
+        },
+        {
+          "text": "real",
+          "start": 114.04,
+          "end": 114.24,
+          "at": "62.4",
+          "endAt": "62.4&"
+        }
+      ],
+      "start": 112.56,
+      "end": 114.24,
+      "at": "62.1",
+      "endAt": "62.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-9-verse-3-02",
+      "sectionId": "section-9-verse-3",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "a chip runs one job, that's the deal!",
+      "words": [
+        {
+          "text": "a",
+          "start": 114.4,
+          "end": 114.44,
+          "at": "62.4a",
+          "endAt": "63.1"
+        },
+        {
+          "text": "chip",
+          "start": 114.48,
+          "end": 114.66,
+          "at": "63.1",
+          "endAt": "63.1&"
+        },
+        {
+          "text": "runs",
+          "start": 114.72,
+          "end": 114.92,
+          "at": "63.1&",
+          "endAt": "63.2"
+        },
+        {
+          "text": "one",
+          "start": 114.98,
+          "end": 115.08,
+          "at": "63.2",
+          "endAt": "63.2e"
+        },
+        {
+          "text": "job",
+          "start": 115.18,
+          "end": 115.36,
+          "at": "63.2&",
+          "endAt": "63.3"
+        },
+        {
+          "text": "that's",
+          "start": 115.44,
+          "end": 115.62,
+          "at": "63.3",
+          "endAt": "63.3&"
+        },
+        {
+          "text": "the",
+          "start": 115.66,
+          "end": 115.76,
+          "at": "63.3&",
+          "endAt": "63.3a"
+        },
+        {
+          "text": "deal",
+          "start": 115.8,
+          "end": 116.06,
+          "at": "63.4",
+          "endAt": "63.4&"
+        }
+      ],
+      "start": 114.4,
+      "end": 116.06,
+      "at": "62.4a",
+      "endAt": "63.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-9-verse-3-03",
+      "sectionId": "section-9-verse-3",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Tasks, a shell and files, for real,",
+      "words": [
+        {
+          "text": "Tasks",
+          "start": 116.34,
+          "end": 116.64,
+          "at": "64.1",
+          "endAt": "64.1a"
+        },
+        {
+          "text": "a",
+          "start": 116.7,
+          "end": 116.74,
+          "at": "64.1a",
+          "endAt": "64.2"
+        },
+        {
+          "text": "shell",
+          "start": 116.78,
+          "end": 116.92,
+          "at": "64.2",
+          "endAt": "64.2e"
+        },
+        {
+          "text": "and",
+          "start": 116.96,
+          "end": 117.06,
+          "at": "64.2&",
+          "endAt": "64.2a"
+        },
+        {
+          "text": "files",
+          "start": 117.14,
+          "end": 117.44,
+          "at": "64.2a",
+          "endAt": "64.3&"
+        },
+        {
+          "text": "for",
+          "start": 117.48,
+          "end": 117.58,
+          "at": "64.3&",
+          "endAt": "64.3a"
+        },
+        {
+          "text": "real",
+          "start": 117.62,
+          "end": 117.86,
+          "at": "64.3a",
+          "endAt": "64.4e"
+        }
+      ],
+      "start": 116.34,
+      "end": 117.86,
+      "at": "64.1",
+      "endAt": "64.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-9-verse-3-04",
+      "sectionId": "section-9-verse-3",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "on a chip you could lose in your meal!",
+      "words": [
+        {
+          "text": "on",
+          "start": 117.96,
+          "end": 118.02,
+          "at": "64.4&",
+          "endAt": "64.4a"
+        },
+        {
+          "text": "a",
+          "start": 118.06,
+          "end": 118.12,
+          "at": "64.4a",
+          "endAt": "65.1"
+        },
+        {
+          "text": "chip",
+          "start": 118.16,
+          "end": 118.34,
+          "at": "65.1",
+          "endAt": "65.1&"
+        },
+        {
+          "text": "you",
+          "start": 118.38,
+          "end": 118.46,
+          "at": "65.1&",
+          "endAt": "65.1a"
+        },
+        {
+          "text": "could",
+          "start": 118.48,
+          "end": 118.6,
+          "at": "65.1a",
+          "endAt": "65.2"
+        },
+        {
+          "text": "lose",
+          "start": 118.64,
+          "end": 118.82,
+          "at": "65.2",
+          "endAt": "65.2&"
+        },
+        {
+          "text": "in",
+          "start": 118.86,
+          "end": 118.92,
+          "at": "65.2&",
+          "endAt": "65.2a"
+        },
+        {
+          "text": "your",
+          "start": 118.96,
+          "end": 119.04,
+          "at": "65.2a",
+          "endAt": "65.3"
+        },
+        {
+          "text": "meal",
+          "start": 119.1,
+          "end": 119.32,
+          "at": "65.3",
+          "endAt": "65.3&"
+        }
+      ],
+      "start": 117.96,
+      "end": 119.32,
+      "at": "64.4&",
+      "endAt": "65.3&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-9-verse-3-05",
+      "sectionId": "section-9-verse-3",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "So you're a firmware blob, I guess?",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-9-verse-3-06",
+      "sectionId": "section-9-verse-3",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "One giant binary, more or less?",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-9-verse-3-07",
+      "sectionId": "section-9-verse-3",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "I'm a Rust library, I confess,",
+      "words": [
+        {
+          "text": "I'm",
+          "start": 119.84,
+          "end": 119.9,
+          "at": "65.4a",
+          "endAt": "65.4a"
+        },
+        {
+          "text": "a",
+          "start": 119.94,
+          "end": 119.98,
+          "at": "65.4a",
+          "endAt": "66.1"
+        },
+        {
+          "text": "Rust",
+          "start": 120.02,
+          "end": 120.22,
+          "at": "66.1",
+          "endAt": "66.1&"
+        },
+        {
+          "text": "library",
+          "start": 120.28,
+          "end": 120.84,
+          "at": "66.1&",
+          "endAt": "66.2a"
+        },
+        {
+          "text": "I",
+          "start": 121.04,
+          "end": 121.1,
+          "at": "66.3e",
+          "endAt": "66.3&"
+        },
+        {
+          "text": "confess",
+          "start": 121.14,
+          "end": 121.52,
+          "at": "66.3&",
+          "endAt": "66.4e"
+        }
+      ],
+      "start": 119.84,
+      "end": 121.52,
+      "at": "65.4a",
+      "endAt": "66.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-9-verse-3-08",
+      "sectionId": "section-9-verse-3",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "build me in, I'll do the rest!",
+      "words": [
+        {
+          "text": "build",
+          "start": 121.62,
+          "end": 121.76,
+          "at": "66.4&",
+          "endAt": "66.4a"
+        },
+        {
+          "text": "me",
+          "start": 121.8,
+          "end": 121.9,
+          "at": "67.1",
+          "endAt": "67.1"
+        },
+        {
+          "text": "in",
+          "start": 121.96,
+          "end": 122.04,
+          "at": "67.1e",
+          "endAt": "67.1&"
+        },
+        {
+          "text": "I'll",
+          "start": 122.16,
+          "end": 122.3,
+          "at": "67.1a",
+          "endAt": "67.2"
+        },
+        {
+          "text": "do",
+          "start": 122.36,
+          "end": 122.52,
+          "at": "67.2",
+          "endAt": "67.2&"
+        },
+        {
+          "text": "the",
+          "start": 122.56,
+          "end": 122.62,
+          "at": "67.2&",
+          "endAt": "67.2a"
+        },
+        {
+          "text": "rest",
+          "start": 122.68,
+          "end": 123.0,
+          "at": "67.2a",
+          "endAt": "67.3&"
+        }
+      ],
+      "start": 121.62,
+      "end": 123.0,
+      "at": "66.4&",
+      "endAt": "67.3&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-10-boot-log-01",
+      "sectionId": "section-10-boot-log",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "Build you in? So what's inside?",
+      "words": [
+        {
+          "text": "Build",
+          "start": 124.74,
+          "end": 124.9,
+          "at": "68.3e",
+          "endAt": "68.3&"
+        },
+        {
+          "text": "you",
+          "start": 124.94,
+          "end": 125.0,
+          "at": "68.3a",
+          "endAt": "68.3a"
+        },
+        {
+          "text": "in",
+          "start": 125.06,
+          "end": 125.14,
+          "at": "68.4",
+          "endAt": "68.4e"
+        },
+        {
+          "text": "So",
+          "start": 125.22,
+          "end": 125.3,
+          "at": "68.4e",
+          "endAt": "68.4&"
+        },
+        {
+          "text": "what's",
+          "start": 125.32,
+          "end": 125.44,
+          "at": "68.4&",
+          "endAt": "68.4a"
+        },
+        {
+          "text": "inside",
+          "start": 125.48,
+          "end": 125.84,
+          "at": "68.4a",
+          "endAt": "69.1a"
+        }
+      ],
+      "start": 124.74,
+      "end": 125.84,
+      "at": "68.3e",
+      "endAt": "69.1a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-10-boot-log-02",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Watch me boot.",
+      "words": [
+        {
+          "text": "Watch",
+          "start": 126.42,
+          "end": 126.64,
+          "at": "69.3",
+          "endAt": "69.3&"
+        },
+        {
+          "text": "me",
+          "start": 126.68,
+          "end": 126.82,
+          "at": "69.3&",
+          "endAt": "69.3a"
+        },
+        {
+          "text": "boot",
+          "start": 126.86,
+          "end": 127.08,
+          "at": "69.3a",
+          "endAt": "69.4e"
+        }
+      ],
+      "start": 126.42,
+      "end": 127.08,
+      "at": "69.3",
+      "endAt": "69.4e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-10-boot-log-03",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Memory: mapped. Time: ticking.",
+      "words": [
+        {
+          "text": "Memory",
+          "start": 127.42,
+          "end": 127.68,
+          "at": "70.1",
+          "endAt": "70.1a"
+        },
+        {
+          "text": "mapped",
+          "start": 127.9,
+          "end": 128.16,
+          "at": "70.2",
+          "endAt": "70.2a"
+        },
+        {
+          "text": "Time",
+          "start": 128.34,
+          "end": 128.6,
+          "at": "70.3",
+          "endAt": "70.3a"
+        },
+        {
+          "text": "ticking",
+          "start": 128.8,
+          "end": 129.06,
+          "at": "70.4",
+          "endAt": "70.4a"
+        }
+      ],
+      "start": 127.42,
+      "end": 129.06,
+      "at": "70.1",
+      "endAt": "70.4a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-10-boot-log-04",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Tasks: named. Executor: kicking.",
+      "words": [
+        {
+          "text": "Tasks",
+          "start": 129.259,
+          "end": 129.6,
+          "at": "71.1",
+          "endAt": "71.1a"
+        },
+        {
+          "text": "named",
+          "start": 129.74,
+          "end": 130.0,
+          "at": "71.2",
+          "endAt": "71.2a"
+        },
+        {
+          "text": "Executor",
+          "start": 130.22,
+          "end": 130.58,
+          "at": "71.3e",
+          "endAt": "71.4"
+        },
+        {
+          "text": "kicking",
+          "start": 130.66,
+          "end": 130.9,
+          "at": "71.4",
+          "endAt": "71.4&"
+        }
+      ],
+      "start": 129.259,
+      "end": 130.9,
+      "at": "71.1",
+      "endAt": "71.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-10-boot-log-05",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Files, pins and pipes: one tree, mounted.",
+      "words": [
+        {
+          "text": "Files",
+          "start": 131.1,
+          "end": 131.42,
+          "at": "72.1",
+          "endAt": "72.1a"
+        },
+        {
+          "text": "pins",
+          "start": 131.54,
+          "end": 131.68,
+          "at": "72.2",
+          "endAt": "72.2e"
+        },
+        {
+          "text": "and",
+          "start": 131.7,
+          "end": 131.78,
+          "at": "72.2e",
+          "endAt": "72.2&"
+        },
+        {
+          "text": "pipes",
+          "start": 131.8,
+          "end": 131.98,
+          "at": "72.2&",
+          "endAt": "72.3"
+        },
+        {
+          "text": "one",
+          "start": 132.06,
+          "end": 132.14,
+          "at": "72.3e",
+          "endAt": "72.3e"
+        },
+        {
+          "text": "tree",
+          "start": 132.22,
+          "end": 132.38,
+          "at": "72.3&",
+          "endAt": "72.3a"
+        },
+        {
+          "text": "mounted",
+          "start": 132.48,
+          "end": 132.72,
+          "at": "72.4",
+          "endAt": "72.4&"
+        }
+      ],
+      "start": 131.1,
+      "end": 132.72,
+      "at": "72.1",
+      "endAt": "72.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-10-boot-log-06",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Users: checked. Root's in. You? Not counted.",
+      "words": [
+        {
+          "text": "Users",
+          "start": 133.0,
+          "end": 133.24,
+          "at": "73.1e",
+          "endAt": "73.1a"
+        },
+        {
+          "text": "checked",
+          "start": 133.4,
+          "end": 133.66,
+          "at": "73.2",
+          "endAt": "73.2&"
+        },
+        {
+          "text": "Root's",
+          "start": 133.66,
+          "end": 133.79,
+          "at": "73.2&",
+          "endAt": "73.3",
+          "interpolated": true
+        },
+        {
+          "text": "in",
+          "start": 133.79,
+          "end": 133.92,
+          "at": "73.3",
+          "endAt": "73.3e",
+          "interpolated": true
+        },
+        {
+          "text": "You",
+          "start": 133.92,
+          "end": 134.02,
+          "at": "73.3e",
+          "endAt": "73.3&"
+        },
+        {
+          "text": "Not",
+          "start": 134.12,
+          "end": 134.28,
+          "at": "73.3&",
+          "endAt": "73.4"
+        },
+        {
+          "text": "counted",
+          "start": 134.32,
+          "end": 134.56,
+          "at": "73.4",
+          "endAt": "73.4&"
+        }
+      ],
+      "start": 133.0,
+      "end": 134.56,
+      "at": "73.1e",
+      "endAt": "73.4&",
+      "confidence": 0.7143,
+      "low_confidence": true
+    },
+    {
+      "id": "section-10-boot-log-07",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Got a screen? Graphics up. No screen? No drama.",
+      "words": [
+        {
+          "text": "Got",
+          "start": 134.82,
+          "end": 134.9,
+          "at": "74.1",
+          "endAt": "74.1e"
+        },
+        {
+          "text": "a",
+          "start": 134.92,
+          "end": 134.96,
+          "at": "74.1e",
+          "endAt": "74.1&"
+        },
+        {
+          "text": "screen",
+          "start": 135.0,
+          "end": 135.2,
+          "at": "74.1&",
+          "endAt": "74.2"
+        },
+        {
+          "text": "Graphics",
+          "start": 135.26,
+          "end": 135.5,
+          "at": "74.2",
+          "endAt": "74.2&"
+        },
+        {
+          "text": "up",
+          "start": 135.56,
+          "end": 135.64,
+          "at": "74.2a",
+          "endAt": "74.3"
+        },
+        {
+          "text": "No",
+          "start": 135.72,
+          "end": 135.78,
+          "at": "74.3",
+          "endAt": "74.3e"
+        },
+        {
+          "text": "screen",
+          "start": 135.86,
+          "end": 136.02,
+          "at": "74.3e",
+          "endAt": "74.3a"
+        },
+        {
+          "text": "No",
+          "start": 136.06,
+          "end": 136.14,
+          "at": "74.3a",
+          "endAt": "74.4"
+        },
+        {
+          "text": "drama",
+          "start": 136.16,
+          "end": 136.4,
+          "at": "74.4",
+          "endAt": "74.4&"
+        }
+      ],
+      "start": 134.82,
+      "end": 136.4,
+      "at": "74.1",
+      "endAt": "74.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-10-boot-log-08",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Drivers: whatever this board brought.",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-10-boot-log-09",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Log: writing all of this down.",
+      "words": [
+        {
+          "text": "Log",
+          "start": 137.58,
+          "end": 137.58,
+          "at": "75.3",
+          "endAt": "75.3",
+          "interpolated": true
+        },
+        {
+          "text": "writing",
+          "start": 137.58,
+          "end": 137.8,
+          "at": "75.3",
+          "endAt": "75.3&"
+        },
+        {
+          "text": "all",
+          "start": 137.86,
+          "end": 137.94,
+          "at": "75.3a",
+          "endAt": "75.3a"
+        },
+        {
+          "text": "of",
+          "start": 137.96,
+          "end": 138.0,
+          "at": "75.4",
+          "endAt": "75.4"
+        },
+        {
+          "text": "this",
+          "start": 138.0,
+          "end": 138.0,
+          "at": "75.4",
+          "endAt": "75.4",
+          "interpolated": true
+        },
+        {
+          "text": "down",
+          "start": 138.0,
+          "end": 138.0,
+          "at": "75.4",
+          "endAt": "75.4",
+          "interpolated": true
+        }
+      ],
+      "start": 137.58,
+      "end": 138.0,
+      "at": "75.3",
+      "endAt": "75.4",
+      "confidence": 0.5,
+      "low_confidence": true
+    },
+    {
+      "id": "section-10-boot-log-10",
+      "sectionId": "section-10-boot-log",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Shell: ready. Your move.",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-11-bridge-01",
+      "sectionId": "section-11-bridge",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "Order now! The deluxe dev kit!",
+      "words": [
+        {
+          "text": "Order",
+          "start": 138.06,
+          "end": 138.06,
+          "at": "75.4e",
+          "endAt": "75.4e",
+          "interpolated": true
+        },
+        {
+          "text": "now",
+          "start": 138.06,
+          "end": 138.24,
+          "at": "75.4e",
+          "endAt": "75.4&"
+        },
+        {
+          "text": "The",
+          "start": 138.28,
+          "end": 138.34,
+          "at": "75.4&",
+          "endAt": "75.4a"
+        },
+        {
+          "text": "deluxe",
+          "start": 138.38,
+          "end": 138.68,
+          "at": "75.4a",
+          "endAt": "76.1&"
+        },
+        {
+          "text": "dev",
+          "start": 138.72,
+          "end": 138.86,
+          "at": "76.1&",
+          "endAt": "76.1a"
+        },
+        {
+          "text": "kit",
+          "start": 138.94,
+          "end": 139.08,
+          "at": "76.2",
+          "endAt": "76.2e"
+        }
+      ],
+      "start": 138.06,
+      "end": 139.08,
+      "at": "75.4e",
+      "endAt": "76.2e",
+      "confidence": 0.8333,
+      "low_confidence": true
+    },
+    {
+      "id": "section-11-bridge-02",
+      "sectionId": "section-11-bridge",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Or open a tab.",
+      "words": [
+        {
+          "text": "Or",
+          "start": 139.22,
+          "end": 139.38,
+          "at": "76.2a",
+          "endAt": "76.3"
+        },
+        {
+          "text": "open",
+          "start": 139.48,
+          "end": 139.7,
+          "at": "76.3e",
+          "endAt": "76.3a"
+        },
+        {
+          "text": "a",
+          "start": 139.76,
+          "end": 139.8,
+          "at": "76.3a",
+          "endAt": "76.4"
+        },
+        {
+          "text": "tab",
+          "start": 139.86,
+          "end": 140.1,
+          "at": "76.4",
+          "endAt": "76.4&"
+        }
+      ],
+      "start": 139.22,
+      "end": 140.1,
+      "at": "76.2a",
+      "endAt": "76.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-11-bridge-03",
+      "sectionId": "section-11-bridge",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "A probe! A scope! Free socks!",
+      "words": [
+        {
+          "text": "A",
+          "start": 140.16,
+          "end": 140.18,
+          "at": "76.4a",
+          "endAt": "76.4a"
+        },
+        {
+          "text": "probe",
+          "start": 140.32,
+          "end": 140.56,
+          "at": "77.1",
+          "endAt": "77.1&"
+        },
+        {
+          "text": "A",
+          "start": 140.62,
+          "end": 140.66,
+          "at": "77.1a",
+          "endAt": "77.1a"
+        },
+        {
+          "text": "scope",
+          "start": 140.76,
+          "end": 140.94,
+          "at": "77.2",
+          "endAt": "77.2e"
+        },
+        {
+          "text": "Free",
+          "start": 141.0,
+          "end": 141.18,
+          "at": "77.2&",
+          "endAt": "77.3"
+        },
+        {
+          "text": "socks",
+          "start": 141.24,
+          "end": 141.48,
+          "at": "77.3",
+          "endAt": "77.3&"
+        }
+      ],
+      "start": 140.16,
+      "end": 141.48,
+      "at": "76.4a",
+      "endAt": "77.3&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-11-bridge-04",
+      "sectionId": "section-11-bridge",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Or open a tab.",
+      "words": [
+        {
+          "text": "Or",
+          "start": 141.54,
+          "end": 141.7,
+          "at": "77.3a",
+          "endAt": "77.4"
+        },
+        {
+          "text": "open",
+          "start": 141.78,
+          "end": 142.02,
+          "at": "77.4e",
+          "endAt": "77.4a"
+        },
+        {
+          "text": "a",
+          "start": 142.06,
+          "end": 142.12,
+          "at": "77.4a",
+          "endAt": "78.1"
+        },
+        {
+          "text": "tab",
+          "start": 142.16,
+          "end": 142.44,
+          "at": "78.1",
+          "endAt": "78.1&"
+        }
+      ],
+      "start": 141.54,
+      "end": 142.44,
+      "at": "77.3a",
+      "endAt": "78.1&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-11-bridge-05",
+      "sectionId": "section-11-bridge",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "Call now: ninety jumper wires!",
+      "words": [
+        {
+          "text": "Call",
+          "start": 142.64,
+          "end": 142.84,
+          "at": "78.2",
+          "endAt": "78.2&"
+        },
+        {
+          "text": "now",
+          "start": 142.9,
+          "end": 143.06,
+          "at": "78.2&",
+          "endAt": "78.3"
+        },
+        {
+          "text": "ninety",
+          "start": 143.14,
+          "end": 143.44,
+          "at": "78.3e",
+          "endAt": "78.3a"
+        },
+        {
+          "text": "jumper",
+          "start": 143.54,
+          "end": 143.76,
+          "at": "78.4",
+          "endAt": "78.4&"
+        },
+        {
+          "text": "wires",
+          "start": 143.8,
+          "end": 144.14,
+          "at": "78.4&",
+          "endAt": "79.1e"
+        }
+      ],
+      "start": 142.64,
+      "end": 144.14,
+      "at": "78.2",
+      "endAt": "79.1e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-11-bridge-06",
+      "sectionId": "section-11-bridge",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Or open a tab.",
+      "words": [
+        {
+          "text": "Or",
+          "start": 144.32,
+          "end": 144.46,
+          "at": "79.1a",
+          "endAt": "79.2"
+        },
+        {
+          "text": "open",
+          "start": 144.56,
+          "end": 144.8,
+          "at": "79.2e",
+          "endAt": "79.2a"
+        },
+        {
+          "text": "a",
+          "start": 144.84,
+          "end": 144.88,
+          "at": "79.2a",
+          "endAt": "79.3"
+        },
+        {
+          "text": "tab",
+          "start": 144.94,
+          "end": 145.22,
+          "at": "79.3",
+          "endAt": "79.3a"
+        }
+      ],
+      "start": 144.32,
+      "end": 145.22,
+      "at": "79.1a",
+      "endAt": "79.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-11-bridge-07",
+      "sectionId": "section-11-bridge",
+      "speaker": "ALIX",
+      "delivery": "sung",
+      "text": "Operators are standing by!",
+      "words": [
+        {
+          "text": "Operators",
+          "start": 145.68,
+          "end": 146.1,
+          "at": "79.4a",
+          "endAt": "80.1&"
+        },
+        {
+          "text": "are",
+          "start": 146.14,
+          "end": 146.24,
+          "at": "80.1a",
+          "endAt": "80.1a"
+        },
+        {
+          "text": "standing",
+          "start": 146.3,
+          "end": 146.64,
+          "at": "80.2",
+          "endAt": "80.2a"
+        },
+        {
+          "text": "by",
+          "start": 146.68,
+          "end": 146.98,
+          "at": "80.2a",
+          "endAt": "80.3&"
+        }
+      ],
+      "start": 145.68,
+      "end": 146.98,
+      "at": "79.4a",
+      "endAt": "80.3&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-11-bridge-08",
+      "sectionId": "section-11-bridge",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Xila dot dev. Open a tab.",
+      "words": [
+        {
+          "text": "Xila",
+          "start": 149.16,
+          "end": 149.16,
+          "at": "81.4e",
+          "endAt": "81.4e",
+          "interpolated": true
+        },
+        {
+          "text": "dot",
+          "start": 149.16,
+          "end": 149.16,
+          "at": "81.4e",
+          "endAt": "81.4e",
+          "interpolated": true
+        },
+        {
+          "text": "dev",
+          "start": 149.16,
+          "end": 149.16,
+          "at": "81.4e",
+          "endAt": "81.4e",
+          "interpolated": true
+        },
+        {
+          "text": "Open",
+          "start": 149.16,
+          "end": 149.4,
+          "at": "81.4e",
+          "endAt": "81.4a"
+        },
+        {
+          "text": "a",
+          "start": 149.46,
+          "end": 149.5,
+          "at": "81.4a",
+          "endAt": "82.1"
+        },
+        {
+          "text": "tab",
+          "start": 149.56,
+          "end": 149.84,
+          "at": "82.1",
+          "endAt": "82.1a"
+        }
+      ],
+      "start": 149.16,
+      "end": 149.84,
+      "at": "81.4e",
+      "endAt": "82.1a",
+      "confidence": 0.5,
+      "low_confidence": true
+    },
+    {
+      "id": "section-12-breakdown-01",
+      "sectionId": "section-12-breakdown",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Kazoo Jam! Take it to the...",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-12-breakdown-02",
+      "sectionId": "section-12-breakdown",
+      "speaker": "XILA",
+      "delivery": "spoken",
+      "text": "Trap!",
+      "words": [
+        {
+          "text": "Trap",
+          "start": 150.42,
+          "end": 150.7,
+          "at": "82.3",
+          "endAt": "82.3&"
+        }
+      ],
+      "start": 150.42,
+      "end": 150.7,
+      "at": "82.3",
+      "endAt": "82.3&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-12-breakdown-03",
+      "sectionId": "section-12-breakdown",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Did we just crash?",
+      "words": [
+        {
+          "text": "Did",
+          "start": 151.08,
+          "end": 151.16,
+          "at": "82.4e",
+          "endAt": "82.4&"
+        },
+        {
+          "text": "we",
+          "start": 151.2,
+          "end": 151.26,
+          "at": "82.4&",
+          "endAt": "82.4a"
+        },
+        {
+          "text": "just",
+          "start": 151.3,
+          "end": 151.4,
+          "at": "82.4a",
+          "endAt": "83.1"
+        },
+        {
+          "text": "crash",
+          "start": 151.46,
+          "end": 151.72,
+          "at": "83.1e",
+          "endAt": "83.1a"
+        }
+      ],
+      "start": 151.08,
+      "end": 151.72,
+      "at": "82.4e",
+      "endAt": "83.1a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-12-breakdown-04",
+      "sectionId": "section-12-breakdown",
+      "speaker": "XILA",
+      "delivery": "spoken",
+      "text": "The app did. I'm still here.",
+      "words": [
+        {
+          "text": "The",
+          "start": 152.14,
+          "end": 152.22,
+          "at": "83.2a",
+          "endAt": "83.2a"
+        },
+        {
+          "text": "app",
+          "start": 152.26,
+          "end": 152.4,
+          "at": "83.3",
+          "endAt": "83.3e"
+        },
+        {
+          "text": "did",
+          "start": 152.46,
+          "end": 152.62,
+          "at": "83.3e",
+          "endAt": "83.3a"
+        },
+        {
+          "text": "I'm",
+          "start": 153.04,
+          "end": 153.12,
+          "at": "83.4&",
+          "endAt": "83.4a"
+        },
+        {
+          "text": "still",
+          "start": 153.18,
+          "end": 153.32,
+          "at": "84.1",
+          "endAt": "84.1e"
+        },
+        {
+          "text": "here",
+          "start": 153.36,
+          "end": 153.56,
+          "at": "84.1e",
+          "endAt": "84.1a"
+        }
+      ],
+      "start": 152.14,
+      "end": 153.56,
+      "at": "83.2a",
+      "endAt": "84.1a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-12-breakdown-05",
+      "sectionId": "section-12-breakdown",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "No watchdog reset?",
+      "words": [
+        {
+          "text": "No",
+          "start": 153.94,
+          "end": 154.02,
+          "at": "84.2&",
+          "endAt": "84.2a"
+        },
+        {
+          "text": "watchdog",
+          "start": 154.06,
+          "end": 154.44,
+          "at": "84.2a",
+          "endAt": "84.3&"
+        },
+        {
+          "text": "reset",
+          "start": 154.48,
+          "end": 154.84,
+          "at": "84.3a",
+          "endAt": "84.4&"
+        }
+      ],
+      "start": 153.94,
+      "end": 154.84,
+      "at": "84.2&",
+      "endAt": "84.4&",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-12-breakdown-06",
+      "sectionId": "section-12-breakdown",
+      "speaker": "XILA",
+      "delivery": "spoken",
+      "text": "Nope. Hit it!",
+      "words": [
+        {
+          "text": "Nope",
+          "start": 155.16,
+          "end": 155.36,
+          "at": "85.1e",
+          "endAt": "85.1&"
+        },
+        {
+          "text": "Hit",
+          "start": 155.76,
+          "end": 155.86,
+          "at": "85.2&",
+          "endAt": "85.2a"
+        },
+        {
+          "text": "it",
+          "start": 155.9,
+          "end": 156.0,
+          "at": "85.2a",
+          "endAt": "85.3"
+        }
+      ],
+      "start": 155.16,
+      "end": 156.0,
+      "at": "85.1e",
+      "endAt": "85.3",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-13-final-chorus-01",
+      "sectionId": "section-13-final-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 156.48,
+          "end": 156.66,
+          "at": "85.4",
+          "endAt": "85.4&"
+        },
+        {
+          "text": "your",
+          "start": 156.72,
+          "end": 156.88,
+          "at": "85.4&",
+          "endAt": "86.1"
+        },
+        {
+          "text": "regular",
+          "start": 156.96,
+          "end": 157.46,
+          "at": "86.1",
+          "endAt": "86.2e"
+        },
+        {
+          "text": "O-S",
+          "start": 157.7,
+          "end": 158.14,
+          "at": "86.2a",
+          "endAt": "86.3a",
+          "optional": true
+        }
+      ],
+      "start": 156.48,
+      "end": 158.14,
+      "at": "85.4",
+      "endAt": "86.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-13-final-chorus-02",
+      "sectionId": "section-13-final-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "A real OS on a chip, no less,",
+      "words": [
+        {
+          "text": "A",
+          "start": 158.26,
+          "end": 158.3,
+          "at": "86.4",
+          "endAt": "86.4"
+        },
+        {
+          "text": "real",
+          "start": 158.36,
+          "end": 158.54,
+          "at": "86.4",
+          "endAt": "86.4&"
+        },
+        {
+          "text": "OS",
+          "start": 158.62,
+          "end": 158.94,
+          "at": "86.4a",
+          "endAt": "87.1e"
+        },
+        {
+          "text": "on",
+          "start": 159.06,
+          "end": 159.12,
+          "at": "87.1a",
+          "endAt": "87.1a"
+        },
+        {
+          "text": "a",
+          "start": 159.16,
+          "end": 159.2,
+          "at": "87.1a",
+          "endAt": "87.2"
+        },
+        {
+          "text": "chip",
+          "start": 159.24,
+          "end": 159.42,
+          "at": "87.2",
+          "endAt": "87.2&"
+        },
+        {
+          "text": "no",
+          "start": 159.5,
+          "end": 159.66,
+          "at": "87.2&",
+          "endAt": "87.3"
+        },
+        {
+          "text": "less",
+          "start": 159.72,
+          "end": 160.02,
+          "at": "87.3",
+          "endAt": "87.3a"
+        }
+      ],
+      "start": 158.26,
+      "end": 160.02,
+      "at": "86.4",
+      "endAt": "87.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-13-final-chorus-03",
+      "sectionId": "section-13-final-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "same app on a desk, in a tab, yes, yes!",
+      "words": [
+        {
+          "text": "same",
+          "start": 160.4,
+          "end": 160.62,
+          "at": "87.4&",
+          "endAt": "88.1"
+        },
+        {
+          "text": "app",
+          "start": 160.68,
+          "end": 160.86,
+          "at": "88.1e",
+          "endAt": "88.1&"
+        },
+        {
+          "text": "on",
+          "start": 160.92,
+          "end": 161.0,
+          "at": "88.1a",
+          "endAt": "88.1a"
+        },
+        {
+          "text": "a",
+          "start": 161.06,
+          "end": 161.08,
+          "at": "88.2",
+          "endAt": "88.2"
+        },
+        {
+          "text": "desk",
+          "start": 161.56,
+          "end": 161.78,
+          "at": "88.3",
+          "endAt": "88.3&"
+        },
+        {
+          "text": "in",
+          "start": 161.84,
+          "end": 161.9,
+          "at": "88.3a",
+          "endAt": "88.3a"
+        },
+        {
+          "text": "a",
+          "start": 161.94,
+          "end": 161.98,
+          "at": "88.3a",
+          "endAt": "88.4"
+        },
+        {
+          "text": "tab",
+          "start": 162.04,
+          "end": 162.28,
+          "at": "88.4",
+          "endAt": "88.4&"
+        },
+        {
+          "text": "yes",
+          "start": 162.5,
+          "end": 162.76,
+          "at": "89.1",
+          "endAt": "89.1a"
+        },
+        {
+          "text": "yes",
+          "start": 162.98,
+          "end": 163.24,
+          "at": "89.2",
+          "endAt": "89.2a"
+        }
+      ],
+      "start": 160.4,
+      "end": 163.24,
+      "at": "87.4&",
+      "endAt": "89.2a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-13-final-chorus-04",
+      "sectionId": "section-13-final-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 163.88,
+          "end": 164.06,
+          "at": "89.4",
+          "endAt": "89.4&"
+        },
+        {
+          "text": "your",
+          "start": 164.1,
+          "end": 164.26,
+          "at": "89.4&",
+          "endAt": "90.1"
+        },
+        {
+          "text": "regular",
+          "start": 164.34,
+          "end": 164.84,
+          "at": "90.1",
+          "endAt": "90.2e"
+        },
+        {
+          "text": "O-S",
+          "start": 165.08,
+          "end": 165.24,
+          "at": "90.2a",
+          "endAt": "90.3",
+          "optional": true
+        }
+      ],
+      "start": 163.88,
+      "end": 165.24,
+      "at": "89.4",
+      "endAt": "90.3",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-13-final-chorus-05",
+      "sectionId": "section-13-final-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "One app traps? I'm not impressed,",
+      "words": [
+        {
+          "text": "One",
+          "start": 165.28,
+          "end": 165.38,
+          "at": "90.3",
+          "endAt": "90.3e"
+        },
+        {
+          "text": "app",
+          "start": 165.38,
+          "end": 165.68,
+          "at": "90.3e",
+          "endAt": "90.4",
+          "interpolated": true
+        },
+        {
+          "text": "traps",
+          "start": 165.68,
+          "end": 165.94,
+          "at": "90.4",
+          "endAt": "90.4&"
+        },
+        {
+          "text": "I'm",
+          "start": 166.02,
+          "end": 166.14,
+          "at": "90.4a",
+          "endAt": "91.1"
+        },
+        {
+          "text": "not",
+          "start": 166.18,
+          "end": 166.3,
+          "at": "91.1",
+          "endAt": "91.1e"
+        },
+        {
+          "text": "impressed",
+          "start": 166.36,
+          "end": 166.8,
+          "at": "91.1&",
+          "endAt": "91.2&"
+        }
+      ],
+      "start": 165.28,
+      "end": 166.8,
+      "at": "90.3",
+      "endAt": "91.2&",
+      "confidence": 0.8333,
+      "low_confidence": true
+    },
+    {
+      "id": "section-13-final-chorus-06",
+      "sectionId": "section-13-final-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "kick keeps going, I'm still dressed!",
+      "words": [
+        {
+          "text": "kick",
+          "start": 167.32,
+          "end": 167.32,
+          "at": "91.3&",
+          "endAt": "91.3&",
+          "interpolated": true
+        },
+        {
+          "text": "keeps",
+          "start": 167.32,
+          "end": 167.54,
+          "at": "91.3&",
+          "endAt": "91.4"
+        },
+        {
+          "text": "going",
+          "start": 167.58,
+          "end": 167.84,
+          "at": "91.4",
+          "endAt": "91.4a"
+        },
+        {
+          "text": "I'm",
+          "start": 168.06,
+          "end": 168.18,
+          "at": "92.1e",
+          "endAt": "92.1&"
+        },
+        {
+          "text": "still",
+          "start": 168.22,
+          "end": 168.38,
+          "at": "92.1&",
+          "endAt": "92.1a"
+        },
+        {
+          "text": "dressed",
+          "start": 168.46,
+          "end": 168.8,
+          "at": "92.2",
+          "endAt": "92.2a"
+        }
+      ],
+      "start": 167.32,
+      "end": 168.8,
+      "at": "91.3&",
+      "endAt": "92.2a",
+      "confidence": 0.8333,
+      "low_confidence": true
+    },
+    {
+      "id": "section-13-final-chorus-07",
+      "sectionId": "section-13-final-chorus",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 169.16,
+          "end": 169.26,
+          "at": "92.3&",
+          "endAt": "92.3a"
+        },
+        {
+          "text": "your",
+          "start": 169.3,
+          "end": 169.38,
+          "at": "92.3a",
+          "endAt": "92.4"
+        },
+        {
+          "text": "regular",
+          "start": 169.44,
+          "end": 169.94,
+          "at": "92.4",
+          "endAt": "93.1e"
+        },
+        {
+          "text": "O-S",
+          "start": 169.94,
+          "end": 169.94,
+          "at": "93.1e",
+          "endAt": "93.1e",
+          "optional": true,
+          "interpolated": true
+        }
+      ],
+      "start": 169.16,
+      "end": 169.94,
+      "at": "92.3&",
+      "endAt": "93.1e",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-13-final-chorus-08",
+      "sectionId": "section-13-final-chorus",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Try me in your browser tab! (Yes!)",
+      "words": [
+        {
+          "text": "Try",
+          "start": 170.76,
+          "end": 170.88,
+          "at": "93.3",
+          "endAt": "93.3e"
+        },
+        {
+          "text": "me",
+          "start": 170.92,
+          "end": 171.0,
+          "at": "93.3e",
+          "endAt": "93.3&"
+        },
+        {
+          "text": "in",
+          "start": 171.06,
+          "end": 171.12,
+          "at": "93.3a",
+          "endAt": "93.3a"
+        },
+        {
+          "text": "your",
+          "start": 171.14,
+          "end": 171.22,
+          "at": "93.3a",
+          "endAt": "93.4"
+        },
+        {
+          "text": "browser",
+          "start": 171.24,
+          "end": 171.66,
+          "at": "93.4",
+          "endAt": "94.1"
+        },
+        {
+          "text": "tab",
+          "start": 171.7,
+          "end": 172.04,
+          "at": "94.1",
+          "endAt": "94.1a"
+        },
+        {
+          "text": "Yes",
+          "start": 172.22,
+          "end": 172.5,
+          "at": "94.2e",
+          "endAt": "94.2a",
+          "optional": true
+        }
+      ],
+      "start": 170.76,
+      "end": 172.5,
+      "at": "93.3",
+      "endAt": "94.2a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-14-drop-01",
+      "sectionId": "section-14-drop",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 174.96,
+          "end": 175.12,
+          "at": "95.4",
+          "endAt": "95.4&"
+        },
+        {
+          "text": "your",
+          "start": 175.18,
+          "end": 175.36,
+          "at": "95.4&",
+          "endAt": "96.1"
+        },
+        {
+          "text": "regular",
+          "start": 175.42,
+          "end": 175.94,
+          "at": "96.1",
+          "endAt": "96.2e"
+        },
+        {
+          "text": "O-S",
+          "start": 176.14,
+          "end": 176.66,
+          "at": "96.2a",
+          "endAt": "96.3a",
+          "optional": true
+        }
+      ],
+      "start": 174.96,
+      "end": 176.66,
+      "at": "95.4",
+      "endAt": "96.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-14-drop-02",
+      "sectionId": "section-14-drop",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 178.66,
+          "end": 178.82,
+          "at": "97.4",
+          "endAt": "97.4&"
+        },
+        {
+          "text": "your",
+          "start": 178.88,
+          "end": 179.02,
+          "at": "97.4&",
+          "endAt": "98.1"
+        },
+        {
+          "text": "regular",
+          "start": 179.12,
+          "end": 179.6,
+          "at": "98.1",
+          "endAt": "98.2e"
+        },
+        {
+          "text": "O-S",
+          "start": 179.84,
+          "end": 180.34,
+          "at": "98.2a",
+          "endAt": "98.3a",
+          "optional": true
+        }
+      ],
+      "start": 178.66,
+      "end": 180.34,
+      "at": "97.4",
+      "endAt": "98.3a",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-14-drop-03",
+      "sectionId": "section-14-drop",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular! (O-S!)",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-14-drop-04",
+      "sectionId": "section-14-drop",
+      "speaker": "BOTH",
+      "delivery": "sung",
+      "text": "Not your regular!",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-15-outro-01",
+      "sectionId": "section-15-outro",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "So... do I flash you?",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-15-outro-02",
+      "sectionId": "section-15-outro",
+      "speaker": "XILA",
+      "delivery": "spoken",
+      "text": "Sure. Or open a tab.",
+      "words": [
+        {
+          "text": "Sure",
+          "start": 180.92,
+          "end": 181.16,
+          "at": "99.1",
+          "endAt": "99.1&"
+        },
+        {
+          "text": "Or",
+          "start": 181.76,
+          "end": 181.84,
+          "at": "99.2a",
+          "endAt": "99.3"
+        },
+        {
+          "text": "open",
+          "start": 181.88,
+          "end": 182.02,
+          "at": "99.3",
+          "endAt": "99.3&"
+        },
+        {
+          "text": "a",
+          "start": 182.06,
+          "end": 182.08,
+          "at": "99.3&",
+          "endAt": "99.3&"
+        },
+        {
+          "text": "tab",
+          "start": 182.12,
+          "end": 182.28,
+          "at": "99.3&",
+          "endAt": "99.4"
+        }
+      ],
+      "start": 180.92,
+      "end": 182.28,
+      "at": "99.1",
+      "endAt": "99.4",
+      "confidence": 1.0
+    },
+    {
+      "id": "section-15-outro-03",
+      "sectionId": "section-15-outro",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Shh! We're in a library!",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-15-outro-04",
+      "sectionId": "section-15-outro",
+      "speaker": "XILA",
+      "delivery": "spoken",
+      "text": "I am a library.",
+      "words": [],
+      "missing": true
+    },
+    {
+      "id": "section-15-outro-05",
+      "sectionId": "section-15-outro",
+      "speaker": "BOTH",
+      "delivery": "spoken",
+      "text": "(Not your regular.)",
+      "words": [
+        {
+          "text": "Not",
+          "start": 182.36,
+          "end": 182.5,
+          "at": "99.4",
+          "endAt": "99.4&",
+          "optional": true
+        },
+        {
+          "text": "your",
+          "start": 182.56,
+          "end": 182.72,
+          "at": "99.4&",
+          "endAt": "100.1",
+          "optional": true
+        },
+        {
+          "text": "regular",
+          "start": 182.8,
+          "end": 183.3,
+          "at": "100.1",
+          "endAt": "100.2e",
+          "optional": true
+        }
+      ],
+      "start": 182.36,
+      "end": 183.3,
+      "at": "99.4",
+      "endAt": "100.2e",
+      "confidence": 1.0
+    }
+  ],
+  "events": []
+}

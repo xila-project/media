@@ -30,6 +30,16 @@ class LyricAlignTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             return json.loads((root / "cues.json").read_text()), result.stdout
 
+    def test_annotated_headers_and_repeat_counts_expand_lines(self):
+        cues, _ = self.align(
+            "**[Drop]** _(hook only)_\nBOTH: Not your regular! ×2\n",
+            [("Not", 1.0, 1.2), ("your", 1.2, 1.4), ("regular", 1.4, 2.0),
+             ("Not", 3.0, 3.2), ("your", 3.2, 3.4), ("regular", 3.4, 4.0)],
+        )
+        self.assertEqual([section["name"] for section in cues["sections"]], ["Drop"])
+        self.assertEqual(len(cues["lines"]), 2)
+        self.assertNotIn("×", json.dumps(cues["lines"], ensure_ascii=False))
+
     def test_compounds_numbers_and_scribe_spelling_errors_keep_measured_times(self):
         cues, _ = self.align(
             "**[Verse]**\nXILA: Two-fifty-six kibibytes of RAM!\n"
