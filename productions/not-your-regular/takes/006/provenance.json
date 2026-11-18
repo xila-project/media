@@ -1,0 +1,26 @@
+{
+  "take": "006",
+  "date": "2026-11-18",
+  "reason": "First take built from the measured reference rules (REFERENCE-ANALYSIS.md, takes/006-draft): hard-tuned one-note verses, simple groove, bass withheld until the drop, total-silence stops, ALIX speaking only in silences.",
+  "provider": "ElevenLabs REST API (Creator plan); the hosted MCP connector needed re-authorisation",
+  "endpoint": "POST /v1/music/detailed?output_format=mp3_48000_192",
+  "model_id": "music_v2_5",
+  "song_id": "fRkyDdVbbzg9axcO7l1l",
+  "parameters": {
+    "composition_plan": "composition-plan.json (19 chunks, 91 bars at 130 BPM, 167.986 s)",
+    "with_timestamps": true,
+    "store_for_inpainting": true
+  },
+  "prompt_file": "prompt.txt (the draft global prompt; not sent as such, since a composition plan cannot be combined with a prompt; its content was split into per-chunk positive and negative styles)",
+  "lyrics_file": "lyrics.txt (the draft lyrics; the lines sent are the chunk texts in composition-plan.json)",
+  "estimate_credits": null,
+  "reported_credits": 2310,
+  "credits_note": "No estimate endpoint for the REST route; measured as the change in character_count on /v1/user/subscription (19,098 to 21,408).",
+  "source_file": {
+    "path": "assets/audio/not-your-regular/take-006-source.mp3",
+    "sha256": "7225c840803a03c48fcf5b9d8e991f501519c51ef2e7d35b89c42132c032272f",
+    "duration_s": 168.0
+  },
+  "notes": "The API's words_timestamps are an alignment of the planned text and also list lines that were never performed; transcript-whisper.json is a faster-whisper medium.en transcript of the Demucs vocal stem.",
+  "approval": "maintainer approved spending the whole credit balance on the trailer audio (2026-11-18) and said go for take 006"
+}
