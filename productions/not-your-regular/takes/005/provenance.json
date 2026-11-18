@@ -1,0 +1,27 @@
+{
+  "take": "005",
+  "date": "2026-11-18",
+  "reason": "Maintainer on take 004: not fast enough, too rap, no auto-tune (spoken dialogue itself is fine). Verses fully sung by XILA with heavy audible auto-tune; spoken intro and outro moved out of the generation (to be built with TTS); fewer mid-song voice switches; a cappella stop-time.",
+  "provider": "ElevenLabs (hosted MCP, Creator plan)",
+  "model_id": "eleven_music_v2_5",
+  "flow_id": "o5aK39zFG5R9FuK8q6Bu",
+  "node_id": "oJACEnGS7C7XX02t4aB8",
+  "session_id": "l7EnirMm7ipuj3Bsf1LN",
+  "generation_id": "6I0UksUyuobldm5BY4P4",
+  "parameters": {
+    "duration_seconds": 170,
+    "lyrics_type": "custom",
+    "instrumental": false,
+    "generations_count": 1
+  },
+  "prompt_file": "prompt.txt",
+  "lyrics_file": "lyrics.txt",
+  "estimate_credits": 4675,
+  "reported_credits": 2549.43,
+  "source_file": {
+    "path": "assets/audio/not-your-regular/take-005-source.mp3",
+    "sha256": "75415ec9408e782dc9c3e9b0fd02fbb50dcf64777292cb0078e0e61690c61bfc",
+    "duration_s": 184
+  },
+  "approval": "maintainer approved spending the whole credit balance on the trailer audio (2026-11-18)"
+}

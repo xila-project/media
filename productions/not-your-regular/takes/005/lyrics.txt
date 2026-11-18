@@ -1,0 +1,134 @@
+[Intro Hook - instrumental, the full nu-disco groove kicks in at once with a bouncy formant-shifted vocal-chop earworm]
+(Dum-da-dum, da-da-dum-dum)
+
+[Verse 1 - young female pop lead sings fast catchy melodic lines with heavy glossy auto-tune, bratty and playful, no rap; driving 16th hats, staccato octave bass]
+You wrote a loop that never ends,
+with seven flags and global friends,
+you poke a register bit by bit
+and pray the datasheet's right on it.
+Me? A shell, some users, here I am,
+in two-fifty-six kibibytes of RAM,
+your pin's a file now, write it, see:
+slash devices, GPIO, D-thirteen
+
+[Pre-Chorus - young female pop lead, sung with heavy auto-tune, teasing questions and answers, rising pads and noise sweep]
+Can it run apps? Plural
+With files? And users
+Where's the real computer?
+In your pocket, happy to see me?
+
+[Pre-Chorus - dry low male baritone, deadpan spoken, a cappella in a one-beat silence]
+(I ordered a real computer.)
+
+[Chorus - young female pop lead, effortless high head-voice melody with heavy glossy auto-tune and stacked harmonies; full relative-major synth-pop bloom]
+Out of the loop (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Out of the loop (O-S)
+One signed package, three addresses,
+pocket-sized and fully dressed
+Out of the loop (O-S)
+Try me in your browser tab, (yes)
+
+[Post-Chorus - young female pop lead, auto-tuned bouncy chant, gated stabs and claps]
+Chip, desk, tab
+Same O-S, same O-S
+Chip, desk, tab
+Made in Rust, open source
+
+[Verse 2 - young female pop lead sings a fast smug list with heavy auto-tune, catchy melody, no rap; driving groove]
+Your fern? Fern Pings: 'Water. Now.'
+Your cat flap? Cat Customs: 'Papers? Meow.'
+Your doorbell? Ding Critic: 'Two out of ten.'
+Your toaster? Toast Forecast: 'Burnt again.'
+Your alarm? Snooze Court: 'Guilty. Rise.'
+Fridge Haiku wrote a sonnet on the ham,
+and the whole block's blasting Kazoo Jam
+
+[Stop-Time - a cappella spoken dialogue in dead silence, all drums and bass stop completely; dry low male baritone]
+Wait. A cat flap with apps?
+
+[Stop-Time - young female pop lead, spoken, smug vocal fry, still no beat]
+Imagined. For now.
+
+[Stop-Time - dry low male baritone, spoken, still no beat]
+And the OS? That small?
+
+[Stop-Time - young female pop lead, spoken, smug vocal fry, then the beat slams back]
+Two-fifty-six kibibytes. Snug.
+
+[Chorus - young female pop lead, effortless high head-voice melody with heavy glossy auto-tune and stacked harmonies; full relative-major synth-pop bloom]
+Out of the loop (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Out of the loop (O-S)
+Built in Rust, no need to guess,
+open source, you've got access
+Out of the loop (O-S)
+Try me in your browser tab, (yes)
+
+[Verse 3 - young female pop lead sings fast and bratty with heavy auto-tune, mocking quotes, no rap; driving groove]
+You say: an OS? On that? Get real,
+a chip runs one job, that's the deal.
+But tasks, a shell and files, for real,
+on a chip you could lose in your meal.
+You think I'm a firmware blob, I guess,
+one giant binary, more or less?
+I'm a Rust library, I confess,
+build me in, I'll do the rest
+
+[Boot Log - dry low male baritone, spoken; beat strips to kick and staccato bass with tiny synth blips]
+Build you in? So what's inside?
+
+[Boot Log - young female pop lead, cool rhythmic recitation with light auto-tune and vocal fry, one status per beat]
+Watch me boot.
+Memory: mapped. Tasks: named.
+Files, pins and pipes: one tree.
+Users: checked. You? Not counted.
+Drivers: whatever this board brought.
+Shell: ready. Your move.
+
+[Bridge - young female pop lead sings a campy late-night TV jingle with heavy auto-tune; half-time Rhodes and bell chimes]
+Device makers, forty customers?
+Forty firmware forks?
+One tiny fix, reflash the fleet?
+One base, apps on top
+Update the app, that's the plan
+
+[Bridge - dry low male baritone, deadpan spoken]
+(Is this an ad?)
+
+[Bridge - young female pop lead, sung jingle]
+Operators are standing by
+Xila dot dev, let's talk
+
+[Breakdown - young female pop lead, spoken, cool; drums and bass vanish with a power-down glitch into floating pads]
+Kazoo Jam, take it to the...
+
+[Breakdown - dry low male baritone, deadpan spoken]
+Trap. Did we just crash?
+
+[Breakdown - young female pop lead, spoken]
+The app did. I'm still here.
+
+[Breakdown - dry low male baritone, deadpan spoken]
+No watchdog reset?
+
+[Breakdown - young female pop lead, spoken, then the beat snaps back]
+Nope. Hit it
+
+[Final Chorus - young female pop lead, biggest auto-tuned head-voice chorus, soaring ooh counter-harmonies]
+Out of the loop (O-S)
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes
+Out of the loop (O-S)
+One app traps? I'm not impressed,
+kick keeps going, I'm still dressed
+Out of the loop (O-S)
+Try me in your browser tab, (yes)
+
+[Drop - the vocal-chop earworm leads over punchy kick, dry clap and rubbery octave bass, light auto-tuned hook repeats, hard stop on the last beat]
+(Dum-da-dum, da-da-dum-dum)
+Out of the loop (O-S)
+(Dum-da-dum, da-da-dum-dum)
+Out of the loop
