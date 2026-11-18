@@ -11,6 +11,7 @@ const standaloneProductions = [
   "rust-core",
   "wasm-execution",
   "house-everything-is-a-file",
+  "makerspace-bench",
 ];
 export function renderOptions(args) {
   const { values } = parseArgs({
