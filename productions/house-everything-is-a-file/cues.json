@@ -1,0 +1,833 @@
+{
+  "bpm": 124,
+  "beatsPerBar": 4,
+  "bars": 80,
+  "duration": 154.839,
+  "sections": [
+    { "id": "intro", "name": "Intro", "startBar": 1, "bars": 4 },
+    { "id": "verse-1", "name": "Verse 1", "startBar": 5, "bars": 12 },
+    { "id": "pre", "name": "Pre", "startBar": 17, "bars": 8 },
+    { "id": "hook", "name": "Hook", "startBar": 25, "bars": 8 },
+    { "id": "verse-2", "name": "Verse 2", "startBar": 33, "bars": 8 },
+    { "id": "break", "name": "Break", "startBar": 41, "bars": 8 },
+    { "id": "drop", "name": "Drop", "startBar": 49, "bars": 16 },
+    { "id": "hook-reprise", "name": "Hook reprise", "startBar": 65, "bars": 8 },
+    { "id": "outro", "name": "Outro", "startBar": 73, "bars": 8 }
+  ],
+  "lines": [
+    {
+      "id": "intro-room",
+      "at": "1.2",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Did we book the whole room?",
+      "words": [
+        { "text": "Did", "at": "1.2" },
+        { "text": "we", "at": "1.2&" },
+        { "text": "book", "at": "1.3" },
+        { "text": "the", "at": "1.3&" },
+        { "text": "whole", "at": "1.4" },
+        { "text": "room", "at": "2.1" }
+      ]
+    },
+    {
+      "id": "intro-booth",
+      "at": "2.3",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "Just the booth.",
+      "words": [
+        { "text": "Just", "at": "2.3" },
+        { "text": "the", "at": "2.3&" },
+        { "text": "booth", "at": "2.4", "pitch": 0 }
+      ]
+    },
+    {
+      "id": "intro-run",
+      "at": "3.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Can you even run on that?",
+      "words": [
+        { "text": "Can", "at": "3.1" },
+        { "text": "you", "at": "3.1&" },
+        { "text": "even", "at": "3.2" },
+        { "text": "run", "at": "3.2&" },
+        { "text": "on", "at": "3.3" },
+        { "text": "that", "at": "3.3&" }
+      ]
+    },
+    {
+      "id": "intro-memory",
+      "at": "3.4",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "Two-fifty-six. Plenty.",
+      "words": [
+        { "text": "Two-fifty-six", "at": "3.4", "pitch": 0 },
+        { "text": "Plenty", "at": "4.3", "pitch": 3 }
+      ]
+    },
+    {
+      "id": "led-question",
+      "at": "5.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "The LED?",
+      "words": [
+        { "text": "The", "at": "5.1" },
+        { "text": "LED", "at": "5.1&" }
+      ]
+    },
+    {
+      "id": "led-answer",
+      "at": "6.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "That’s a file.",
+      "words": [
+        { "text": "That’s", "at": "6.1" },
+        { "text": "a", "at": "6.2&" },
+        { "text": "file", "at": "6.3" }
+      ]
+    },
+    {
+      "id": "speaker-question",
+      "at": "8.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "The speaker?",
+      "words": [
+        { "text": "The", "at": "8.1" },
+        { "text": "speaker", "at": "8.1&" }
+      ]
+    },
+    {
+      "id": "speaker-answer",
+      "at": "9.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "File.",
+      "words": [{ "text": "File", "at": "9.1" }]
+    },
+    {
+      "id": "digits-question",
+      "at": "11.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "The thing that reads your handwriting?",
+      "words": [
+        { "text": "The", "at": "11.1" },
+        { "text": "thing", "at": "11.1&" },
+        { "text": "that", "at": "11.2" },
+        { "text": "reads", "at": "11.2&" },
+        { "text": "your", "at": "11.3" },
+        { "text": "handwriting", "at": "11.4" }
+      ]
+    },
+    {
+      "id": "digits-answer",
+      "at": "13.2",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "…Also a file.",
+      "words": [
+        { "text": "Also", "at": "13.2" },
+        { "text": "a", "at": "13.3&" },
+        { "text": "file", "at": "13.4" }
+      ]
+    },
+    {
+      "id": "digits-seven",
+      "at": "14.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "That was a seven, by the way.",
+      "words": [
+        { "text": "That", "at": "14.1" },
+        { "text": "was", "at": "14.1&" },
+        { "text": "a", "at": "14.2" },
+        { "text": "seven", "at": "14.2&" },
+        { "text": "by", "at": "14.3" },
+        { "text": "the", "at": "14.3e" },
+        { "text": "way", "at": "14.3&" }
+      ]
+    },
+    {
+      "id": "digits-polite",
+      "at": "15.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "I was being polite.",
+      "words": [
+        { "text": "I", "at": "15.1" },
+        { "text": "was", "at": "15.1&" },
+        { "text": "being", "at": "15.2" },
+        { "text": "polite", "at": "15.2&" }
+      ]
+    },
+    {
+      "id": "pre-file",
+      "at": "17.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "A file.",
+      "words": [
+        { "text": "A", "at": "17.1" },
+        { "text": "file", "at": "17.1&" }
+      ]
+    },
+    {
+      "id": "pre-device",
+      "at": "19.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "A device.",
+      "words": [
+        { "text": "A", "at": "19.1" },
+        { "text": "device", "at": "19.1&" }
+      ]
+    },
+    {
+      "id": "pre-pipe",
+      "at": "21.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "And a pipe?",
+      "words": [
+        { "text": "And", "at": "21.1" },
+        { "text": "a", "at": "21.1&" },
+        { "text": "pipe", "at": "21.2" }
+      ]
+    },
+    {
+      "id": "pre-address",
+      "at": "23.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "Same address book.",
+      "words": [
+        { "text": "Same", "at": "23.1" },
+        { "text": "address", "at": "23.2" },
+        { "text": "book", "at": "23.3" }
+      ]
+    },
+    {
+      "id": "pre-go",
+      "at": "24.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Here we go.",
+      "words": [
+        { "text": "Here", "at": "24.1" },
+        { "text": "we", "at": "24.1e" },
+        { "text": "go", "at": "24.1&" }
+      ]
+    },
+    {
+      "id": "hook-25",
+      "at": "25.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "25.1", "pitch": 0 },
+        { "text": "is", "at": "25.2", "pitch": 0 },
+        { "text": "a", "at": "25.2&", "pitch": 0 },
+        { "text": "file", "at": "25.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "hook-27",
+      "at": "27.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "27.1", "pitch": 0 },
+        { "text": "is", "at": "27.2", "pitch": 0 },
+        { "text": "a", "at": "27.2&", "pitch": 0 },
+        { "text": "file", "at": "27.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "hook-question",
+      "at": "29.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Even that?",
+      "words": [
+        { "text": "Even", "at": "29.1" },
+        { "text": "that", "at": "29.1&" }
+      ]
+    },
+    {
+      "id": "hook-30",
+      "at": "30.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "30.1", "pitch": 0 },
+        { "text": "is", "at": "30.2", "pitch": 0 },
+        { "text": "a", "at": "30.2&", "pitch": 0 },
+        { "text": "file", "at": "30.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "hook-31",
+      "at": "31.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "31.1", "pitch": 0 },
+        { "text": "is", "at": "31.2", "pitch": 0 },
+        { "text": "a", "at": "31.2&", "pitch": 0 },
+        { "text": "file", "at": "31.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "draw-question",
+      "at": "33.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Can I draw something that isn’t a seven?",
+      "words": [
+        { "text": "Can", "at": "33.1" },
+        { "text": "I", "at": "33.1e" },
+        { "text": "draw", "at": "33.1&" },
+        { "text": "something", "at": "33.2" },
+        { "text": "that", "at": "33.2a" },
+        { "text": "isn’t", "at": "33.3" },
+        { "text": "a", "at": "33.3&" },
+        { "text": "seven", "at": "33.4" }
+      ]
+    },
+    {
+      "id": "draw-answer",
+      "at": "35.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "Go on, then.",
+      "words": [
+        { "text": "Go", "at": "35.1" },
+        { "text": "on", "at": "35.1&" },
+        { "text": "then", "at": "35.2" }
+      ]
+    },
+    {
+      "id": "draw-portrait",
+      "at": "37.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "This is a portrait of the DJ.",
+      "words": [
+        { "text": "This", "at": "37.1" },
+        { "text": "is", "at": "37.1&" },
+        { "text": "a", "at": "37.2" },
+        { "text": "portrait", "at": "37.2&" },
+        { "text": "of", "at": "37.3&" },
+        { "text": "the", "at": "37.4" },
+        { "text": "DJ", "at": "37.4&" }
+      ]
+    },
+    {
+      "id": "draw-likeness",
+      "at": "39.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "Strong likeness.",
+      "words": [
+        { "text": "Strong", "at": "39.1" },
+        { "text": "likeness", "at": "39.2" }
+      ]
+    },
+    {
+      "id": "break-app",
+      "at": "41.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "I made an app for the drop.",
+      "words": [
+        { "text": "I", "at": "41.1" },
+        { "text": "made", "at": "41.1&" },
+        { "text": "an", "at": "41.2" },
+        { "text": "app", "at": "41.2&" },
+        { "text": "for", "at": "41.3" },
+        { "text": "the", "at": "41.3e" },
+        { "text": "drop", "at": "41.3&" }
+      ]
+    },
+    {
+      "id": "break-test",
+      "at": "43.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "Did you test it?",
+      "words": [
+        { "text": "Did", "at": "43.1" },
+        { "text": "you", "at": "43.1&" },
+        { "text": "test", "at": "43.2" },
+        { "text": "it", "at": "43.2&" }
+      ]
+    },
+    {
+      "id": "break-name",
+      "at": "45.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "I gave it a really good name.",
+      "words": [
+        { "text": "I", "at": "45.1" },
+        { "text": "gave", "at": "45.1&" },
+        { "text": "it", "at": "45.2" },
+        { "text": "a", "at": "45.2e" },
+        { "text": "really", "at": "45.2&" },
+        { "text": "good", "at": "45.3" },
+        { "text": "name", "at": "45.3&" }
+      ]
+    },
+    {
+      "id": "break-answer",
+      "at": "47.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "That’s a different question.",
+      "words": [
+        { "text": "That’s", "at": "47.1" },
+        { "text": "a", "at": "47.1&" },
+        { "text": "different", "at": "47.2" },
+        { "text": "question", "at": "47.3" }
+      ]
+    },
+    {
+      "id": "hook-49",
+      "at": "49.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "49.1", "pitch": 0 },
+        { "text": "is", "at": "49.2", "pitch": 0 },
+        { "text": "a", "at": "49.2&", "pitch": 0 },
+        { "text": "file", "at": "49.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "drop-my-bit",
+      "at": "52.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Here comes my bit.",
+      "words": [
+        { "text": "Here", "at": "52.1" },
+        { "text": "comes", "at": "52.1&" },
+        { "text": "my", "at": "52.2" },
+        { "text": "bit", "at": "52.2&" }
+      ]
+    },
+    {
+      "id": "system-alive",
+      "at": "53.4e",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "system alive.",
+      "words": [
+        { "text": "system", "at": "53.4e" },
+        { "text": "alive", "at": "53.4&" }
+      ]
+    },
+    {
+      "id": "drop-remove-app",
+      "at": "57.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "I’m taking that out of the set.",
+      "words": [
+        { "text": "I’m", "at": "57.1" },
+        { "text": "taking", "at": "57.1&" },
+        { "text": "that", "at": "57.2" },
+        { "text": "out", "at": "57.2&" },
+        { "text": "of", "at": "57.2a" },
+        { "text": "the", "at": "57.3" },
+        { "text": "set", "at": "57.3&" }
+      ]
+    },
+    {
+      "id": "hook-59",
+      "at": "59.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "59.1", "pitch": 0 },
+        { "text": "is", "at": "59.2", "pitch": 0 },
+        { "text": "a", "at": "59.2&", "pitch": 0 },
+        { "text": "file", "at": "59.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "hook-61",
+      "at": "61.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "61.1", "pitch": 0 },
+        { "text": "is", "at": "61.2", "pitch": 0 },
+        { "text": "a", "at": "61.2&", "pitch": 0 },
+        { "text": "file", "at": "61.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "hook-65",
+      "at": "65.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "65.1", "pitch": 0 },
+        { "text": "is", "at": "65.2", "pitch": 0 },
+        { "text": "a", "at": "65.2&", "pitch": 0 },
+        { "text": "file", "at": "65.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "hook-67",
+      "at": "67.1",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "67.1", "pitch": 0 },
+        { "text": "is", "at": "67.2", "pitch": 0 },
+        { "text": "a", "at": "67.2&", "pitch": 0 },
+        { "text": "file", "at": "67.3", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "reprise-walk-ins",
+      "at": "69.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Does the club do walk-ins?",
+      "words": [
+        { "text": "Does", "at": "69.1" },
+        { "text": "the", "at": "69.1&" },
+        { "text": "club", "at": "69.2" },
+        { "text": "do", "at": "69.2&" },
+        { "text": "walk-ins", "at": "69.3" }
+      ]
+    },
+    {
+      "id": "reprise-rooms",
+      "at": "70.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "Same app. Every room.",
+      "words": [
+        { "text": "Same", "at": "70.1" },
+        { "text": "app", "at": "70.2" },
+        { "text": "Every", "at": "70.3" },
+        { "text": "room", "at": "70.4" }
+      ]
+    },
+    {
+      "id": "hook-71",
+      "at": "71.3",
+      "speaker": "XILA",
+      "delivery": "sung",
+      "text": "Everything is a file.",
+      "words": [
+        { "text": "Everything", "at": "71.3", "pitch": 0 },
+        { "text": "is", "at": "71.4", "pitch": 0 },
+        { "text": "a", "at": "71.4&", "pitch": 0 },
+        { "text": "file", "at": "72.1", "pitch": -3 }
+      ]
+    },
+    {
+      "id": "outro-browser",
+      "at": "73.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Runs in your browser.",
+      "words": [
+        { "text": "Runs", "at": "73.1" },
+        { "text": "in", "at": "73.1&" },
+        { "text": "your", "at": "73.2" },
+        { "text": "browser", "at": "73.2&" }
+      ]
+    },
+    {
+      "id": "outro-now",
+      "at": "75.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Right now.",
+      "words": [
+        { "text": "Right", "at": "75.1" },
+        { "text": "now", "at": "75.1&" }
+      ]
+    },
+    {
+      "id": "outro-xila",
+      "at": "77.1",
+      "speaker": "XILA",
+      "delivery": "vocoder",
+      "text": "Xila.",
+      "words": [{ "text": "Xila", "at": "77.1" }]
+    },
+    {
+      "id": "outro-url",
+      "at": "78.1",
+      "speaker": "ALIX",
+      "delivery": "spoken",
+      "text": "Xila dot dev.",
+      "words": [
+        { "text": "Xila", "at": "78.1" },
+        { "text": "dot", "at": "78.1&" },
+        { "text": "dev", "at": "78.2" }
+      ]
+    }
+  ],
+  "events": [
+    { "id": "empty-floor-sweep", "at": "1.4", "kind": "light" },
+    { "id": "empty-floor-wide", "at": "2.1", "kind": "cut" },
+    { "id": "booth-spot-tighten", "at": "2.4", "kind": "light" },
+    { "id": "usb-macro", "at": "3.2&", "kind": "cut" },
+    { "id": "memory-syllable-two", "at": "3.4", "kind": "syllable" },
+    { "id": "memory-syllable-fif", "at": "3.4&", "kind": "syllable" },
+    { "id": "memory-syllable-ty", "at": "4.1", "kind": "syllable" },
+    { "id": "intro-kick-light-1", "at": "4.1", "kind": "light" },
+    { "id": "memory-syllable-six", "at": "4.1&", "kind": "syllable" },
+    { "id": "intro-kick-light-2", "at": "4.2", "kind": "light" },
+    { "id": "memory-plaque-light", "at": "4.3", "kind": "light" },
+    { "id": "intro-kick-light-3", "at": "4.3", "kind": "light" },
+    { "id": "intro-led-reveal", "at": "4.4", "kind": "camera" },
+    { "id": "intro-kick-light-4", "at": "4.4", "kind": "light" },
+    { "id": "led-macro", "at": "5.1&", "kind": "cut" },
+    { "id": "led-path-devices", "at": "5.2", "kind": "path-segment" },
+    { "id": "led-path-gpio", "at": "5.3", "kind": "path-segment" },
+    { "id": "led-path-d13", "at": "5.4", "kind": "path-segment" },
+    { "id": "led-click", "at": "6.3", "kind": "device-hit" },
+    { "id": "led-camera-lock", "at": "6.3", "kind": "camera", "beats": 6 },
+    { "id": "led-cursor-6-3", "at": "6.3", "kind": "path-cursor" },
+    { "id": "led-shutter-6-3", "at": "6.3", "kind": "shutter" },
+    { "id": "led-cursor-6-4", "at": "6.4", "kind": "path-cursor" },
+    { "id": "led-shutter-6-4", "at": "6.4", "kind": "shutter" },
+    { "id": "led-downbeat-7", "at": "7.1", "kind": "device-hit" },
+    { "id": "led-shutter-7-1", "at": "7.1", "kind": "shutter" },
+    { "id": "led-shutter-7-2", "at": "7.2", "kind": "shutter" },
+    { "id": "led-cursor-7-3", "at": "7.3", "kind": "path-cursor" },
+    { "id": "led-shutter-7-3", "at": "7.3", "kind": "shutter" },
+    { "id": "led-cursor-7-4", "at": "7.4", "kind": "path-cursor" },
+    { "id": "led-shutter-7-4", "at": "7.4", "kind": "shutter" },
+    { "id": "speaker-cabinet-cut", "at": "8.1&", "kind": "cut" },
+    { "id": "speaker-path-devices", "at": "8.2", "kind": "path-segment" },
+    { "id": "speaker-path-audio", "at": "8.3", "kind": "path-segment" },
+    { "id": "speaker-path-playback", "at": "8.4", "kind": "path-segment" },
+    { "id": "speaker-bass-in", "at": "9.1", "kind": "device-hit" },
+    { "id": "speaker-cursor-9-3", "at": "9.3", "kind": "path-cursor" },
+    { "id": "speaker-cursor-9-4", "at": "9.4", "kind": "path-cursor" },
+    { "id": "speaker-downbeat-10", "at": "10.1", "kind": "device-hit" },
+    { "id": "speaker-settle-1", "at": "10.1", "kind": "device-settle" },
+    { "id": "speaker-settle-2", "at": "10.2", "kind": "device-settle" },
+    { "id": "speaker-cursor-10-3", "at": "10.3", "kind": "path-cursor" },
+    { "id": "speaker-settle-3", "at": "10.3", "kind": "device-settle" },
+    { "id": "speaker-cursor-10-4", "at": "10.4", "kind": "path-cursor" },
+    { "id": "speaker-settle-4", "at": "10.4", "kind": "device-settle" },
+    { "id": "card-enter", "at": "11.4", "kind": "prop" },
+    { "id": "digits-path-devices", "at": "12.1", "kind": "path-segment" },
+    { "id": "digits-path-nn", "at": "12.2", "kind": "path-segment" },
+    { "id": "digits-path-digits", "at": "12.3", "kind": "path-segment" },
+    { "id": "digits-filter-shut", "at": "12.4", "kind": "filter", "beats": 1 },
+    { "id": "card-stall", "at": "12.4", "kind": "prop", "beats": 1 },
+    { "id": "digits-downbeat-skip", "at": "13.1", "kind": "skip" },
+    { "id": "slot-lamp", "at": "13.2", "kind": "light" },
+    { "id": "digits-cursor-13-3", "at": "13.3", "kind": "path-cursor" },
+    { "id": "card-drop", "at": "13.4", "kind": "prop" },
+    { "id": "digits-cursor-13-4", "at": "13.4", "kind": "path-cursor" },
+    { "id": "digits-downbeat-14", "at": "14.1", "kind": "device-hit" },
+    { "id": "card-seven-close", "at": "14.2&", "kind": "cut" },
+    { "id": "digits-cursor-14-3", "at": "14.3", "kind": "path-cursor" },
+    { "id": "digits-rimshot", "at": "14.4", "kind": "rimshot" },
+    { "id": "digits-cursor-14-4", "at": "14.4", "kind": "path-cursor" },
+    { "id": "digits-downbeat-15", "at": "15.1", "kind": "device-hit" },
+    { "id": "card-eject", "at": "15.2&", "kind": "prop" },
+    { "id": "digits-cursor-15-3", "at": "15.3", "kind": "path-cursor" },
+    { "id": "digits-cursor-15-4", "at": "15.4", "kind": "path-cursor" },
+    { "id": "digits-downbeat-16", "at": "16.1", "kind": "device-hit" },
+    { "id": "digits-cursor-16-3", "at": "16.3", "kind": "path-cursor" },
+    { "id": "digits-card-wipe", "at": "16.4", "kind": "cut" },
+    { "id": "digits-cursor-16-4", "at": "16.4", "kind": "path-cursor" },
+    { "id": "file-tile-land", "at": "17.1&", "kind": "prop" },
+    { "id": "files-label", "at": "18.1", "kind": "label" },
+    { "id": "device-jack-land", "at": "19.1&", "kind": "prop" },
+    { "id": "devices-label", "at": "20.1", "kind": "label" },
+    { "id": "pre-led-path", "at": "20.2", "kind": "path" },
+    { "id": "pre-speaker-path", "at": "20.3", "kind": "path" },
+    { "id": "pre-digits-path", "at": "20.4", "kind": "path" },
+    { "id": "pipe-elbow-land", "at": "21.2", "kind": "prop" },
+    { "id": "pipes-label", "at": "22.1", "kind": "label" },
+    { "id": "pipe-light-pass", "at": "22.1", "kind": "light", "beats": 1 },
+    { "id": "junction-reveal", "at": "23.1", "kind": "light" },
+    { "id": "led-request", "at": "23.3", "kind": "light" },
+    { "id": "pre-shutter-1", "at": "24.1", "kind": "shutter" },
+    { "id": "follow-shared-route", "at": "24.1&", "kind": "camera" },
+    { "id": "pre-shutter-2", "at": "24.2", "kind": "shutter" },
+    { "id": "pre-shutter-3", "at": "24.3", "kind": "shutter" },
+    { "id": "pre-shutter-4", "at": "24.4", "kind": "shutter" },
+    { "id": "hook-25-everything", "at": "25.1", "kind": "lightbox" },
+    { "id": "hook-25-is", "at": "25.2", "kind": "lightbox" },
+    { "id": "hook-25-a", "at": "25.2&", "kind": "lightbox" },
+    { "id": "hook-25-file", "at": "25.3", "kind": "lightbox" },
+    { "id": "hook-27-everything", "at": "27.1", "kind": "lightbox" },
+    { "id": "hook-27-is", "at": "27.2", "kind": "lightbox" },
+    { "id": "hook-27-a", "at": "27.2&", "kind": "lightbox" },
+    { "id": "hook-27-file", "at": "27.3", "kind": "lightbox" },
+    { "id": "pipe-spot", "at": "29.1&", "kind": "light" },
+    { "id": "hook-30-everything", "at": "30.1", "kind": "lightbox" },
+    { "id": "hook-30-is", "at": "30.2", "kind": "lightbox" },
+    { "id": "hook-30-a", "at": "30.2&", "kind": "lightbox" },
+    { "id": "hook-30-file", "at": "30.3", "kind": "lightbox" },
+    { "id": "hook-front-cut", "at": "30.3", "kind": "cut" },
+    { "id": "hook-31-everything", "at": "31.1", "kind": "lightbox" },
+    { "id": "hook-31-is", "at": "31.2", "kind": "lightbox" },
+    { "id": "hook-31-a", "at": "31.2&", "kind": "lightbox" },
+    { "id": "hook-31-file", "at": "31.3", "kind": "lightbox" },
+    { "id": "hook-projector-reveal", "at": "32.4", "kind": "shutter" },
+    { "id": "native-drawer-cut", "at": "33.1&", "kind": "capture" },
+    { "id": "native-drawer-launch", "at": "34.1", "kind": "capture" },
+    { "id": "projector-shutter-open", "at": "35.1", "kind": "shutter" },
+    { "id": "drawing-footage-hold", "at": "37.2&", "kind": "capture" },
+    { "id": "dj-board-reverse", "at": "37.4&", "kind": "cut" },
+    { "id": "drawing-route-match", "at": "39.2", "kind": "cut" },
+    { "id": "drawing-route-corner", "at": "40.4", "kind": "light" },
+    { "id": "break-instrumental-thin", "at": "41.1", "kind": "instrumental" },
+    { "id": "app-fixture-clip", "at": "41.2&", "kind": "prop" },
+    { "id": "app-spur-wide", "at": "41.3&", "kind": "camera" },
+    { "id": "app-fixture-wobble", "at": "43.2", "kind": "prop" },
+    { "id": "app-tape-label", "at": "45.3&", "kind": "prop", "beats": 2 },
+    { "id": "app-tape-close", "at": "47.2", "kind": "cut" },
+    { "id": "break-hat-1", "at": "48.1", "kind": "hat" },
+    { "id": "break-hat-2", "at": "48.2", "kind": "hat" },
+    { "id": "break-hat-3", "at": "48.3", "kind": "hat" },
+    { "id": "break-hat-4", "at": "48.4", "kind": "hat" },
+    { "id": "hook-49-everything", "at": "49.1", "kind": "lane-light" },
+    { "id": "drop-shutter-open", "at": "49.1", "kind": "shutter" },
+    { "id": "drop-49-led-devices", "at": "49.1", "kind": "path-segment" },
+    { "id": "hook-49-is", "at": "49.2", "kind": "lane-light" },
+    { "id": "drop-49-led-gpio", "at": "49.2", "kind": "path-segment" },
+    { "id": "hook-49-a", "at": "49.2&", "kind": "lane-light" },
+    { "id": "hook-49-file", "at": "49.3", "kind": "lane-light" },
+    { "id": "drop-49-led-d13", "at": "49.3", "kind": "path-segment" },
+    { "id": "drop-49-led-land", "at": "49.4", "kind": "device-hit" },
+    { "id": "drop-50-speaker-devices", "at": "50.1", "kind": "path-segment" },
+    { "id": "drop-50-speaker-audio", "at": "50.2", "kind": "path-segment" },
+    { "id": "drop-50-speaker-playback", "at": "50.3", "kind": "path-segment" },
+    { "id": "drop-50-speaker-land", "at": "50.4", "kind": "device-hit" },
+    { "id": "drop-51-digits-devices", "at": "51.1", "kind": "path-segment" },
+    { "id": "drop-51-digits-nn", "at": "51.2", "kind": "path-segment" },
+    { "id": "drop-51-digits-digits", "at": "51.3", "kind": "path-segment" },
+    { "id": "drop-51-digits-land", "at": "51.4", "kind": "device-hit" },
+    { "id": "drop-52-led-devices", "at": "52.1", "kind": "path-segment" },
+    { "id": "app-spur-track", "at": "52.2", "kind": "camera" },
+    { "id": "drop-52-led-gpio", "at": "52.2", "kind": "path-segment" },
+    { "id": "app-fixture-jump", "at": "52.2&", "kind": "prop" },
+    { "id": "drop-52-led-d13", "at": "52.3", "kind": "path-segment" },
+    { "id": "drop-52-led-land", "at": "52.4", "kind": "device-hit" },
+    { "id": "trap-mute", "at": "53.4", "kind": "mute", "beats": 1 },
+    { "id": "trap-unreachable", "at": "53.4", "kind": "prop" },
+    { "id": "trap-app-freeze", "at": "53.4", "kind": "prop" },
+    { "id": "hub-amber-pulse", "at": "53.4&", "kind": "light" },
+    { "id": "drop-restart", "at": "54.1", "kind": "instrumental" },
+    { "id": "drop-filter-open", "at": "54.1", "kind": "filter" },
+    { "id": "drop-55-speaker-devices", "at": "55.1", "kind": "path-segment" },
+    { "id": "drop-55-speaker-audio", "at": "55.2", "kind": "path-segment" },
+    { "id": "drop-55-speaker-playback", "at": "55.3", "kind": "path-segment" },
+    { "id": "drop-55-speaker-land", "at": "55.4", "kind": "device-hit" },
+    { "id": "drop-56-digits-devices", "at": "56.1", "kind": "path-segment" },
+    { "id": "drop-56-digits-nn", "at": "56.2", "kind": "path-segment" },
+    { "id": "drop-56-digits-digits", "at": "56.3", "kind": "path-segment" },
+    { "id": "drop-56-digits-land", "at": "56.4", "kind": "device-hit" },
+    { "id": "app-fixture-remove", "at": "57.2&", "kind": "prop" },
+    { "id": "drop-58-led-devices", "at": "58.1", "kind": "path-segment" },
+    { "id": "drop-58-led-gpio", "at": "58.2", "kind": "path-segment" },
+    { "id": "drop-58-led-d13", "at": "58.3", "kind": "path-segment" },
+    { "id": "drop-58-led-land", "at": "58.4", "kind": "device-hit" },
+    { "id": "hook-59-everything", "at": "59.1", "kind": "lane-light" },
+    { "id": "drop-59-speaker-devices", "at": "59.1", "kind": "path-segment" },
+    { "id": "drop-cone-59-1", "at": "59.1&", "kind": "device-hit" },
+    { "id": "hook-59-is", "at": "59.2", "kind": "lane-light" },
+    { "id": "drop-59-speaker-audio", "at": "59.2", "kind": "path-segment" },
+    { "id": "hook-59-a", "at": "59.2&", "kind": "lane-light" },
+    { "id": "drop-cone-59-2", "at": "59.2&", "kind": "device-hit" },
+    { "id": "hook-59-file", "at": "59.3", "kind": "lane-light" },
+    { "id": "drop-59-speaker-playback", "at": "59.3", "kind": "path-segment" },
+    { "id": "drop-cone-59-3", "at": "59.3&", "kind": "device-hit" },
+    { "id": "drop-59-speaker-land", "at": "59.4", "kind": "device-hit" },
+    { "id": "drop-cone-59-4", "at": "59.4&", "kind": "device-hit" },
+    { "id": "drop-60-digits-devices", "at": "60.1", "kind": "path-segment" },
+    { "id": "drop-cone-60-1", "at": "60.1&", "kind": "device-hit" },
+    { "id": "drop-60-digits-nn", "at": "60.2", "kind": "path-segment" },
+    { "id": "drop-cone-60-2", "at": "60.2&", "kind": "device-hit" },
+    { "id": "drop-60-digits-digits", "at": "60.3", "kind": "path-segment" },
+    { "id": "drop-cone-60-3", "at": "60.3&", "kind": "device-hit" },
+    { "id": "drop-60-digits-land", "at": "60.4", "kind": "device-hit" },
+    { "id": "drop-cone-60-4", "at": "60.4&", "kind": "device-hit" },
+    { "id": "hook-61-everything", "at": "61.1", "kind": "lane-light" },
+    { "id": "drop-61-led-devices", "at": "61.1", "kind": "path-segment" },
+    { "id": "hook-61-is", "at": "61.2", "kind": "lane-light" },
+    { "id": "drop-61-led-gpio", "at": "61.2", "kind": "path-segment" },
+    { "id": "hook-61-a", "at": "61.2&", "kind": "lane-light" },
+    { "id": "hook-61-file", "at": "61.3", "kind": "lane-light" },
+    { "id": "booth-led-hold", "at": "61.3", "kind": "light" },
+    { "id": "drop-61-led-d13", "at": "61.3", "kind": "path-segment" },
+    { "id": "drop-61-led-land", "at": "61.4", "kind": "device-hit" },
+    { "id": "drop-ride-in", "at": "62.1", "kind": "instrumental" },
+    { "id": "drop-62-speaker-devices", "at": "62.1", "kind": "path-segment" },
+    { "id": "drop-62-speaker-audio", "at": "62.2", "kind": "path-segment" },
+    { "id": "drop-62-speaker-playback", "at": "62.3", "kind": "path-segment" },
+    { "id": "drop-62-speaker-land", "at": "62.4", "kind": "device-hit" },
+    { "id": "drop-63-digits-devices", "at": "63.1", "kind": "path-segment" },
+    { "id": "drop-63-digits-nn", "at": "63.2", "kind": "path-segment" },
+    { "id": "drop-63-digits-digits", "at": "63.3", "kind": "path-segment" },
+    { "id": "drop-63-digits-land", "at": "63.4", "kind": "device-hit" },
+    { "id": "drop-64-led-devices", "at": "64.1", "kind": "path-segment" },
+    { "id": "drop-64-led-gpio", "at": "64.2", "kind": "path-segment" },
+    { "id": "drop-64-led-d13", "at": "64.3", "kind": "path-segment" },
+    { "id": "drop-64-led-land", "at": "64.4", "kind": "device-hit" },
+    { "id": "hook-65-everything", "at": "65.1", "kind": "lightbox" },
+    { "id": "reprise-lightbox-wall", "at": "65.1", "kind": "cut" },
+    { "id": "hook-65-is", "at": "65.2", "kind": "lightbox" },
+    { "id": "hook-65-a", "at": "65.2&", "kind": "lightbox" },
+    { "id": "hook-65-file", "at": "65.3", "kind": "lightbox" },
+    { "id": "reprise-stations-wide", "at": "65.3", "kind": "camera" },
+    { "id": "hook-67-everything", "at": "67.1", "kind": "lightbox" },
+    { "id": "hook-67-is", "at": "67.2", "kind": "lightbox" },
+    { "id": "hook-67-a", "at": "67.2&", "kind": "lightbox" },
+    { "id": "hook-67-file", "at": "67.3", "kind": "lightbox" },
+    { "id": "rail-spot-travel", "at": "67.3", "kind": "light" },
+    { "id": "exit-practical", "at": "69.3", "kind": "light" },
+    { "id": "room-double-70-1", "at": "70.1", "kind": "room-double" },
+    { "id": "room-double-70-2", "at": "70.2", "kind": "room-double" },
+    { "id": "room-double-70-3", "at": "70.3", "kind": "room-double" },
+    { "id": "room-double-70-4", "at": "70.4", "kind": "room-double" },
+    { "id": "room-double-71-1", "at": "71.1", "kind": "room-double" },
+    { "id": "room-double-71-2", "at": "71.2", "kind": "room-double" },
+    { "id": "hook-71-everything", "at": "71.3", "kind": "lightbox" },
+    { "id": "room-double-71-3", "at": "71.3", "kind": "room-double" },
+    { "id": "hook-71-is", "at": "71.4", "kind": "lightbox" },
+    { "id": "room-double-71-4", "at": "71.4", "kind": "room-double" },
+    { "id": "hook-71-a", "at": "71.4&", "kind": "lightbox" },
+    { "id": "hook-71-file", "at": "72.1", "kind": "lightbox" },
+    { "id": "browser-door-open", "at": "72.1", "kind": "shutter" },
+    { "id": "browser-capture-match", "at": "73.1", "kind": "capture" },
+    { "id": "outro-instrumental-reduce", "at": "73.1", "kind": "instrumental" },
+    { "id": "browser-capture-hold", "at": "73.2&", "kind": "capture" },
+    { "id": "pointer-shutter-match", "at": "75.1&", "kind": "cut" },
+    { "id": "end-shutter-settle", "at": "77.1", "kind": "shutter" },
+    { "id": "end-url-reveal", "at": "78.2", "kind": "light" }
+  ]
+}

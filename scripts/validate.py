@@ -11,6 +11,26 @@ from brand import verify
 ROOT=Path(__file__).resolve().parents[1]
 
 
+def validate_cues(path):
+    cues = json.loads(path.read_text())
+    bpm, meter, bars = (cues[key] for key in ('bpm', 'beatsPerBar', 'bars'))
+    if not all(type(value) is int and value > 0 for value in (bpm, meter, bars)):
+        raise ValueError(f'Invalid cue tempo, meter or bar count: {path}')
+    if not math.isclose(cues['duration'], bars * meter * 60 / bpm, rel_tol=0, abs_tol=0.001):
+        raise ValueError(f'Cue duration disagrees with score grid: {path}')
+    next_bar = 1
+    for section in cues['sections']:
+        if section['startBar'] != next_bar or type(section['bars']) is not int or section['bars'] <= 0:
+            raise ValueError(f'Invalid cue section span: {path}/{section["id"]}')
+        next_bar += section['bars']
+    if next_bar != bars + 1:
+        raise ValueError(f'Cue sections must span the score: {path}')
+    for key in ('sections', 'lines', 'events'):
+        ids = [item['id'] for item in cues[key]]
+        if len(set(ids)) != len(ids):
+            raise ValueError(f'Duplicate cue IDs in {key}: {path}')
+
+
 def validate():
     lock=json.loads((ROOT/'assets/brand/lock.json').read_text())
     if lock['repository']!='xila-project/brand' or not re.fullmatch(r'[0-9a-f]{40}',lock['commit']):
@@ -29,6 +49,8 @@ def validate():
         production=json.loads(path.read_text())
         if production['brandCommit']!=lock['commit']:
             raise ValueError(f'Production brand pin is stale: {path}')
+    for path in (ROOT/'productions').glob('*/cues.json'):
+        validate_cues(path)
     trailer=json.loads((ROOT/'productions/trailer/production.json').read_text())
     if sum(scene['duration'] for scene in trailer['scenes'])!=trailer['duration']:
         raise ValueError('Scene durations must sum to production duration')
