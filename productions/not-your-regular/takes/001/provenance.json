@@ -1,0 +1,50 @@
+{
+  "take": "001",
+  "date": "2026-11-18",
+  "provider": "ElevenLabs (hosted MCP, Creator plan)",
+  "model_id": "eleven_music_v2_5",
+  "node_type": "music",
+  "flow_id": "o5aK39zFG5R9FuK8q6Bu",
+  "node_id": "HLlqVh7OUlisZ9YDp4XG",
+  "session_id": "LTXJMZPRWl2xd8hdjjXm",
+  "generation_id": "nq8xIp9NDl3KrpX4hT7V",
+  "parameters": {
+    "duration_seconds": 171,
+    "lyrics_type": "custom",
+    "instrumental": false,
+    "generations_count": 1
+  },
+  "prompt_file": "prompt.txt",
+  "lyrics_file": "lyrics.txt",
+  "lyrics_source": "derived from ../../composition-plan.json (the MCP music node takes prompt + lyrics, not composition-plan chunks)",
+  "stand_in_voice": "male lead, medium range (light baritone), to be converted to the maintainer's voice clone",
+  "estimate_credits": 4702.5,
+  "reported_credits": 2564.43,
+  "approval": "maintainer approved spending the whole credit balance on the trailer audio (2026-11-18)",
+  "source_file": {
+    "path": "assets/audio/not-your-regular/take-001-source.mp3",
+    "sha256": "61ac3a1044857e0dbcc41affad8e0be86295e1f43e7aa496af1ce65bfae25204",
+    "format": "mp3 48 kHz stereo ~193 kb/s",
+    "duration_s": 171.024
+  },
+  "transcription": {
+    "model_id": "eleven_scribe_v1",
+    "node_id": "f2O19Cgish3MjzUJNxds",
+    "generation_id": "VBHrHgDVKto3XA0ZjFD1",
+    "estimate_credits": 57.5,
+    "reported_credits": 940.5,
+    "file": "transcript-words.json"
+  },
+  "lyric_adherence": {
+    "summary": "about 80% of lines sung and intelligible",
+    "missing_or_garbled": [
+      "Intro banter after line 1 (Hi / forklift / coaster / Not your regular)",
+      "Verse 1 second couplet pair (discs / I agree / one binary)",
+      "Verse 2 last line (Kazoo Jam)",
+      "Verse 3 last pair (Rust library reveal)",
+      "Bridge first line (Order now!)",
+      "Drop: 5 of 8 hooks"
+    ],
+    "note": "Scribe output, not a listening review; the maintainer must listen."
+  }
+}
