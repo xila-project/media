@@ -1,5 +1,15 @@
 <!-- Gemini 4 Argon listening blueprint of the reference track, 2026-11-18. Analysis only: do not reuse the reference melodies or lyrics. -->
 
+> **Superseded in part (2026-11-18).** Measurements in [REFERENCE-ANALYSIS.md](REFERENCE-ANALYSIS.md) correct this blueprint on five points:
+>
+> - **Tempo:** about 131 BPM, not 129.2 (a librosa tempo bin).
+> - **Key:** G minor, with a two-bar Gm–Eb–Bb–D loop changing chord every two beats, not C minor.
+> - **Hats:** straight 8ths, not 16ths.
+> - **Bass:** absent from the verses and sparse or sustained elsewhere, with no staccato octave bounce.
+> - **Intro:** no music for the first 6.8 s; the beat only enters at 12.3 s.
+>
+> Where the two disagree, trust the measurements. Keep this document for subjective impressions only.
+
 # Musical & Vocal Production Blueprint: _Look What I Can Do_ (`lwicd.mp3`)
 
 **Reference File:** [lwicd.mp3](/home/alix_anneraud/Git/Xila/media/output/not-your-regular/listen/lwicd.mp3) (~129.2 BPM, 3:18, C minor / Eb relative major)  
