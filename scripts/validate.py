@@ -7,28 +7,101 @@ from pathlib import Path
 import re
 import subprocess
 from brand import verify
+from lyric_align import LOW_CONFIDENCE, METER, MIN_CONFIDENCE, alignment_report, position
 
 ROOT=Path(__file__).resolve().parents[1]
 
 
-def validate_cues(path):
-    cues = json.loads(path.read_text())
-    bpm, meter, bars = (cues[key] for key in ('bpm', 'beatsPerBar', 'bars'))
-    if not all(type(value) is int and value > 0 for value in (bpm, meter, bars)):
-        raise ValueError(f'Invalid cue tempo, meter or bar count: {path}')
-    if not math.isclose(cues['duration'], bars * meter * 60 / bpm, rel_tol=0, abs_tol=0.001):
-        raise ValueError(f'Cue duration disagrees with score grid: {path}')
+def validate_grid_sections(cues, path):
     next_bar = 1
     for section in cues['sections']:
         if section['startBar'] != next_bar or type(section['bars']) is not int or section['bars'] <= 0:
             raise ValueError(f'Invalid cue section span: {path}/{section["id"]}')
         next_bar += section['bars']
-    if next_bar != bars + 1:
+    if next_bar != cues['bars'] + 1:
         raise ValueError(f'Cue sections must span the score: {path}')
+
+
+def validate_measured_cues(cues, path):
+    bpm, duration = cues['bpm'], cues['duration']
+    if cues['beatsPerBar'] != METER:
+        raise ValueError(f'Invalid measured cue meter: {path}')
+
+    def check_span(cue, lower, upper, label):
+        start, end = cue['start'], cue['end']
+        if not lower <= start <= end <= upper:
+            raise ValueError(f'Invalid measured cue time: {path}/{label}')
+        if (cue['at'], cue['endAt']) != (position(start, bpm), position(end, bpm)):
+            raise ValueError(f'Measured cue grid stamps disagree: {path}/{label}')
+
+    def check_missing(cue):
+        if not cue.get('missing') or {'start', 'end', 'at', 'endAt', 'startBar', 'bars'} & cue.keys():
+            raise ValueError(f'Missing cue has a timing or lacks its flag: {path}/{cue["id"]}')
+
+    by_section = {section['id']: [] for section in cues['sections']}
+    previous_start = 0
+    for line in cues['lines']:
+        group = by_section[line['sectionId']]
+        label = line['id']
+        words = line['words']
+        if line.get('missing'):
+            check_missing(line)
+            if words or line.get('low_confidence'):
+                raise ValueError(f'Missing lyric has word cues or low confidence: {path}/{label}')
+            continue
+        check_span(line, previous_start, duration, label)
+        previous_start = line['start']
+        confidence = line['confidence']
+        if (not MIN_CONFIDENCE <= confidence <= 1
+                or line.get('low_confidence', False) != (confidence < LOW_CONFIDENCE)):
+            raise ValueError(f'Invalid measured cue confidence: {path}/{label}')
+        if not words or (words[0]['start'], words[-1]['end']) != (line['start'], line['end']):
+            raise ValueError(f'Line bounds disagree with its words: {path}/{label}')
+        word_start = line['start']
+        for word in words:
+            check_span(word, word_start, line['end'], f'{label}/{word["text"]}')
+            word_start = word['start']
+        group.append(line)
+
+    bars_per_second = bpm / (METER * 60)
+    for section in cues['sections']:
+        label = section['id']
+        lines = by_section[label]
+        if not lines:
+            check_missing(section)
+            continue
+        check_span(section, 0, duration, label)
+        start, end = section['start'], section['end']
+        if (section.get('missing')
+                or (start, end) != (lines[0]['start'], lines[-1]['end'])
+                or not math.isclose(section['startBar'], 1 + start * bars_per_second)
+                or not math.isclose(section['bars'], (end - start) * bars_per_second)):
+            raise ValueError(f'Section bounds disagree with its lyric lines: {path}/{label}')
+
+    report = path.with_name('alignment-report.txt')
+    if report.exists() and report.read_text(encoding='utf-8') != alignment_report(cues):
+        raise ValueError(f'Alignment report disagrees with measured cues: {report}')
+
+
+def validate_cues(path):
+    cues = json.loads(path.read_text())
+    measured = cues.get('timing') == 'measured'
+    bpm, meter, bars = (cues[key] for key in ('bpm', 'beatsPerBar', 'bars'))
+    if not all(type(value) is int and value > 0 for value in (bpm, meter)):
+        raise ValueError(f'Invalid cue tempo or meter: {path}')
+    if (type(bars) not in (int, float) or not math.isfinite(bars) or bars <= 0
+            or (not measured and type(bars) is not int)):
+        raise ValueError(f'Invalid cue bar count: {path}')
+    if cues['duration'] <= 0 or not math.isclose(cues['duration'], bars * meter * 60 / bpm, rel_tol=0, abs_tol=0.001):
+        raise ValueError(f'Cue duration disagrees with score grid: {path}')
     for key in ('sections', 'lines', 'events'):
         ids = [item['id'] for item in cues[key]]
         if len(set(ids)) != len(ids):
             raise ValueError(f'Duplicate cue IDs in {key}: {path}')
+    if measured:
+        validate_measured_cues(cues, path)
+    else:
+        validate_grid_sections(cues, path)
 
 
 def validate():
@@ -49,7 +122,7 @@ def validate():
         production=json.loads(path.read_text())
         if production['brandCommit']!=lock['commit']:
             raise ValueError(f'Production brand pin is stale: {path}')
-    for path in (ROOT/'productions').glob('*/cues.json'):
+    for path in (ROOT/'productions').rglob('cues.json'):
         validate_cues(path)
     trailer=json.loads((ROOT/'productions/trailer/production.json').read_text())
     if sum(scene['duration'] for scene in trailer['scenes'])!=trailer['duration']:

@@ -1,10 +1,12 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
+import take from "../productions/not-your-regular/takes/001/cues.json" with { type: "json" };
 import {
   barPhase,
   barToSeconds,
   beatPulse,
   beatToSeconds,
+  createCueLookup,
   event,
   hit,
   line,
@@ -90,4 +92,17 @@ test("measured word timings replace grid cues for a line without mutating the de
   assert.equal(measured.word("intro-booth", 1), 3.16);
   assert.equal(measured.word("led-answer", "file"), word("led-answer", "file"));
   near(word("intro-booth", "booth"), 3.3870967741935485);
+});
+
+test("a take lookup uses measured seconds and the take's grid", () => {
+  const measured = createCueLookup(take);
+  assert.equal(measured.line("section-1-intro-01"), 5.94);
+  assert.equal(measured.word("section-1-intro-01", "day"), 6.36);
+  assert.equal(measured.word("section-10-bridge-08", "xila"), 119.04);
+  assert.equal(measured.positionToSeconds("2.1"), 1.875);
+  assert.equal(measured.sectionAt(5.939), undefined);
+  assert.equal(measured.sectionAt(5.94)?.id, "section-1-intro");
+  assert.equal(measured.sectionAt(10), undefined);
+  assert.throws(() => measured.line("section-1-intro-02"), RangeError);
+  assert.equal(sectionAt(0)?.id, "intro");
 });
