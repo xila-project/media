@@ -1,5 +1,7 @@
 # Xila Media
 
+[![vulnerabilities](https://vulnerabilities.xila.dev/badges/d3aeb4a43b6ba86e240995f1bad31389.svg)](https://vulnerabilities.xila.dev/public/28c33585a7a8a88d0726172cf6a94f37)
+
 Reproducible multimedia production for [Xila](https://www.xila.dev/), using Motion Canvas, optional Blender and FFmpeg. Official identity assets remain owned by [xila-project/brand](https://github.com/xila-project/brand); this repository resolves a hash-verified, immutable snapshot.
 
 **Work in progress:** the tooling, bootsplash adaptation and audio processing work locally. The first trailer was a pipeline proof of concept; the cinematic opening is now under creative review. CI, contributor documentation and the final trailer edit are still being completed.
