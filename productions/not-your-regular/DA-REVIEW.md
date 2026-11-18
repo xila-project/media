@@ -9,3 +9,10 @@
 | Makerspace Bench | `t3/da-v2-makerspace-bench`    | Rendering.                                                   |
 
 The director noted that Signal Rack falls into the synthwave grid cliché and reads as flat 2D vector illustration. Workbench is the closest to the hybrid of photographic plates and beat-synced motion. Both candidates still show the v1 (desktop-framed) lyrics.
+
+## Round 3 to-do (Makerspace Bench)
+
+- Replace the legacy login capture with a stylised UI redraw (see AGENTS.md).
+- Bring the flat vector inserts (scope, giant chip) up to the material quality of the photographic plates.
+- Sync to take 003 (lyrics v2) instead of take 001.
+- Film or model a real Nano 33 BLE to replace Arduino's CC BY-SA product photo before release.
