@@ -7,11 +7,18 @@ type Section = Readonly<{
   bars: number;
 }>;
 
-type WordCue = Readonly<{ text: string; at: string; pitch?: number }>;
+type WordCue = Readonly<{
+  text: string;
+  at: string;
+  pitch?: number;
+  start?: number;
+}>;
 
 type LineCue = Readonly<{
   id: string;
-  at: string;
+  at?: string;
+  start?: number;
+  missing?: boolean;
   speaker: string;
   delivery: string;
   text: string;
@@ -31,7 +38,7 @@ export const cueSheet: Readonly<{
   bars: number;
   duration: number;
   sections: readonly Section[];
-  lines: readonly LineCue[];
+  lines: readonly (LineCue & { at: string })[];
   events: readonly EventCue[];
 }> = cues;
 
@@ -69,7 +76,11 @@ export function secondsToBar(time: number): number {
   return 1 + secondsToBeat(time) / beatsPerBar;
 }
 
-export function positionToSeconds(position: string): number {
+function gridSeconds(
+  position: string,
+  bpm: number,
+  beatsPerBar: number,
+): number {
   const match = /^([1-9]\d*)\.([1-9]\d*)([e&a]?)$/.exec(position);
   if (!match || match[0] !== position) {
     throw new RangeError(`Invalid score position: ${position}`);
@@ -79,35 +90,9 @@ export function positionToSeconds(position: string): number {
   if (!Number.isSafeInteger(bar) || beat > beatsPerBar) {
     throw new RangeError(`Invalid score position: ${position}`);
   }
-  return beatToSeconds(
-    (bar - 1) * beatsPerBar + beat - 1 + subdivisions[match[3]],
+  return (
+    ((bar - 1) * beatsPerBar + beat - 1 + subdivisions[match[3]]) * (60 / bpm)
   );
-}
-
-export function sectionAt(time: number): Section | undefined {
-  return cueSheet.sections.find(
-    ({ startBar, bars }) =>
-      time >= barToSeconds(startBar) && time < barToSeconds(startBar + bars),
-  );
-}
-
-const lines = new Map(cueSheet.lines.map((cue) => [cue.id, cue]));
-const events = new Map(cueSheet.events.map((cue) => [cue.id, cue]));
-
-function lineCue(id: string): LineCue {
-  const cue = lines.get(id);
-  if (!cue) throw new RangeError(`Unknown line: ${id}`);
-  return cue;
-}
-
-export function line(id: string): number {
-  return positionToSeconds(lineCue(id).at);
-}
-
-export function event(id: string): number {
-  const cue = events.get(id);
-  if (!cue) throw new RangeError(`Unknown event: ${id}`);
-  return positionToSeconds(cue.at);
 }
 
 function normalizeWord(text: string): string {
@@ -131,12 +116,72 @@ function findWord<T extends { text: string }>(
   return cue;
 }
 
-/** Numeric word indices start at zero. Text selects the first matching word. */
-export function word(lineId: string, indexOrText: number | string): number {
-  return positionToSeconds(
-    findWord(lineCue(lineId).words, lineId, indexOrText).at,
-  );
+type PlaybackSection = Readonly<
+  Pick<Section, "id" | "name"> &
+    Partial<Pick<Section, "startBar" | "bars">> & {
+      start?: number;
+      end?: number;
+      missing?: boolean;
+    }
+>;
+
+/** Read cues at their own tempo, preferring absolute seconds when supplied. */
+export function createCueLookup<S extends PlaybackSection>(
+  sheet: Readonly<
+    Pick<typeof cueSheet, "bpm" | "beatsPerBar" | "events"> & {
+      sections: readonly S[];
+      lines: readonly LineCue[];
+    }
+  >,
+) {
+  const { bpm, beatsPerBar } = sheet;
+  const lines = new Map(sheet.lines.map((cue) => [cue.id, cue]));
+  const events = new Map(sheet.events.map((cue) => [cue.id, cue]));
+  const positionToSeconds = (position: string) =>
+    gridSeconds(position, bpm, beatsPerBar);
+  const barStart = (bar: number) => (bar - 1) * beatsPerBar * (60 / bpm);
+
+  function timedLine(id: string) {
+    const cue = lines.get(id);
+    if (!cue) throw new RangeError(`Unknown line: ${id}`);
+    if (cue.missing || cue.at === undefined) {
+      throw new RangeError(`Line has no timing: ${id}`);
+    }
+    return { cue, at: cue.at };
+  }
+
+  return {
+    positionToSeconds,
+    sectionAt(time: number): S | undefined {
+      return sheet.sections.find(({ start, end, startBar, bars, missing }) => {
+        if (missing) return false;
+        if (start !== undefined && end !== undefined) {
+          return time >= start && time < end;
+        }
+        if (startBar === undefined || bars === undefined) return false;
+        return time >= barStart(startBar) && time < barStart(startBar + bars);
+      });
+    },
+    line(id: string): number {
+      const { cue, at } = timedLine(id);
+      return cue.start ?? positionToSeconds(at);
+    },
+    event(id: string): number {
+      const cue = events.get(id);
+      if (!cue) throw new RangeError(`Unknown event: ${id}`);
+      return positionToSeconds(cue.at);
+    },
+    /** Numeric word indices start at zero. Text selects the first match. */
+    word(lineId: string, indexOrText: number | string): number {
+      const { cue } = timedLine(lineId);
+      const word = findWord(cue.words, lineId, indexOrText);
+      return word.start ?? positionToSeconds(word.at);
+    },
+  };
 }
+
+export const { positionToSeconds, sectionAt, line, event, word } =
+  createCueLookup(cueSheet);
 
 /** Build a word lookup with measured absolute seconds for the supplied lines. */
 export function withWordTimes(...overrides: readonly WordTimingOverride[]): {
@@ -147,7 +192,7 @@ export function withWordTimes(...overrides: readonly WordTimingOverride[]): {
     readonly { text: string; start: number }[]
   >();
   for (const { lineId, words } of overrides) {
-    lineCue(lineId);
+    line(lineId);
     if (words.length === 0 || measured.has(lineId)) {
       throw new RangeError(`Invalid word timing override for ${lineId}`);
     }

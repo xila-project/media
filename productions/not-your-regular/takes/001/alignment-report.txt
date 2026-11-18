@@ -1,0 +1,52 @@
+Lyric alignment at 128 BPM | 171.024 s
+Coverage estimates from the transcript.
+
+Intro: 1/10 matched, 1 low-confidence
+Verse 1: 4/8 matched, 0 low-confidence
+Pre-Chorus: 7/7 matched, 0 low-confidence
+Chorus: 8/8 matched, 0 low-confidence
+Post-Chorus: 4/8 matched, 0 low-confidence
+Verse 2: 7/8 matched, 0 low-confidence
+Stop-Time: 4/4 matched, 1 low-confidence
+Chorus (2): 6/8 matched, 0 low-confidence
+Verse 3: 6/8 matched, 1 low-confidence
+Bridge: 8/8 matched, 1 low-confidence
+Breakdown: 5/5 matched, 0 low-confidence
+Final Chorus: 8/8 matched, 1 low-confidence
+Drop: 5/8 matched, 0 low-confidence
+Outro: 5/5 matched, 0 low-confidence
+Total: 78/103 matched, 5 low-confidence
+
+Missing lines
+  section-1-intro-02 XILA: Hi. I'm here.
+  section-1-intro-03 ALIX: I booked a forklift.
+  section-1-intro-04 XILA: Cancel it.
+  section-1-intro-05 ALIX: Where's the computer?
+  section-1-intro-06 XILA: In your hand.
+  section-1-intro-07 ALIX: That's a coaster.
+  section-1-intro-08 XILA: A coaster with an OS.
+  section-1-intro-09 ALIX: So what are you?
+  section-1-intro-10 XILA: Not your regular.
+  section-2-verse-1-05 ALIX: I've got the discs, I've got the key,
+  section-2-verse-1-06 ALIX: two hundred pages of 'I agree'!
+  section-2-verse-1-07 XILA: No discs, no wizard, no 'agree',
+  section-2-verse-1-08 XILA: core, drivers, apps: one binary!
+  section-5-post-chorus-04 BOTH: Pass it! (Hey!)
+  section-5-post-chorus-05 BOTH: Tiny! Tidy!
+  section-5-post-chorus-06 BOTH: Rusty! Open!
+  section-5-post-chorus-07 BOTH: Board! Desk! Tab!
+  section-6-verse-2-08 XILA: and the whole block's blasting Kazoo Jam!
+  section-8-chorus-04 BOTH: Not your regular! (O-S!)
+  section-8-chorus-07 BOTH: Not your regular! (O-S!)
+  section-9-verse-3-07 XILA: I'm a Rust library, I confess,
+  section-9-verse-3-08 XILA: build me in, I'll do the rest!
+  section-13-drop-06 BOTH: Not your regular! (O-S!)
+  section-13-drop-07 BOTH: Not your regular! (O-S!)
+  section-13-drop-08 BOTH: Not your regular!
+
+Low-confidence lines
+  5.940–7.360 s (77%) section-1-intro-01 ALIX: Big day! The OS ships today!
+  71.100–72.600 s (83%) section-7-stop-time-01 ALIX: Wait. A cat flap with apps?
+  106.780–108.020 s (67%) section-9-verse-3-06 ALIX: A giant program, more or less?
+  108.200–109.540 s (80%) section-10-bridge-01 ALIX: Order now! One giant box!
+  138.980–140.480 s (83%) section-12-final-chorus-06 XILA: kick keeps going, I'm still dressed!

@@ -71,3 +71,7 @@ run = "python3 scripts/render_film.py"
 [tasks."audio:house-guide"]
 description = "Render the local house animatic guide and its two stems"
 run = "python3 scripts/guide_track.py"
+
+[tasks."audio:align"]
+description = "Align Scribe word timings to SONG.md lyrics"
+run = "python3 scripts/lyric_align.py"
