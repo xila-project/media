@@ -12,7 +12,8 @@
 - `xila-project/brand` is the single source of truth. Resolve the immutable commit and hashes in `assets/brand/lock.json` with `python3 scripts/brand.py`.
 - Do not edit the ignored upstream cache or copy path coordinates into animation code. Use the exact official SVGs, Montserrat and the upstream legal notices.
 - Preserve the five-part monogram, original curves, proportions and gaps. Provide at least one quarter of the symbol width as clear space in settled compositions. Use the correct black or white variant for its background.
-- The trailer direction is monumental, minimal, authoritative and restrained. Use deliberate camera motion, controlled monochrome lighting and progressive reveals. Avoid slide-like sequences, decorative effects, fake interfaces and unsupported product or hardware claims.
+- The launch trailer is now a catchy, funny English electropop music video in the family of Aditazzz's "Look What I Can Do" (since 2026-11-18; the earlier monumental, monochrome direction was rejected). Keep its grammar — a hub the film keeps leaving, a different world per section, words built into the set, gags on a word or beat, real artefacts as proof — but never copy its signatures (comic-page transitions, amber/green agent terminal, Anton, doubling call rooms, tower windows spelling the hook, murmurations, cream newspaper, robot mascot, purple sports car). Lead with what makes Xila unlike a traditional OS. Avoid slide-like sequences and unsupported product or hardware claims.
+- Fictional Xila apps are allowed (maintainer decision 2026-11-18) to show what could run on Xila. Keep them visibly imagined — stylised within the film's world, never dressed as genuine screen captures — and disclose them in the end card or description. Product claims still need evidence.
 - The reviewed cinematic material treatment permits shallow perpendicular extrusion of the official curves; it does not replace the flat identity master. Do not bevel, redraw or rotate the mark itself.
 - Keep the connection to the existing Core bootsplash. Its pinned timeline is shared by Motion Canvas and the Blender keyframe generator; do not maintain another timing model.
 
@@ -35,7 +36,7 @@
 
 ## Assets, licensing and credentials
 
-- Record imported source provenance, author, license, origin and hash in `assets/catalog.json`. For native captures, verify the actual locked Core and Applications revisions and record the guest bundle release separately from the host revision. Mark missing footage as a visible placeholder. Never invent a functioning Xila interface.
+- Record imported source provenance, author, license, origin and hash in `assets/catalog.json`. For native captures, verify the actual locked Core and Applications revisions and record the guest bundle release separately from the host revision. Mark missing footage as a visible placeholder. Never present an invented interface as a genuine Xila capture; fictional apps follow the rule above.
 - Keep source recordings and original audio outside generated-output directories. Generated frames, Blender files, WAV exports and videos belong under ignored `output/` and are not committed.
 - Code is Apache-2.0. Preserve upstream brand notices and Montserrat's SIL OFL notice; imported media retains its own license.
 - ElevenLabs is optional and must not be required by local builds or CI. Never consume credits without explicit approval and a budget. The synthetic startup fixture is a technical test, not approved sonic branding.
