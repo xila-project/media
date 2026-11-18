@@ -1,0 +1,155 @@
+[Intro - dialogue in total silence, no music at all; deep bone-dry male voice and young smug female voice, spoken, intimate]
+(Big day. I made the LED blink.)
+(Cute. Hi.)
+(Who said that?)
+(The chip in your hand. I have an OS.)
+
+[Intro - a soft minor synth pad fades in under the dialogue, still no drums]
+(Chips run a loop. While true.)
+(Not this one.)
+(So what are you?)
+(Out of the loop.)
+
+[Intro Hook - instrumental; kick, claps and 8th hats slam in with a chopped, pitched female vocal motif; no bass yet]
+(O-S, o-o-S, o-o-S)
+
+[Verse 1 - young female lead chants every line on one repeated note with hard robotic auto-tune, deadpan, never rap; kick, claps, 8th hats, no bass]
+You wrote a loop that never ends,
+with seven flags and global friends,
+you poke registers bit by bit
+and pray the datasheet is right.
+A shell, some users: here I am,
+in two-fifty-six K of RAM.
+Your pin's a file now, write it, see:
+slash devices, GPIO, D-thirteen!
+
+[Pre-Chorus - young female lead, sung teasing questions and answers with hard auto-tune; the drums thin out and the bass enters softly]
+Can it run apps? Plural!
+With files? And users!
+
+[Stop - total silence, the whole band stops for two bars; deep bone-dry male voice, spoken]
+(Where's the real computer?)
+
+[Stop - young female lead, spoken purr, still in silence, then the full band slams back]
+(Your pocket. Happy to see me?)
+
+[Chorus - young female lead, the melody finally blooms: glossy stacked hook with hard auto-tune and harmonies; full groove with bass]
+Out of the loop!
+Out of the loop!
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes!
+Out of the loop!
+Out of the loop!
+One signed package, three addresses,
+pocket-sized and fully dressed!
+
+[Post-Chorus - young female lead and stacked female chant, auto-tuned, gated stabs and claps]
+Chip! Desk! Tab!
+Same O-S, same O-S!
+Chip! Desk! Tab!
+Made in Rust! Try it in a tab!
+
+[Verse 2 - young female lead chants a smug list on one repeated note with hard robotic auto-tune, never rap; kick, claps, 8th hats, the bass sits out]
+Your fern? Fern Pings: 'Water. Now.'
+Your cat flap? Cat Customs: 'Papers? Meow.'
+Doorbell? Ding Critic: 'Two out of ten.'
+Toaster? Toast Forecast: 'Burnt again.'
+Your alarm? Snooze Court: 'Guilty. Rise.'
+Your bike? Hill Snitch: 'Walked it. Twice.'
+Fridge Haiku wrote a sonnet on the ham,
+and the whole block's blasting Kazoo Jam!
+
+[Stop - total silence, the whole band stops; deep bone-dry male voice, spoken]
+(Wait. A cat flap with apps?)
+
+[Stop - young female lead, spoken, smug]
+(Imagined. For now.)
+
+[Stop - deep bone-dry male voice, spoken]
+(And the OS? That small?)
+
+[Stop - young female lead, spoken, smug, then the full band slams back]
+(Two-fifty-six K. Snug.)
+
+[Chorus - young female lead, glossy stacked hook with hard auto-tune and harmonies; full groove with bass]
+Out of the loop!
+Out of the loop!
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes!
+Out of the loop!
+Out of the loop!
+Built in Rust, no need to guess,
+open source, you've got access!
+
+[Verse 3 - young female lead chants mocking quotes on one repeated note with hard robotic auto-tune; the bass sits out]
+'An OS? On that? Get real.
+A chip runs one job. That's the deal.'
+I'm a Rust library, I confess,
+build me in, I'll do the rest!
+
+[Boot Log - young female lead, cool monotone recitation with hard auto-tune, one status per beat; only kick and tiny synth blips]
+Watch me boot. Memory: mapped.
+Tasks: named. Files, pins and pipes: one tree.
+Users: checked. You? Not counted.
+Drivers: whatever this board brought. Shell: ready. Your move.
+
+[Bridge - no drums, no bass; campy late-night TV jingle on warm electric piano; young female lead sings with hard auto-tune]
+Device makers! Tired of this?
+
+[Bridge - deep bone-dry male voice, spoken, in the gap]
+(Forty customers. Forty firmware forks.)
+
+[Bridge - young female lead, sung jingle]
+One base! Apps on top!
+
+[Bridge - deep bone-dry male voice, spoken, in the gap]
+(One tiny fix. Reflash the whole fleet.)
+
+[Bridge - young female lead, sung jingle]
+Update the app! That's the plan!
+
+[Bridge - deep bone-dry male voice, spoken, in the gap]
+(Is this an ad?)
+
+[Bridge - young female lead, sung jingle, building]
+Operators are standing by!
+Xila dot dev. Let's talk.
+
+[Breakdown - everything stops except one soft lone kick ticking like a heartbeat; young female lead, spoken, with a glitch cut]
+(Kazoo Jam! Take it to the...)
+
+[Breakdown - deep bone-dry male voice, spoken, over the lone kick]
+(Trap. Did we just crash?)
+
+[Breakdown - young female lead, spoken]
+(The app did. I'm still here.)
+
+[Breakdown - deep bone-dry male voice, spoken]
+(No watchdog reset?)
+
+[Breakdown - young female lead, spoken, then drums slam back]
+(Nope. Hit it!)
+
+[Final Chorus - young female lead, biggest stacked auto-tuned hook; full drums but no bass, pads low at first then opening up]
+Out of the loop!
+Out of the loop!
+A real OS on a chip, no less,
+same app on a desk, in a tab, yes, yes!
+Out of the loop!
+Out of the loop!
+One app traps? I'm not impressed,
+kick keeps going, I'm still dressed!
+
+[Drop - loudest part of the song: the full bass finally hits for the first time with the chopped vocal motif, kick, claps and stacked hook]
+Out of the loop!
+(O-S, o-o-S)
+Out of the loop!
+(O-S, o-o-S)
+
+[Outro - hard stop into total silence; whispered dialogue, intimate]
+(So... do I flash you?)
+(Sure. Or open a tab.)
+(Shh. We're in a library.)
+(I am a library.)
+
+[Outro - the full beat comes back for two bars, instrumental, then a hard stop on the last beat]

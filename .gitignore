@@ -17,3 +17,6 @@ __pycache__/
 .superpowers/
 *.mp3
 assets/.screens.lock
+
+# Maintainer voice recordings (personal data, never committed)
+assets/audio/not-your-regular/voice/
